@@ -1,0 +1,810 @@
+ Imath
+
+ Timestamp is 510d5ce6 (Sun Feb 03 02:37:26 2013)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0001067dH .textbss                DATA
+ 0002:00000000 0002259fH .text                   CODE
+ 0002:000225a0 00001124H .text$x                 CODE
+ 0002:000236d0 000014f1H .text$yc                CODE
+ 0003:00000000 00000104H .CRT$XCA                DATA
+ 0003:00000104 00000113H .CRT$XCU                DATA
+ 0003:00000218 00000104H .CRT$XCZ                DATA
+ 0003:0000031c 00000104H .CRT$XIA                DATA
+ 0003:00000420 00000104H .CRT$XIAA               DATA
+ 0003:00000524 00000104H .CRT$XIC                DATA
+ 0003:00000628 00000104H .CRT$XIZ                DATA
+ 0003:00000730 00000eeeH .rdata                  DATA
+ 0003:00001620 00000184H .rdata$debug            DATA
+ 0003:000017a4 000004f0H .rdata$r                DATA
+ 0003:00001c94 00000104H .rtc$IAA                DATA
+ 0003:00001d98 00000118H .rtc$IMZ                DATA
+ 0003:00001eb0 00000104H .rtc$IZZ                DATA
+ 0003:00001fb4 00000104H .rtc$TAA                DATA
+ 0003:000020b8 00000118H .rtc$TMZ                DATA
+ 0003:000021d0 00000104H .rtc$TZZ                DATA
+ 0003:000022d8 00000571H .xdata$x                DATA
+ 0003:00002850 00000227H .edata                  DATA
+ 0004:00000000 0000030bH .data                   DATA
+ 0004:00000310 000005a0H .bss                    DATA
+ 0005:00000000 00000050H .idata$2                DATA
+ 0005:00000050 00000014H .idata$3                DATA
+ 0005:00000064 00000218H .idata$4                DATA
+ 0005:0000027c 00000218H .idata$5                DATA
+ 0005:00000494 00000826H .idata$6                DATA
+ 0006:00000000 00000169H .rsrc$01                DATA
+ 0006:00000170 000002e9H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       __enc$textbss$begin        10001000     <linker-defined>
+ 0001:0001067d       __enc$textbss$end          1001167d     <linker-defined>
+ 0002:00001140       ?hsv2rgb_d@Imath@@YA?AV?$Vec3@N@1@ABV21@@Z 10013140 f   ImathColorAlgo.obj
+ 0002:00001490       ?hsv2rgb_d@Imath@@YA?AV?$Color4@N@1@ABV21@@Z 10013490 f   ImathColorAlgo.obj
+ 0002:00001800       ?rgb2hsv_d@Imath@@YA?AV?$Vec3@N@1@ABV21@@Z 10013800 f   ImathColorAlgo.obj
+ 0002:00001ba0       ?rgb2hsv_d@Imath@@YA?AV?$Color4@N@1@ABV21@@Z 10013ba0 f   ImathColorAlgo.obj
+ 0002:00001f60       ?floor@?$Math@N@Imath@@SANN@Z 10013f60 f i ImathColorAlgo.obj
+ 0002:00001fd0       ??0?$Vec3@N@Imath@@QAE@NNN@Z 10013fd0 f i ImathColorAlgo.obj
+ 0002:00002040       ??0?$Color4@N@Imath@@QAE@NNNN@Z 10014040 f i ImathColorAlgo.obj
+ 0002:000020c0       ?succf@Imath@@YAMM@Z       100140c0 f   ImathFun.obj
+ 0002:00002190       ?predf@Imath@@YAMM@Z       10014190 f   ImathFun.obj
+ 0002:00002260       ?succd@Imath@@YANN@Z       10014260 f   ImathFun.obj
+ 0002:00002380       ?predd@Imath@@YANN@Z       10014380 f   ImathFun.obj
+ 0002:000024a0       ??$procrustesRotationAndTranslation@N@Imath@@YA?AV?$Matrix44@N@0@PBV?$Vec3@N@0@0I_N@Z 100144a0 f i ImathMatrixAlgo.obj
+ 0002:00002510       ??$procrustesRotationAndTranslation@M@Imath@@YA?AV?$Matrix44@N@0@PBV?$Vec3@M@0@0I_N@Z 10014510 f i ImathMatrixAlgo.obj
+ 0002:00002580       ??$procrustesRotationAndTranslation@N@Imath@@YA?AV?$Matrix44@N@0@PBV?$Vec3@N@0@0PBNI_N@Z 10014580 f i ImathMatrixAlgo.obj
+ 0002:00003040       ?epsilon@?$limits@N@Imath@@SANXZ 10015040 f i ImathMatrixAlgo.obj
+ 0002:00003080       ??0KahanSum@?A0x735d0683@Imath@@QAE@XZ 10015080 f i ImathMatrixAlgo.obj
+ 0002:000030e0       ??YKahanSum@?A0x735d0683@Imath@@QAEXN@Z 100150e0 f i ImathMatrixAlgo.obj
+ 0002:00003180       ?get@KahanSum@?A0x735d0683@Imath@@QBENXZ 10015180 f i ImathMatrixAlgo.obj
+ 0002:000031c0       ??0?$Matrix44@N@Imath@@QAE@NNNNNNNNNNNNNNNN@Z 100151c0 f i ImathMatrixAlgo.obj
+ 0002:00003310       ??$procrustesRotationAndTranslation@M@Imath@@YA?AV?$Matrix44@N@0@PBV?$Vec3@M@0@0PBMI_N@Z 10015310 f i ImathMatrixAlgo.obj
+ 0002:00003dd0       ??$jacobiSVD@M@Imath@@YAXABV?$Matrix33@M@0@AAV10@AAV?$Vec3@M@0@1M_N@Z 10015dd0 f i ImathMatrixAlgo.obj
+ 0002:00003e50       ??$jacobiSVD@N@Imath@@YAXABV?$Matrix33@N@0@AAV10@AAV?$Vec3@N@0@1N_N@Z 10015e50 f i ImathMatrixAlgo.obj
+ 0002:00003ed0       ??$jacobiSVD@M@Imath@@YAXABV?$Matrix44@M@0@AAV10@AAV?$Vec4@M@0@1M_N@Z 10015ed0 f i ImathMatrixAlgo.obj
+ 0002:00003f50       ??$jacobiSVD@N@Imath@@YAXABV?$Matrix44@N@0@AAV10@AAV?$Vec4@N@0@1N_N@Z 10015f50 f i ImathMatrixAlgo.obj
+ 0002:00003fe0       ??$jacobiEigenSolver@M@Imath@@YAXAAV?$Matrix33@M@0@AAV?$Vec3@M@0@0M@Z 10015fe0 f i ImathMatrixAlgo.obj
+ 0002:000042f0       ??$jacobiEigenSolver@N@Imath@@YAXAAV?$Matrix33@N@0@AAV?$Vec3@N@0@0N@Z 100162f0 f i ImathMatrixAlgo.obj
+ 0002:00004600       ??$jacobiEigenSolver@M@Imath@@YAXAAV?$Matrix44@M@0@AAV?$Vec4@M@0@0M@Z 10016600 f i ImathMatrixAlgo.obj
+ 0002:00004a40       ??$jacobiEigenSolver@N@Imath@@YAXAAV?$Matrix44@N@0@AAV?$Vec4@N@0@0N@Z 10016a40 f i ImathMatrixAlgo.obj
+ 0002:00004e90       ??$maxEigenVector@V?$Matrix33@M@Imath@@V?$Vec3@M@2@@Imath@@YAXAAV?$Matrix33@M@0@AAV?$Vec3@M@0@@Z 10016e90 f i ImathMatrixAlgo.obj
+ 0002:00005040       ?abs@@YAMM@Z               10017040 f i ImathMatrixAlgo.obj
+ 0002:000050a0       _fabsf                     100170a0 f i ImathMatrixAlgo.obj
+ 0002:00005110       ??$maxEigenVector@V?$Matrix44@M@Imath@@V?$Vec4@M@2@@Imath@@YAXAAV?$Matrix44@M@0@AAV?$Vec4@M@0@@Z 10017110 f i ImathMatrixAlgo.obj
+ 0002:000052e0       ??$maxEigenVector@V?$Matrix33@N@Imath@@V?$Vec3@N@2@@Imath@@YAXAAV?$Matrix33@N@0@AAV?$Vec3@N@0@@Z 100172e0 f i ImathMatrixAlgo.obj
+ 0002:000054d0       ?abs@@YANN@Z               100174d0 f i ImathMatrixAlgo.obj
+ 0002:00005530       ??$maxEigenVector@V?$Matrix44@N@Imath@@V?$Vec4@N@2@@Imath@@YAXAAV?$Matrix44@N@0@AAV?$Vec4@N@0@@Z 10017530 f i ImathMatrixAlgo.obj
+ 0002:00005730       ??$minEigenVector@V?$Matrix33@M@Imath@@V?$Vec3@M@2@@Imath@@YAXAAV?$Matrix33@M@0@AAV?$Vec3@M@0@@Z 10017730 f i ImathMatrixAlgo.obj
+ 0002:000058f0       ??$minEigenVector@V?$Matrix44@M@Imath@@V?$Vec4@M@2@@Imath@@YAXAAV?$Matrix44@M@0@AAV?$Vec4@M@0@@Z 100178f0 f i ImathMatrixAlgo.obj
+ 0002:00005ac0       ??$minEigenVector@V?$Matrix33@N@Imath@@V?$Vec3@N@2@@Imath@@YAXAAV?$Matrix33@N@0@AAV?$Vec3@N@0@@Z 10017ac0 f i ImathMatrixAlgo.obj
+ 0002:00005cb0       ??$minEigenVector@V?$Matrix44@N@Imath@@V?$Vec4@N@2@@Imath@@YAXAAV?$Matrix44@N@0@AAV?$Vec4@N@0@@Z 10017cb0 f i ImathMatrixAlgo.obj
+ 0002:00005ec0       ?dimensions@?$Vec3@N@Imath@@SAIXZ 10017ec0 f i ImathMatrixAlgo.obj
+ 0002:00005f00       ?dimensions@?$Vec3@M@Imath@@SAIXZ 10017f00 f i ImathMatrixAlgo.obj
+ 0002:00005f40       ?dimensions@?$Vec4@M@Imath@@SAIXZ 10017f40 f i ImathMatrixAlgo.obj
+ 0002:00005f80       ?dimensions@?$Vec4@N@Imath@@SAIXZ 10017f80 f i ImathMatrixAlgo.obj
+ 0002:00005fc0       ??A?$Matrix33@M@Imath@@QAEPAMH@Z 10017fc0 f i ImathMatrixAlgo.obj
+ 0002:00006010       ??0?$Matrix33@M@Imath@@QAE@ABV01@@Z 10018010 f i ImathMatrixAlgo.obj
+ 0002:00006080       ??0?$Matrix33@M@Imath@@QAE@XZ 10018080 f i ImathMatrixAlgo.obj
+ 0002:00006120       ?makeIdentity@?$Matrix33@M@Imath@@QAEXXZ 10018120 f i ImathMatrixAlgo.obj
+ 0002:000061c0       ??A?$Matrix44@M@Imath@@QAEPAMH@Z 100181c0 f i ImathMatrixAlgo.obj
+ 0002:00006210       ??0?$Matrix44@M@Imath@@QAE@ABV01@@Z 10018210 f i ImathMatrixAlgo.obj
+ 0002:00006340       ??0?$Matrix44@M@Imath@@QAE@XZ 10018340 f i ImathMatrixAlgo.obj
+ 0002:000063f0       ?makeIdentity@?$Matrix44@M@Imath@@QAEXXZ 100183f0 f i ImathMatrixAlgo.obj
+ 0002:000064a0       ??A?$Matrix33@N@Imath@@QBEPBNH@Z 100184a0 f i ImathMatrixAlgo.obj
+ 0002:000064f0       ??A?$Matrix33@N@Imath@@QAEPANH@Z 100184f0 f i ImathMatrixAlgo.obj
+ 0002:00006540       ??0?$Matrix33@N@Imath@@QAE@ABV01@@Z 10018540 f i ImathMatrixAlgo.obj
+ 0002:000065b0       ??0?$Matrix33@N@Imath@@QAE@N@Z 100185b0 f i ImathMatrixAlgo.obj
+ 0002:00006680       ??0?$Matrix33@N@Imath@@QAE@XZ 10018680 f i ImathMatrixAlgo.obj
+ 0002:00006720       ?makeIdentity@?$Matrix33@N@Imath@@QAEXXZ 10018720 f i ImathMatrixAlgo.obj
+ 0002:000067c0       ??Y?$Matrix33@N@Imath@@QAEABV01@ABV01@@Z 100187c0 f i ImathMatrixAlgo.obj
+ 0002:00006910       ??D?$Matrix33@N@Imath@@QBE?AV01@ABV01@@Z 10018910 f i ImathMatrixAlgo.obj
+ 0002:00006aa0       ?transposed@?$Matrix33@N@Imath@@QBE?AV12@XZ 10018aa0 f i ImathMatrixAlgo.obj
+ 0002:00006bb0       ??0?$Matrix33@N@Imath@@QAE@NNNNNNNNN@Z 10018bb0 f i ImathMatrixAlgo.obj
+ 0002:00006c80       ??A?$Matrix44@N@Imath@@QAEPANH@Z 10018c80 f i ImathMatrixAlgo.obj
+ 0002:00006cd0       ??0?$Matrix44@N@Imath@@QAE@ABV01@@Z 10018cd0 f i ImathMatrixAlgo.obj
+ 0002:00006e00       ??0?$Matrix44@N@Imath@@QAE@XZ 10018e00 f i ImathMatrixAlgo.obj
+ 0002:00006eb0       ?makeIdentity@?$Matrix44@N@Imath@@QAEXXZ 10018eb0 f i ImathMatrixAlgo.obj
+ 0002:00006f60       ??A?$Vec3@N@Imath@@QAEAANH@Z 10018f60 f i ImathMatrixAlgo.obj
+ 0002:00006fb0       ??0?$Vec3@N@Imath@@QAE@ABV01@@Z 10018fb0 f i ImathMatrixAlgo.obj
+ 0002:00007020       ??0?$Vec3@N@Imath@@QAE@N@Z 10019020 f i ImathMatrixAlgo.obj
+ 0002:00007090       ??0?$Vec3@N@Imath@@QAE@XZ  10019090 f i ImathMatrixAlgo.obj
+ 0002:000070d0       ??Y?$Vec3@N@Imath@@QAEABV01@ABV01@@Z 100190d0 f i ImathMatrixAlgo.obj
+ 0002:00007170       ??G?$Vec3@N@Imath@@QBE?AV01@ABV01@@Z 10019170 f i ImathMatrixAlgo.obj
+ 0002:00007220       ??_0?$Vec3@N@Imath@@QAEABV01@N@Z 10019220 f i ImathMatrixAlgo.obj
+ 0002:000072b0       ?length2@?$Vec3@N@Imath@@QBENXZ 100192b0 f i ImathMatrixAlgo.obj
+ 0002:00007310       ??A?$Vec3@M@Imath@@QAEAAMH@Z 10019310 f i ImathMatrixAlgo.obj
+ 0002:00007360       ??0?$Vec3@M@Imath@@QAE@MMM@Z 10019360 f i ImathMatrixAlgo.obj
+ 0002:000073d0       ??0?$Vec3@M@Imath@@QAE@XZ  100193d0 f i ImathMatrixAlgo.obj
+ 0002:00007410       ??$?DN@Imath@@YA?AV?$Vec3@N@0@NABV10@@Z 10019410 f i ImathMatrixAlgo.obj
+ 0002:000074b0       ??$outerProduct@N@Imath@@YA?AV?$Matrix33@N@0@ABV?$Vec3@N@0@0@Z 100194b0 f i ImathMatrixAlgo.obj
+ 0002:00007610       ??$?DNN@Imath@@YA?AV?$Vec3@N@0@ABV10@ABV?$Matrix33@N@0@@Z 10019610 f i ImathMatrixAlgo.obj
+ 0002:00007840       ??$?0M@?$Vec3@N@Imath@@QAE@ABV?$Vec3@M@1@@Z 10019840 f i ImathMatrixAlgo.obj
+ 0002:000078c0       ??$twoSidedJacobiSVD@M@?A0x735d0683@Imath@@YAXV?$Matrix33@M@1@AAV21@AAV?$Vec3@M@1@1M_N@Z 100198c0 f i ImathMatrixAlgo.obj
+ 0002:00007e60       ??$twoSidedJacobiSVD@N@?A0x735d0683@Imath@@YAXV?$Matrix33@N@1@AAV21@AAV?$Vec3@N@1@1N_N@Z 10019e60 f i ImathMatrixAlgo.obj
+ 0002:000083f0       ??A?$Vec4@M@Imath@@QAEAAMH@Z 1001a3f0 f i ImathMatrixAlgo.obj
+ 0002:00008440       ??0?$Vec4@M@Imath@@QAE@MMMM@Z 1001a440 f i ImathMatrixAlgo.obj
+ 0002:000084c0       ??0?$Vec4@M@Imath@@QAE@XZ  1001a4c0 f i ImathMatrixAlgo.obj
+ 0002:00008500       ??$twoSidedJacobiSVD@M@?A0x735d0683@Imath@@YAXV?$Matrix44@M@1@AAV21@AAV?$Vec4@M@1@1M_N@Z 1001a500 f i ImathMatrixAlgo.obj
+ 0002:00008fa0       ??A?$Vec4@N@Imath@@QAEAANH@Z 1001afa0 f i ImathMatrixAlgo.obj
+ 0002:00008ff0       ??0?$Vec4@N@Imath@@QAE@NNNN@Z 1001aff0 f i ImathMatrixAlgo.obj
+ 0002:00009070       ??0?$Vec4@N@Imath@@QAE@XZ  1001b070 f i ImathMatrixAlgo.obj
+ 0002:000090b0       ??$twoSidedJacobiSVD@N@?A0x735d0683@Imath@@YAXV?$Matrix44@N@1@AAV21@AAV?$Vec4@N@1@1N_N@Z 1001b0b0 f i ImathMatrixAlgo.obj
+ 0002:00009c50       ??$maxOffDiagSymm@V?$Matrix33@M@Imath@@@?A0x735d0683@Imath@@YAMABV?$Matrix33@M@1@@Z 1001bc50 f i ImathMatrixAlgo.obj
+ 0002:00009d80       ??$jacobiRotation@$0A@$00$01M@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@M@1@0AAV?$Vec3@M@1@M@Z 1001bd80 f i ImathMatrixAlgo.obj
+ 0002:0000a360       ?sqrt@@YAMM@Z              1001c360 f i ImathMatrixAlgo.obj
+ 0002:0000a3c0       _sqrtf                     1001c3c0 f i ImathMatrixAlgo.obj
+ 0002:0000a430       ??$jacobiRotation@$0A@$01$00M@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@M@1@0AAV?$Vec3@M@1@M@Z 1001c430 f i ImathMatrixAlgo.obj
+ 0002:0000aa10       ??$jacobiRotation@$00$01$0A@M@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@M@1@0AAV?$Vec3@M@1@M@Z 1001ca10 f i ImathMatrixAlgo.obj
+ 0002:0000b000       ??$maxOffDiagSymm@V?$Matrix33@N@Imath@@@?A0x735d0683@Imath@@YANABV?$Matrix33@N@1@@Z 1001d000 f i ImathMatrixAlgo.obj
+ 0002:0000b130       ??$jacobiRotation@$0A@$00$01N@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@N@1@0AAV?$Vec3@N@1@N@Z 1001d130 f i ImathMatrixAlgo.obj
+ 0002:0000b620       ??$jacobiRotation@$0A@$01$00N@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@N@1@0AAV?$Vec3@N@1@N@Z 1001d620 f i ImathMatrixAlgo.obj
+ 0002:0000bb10       ??$jacobiRotation@$00$01$0A@N@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@N@1@0AAV?$Vec3@N@1@N@Z 1001db10 f i ImathMatrixAlgo.obj
+ 0002:0000c010       ??$maxOffDiagSymm@V?$Matrix44@M@Imath@@@?A0x735d0683@Imath@@YAMABV?$Matrix44@M@1@@Z 1001e010 f i ImathMatrixAlgo.obj
+ 0002:0000c140       ??$jacobiRotation@$0A@$00$01$02M@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@M@1@0AAV?$Vec4@M@1@M@Z 1001e140 f i ImathMatrixAlgo.obj
+ 0002:0000c8d0       ??$jacobiRotation@$0A@$01$00$02M@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@M@1@0AAV?$Vec4@M@1@M@Z 1001e8d0 f i ImathMatrixAlgo.obj
+ 0002:0000d060       ??$jacobiRotation@$0A@$02$00$01M@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@M@1@0AAV?$Vec4@M@1@M@Z 1001f060 f i ImathMatrixAlgo.obj
+ 0002:0000d7f0       ??$jacobiRotation@$00$01$0A@$02M@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@M@1@0AAV?$Vec4@M@1@M@Z 1001f7f0 f i ImathMatrixAlgo.obj
+ 0002:0000df90       ??$jacobiRotation@$00$02$0A@$01M@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@M@1@0AAV?$Vec4@M@1@M@Z 1001ff90 f i ImathMatrixAlgo.obj
+ 0002:0000e730       ??$jacobiRotation@$01$02$0A@$00M@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@M@1@0AAV?$Vec4@M@1@M@Z 10020730 f i ImathMatrixAlgo.obj
+ 0002:0000eed0       ??$maxOffDiagSymm@V?$Matrix44@N@Imath@@@?A0x735d0683@Imath@@YANABV?$Matrix44@N@1@@Z 10020ed0 f i ImathMatrixAlgo.obj
+ 0002:0000f000       ??$jacobiRotation@$0A@$00$01$02N@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@N@1@0AAV?$Vec4@N@1@N@Z 10021000 f i ImathMatrixAlgo.obj
+ 0002:0000f650       ??$jacobiRotation@$0A@$01$00$02N@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@N@1@0AAV?$Vec4@N@1@N@Z 10021650 f i ImathMatrixAlgo.obj
+ 0002:0000fcb0       ??$jacobiRotation@$0A@$02$00$01N@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@N@1@0AAV?$Vec4@N@1@N@Z 10021cb0 f i ImathMatrixAlgo.obj
+ 0002:00010310       ??$jacobiRotation@$00$01$0A@$02N@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@N@1@0AAV?$Vec4@N@1@N@Z 10022310 f i ImathMatrixAlgo.obj
+ 0002:00010970       ??$jacobiRotation@$00$02$0A@$01N@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@N@1@0AAV?$Vec4@N@1@N@Z 10022970 f i ImathMatrixAlgo.obj
+ 0002:00010fe0       ??$jacobiRotation@$01$02$0A@$00N@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@N@1@0AAV?$Vec4@N@1@N@Z 10022fe0 f i ImathMatrixAlgo.obj
+ 0002:00011650       ??$jacobiEigenSolver@M@Imath@@YAXAAV?$Matrix33@M@0@AAV?$Vec3@M@0@0@Z 10023650 f i ImathMatrixAlgo.obj
+ 0002:000116c0       ?epsilon@?$limits@M@Imath@@SAMXZ 100236c0 f i ImathMatrixAlgo.obj
+ 0002:00011700       ??$jacobiEigenSolver@M@Imath@@YAXAAV?$Matrix44@M@0@AAV?$Vec4@M@0@0@Z 10023700 f i ImathMatrixAlgo.obj
+ 0002:00011770       ??$jacobiEigenSolver@N@Imath@@YAXAAV?$Matrix33@N@0@AAV?$Vec3@N@0@0@Z 10023770 f i ImathMatrixAlgo.obj
+ 0002:000117e0       ??$jacobiEigenSolver@N@Imath@@YAXAAV?$Matrix44@N@0@AAV?$Vec4@N@0@0@Z 100237e0 f i ImathMatrixAlgo.obj
+ 0002:00011850       ?dimensions@?$Matrix33@M@Imath@@SAIXZ 10023850 f i ImathMatrixAlgo.obj
+ 0002:00011890       ?dimensions@?$Matrix44@M@Imath@@SAIXZ 10023890 f i ImathMatrixAlgo.obj
+ 0002:000118d0       ?dimensions@?$Matrix33@N@Imath@@SAIXZ 100238d0 f i ImathMatrixAlgo.obj
+ 0002:00011910       ?dimensions@?$Matrix44@N@Imath@@SAIXZ 10023910 f i ImathMatrixAlgo.obj
+ 0002:00011950       ??A?$Matrix33@M@Imath@@QBEPBMH@Z 10023950 f i ImathMatrixAlgo.obj
+ 0002:000119a0       ?determinant@?$Matrix33@M@Imath@@QBEMXZ 100239a0 f i ImathMatrixAlgo.obj
+ 0002:00011a60       ??A?$Matrix44@M@Imath@@QBEPBMH@Z 10023a60 f i ImathMatrixAlgo.obj
+ 0002:00011ab0       ?determinant@?$Matrix44@M@Imath@@QBEMXZ 10023ab0 f i ImathMatrixAlgo.obj
+ 0002:00011c30       ?determinant@?$Matrix33@N@Imath@@QBENXZ 10023c30 f i ImathMatrixAlgo.obj
+ 0002:00011ce0       ??A?$Matrix44@N@Imath@@QBEPBNH@Z 10023ce0 f i ImathMatrixAlgo.obj
+ 0002:00011d30       ?determinant@?$Matrix44@N@Imath@@QBENXZ 10023d30 f i ImathMatrixAlgo.obj
+ 0002:00011ea0       ?dot@?$Vec3@N@Imath@@QBENABV12@@Z 10023ea0 f i ImathMatrixAlgo.obj
+ 0002:00011f10       ??$maxOffDiag@M@?A0x735d0683@Imath@@YAMABV?$Matrix33@M@1@@Z 10023f10 f i ImathMatrixAlgo.obj
+ 0002:00012170       ??$twoSidedJacobiRotation@M$0A@$00$01@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@M@1@00M@Z 10024170 f i ImathMatrixAlgo.obj
+ 0002:00012c10       ??$twoSidedJacobiRotation@M$0A@$01$00@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@M@1@00M@Z 10024c10 f i ImathMatrixAlgo.obj
+ 0002:000136b0       ??$twoSidedJacobiRotation@M$00$01$0A@@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@M@1@00M@Z 100256b0 f i ImathMatrixAlgo.obj
+ 0002:00014150       ??$swap@M@std@@YAXAAM0@Z   10026150 f i ImathMatrixAlgo.obj
+ 0002:00014210       ??$swapColumns@M@?A0x735d0683@Imath@@YAXAAV?$Matrix33@M@1@HH@Z 10026210 f i ImathMatrixAlgo.obj
+ 0002:000142b0       ??$maxOffDiag@N@?A0x735d0683@Imath@@YANABV?$Matrix33@N@1@@Z 100262b0 f i ImathMatrixAlgo.obj
+ 0002:00014520       ??$twoSidedJacobiRotation@N$0A@$00$01@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@N@1@00N@Z 10026520 f i ImathMatrixAlgo.obj
+ 0002:00014d80       ??$twoSidedJacobiRotation@N$0A@$01$00@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@N@1@00N@Z 10026d80 f i ImathMatrixAlgo.obj
+ 0002:000155e0       ??$twoSidedJacobiRotation@N$00$01$0A@@?A0x735d0683@Imath@@YA_NAAV?$Matrix33@N@1@00N@Z 100275e0 f i ImathMatrixAlgo.obj
+ 0002:00015e40       ??$swap@N@std@@YAXAAN0@Z   10027e40 f i ImathMatrixAlgo.obj
+ 0002:00015f00       ??$swapColumns@N@?A0x735d0683@Imath@@YAXAAV?$Matrix33@N@1@HH@Z 10027f00 f i ImathMatrixAlgo.obj
+ 0002:00015fa0       ??A?$Vec4@M@Imath@@QBEABMH@Z 10027fa0 f i ImathMatrixAlgo.obj
+ 0002:00015ff0       ??$maxOffDiag@M@?A0x735d0683@Imath@@YAMABV?$Matrix44@M@1@@Z 10027ff0 f i ImathMatrixAlgo.obj
+ 0002:00016120       ??$twoSidedJacobiRotation@M@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@M@1@HH00M@Z 10028120 f i ImathMatrixAlgo.obj
+ 0002:00016d10       ??A?$Vec4@N@Imath@@QBEABNH@Z 10028d10 f i ImathMatrixAlgo.obj
+ 0002:00016d60       ??$maxOffDiag@N@?A0x735d0683@Imath@@YANABV?$Matrix44@N@1@@Z 10028d60 f i ImathMatrixAlgo.obj
+ 0002:00016e90       ??$twoSidedJacobiRotation@N@?A0x735d0683@Imath@@YA_NAAV?$Matrix44@N@1@HH00N@Z 10028e90 f i ImathMatrixAlgo.obj
+ 0002:00017850       ??$max@M@std@@YAABMABM0@Z  10029850 f i ImathMatrixAlgo.obj
+ 0002:000178f0       ??$jacobiRotateRight@$0A@$00V?$Matrix33@M@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix33@M@1@MM@Z 100298f0 f i ImathMatrixAlgo.obj
+ 0002:00017a90       ??$jacobiRotateRight@$0A@$01V?$Matrix33@M@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix33@M@1@MM@Z 10029a90 f i ImathMatrixAlgo.obj
+ 0002:00017c30       ??$jacobiRotateRight@$00$01V?$Matrix33@M@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix33@M@1@MM@Z 10029c30 f i ImathMatrixAlgo.obj
+ 0002:00017dd0       ??$max@N@std@@YAABNABN0@Z  10029dd0 f i ImathMatrixAlgo.obj
+ 0002:00017e70       ??$jacobiRotateRight@$0A@$00V?$Matrix33@N@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix33@N@1@NN@Z 10029e70 f i ImathMatrixAlgo.obj
+ 0002:00017fc0       ??$jacobiRotateRight@$0A@$01V?$Matrix33@N@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix33@N@1@NN@Z 10029fc0 f i ImathMatrixAlgo.obj
+ 0002:00018110       ??$jacobiRotateRight@$00$01V?$Matrix33@N@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix33@N@1@NN@Z 1002a110 f i ImathMatrixAlgo.obj
+ 0002:00018260       ??$jacobiRotateRight@$0A@$00V?$Matrix44@M@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@M@1@MM@Z 1002a260 f i ImathMatrixAlgo.obj
+ 0002:00018400       ??$jacobiRotateRight@$0A@$01V?$Matrix44@M@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@M@1@MM@Z 1002a400 f i ImathMatrixAlgo.obj
+ 0002:000185a0       ??$jacobiRotateRight@$0A@$02V?$Matrix44@M@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@M@1@MM@Z 1002a5a0 f i ImathMatrixAlgo.obj
+ 0002:00018740       ??$jacobiRotateRight@$00$01V?$Matrix44@M@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@M@1@MM@Z 1002a740 f i ImathMatrixAlgo.obj
+ 0002:000188e0       ??$jacobiRotateRight@$00$02V?$Matrix44@M@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@M@1@MM@Z 1002a8e0 f i ImathMatrixAlgo.obj
+ 0002:00018a80       ??$jacobiRotateRight@$01$02V?$Matrix44@M@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@M@1@MM@Z 1002aa80 f i ImathMatrixAlgo.obj
+ 0002:00018c20       ??$jacobiRotateRight@$0A@$00V?$Matrix44@N@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@N@1@NN@Z 1002ac20 f i ImathMatrixAlgo.obj
+ 0002:00018d70       ??$jacobiRotateRight@$0A@$01V?$Matrix44@N@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@N@1@NN@Z 1002ad70 f i ImathMatrixAlgo.obj
+ 0002:00018ec0       ??$jacobiRotateRight@$0A@$02V?$Matrix44@N@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@N@1@NN@Z 1002aec0 f i ImathMatrixAlgo.obj
+ 0002:00019010       ??$jacobiRotateRight@$00$01V?$Matrix44@N@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@N@1@NN@Z 1002b010 f i ImathMatrixAlgo.obj
+ 0002:00019160       ??$jacobiRotateRight@$00$02V?$Matrix44@N@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@N@1@NN@Z 1002b160 f i ImathMatrixAlgo.obj
+ 0002:000192b0       ??$jacobiRotateRight@$01$02V?$Matrix44@N@Imath@@@?A0x735d0683@Imath@@YAXAAV?$Matrix44@N@1@NN@Z 1002b2b0 f i ImathMatrixAlgo.obj
+ 0002:00019400       ?fastMinor@?$Matrix44@M@Imath@@QBEMHHHHHH@Z 1002b400 f i ImathMatrixAlgo.obj
+ 0002:00019570       ?fastMinor@?$Matrix44@N@Imath@@QBENHHHHHH@Z 1002b570 f i ImathMatrixAlgo.obj
+ 0002:000196d0       ??$jacobiRotateRight@M$0A@$00@?A0x735d0683@Imath@@YAXAAV?$Matrix33@M@1@MM@Z 1002b6d0 f i ImathMatrixAlgo.obj
+ 0002:00019840       ??$jacobiRotateRight@M$0A@$01@?A0x735d0683@Imath@@YAXAAV?$Matrix33@M@1@MM@Z 1002b840 f i ImathMatrixAlgo.obj
+ 0002:000199b0       ??$jacobiRotateRight@M$00$01@?A0x735d0683@Imath@@YAXAAV?$Matrix33@M@1@MM@Z 1002b9b0 f i ImathMatrixAlgo.obj
+ 0002:00019b20       ??$_Move@AAM@std@@YA$$QAMAAM@Z 1002bb20 f i ImathMatrixAlgo.obj
+ 0002:00019b60       ??$jacobiRotateRight@N$0A@$00@?A0x735d0683@Imath@@YAXAAV?$Matrix33@N@1@NN@Z 1002bb60 f i ImathMatrixAlgo.obj
+ 0002:00019c90       ??$jacobiRotateRight@N$0A@$01@?A0x735d0683@Imath@@YAXAAV?$Matrix33@N@1@NN@Z 1002bc90 f i ImathMatrixAlgo.obj
+ 0002:00019dc0       ??$jacobiRotateRight@N$00$01@?A0x735d0683@Imath@@YAXAAV?$Matrix33@N@1@NN@Z 1002bdc0 f i ImathMatrixAlgo.obj
+ 0002:00019ef0       ??$_Move@AAN@std@@YA$$QANAAN@Z 1002bef0 f i ImathMatrixAlgo.obj
+ 0002:00019f30       ??$jacobiRotateRight@M@?A0x735d0683@Imath@@YAXAAV?$Matrix44@M@1@HHMM@Z 1002bf30 f i ImathMatrixAlgo.obj
+ 0002:0001a0b0       ??$jacobiRotateRight@N@?A0x735d0683@Imath@@YAXAAV?$Matrix44@N@1@HHNN@Z 1002c0b0 f i ImathMatrixAlgo.obj
+ 0002:0001a1f0       ??$_Debug_lt@MM@std@@YA_NABM0PB_WI@Z 1002c1f0 f i ImathMatrixAlgo.obj
+ 0002:0001a2a0       ??$_Debug_lt@NN@std@@YA_NABN0PB_WI@Z 1002c2a0 f i ImathMatrixAlgo.obj
+ 0002:0001a340       ??0?$Matrix33@M@Imath@@QAE@MMMMMMMMM@Z 1002c340 f i ImathMatrixAlgo.obj
+ 0002:0001a410       ??0?$Matrix44@M@Imath@@QAE@MMMMMMMMMMMMMMMM@Z 1002c410 f i ImathMatrixAlgo.obj
+ 0002:0001a550       ?rand48Next@?A0xf39c232e@Imath@@YAXQAG@Z 1002c550 f   ImathRandom.obj
+ 0002:0001a640       ?erand48@Imath@@YANQAG@Z   1002c640 f   ImathRandom.obj
+ 0002:0001a740       ?drand48@Imath@@YANXZ      1002c740 f   ImathRandom.obj
+ 0002:0001a790       ?nrand48@Imath@@YAJQAG@Z   1002c790 f   ImathRandom.obj
+ 0002:0001a800       ?lrand48@Imath@@YAJXZ      1002c800 f   ImathRandom.obj
+ 0002:0001a850       ?srand48@Imath@@YAXJ@Z     1002c850 f   ImathRandom.obj
+ 0002:0001a8b0       ?nextf@Rand32@Imath@@QAEMXZ 1002c8b0 f   ImathRandom.obj
+ 0002:0001a970       ?next@Rand32@Imath@@AAEXXZ 1002c970 f i ImathRandom.obj
+ 0002:0001a9c0       ?length@?$Vec2@F@Imath@@QBEFXZ 1002c9c0 f   ImathVec.obj
+ 0002:0001aa60       ?sqrt@?$Math@M@Imath@@SAMM@Z 1002ca60 f i ImathVec.obj
+ 0002:0001aac0       ?normalize@?$Vec2@F@Imath@@QAEABV12@XZ 1002cac0 f   ImathVec.obj
+ 0002:0001ab20       ?normalizeExc@?$Vec2@F@Imath@@QAEABV12@XZ 1002cb20 f   ImathVec.obj
+ 0002:0001abe0       ??0NullVecExc@Imath@@QAE@PBD@Z 1002cbe0 f i ImathVec.obj
+ 0002:0001ac50       ??0MathExc@Iex@@QAE@PBD@Z  1002cc50 f i ImathVec.obj
+ 0002:0001acc0       ??_GMathExc@Iex@@UAEPAXI@Z 1002ccc0 f i ImathVec.obj
+ 0002:0001acc0       ??_EMathExc@Iex@@UAEPAXI@Z 1002ccc0 f i ImathVec.obj
+ 0002:0001ad30       ??1MathExc@Iex@@UAE@XZ     1002cd30 f i ImathVec.obj
+ 0002:0001ad80       ??_GNullVecExc@Imath@@UAEPAXI@Z 1002cd80 f i ImathVec.obj
+ 0002:0001ad80       ??_ENullVecExc@Imath@@UAEPAXI@Z 1002cd80 f i ImathVec.obj
+ 0002:0001adf0       ??1NullVecExc@Imath@@UAE@XZ 1002cdf0 f i ImathVec.obj
+ 0002:0001ae40       ?normalizeNonNull@?$Vec2@F@Imath@@QAEABV12@XZ 1002ce40 f   ImathVec.obj
+ 0002:0001aea0       ?normalized@?$Vec2@F@Imath@@QBE?AV12@XZ 1002cea0 f   ImathVec.obj
+ 0002:0001af50       ?normalizedExc@?$Vec2@F@Imath@@QBE?AV12@XZ 1002cf50 f   ImathVec.obj
+ 0002:0001b060       ?normalizedNonNull@?$Vec2@F@Imath@@QBE?AV12@XZ 1002d060 f   ImathVec.obj
+ 0002:0001b110       ?length@?$Vec2@H@Imath@@QBEHXZ 1002d110 f   ImathVec.obj
+ 0002:0001b1b0       ?normalize@?$Vec2@H@Imath@@QAEABV12@XZ 1002d1b0 f   ImathVec.obj
+ 0002:0001b210       ?normalizeExc@?$Vec2@H@Imath@@QAEABV12@XZ 1002d210 f   ImathVec.obj
+ 0002:0001b2c0       ?normalizeNonNull@?$Vec2@H@Imath@@QAEABV12@XZ 1002d2c0 f   ImathVec.obj
+ 0002:0001b320       ?normalized@?$Vec2@H@Imath@@QBE?AV12@XZ 1002d320 f   ImathVec.obj
+ 0002:0001b3d0       ?normalizedExc@?$Vec2@H@Imath@@QBE?AV12@XZ 1002d3d0 f   ImathVec.obj
+ 0002:0001b4e0       ?normalizedNonNull@?$Vec2@H@Imath@@QBE?AV12@XZ 1002d4e0 f   ImathVec.obj
+ 0002:0001b590       ?length@?$Vec3@F@Imath@@QBEFXZ 1002d590 f   ImathVec.obj
+ 0002:0001b630       ?normalize@?$Vec3@F@Imath@@QAEABV12@XZ 1002d630 f   ImathVec.obj
+ 0002:0001b690       ?normalizeExc@?$Vec3@F@Imath@@QAEABV12@XZ 1002d690 f   ImathVec.obj
+ 0002:0001b760       ?normalizeNonNull@?$Vec3@F@Imath@@QAEABV12@XZ 1002d760 f   ImathVec.obj
+ 0002:0001b7c0       ?normalized@?$Vec3@F@Imath@@QBE?AV12@XZ 1002d7c0 f   ImathVec.obj
+ 0002:0001b870       ?normalizedExc@?$Vec3@F@Imath@@QBE?AV12@XZ 1002d870 f   ImathVec.obj
+ 0002:0001b990       ?normalizedNonNull@?$Vec3@F@Imath@@QBE?AV12@XZ 1002d990 f   ImathVec.obj
+ 0002:0001ba40       ?length@?$Vec3@H@Imath@@QBEHXZ 1002da40 f   ImathVec.obj
+ 0002:0001bae0       ?normalize@?$Vec3@H@Imath@@QAEABV12@XZ 1002dae0 f   ImathVec.obj
+ 0002:0001bb40       ?normalizeExc@?$Vec3@H@Imath@@QAEABV12@XZ 1002db40 f   ImathVec.obj
+ 0002:0001bc00       ?normalizeNonNull@?$Vec3@H@Imath@@QAEABV12@XZ 1002dc00 f   ImathVec.obj
+ 0002:0001bc60       ?normalized@?$Vec3@H@Imath@@QBE?AV12@XZ 1002dc60 f   ImathVec.obj
+ 0002:0001bd10       ?normalizedExc@?$Vec3@H@Imath@@QBE?AV12@XZ 1002dd10 f   ImathVec.obj
+ 0002:0001be20       ?normalizedNonNull@?$Vec3@H@Imath@@QBE?AV12@XZ 1002de20 f   ImathVec.obj
+ 0002:0001bed0       ?length@?$Vec4@F@Imath@@QBEFXZ 1002ded0 f   ImathVec.obj
+ 0002:0001bf70       ?normalize@?$Vec4@F@Imath@@QAEABV12@XZ 1002df70 f   ImathVec.obj
+ 0002:0001bfd0       ?normalizeExc@?$Vec4@F@Imath@@QAEABV12@XZ 1002dfd0 f   ImathVec.obj
+ 0002:0001c0a0       ?normalizeNonNull@?$Vec4@F@Imath@@QAEABV12@XZ 1002e0a0 f   ImathVec.obj
+ 0002:0001c100       ?normalized@?$Vec4@F@Imath@@QBE?AV12@XZ 1002e100 f   ImathVec.obj
+ 0002:0001c1b0       ?normalizedExc@?$Vec4@F@Imath@@QBE?AV12@XZ 1002e1b0 f   ImathVec.obj
+ 0002:0001c2e0       ?normalizedNonNull@?$Vec4@F@Imath@@QBE?AV12@XZ 1002e2e0 f   ImathVec.obj
+ 0002:0001c390       ?length@?$Vec4@H@Imath@@QBEHXZ 1002e390 f   ImathVec.obj
+ 0002:0001c430       ?normalize@?$Vec4@H@Imath@@QAEABV12@XZ 1002e430 f   ImathVec.obj
+ 0002:0001c490       ?normalizeExc@?$Vec4@H@Imath@@QAEABV12@XZ 1002e490 f   ImathVec.obj
+ 0002:0001c560       ?normalizeNonNull@?$Vec4@H@Imath@@QAEABV12@XZ 1002e560 f   ImathVec.obj
+ 0002:0001c5c0       ?normalized@?$Vec4@H@Imath@@QBE?AV12@XZ 1002e5c0 f   ImathVec.obj
+ 0002:0001c670       ?normalizedExc@?$Vec4@H@Imath@@QBE?AV12@XZ 1002e670 f   ImathVec.obj
+ 0002:0001c790       ?normalizedNonNull@?$Vec4@H@Imath@@QBE?AV12@XZ 1002e790 f   ImathVec.obj
+ 0002:0001c840       ??0NullVecExc@Imath@@QAE@ABV01@@Z 1002e840 f i ImathVec.obj
+ 0002:0001c8b0       ??0MathExc@Iex@@QAE@ABV01@@Z 1002e8b0 f i ImathVec.obj
+ 0002:0001c920       ??0?$_String_val@DV?$allocator@D@std@@@std@@QAE@ABV01@@Z 1002e920 f i ImathVec.obj
+ 0002:0001c9f0       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1002e9f0 f i ImathVec.obj
+ 0002:0001cad0       ??0?$allocator@D@std@@QAE@ABV01@@Z 1002ead0 f i ImathVec.obj
+ 0002:0001cb10       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 1002eb10 f i ImathVec.obj
+ 0002:0001cc30       ?copy@?$char_traits@D@std@@SAPADPADPBDI@Z 1002ec30 f i ImathVec.obj
+ 0002:0001cc90       ?size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 1002ec90 f i ImathVec.obj
+ 0002:0001ccd0       ?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX_NI@Z 1002ecd0 f i ImathVec.obj
+ 0002:0001cda0       ?_Myptr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 1002eda0 f i ImathVec.obj
+ 0002:0001ce10       ??0?$_String_val@DV?$allocator@D@std@@@std@@QAE@V?$allocator@D@1@@Z 1002ee10 f i ImathVec.obj
+ 0002:0001cf60       ??0_Container_proxy@std@@QAE@XZ 1002ef60 f i ImathVec.obj
+ 0002:0001cfb0       ??1?$_String_val@DV?$allocator@D@std@@@std@@QAE@XZ 1002efb0 f i ImathVec.obj
+ 0002:0001d0f0       ?deallocate@?$allocator@D@std@@QAEXPADI@Z 1002f0f0 f i ImathVec.obj
+ 0002:0001d150       ?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z 1002f150 f i ImathVec.obj
+ 0002:0001d240       ?move@?$char_traits@D@std@@SAPADPADPBDI@Z 1002f240 f i ImathVec.obj
+ 0002:0001d2b0       ?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z 1002f2b0 f i ImathVec.obj
+ 0002:0001d330       ?assign@?$char_traits@D@std@@SAXAADABD@Z 1002f330 f i ImathVec.obj
+ 0002:0001d370       ?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NI_N@Z 1002f370 f i ImathVec.obj
+ 0002:0001d470       ?_Myptr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPADXZ 1002f470 f i ImathVec.obj
+ 0002:0001d4e0       ?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ 1002f4e0 f i ImathVec.obj
+ 0002:0001d540       ?_Xran@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ 1002f540 f i ImathVec.obj
+ 0002:0001d5a0       ?deallocate@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@2@I@Z 1002f5a0 f i ImathVec.obj
+ 0002:0001d600       ?allocate@?$allocator@U_Container_proxy@std@@@std@@QAEPAU_Container_proxy@2@I@Z 1002f600 f i ImathVec.obj
+ 0002:0001d660       ?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 1002f660 f i ImathVec.obj
+ 0002:0001d6f0       ?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 1002f6f0 f i ImathVec.obj
+ 0002:0001d920       ?allocate@?$allocator@D@std@@QAEPADI@Z 1002f920 f i ImathVec.obj
+ 0002:0001d980       ?max_size@?$allocator@D@std@@QBEIXZ 1002f980 f i ImathVec.obj
+ 0002:0001d9f0       ??0?$Vec2@F@Imath@@QAE@ABV01@@Z 1002f9f0 f i ImathVec.obj
+ 0002:0001da50       ?dot@?$Vec2@F@Imath@@QBEFABV12@@Z 1002fa50 f i ImathVec.obj
+ 0002:0001dac0       ??0?$Vec2@H@Imath@@QAE@ABV01@@Z 1002fac0 f i ImathVec.obj
+ 0002:0001db20       ?dot@?$Vec2@H@Imath@@QBEHABV12@@Z 1002fb20 f i ImathVec.obj
+ 0002:0001db80       ??0?$Vec3@F@Imath@@QAE@ABV01@@Z 1002fb80 f i ImathVec.obj
+ 0002:0001dbf0       ?dot@?$Vec3@F@Imath@@QBEFABV12@@Z 1002fbf0 f i ImathVec.obj
+ 0002:0001dc70       ??0?$Vec3@H@Imath@@QAE@ABV01@@Z 1002fc70 f i ImathVec.obj
+ 0002:0001dce0       ?dot@?$Vec3@H@Imath@@QBEHABV12@@Z 1002fce0 f i ImathVec.obj
+ 0002:0001dd50       ??0?$Vec4@F@Imath@@QAE@ABV01@@Z 1002fd50 f i ImathVec.obj
+ 0002:0001ddd0       ?dot@?$Vec4@F@Imath@@QBEFABV12@@Z 1002fdd0 f i ImathVec.obj
+ 0002:0001de70       ??0?$Vec4@H@Imath@@QAE@ABV01@@Z 1002fe70 f i ImathVec.obj
+ 0002:0001def0       ?dot@?$Vec4@H@Imath@@QBEHABV12@@Z 1002fef0 f i ImathVec.obj
+ 0002:0001df70       ??$normalizeOrThrow@F@?A0x1c54a369@Imath@@YA_NAAV?$Vec2@F@1@@Z 1002ff70 f i ImathVec.obj
+ 0002:0001e080       ??0IntVecNormalizeExc@Imath@@QAE@PBD@Z 10030080 f i ImathVec.obj
+ 0002:0001e0f0       ??_GIntVecNormalizeExc@Imath@@UAEPAXI@Z 100300f0 f i ImathVec.obj
+ 0002:0001e0f0       ??_EIntVecNormalizeExc@Imath@@UAEPAXI@Z 100300f0 f i ImathVec.obj
+ 0002:0001e160       ??1IntVecNormalizeExc@Imath@@UAE@XZ 10030160 f i ImathVec.obj
+ 0002:0001e1b0       ??$normalizeOrThrow@H@?A0x1c54a369@Imath@@YA_NAAV?$Vec2@H@1@@Z 100301b0 f i ImathVec.obj
+ 0002:0001e2b0       ??$normalizeOrThrow@F@?A0x1c54a369@Imath@@YA_NAAV?$Vec3@F@1@@Z 100302b0 f i ImathVec.obj
+ 0002:0001e3c0       ??$normalizeOrThrow@H@?A0x1c54a369@Imath@@YA_NAAV?$Vec3@H@1@@Z 100303c0 f i ImathVec.obj
+ 0002:0001e4c0       ??$normalizeOrThrow@F@?A0x1c54a369@Imath@@YA_NAAV?$Vec4@F@1@@Z 100304c0 f i ImathVec.obj
+ 0002:0001e5d0       ??$normalizeOrThrow@H@?A0x1c54a369@Imath@@YA_NAAV?$Vec4@H@1@@Z 100305d0 f i ImathVec.obj
+ 0002:0001e6d0       ??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z 100306d0 f i ImathVec.obj
+ 0002:0001e710       ??$_Cons_val@V?$allocator@U_Container_proxy@std@@@std@@U_Container_proxy@2@U32@@std@@YAXAAV?$allocator@U_Container_proxy@std@@@0@PAU_Container_proxy@0@$$QAU20@@Z 10030710 f i ImathVec.obj
+ 0002:0001e770       ??$_Dest_val@V?$allocator@U_Container_proxy@std@@@std@@U_Container_proxy@2@@std@@YAXAAV?$allocator@U_Container_proxy@std@@@0@PAU_Container_proxy@0@@Z 10030770 f i ImathVec.obj
+ 0002:0001e7c0       ??$_Allocate@D@std@@YAPADIPAD@Z 100307c0 f i ImathVec.obj
+ 0002:0001e870       ??0bad_alloc@std@@QAE@PBD@Z 10030870 f i ImathVec.obj
+ 0002:0001e8f0       ??1bad_alloc@std@@UAE@XZ   100308f0 f i ImathVec.obj
+ 0002:0001e960       ??_Gbad_alloc@std@@UAEPAXI@Z 10030960 f i ImathVec.obj
+ 0002:0001e960       ??_Ebad_alloc@std@@UAEPAXI@Z 10030960 f i ImathVec.obj
+ 0002:0001e9d0       ??$_Allocate@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@IPAU10@@Z 100309d0 f i ImathVec.obj
+ 0002:0001ea80       ??0IntVecNormalizeExc@Imath@@QAE@ABV01@@Z 10030a80 f i ImathVec.obj
+ 0002:0001eaf0       ??0bad_alloc@std@@QAE@ABV01@@Z 10030af0 f i ImathVec.obj
+ 0002:0001eb70       ?construct@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@2@$$QAU32@@Z 10030b70 f i ImathVec.obj
+ 0002:0001ec80       ??2@YAPAXIPAX@Z            10030c80 f i ImathVec.obj
+ 0002:0001ecc0       ??3@YAXPAX0@Z              10030cc0 f i ImathVec.obj
+ 0002:0001ecf0       ?destroy@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@2@@Z 10030cf0 f i ImathVec.obj
+ 0002:0001ed50       ??A?$Vec2@F@Imath@@QAEAAFH@Z 10030d50 f i ImathVec.obj
+ 0002:0001eda0       ??A?$Vec2@H@Imath@@QAEAAHH@Z 10030da0 f i ImathVec.obj
+ 0002:0001edf0       ??A?$Vec3@F@Imath@@QAEAAFH@Z 10030df0 f i ImathVec.obj
+ 0002:0001ee40       ??A?$Vec3@H@Imath@@QAEAAHH@Z 10030e40 f i ImathVec.obj
+ 0002:0001ee90       ??A?$Vec4@F@Imath@@QAEAAFH@Z 10030e90 f i ImathVec.obj
+ 0002:0001eee0       ??A?$Vec4@H@Imath@@QAEAAHH@Z 10030ee0 f i ImathVec.obj
+ 0002:0001ef30       ??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z 10030f30 f i ImathVec.obj
+ 0002:0001ef70       ??$_Destroy@U_Container_proxy@std@@@std@@YAXPAU_Container_proxy@0@@Z 10030f70 f i ImathVec.obj
+ 0002:0001ef9e       ??0BaseExc@Iex@@QAE@ABV01@@Z 10030f9e f   Iex:Iex.dll
+ 0002:0001efa4       ?what@BaseExc@Iex@@UBEPBDXZ 10030fa4 f   Iex:Iex.dll
+ 0002:0001efaa       ??0BaseExc@Iex@@QAE@PBD@Z  10030faa f   Iex:Iex.dll
+ 0002:0001efb0       ??1BaseExc@Iex@@UAE@XZ     10030fb0 f   Iex:Iex.dll
+ 0002:0001efb6       ?_Debug_message@std@@YAXPB_W0I@Z 10030fb6 f   msvcprtd:MSVCP100D.dll
+ 0002:0001efbc       ??0_Container_base12@std@@QAE@ABU01@@Z 10030fbc f   msvcprtd:MSVCP100D.dll
+ 0002:0001efc2       ??1_Container_base12@std@@QAE@XZ 10030fc2 f   msvcprtd:MSVCP100D.dll
+ 0002:0001efc8       ??0_Container_base12@std@@QAE@XZ 10030fc8 f   msvcprtd:MSVCP100D.dll
+ 0002:0001efce       ?_Orphan_all@_Container_base12@std@@QAEXXZ 10030fce f   msvcprtd:MSVCP100D.dll
+ 0002:0001efd4       ?_Xlength_error@std@@YAXPBD@Z 10030fd4 f   msvcprtd:MSVCP100D.dll
+ 0002:0001efda       ?_Xout_of_range@std@@YAXPBD@Z 10030fda f   msvcprtd:MSVCP100D.dll
+ 0002:0001efe0       __RTC_CheckEsp             10030fe0 f   MSVCRTD:_stack_.obj
+ 0002:0001f010       @_RTC_CheckStackVars@8     10031010 f   MSVCRTD:_stack_.obj
+ 0002:0001f090       @_RTC_AllocaHelper@12      10031090 f   MSVCRTD:_stack_.obj
+ 0002:0001f0d0       @_RTC_CheckStackVars2@12   100310d0 f   MSVCRTD:_stack_.obj
+ 0002:0001f1e0       __ftol2_sse                100311e0 f   MSVCRTD:ftol2.obj
+ 0002:0001f1e9       __ftol2_pentium4           100311e9 f   MSVCRTD:ftol2.obj
+ 0002:0001f1fc       __ftol2_sse_excpt          100311fc f   MSVCRTD:ftol2.obj
+ 0002:0001f216       __ftol2                    10031216 f   MSVCRTD:ftol2.obj
+ 0002:0001f2c0       __RTC_InitBase             100312c0 f   MSVCRTD:_init_.obj
+ 0002:0001f300       __RTC_Shutdown             10031300 f   MSVCRTD:_init_.obj
+ 0002:0001f318       _floor                     10031318 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f320       @__security_check_cookie@4 10031320 f   MSVCRTD:secchk.obj
+ 0002:0001f332       _fabs                      10031332 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f338       _memcpy                    10031338 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f33e       _memset                    1003133e f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f344       _sqrt                      10031344 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f350       __aullshr                  10031350 f   MSVCRTD:ullshr.obj
+ 0002:0001f380       __allmul                   10031380 f   MSVCRTD:llmul.obj
+ 0002:0001f3d0       __allshl                   100313d0 f   MSVCRTD:llshl.obj
+ 0002:0001f3f6       __CxxThrowException@8      100313f6 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f400       ??0type_info@@AAE@ABV0@@Z  10031400 f   MSVCRTD:ti_inst.obj
+ 0002:0001f430       ??_Etype_info@@UAEPAXI@Z   10031430 f i MSVCRTD:ti_inst.obj
+ 0002:0001f4c0       ??4type_info@@AAEAAV0@ABV0@@Z 100314c0 f   MSVCRTD:ti_inst.obj
+ 0002:0001f4d6       ??0exception@std@@QAE@ABV01@@Z 100314d6 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f4dc       ??3@YAXPAX@Z               100314dc f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f4e2       ___CxxFrameHandler3        100314e2 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f4e8       _memmove                   100314e8 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f4ee       ??2@YAPAXI@Z               100314ee f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f4f4       ??0exception@std@@QAE@ABQBD@Z 100314f4 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f4fa       ?what@exception@std@@UBEPBDXZ 100314fa f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f500       ??1exception@std@@UAE@XZ   10031500 f   MSVCRTD:MSVCR100D.dll
+ 0002:0001f5b0       __CRT_INIT@12              100315b0 f   MSVCRTD:crtdll.obj
+ 0002:0001f960       _NtCurrentTeb              10031960 f i MSVCRTD:crtdll.obj
+ 0002:0001f970       __DllMainCRTStartup@12     10031970 f   MSVCRTD:crtdll.obj
+ 0002:0001fbf0       ?_RTC_Failure@@YAXPAXH@Z   10031bf0 f   MSVCRTD:_error_.obj
+ 0002:00020080       ?_RTC_StackFailure@@YAXPAXPBD@Z 10032080 f   MSVCRTD:_error_.obj
+ 0002:000201c0       ?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z 100321c0 f   MSVCRTD:_error_.obj
+ 0002:000203d0       __RTC_UninitUse            100323d0 f   MSVCRTD:_error_.obj
+ 0002:00020500       ___sse2_available_init     10032500 f   MSVCRTD:cpu_disp.obj
+ 0002:00020520       __RTC_NumErrors            10032520 f   MSVCRTD:_userapi_.obj
+ 0002:00020530       __RTC_GetErrDesc           10032530 f   MSVCRTD:_userapi_.obj
+ 0002:00020550       __RTC_SetErrorType         10032550 f   MSVCRTD:_userapi_.obj
+ 0002:00020580       __RTC_SetErrorFunc         10032580 f   MSVCRTD:_userapi_.obj
+ 0002:000205b0       __RTC_SetErrorFuncW        100325b0 f   MSVCRTD:_userapi_.obj
+ 0002:000205e0       ?_RTC_GetErrorFunc@@YAP6AHHPBDH00ZZPBX@Z 100325e0 f   MSVCRTD:_userapi_.obj
+ 0002:000205f0       ?_RTC_GetErrorFuncW@@YAP6AHHPB_WH00ZZPBX@Z 100325f0 f   MSVCRTD:_userapi_.obj
+ 0002:000205f6       __CRT_RTC_INITW            100325f6 f   MSVCRTD:MSVCR100D.dll
+ 0002:00020600       ___report_gsfailure        10032600 f   MSVCRTD:gs_report.obj
+ 0002:00020760       ??_M@YGXPAXIHP6EX0@Z@Z     10032760 f   MSVCRTD:ehvecdtr.obj
+ 0002:00020840       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10032840 f   MSVCRTD:ehvecdtr.obj
+ 0002:00020940       ___clean_type_info_names   10032940 f   MSVCRTD:tncleanup.obj
+ 0002:00020960       __onexit                   10032960 f   MSVCRTD:atonexit.obj
+ 0002:00020a90       _atexit                    10032a90 f   MSVCRTD:atonexit.obj
+ 0002:00020ac0       __RTC_Initialize           10032ac0 f   MSVCRTD:_initsect_.obj
+ 0002:00020af0       __RTC_Terminate            10032af0 f   MSVCRTD:_initsect_.obj
+ 0002:00020b20       __malloc_dbg               10032b20 f   MSVCRTD:MSVCR100D.dll
+ 0002:00020b26       __free_dbg                 10032b26 f   MSVCRTD:MSVCR100D.dll
+ 0002:00020b2c       __encoded_null             10032b2c f   MSVCRTD:MSVCR100D.dll
+ 0002:00020b32       __CrtSetCheckCount         10032b32 f   MSVCRTD:MSVCR100D.dll
+ 0002:00020b40       __ValidateImageBase        10032b40 f   MSVCRTD:pesect.obj
+ 0002:00020bc0       __FindPESection            10032bc0 f   MSVCRTD:pesect.obj
+ 0002:00020c60       __IsNonwritableInCurrentImage 10032c60 f   MSVCRTD:pesect.obj
+ 0002:00020db6       __initterm                 10032db6 f   MSVCRTD:MSVCR100D.dll
+ 0002:00020dbc       __initterm_e               10032dbc f   MSVCRTD:MSVCR100D.dll
+ 0002:00020dc2       __amsg_exit                10032dc2 f   MSVCRTD:MSVCR100D.dll
+ 0002:00020dd0       ___security_init_cookie    10032dd0 f   MSVCRTD:gs_support.obj
+ 0002:00020ee8       ___CppXcptFilter           10032ee8 f   MSVCRTD:MSVCR100D.dll
+ 0002:00020ef0       _DllMain@12                10032ef0 f   MSVCRTD:dllmain.obj
+ 0002:00020f20       __except_handler4          10032f20 f   MSVCRTD:chandler4gs.obj
+ 0002:00020f60       ?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z 10032f60 f   MSVCRTD:_pdblkup_.obj
+ 0002:00021736       __crt_debugger_hook        10033736 f   MSVCRTD:MSVCR100D.dll
+ 0002:0002173c       ?terminate@@YAXXZ          1003373c f   MSVCRTD:MSVCR100D.dll
+ 0002:00021742       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 10033742 f   MSVCRTD:MSVCR100D.dll
+ 0002:00021742       ??1type_info@@UAE@XZ       10033742 f   MSVCRTD:MSVCR100D.dll
+ 0002:00021748       ___clean_type_info_names_internal 10033748 f   MSVCRTD:MSVCR100D.dll
+ 0002:0002174e       __unlock                   1003374e f   MSVCRTD:MSVCR100D.dll
+ 0002:00021754       ___dllonexit               10033754 f   MSVCRTD:MSVCR100D.dll
+ 0002:0002175a       __lock                     1003375a f   MSVCRTD:MSVCR100D.dll
+ 0002:00021760       __except_handler4_common   10033760 f   MSVCRTD:MSVCR100D.dll
+ 0002:00021766       __wmakepath_s              10033766 f   MSVCRTD:MSVCR100D.dll
+ 0002:0002176c       _wcscpy_s                  1003376c f   MSVCRTD:MSVCR100D.dll
+ 0002:00021772       __wsplitpath_s             10033772 f   MSVCRTD:MSVCR100D.dll
+ 0002:00021778       _EncodePointer@4           10033778 f   kernel32:KERNEL32.dll
+ 0002:0002177e       _DecodePointer@4           1003377e f   kernel32:KERNEL32.dll
+ 0002:00021784       _InterlockedExchange@8     10033784 f   kernel32:KERNEL32.dll
+ 0002:0002178a       _Sleep@4                   1003378a f   kernel32:KERNEL32.dll
+ 0002:00021790       _InterlockedCompareExchange@12 10033790 f   kernel32:KERNEL32.dll
+ 0002:00021796       _WideCharToMultiByte@32    10033796 f   kernel32:KERNEL32.dll
+ 0002:0002179c       _IsDebuggerPresent@0       1003379c f   kernel32:KERNEL32.dll
+ 0002:000217a2       _MultiByteToWideChar@24    100337a2 f   kernel32:KERNEL32.dll
+ 0002:000217a8       _RaiseException@16         100337a8 f   kernel32:KERNEL32.dll
+ 0002:000217ae       _lstrlenA@4                100337ae f   kernel32:KERNEL32.dll
+ 0002:000217b4       _GetProcAddress@8          100337b4 f   kernel32:KERNEL32.dll
+ 0002:000217ba       _LoadLibraryW@4            100337ba f   kernel32:KERNEL32.dll
+ 0002:000217c0       _IsProcessorFeaturePresent@4 100337c0 f   kernel32:KERNEL32.dll
+ 0002:000217c6       _TerminateProcess@8        100337c6 f   kernel32:KERNEL32.dll
+ 0002:000217cc       _GetCurrentProcess@0       100337cc f   kernel32:KERNEL32.dll
+ 0002:000217d2       _UnhandledExceptionFilter@4 100337d2 f   kernel32:KERNEL32.dll
+ 0002:000217d8       _SetUnhandledExceptionFilter@4 100337d8 f   kernel32:KERNEL32.dll
+ 0002:000217de       _QueryPerformanceCounter@4 100337de f   kernel32:KERNEL32.dll
+ 0002:000217e4       _GetTickCount@0            100337e4 f   kernel32:KERNEL32.dll
+ 0002:000217ea       _GetCurrentThreadId@0      100337ea f   kernel32:KERNEL32.dll
+ 0002:000217f0       _GetCurrentProcessId@0     100337f0 f   kernel32:KERNEL32.dll
+ 0002:000217f6       _GetSystemTimeAsFileTime@4 100337f6 f   kernel32:KERNEL32.dll
+ 0002:000217fc       _DisableThreadLibraryCalls@4 100337fc f   kernel32:KERNEL32.dll
+ 0002:00021802       _HeapFree@12               10033802 f   kernel32:KERNEL32.dll
+ 0002:00021808       _HeapAlloc@12              10033808 f   kernel32:KERNEL32.dll
+ 0002:0002180e       _GetProcessHeap@0          1003380e f   kernel32:KERNEL32.dll
+ 0002:00021814       _GetModuleFileNameW@12     10033814 f   kernel32:KERNEL32.dll
+ 0002:0002181a       _VirtualQuery@12           1003381a f   kernel32:KERNEL32.dll
+ 0002:00021820       _GetModuleHandleW@4        10033820 f   kernel32:KERNEL32.dll
+ 0002:00021826       _FreeLibrary@4             10033826 f   kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    10037000     MSVCRTD:cinitexe.obj
+ 0003:00000218       ___xc_z                    10037218     MSVCRTD:cinitexe.obj
+ 0003:0000031c       ___xi_a                    1003731c     MSVCRTD:cinitexe.obj
+ 0003:00000628       ___xi_z                    10037628     MSVCRTD:cinitexe.obj
+ 0003:0000074c       ?value@?$integral_constant@_N$0A@@tr1@std@@2_NB 1003774c     ImathBox.obj
+ 0003:0000074d       ?value@?$integral_constant@_N$00@tr1@std@@2_NB 1003774d     ImathBox.obj
+ 0003:00000750       ?value@?$integral_constant@I$0A@@tr1@std@@2IB 10037750     ImathBox.obj
+ 0003:00000754       ?_Rank@?$_Arithmetic_traits@_N@std@@2HB 10037754     ImathBox.obj
+ 0003:00000758       ?_Rank@?$_Arithmetic_traits@D@std@@2HB 10037758     ImathBox.obj
+ 0003:0000075c       ?_Rank@?$_Arithmetic_traits@C@std@@2HB 1003775c     ImathBox.obj
+ 0003:00000760       ?_Rank@?$_Arithmetic_traits@E@std@@2HB 10037760     ImathBox.obj
+ 0003:00000764       ?_Rank@?$_Arithmetic_traits@F@std@@2HB 10037764     ImathBox.obj
+ 0003:00000768       ?_Rank@?$_Arithmetic_traits@G@std@@2HB 10037768     ImathBox.obj
+ 0003:0000076c       ?_Rank@?$_Arithmetic_traits@H@std@@2HB 1003776c     ImathBox.obj
+ 0003:00000770       ?_Rank@?$_Arithmetic_traits@I@std@@2HB 10037770     ImathBox.obj
+ 0003:00000774       ?_Rank@?$_Arithmetic_traits@J@std@@2HB 10037774     ImathBox.obj
+ 0003:00000778       ?_Rank@?$_Arithmetic_traits@K@std@@2HB 10037778     ImathBox.obj
+ 0003:0000077c       ?_Rank@?$_Arithmetic_traits@_J@std@@2HB 1003777c     ImathBox.obj
+ 0003:00000780       ?_Rank@?$_Arithmetic_traits@_K@std@@2HB 10037780     ImathBox.obj
+ 0003:00000784       ?_Rank@?$_Arithmetic_traits@M@std@@2HB 10037784     ImathBox.obj
+ 0003:00000788       ?_Rank@?$_Arithmetic_traits@N@std@@2HB 10037788     ImathBox.obj
+ 0003:0000078c       ?_Rank@?$_Arithmetic_traits@O@std@@2HB 1003778c     ImathBox.obj
+ 0003:00000790       ?collate@?$_Locbase@H@std@@2HB 10037790     ImathBox.obj
+ 0003:00000794       ?ctype@?$_Locbase@H@std@@2HB 10037794     ImathBox.obj
+ 0003:00000798       ?monetary@?$_Locbase@H@std@@2HB 10037798     ImathBox.obj
+ 0003:0000079c       ?numeric@?$_Locbase@H@std@@2HB 1003779c     ImathBox.obj
+ 0003:000007a0       ?time@?$_Locbase@H@std@@2HB 100377a0     ImathBox.obj
+ 0003:000007a4       ?messages@?$_Locbase@H@std@@2HB 100377a4     ImathBox.obj
+ 0003:000007a8       ?all@?$_Locbase@H@std@@2HB 100377a8     ImathBox.obj
+ 0003:000007ac       ?none@?$_Locbase@H@std@@2HB 100377ac     ImathBox.obj
+ 0003:000007b0       ?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377b0     ImathBox.obj
+ 0003:000007b4       ?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377b4     ImathBox.obj
+ 0003:000007b8       ?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377b8     ImathBox.obj
+ 0003:000007bc       ?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377bc     ImathBox.obj
+ 0003:000007c0       ?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377c0     ImathBox.obj
+ 0003:000007c4       ?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377c4     ImathBox.obj
+ 0003:000007c8       ?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377c8     ImathBox.obj
+ 0003:000007cc       ?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377cc     ImathBox.obj
+ 0003:000007d0       ?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377d0     ImathBox.obj
+ 0003:000007d4       ?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377d4     ImathBox.obj
+ 0003:000007d8       ?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377d8     ImathBox.obj
+ 0003:000007dc       ?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377dc     ImathBox.obj
+ 0003:000007e0       ?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377e0     ImathBox.obj
+ 0003:000007e4       ?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377e4     ImathBox.obj
+ 0003:000007e8       ?hexfloat@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377e8     ImathBox.obj
+ 0003:000007ec       ?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377ec     ImathBox.obj
+ 0003:000007f0       ?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377f0     ImathBox.obj
+ 0003:000007f4       ?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377f4     ImathBox.obj
+ 0003:000007f8       ?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377f8     ImathBox.obj
+ 0003:000007fc       ?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100377fc     ImathBox.obj
+ 0003:00000800       ?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B 10037800     ImathBox.obj
+ 0003:00000804       ?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B 10037804     ImathBox.obj
+ 0003:00000808       ?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B 10037808     ImathBox.obj
+ 0003:0000080c       ?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B 1003780c     ImathBox.obj
+ 0003:00000810       ?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B 10037810     ImathBox.obj
+ 0003:00000814       ?in@?$_Iosb@H@std@@2W4_Openmode@12@B 10037814     ImathBox.obj
+ 0003:00000818       ?out@?$_Iosb@H@std@@2W4_Openmode@12@B 10037818     ImathBox.obj
+ 0003:0000081c       ?ate@?$_Iosb@H@std@@2W4_Openmode@12@B 1003781c     ImathBox.obj
+ 0003:00000820       ?app@?$_Iosb@H@std@@2W4_Openmode@12@B 10037820     ImathBox.obj
+ 0003:00000824       ?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B 10037824     ImathBox.obj
+ 0003:00000828       ?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B 10037828     ImathBox.obj
+ 0003:0000082c       ?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B 1003782c     ImathBox.obj
+ 0003:00000830       ?binary@?$_Iosb@H@std@@2W4_Openmode@12@B 10037830     ImathBox.obj
+ 0003:00000834       ?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B 10037834     ImathBox.obj
+ 0003:00000838       ?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B 10037838     ImathBox.obj
+ 0003:0000083c       ?end@?$_Iosb@H@std@@2W4_Seekdir@12@B 1003783c     ImathBox.obj
+ 0003:00000840       __real@4018000000000000    10037840     ImathColorAlgo.obj
+ 0003:00000850       __real@3ff0000000000000    10037850     ImathColorAlgo.obj
+ 0003:00000860       __real@0000000000000000    10037860     ImathColorAlgo.obj
+ 0003:00000870       __real@4010000000000000    10037870     ImathColorAlgo.obj
+ 0003:00000880       __real@4000000000000000    10037880     ImathColorAlgo.obj
+ 0003:00000890       __real@3cb0000000000000    10037890     ImathMatrixAlgo.obj
+ 0003:0000089c       __real@00000000            1003789c     ImathMatrixAlgo.obj
+ 0003:000008a0       __real@3f800000            100378a0     ImathMatrixAlgo.obj
+ 0003:000008b0       __mask@@NegFloat@          100378b0     ImathMatrixAlgo.obj
+ 0003:000008d0       __mask@@NegDouble@         100378d0     ImathMatrixAlgo.obj
+ 0003:000008e4       __real@bf800000            100378e4     ImathMatrixAlgo.obj
+ 0003:000008e8       __real@bff0000000000000    100378e8     ImathMatrixAlgo.obj
+ 0003:000008f4       __real@34000000            100378f4     ImathMatrixAlgo.obj
+ 0003:000008f8       ??_C@_1JA@DBMECOPL@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@ 100378f8     ImathMatrixAlgo.obj
+ 0003:000009a4       ??_C@_1CE@IGJMOCCK@?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAo?$AAp?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AA?$AA@ 100379a4     ImathMatrixAlgo.obj
+ 0003:000009e8       __real@3fe0000000000000    100379e8     ImathVec.obj
+ 0003:000009f4       ??_C@_0BO@HFPFHIEE@Cannot?5normalize?5null?5vector?4?$AA@ 100379f4     ImathVec.obj
+ 0003:00000a1c       ??_7NullVecExc@Imath@@6B@  10037a1c     ImathVec.obj
+ 0003:00000a2c       ??_7MathExc@Iex@@6B@       10037a2c     ImathVec.obj
+ 0003:00000a38       ?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB 10037a38     ImathVec.obj
+ 0003:00000a3c       ??_C@_0BA@JFNIOLAK@string?5too?5long?$AA@ 10037a3c     ImathVec.obj
+ 0003:00000a50       ??_C@_0BI@CFPLBAOH@invalid?5string?5position?$AA@ 10037a50     ImathVec.obj
+ 0003:00000a70       ??_C@_0EN@JLBBIMKH@Cannot?5normalize?5an?5integer?5vect@ 10037a70     ImathVec.obj
+ 0003:00000ad0       ??_7IntVecNormalizeExc@Imath@@6B@ 10037ad0     ImathVec.obj
+ 0003:00000ae0       ??_7bad_alloc@std@@6B@     10037ae0     ImathVec.obj
+ 0003:00000af0       ??_7type_info@@6B@         10037af0     MSVCRTD:ti_inst.obj
+ 0003:00000af8       __pDefaultRawDllMain       10037af8     MSVCRTD:crtdll.obj
+ 0003:00000af8       __pRawDllMain              10037af8     MSVCRTD:crtdll.obj
+ 0003:00000afc       ??_C@_0DA@FJPPCPEH@f?3?2dd?2vctools?2crt_bld?2self_x86?2c@ 10037afc     MSVCRTD:crtdll.obj
+ 0003:00000b38       ??_C@_0BO@GNIAFIKK@Unknown?5Runtime?5Check?5Error?6?$AN?$AA@ 10037b38     MSVCRTD:_error_.obj
+ 0003:00000b5c       ??_C@_0CM@NGINOKPC@Stack?5memory?5around?5_alloca?5was?5@ 10037b5c     MSVCRTD:_error_.obj
+ 0003:00000b90       ??_C@_0DG@HKJMLLLP@A?5local?5variable?5was?5used?5before@ 10037b90     MSVCRTD:_error_.obj
+ 0003:00000bd0       ??_C@_0BN@FFOINMNJ@Stack?5memory?5was?5corrupted?6?$AN?$AA@ 10037bd0     MSVCRTD:_error_.obj
+ 0003:00000bf8       ??_C@_0BBN@GPMLNJCF@A?5cast?5to?5a?5smaller?5data?5type?5ha@ 10037bf8     MSVCRTD:_error_.obj
+ 0003:00000d50       ??_C@_0NN@NGPKDKPD@The?5value?5of?5ESP?5was?5not?5properl@ 10037d50     MSVCRTD:_error_.obj
+ 0003:00000f18       ??_C@_0CA@IODNCDPG@Run?9Time?5Check?5Failure?5?$CD?$CFd?5?9?5?$CFs?$AA@ 10037f18     MSVCRTD:_error_.obj
+ 0003:00000f40       ??_C@_0BE@GNBOBNCK@Unknown?5Module?5Name?$AA@ 10037f40     MSVCRTD:_error_.obj
+ 0003:00000f58       ??_C@_0BB@PFFGGCJP@Unknown?5Filename?$AA@ 10037f58     MSVCRTD:_error_.obj
+ 0003:00000f70       ??_C@_1EA@NFKNIFJP@?$AAR?$AAu?$AAn?$AA?9?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AA?5?$AA?$CD?$AA?$CF?$AAd?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 10037f70     MSVCRTD:_error_.obj
+ 0003:00000fc0       ??_C@_1GM@OLMCBDMB@?$AAR?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?4?$AA?6?$AA?$AN?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo@ 10037fc0     MSVCRTD:_error_.obj
+ 0003:00001044       ??_C@_0CG@IAFNJNEE@Stack?5corrupted?5near?5unknown?5var@ 10038044     MSVCRTD:_error_.obj
+ 0003:00001078       ??_C@_0EJ@LJKNEOLN@Stack?5area?5around?5_alloca?5memory@ 10038078     MSVCRTD:_error_.obj
+ 0003:000010d0       ??_C@_08KJEDNCKC@?$CFs?$CFs?$CFs?$CFs?$AA@ 100380d0     MSVCRTD:_error_.obj
+ 0003:000010dc       ??_C@_02LLMPMKNF@?$DO?5?$AA@ 100380dc     MSVCRTD:_error_.obj
+ 0003:000010e0       ??_C@_01EEMJAFIK@?6?$AA@   100380e0     MSVCRTD:_error_.obj
+ 0003:000010e4       ??_C@_0BC@KIBAILCI@?$CFs?$CFs?$CFp?$CFs?$CFld?$CFs?$CFd?$CFs?$AA@ 100380e4     MSVCRTD:_error_.obj
+ 0003:00001100       ??_C@_0EI@CLEPFNGI@Stack?5area?5around?5_alloca?5memory@ 10038100     MSVCRTD:_error_.obj
+ 0003:00001158       ??_C@_0N@MHFFIMFG@?6Address?3?50x?$AA@ 10038158     MSVCRTD:_error_.obj
+ 0003:00001168       ??_C@_07DFDJCKFN@?6Size?3?5?$AA@ 10038168     MSVCRTD:_error_.obj
+ 0003:00001174       ??_C@_0CK@DKGBICFE@?6Allocation?5number?5within?5this?5f@ 10038174     MSVCRTD:_error_.obj
+ 0003:000011a8       ??_C@_08OMAHNMHJ@?6Data?3?5?$DM?$AA@ 100381a8     MSVCRTD:_error_.obj
+ 0003:000011b4       ??_C@_09FOPFMPEJ@wsprintfA?$AA@ 100381b4     MSVCRTD:_error_.obj
+ 0003:000011c0       ??_C@_1BG@OILDLIOJ@?$AAu?$AAs?$AAe?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@ 100381c0     MSVCRTD:_error_.obj
+ 0003:000011dc       ??_C@_05MKKEDADM@?$CF?42X?5?$AA@ 100381dc     MSVCRTD:_error_.obj
+ 0003:000011e4       ??_C@_0DE@OHJBPMBP@A?5variable?5is?5being?5used?5without@ 100381e4     MSVCRTD:_error_.obj
+ 0003:00001224       ??_C@_0BP@OGBCLIBO@Stack?5around?5_alloca?5corrupted?$AA@ 10038224     MSVCRTD:_userapi_.obj
+ 0003:0000124c       ??_C@_0CK@CNLNOEPB@Local?5variable?5used?5before?5initi@ 1003824c     MSVCRTD:_userapi_.obj
+ 0003:00001280       ??_C@_0BI@CIGMDCBH@Stack?5memory?5corruption?$AA@ 10038280     MSVCRTD:_userapi_.obj
+ 0003:0000129c       ??_C@_0CK@FEGOIOPB@Cast?5to?5smaller?5type?5causing?5los@ 1003829c     MSVCRTD:_userapi_.obj
+ 0003:000012d0       ??_C@_0BJ@HEGAHDFO@Stack?5pointer?5corruption?$AA@ 100382d0     MSVCRTD:_userapi_.obj
+ 0003:00001314       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 10038314     MSVCRTD:tncleanup.obj
+ 0003:00001318       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 10038318     MSVCRTD:tncleanup.obj
+ 0003:0000131c       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 1003831c     MSVCRTD:tncleanup.obj
+ 0003:00001320       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 10038320     MSVCRTD:tncleanup.obj
+ 0003:00001324       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 10038324     MSVCRTD:tncleanup.obj
+ 0003:0000136c       ??_C@_01KDCPPGHE@r?$AA@    1003836c     MSVCRTD:_pdblkup_.obj
+ 0003:00001370       ??_C@_0BB@KCIACLNC@PDBOpenValidate5?$AA@ 10038370     MSVCRTD:_pdblkup_.obj
+ 0003:00001384       ??_C@_1CK@HHHCOJPD@?$AAE?$AAn?$AAv?$AAi?$AAr?$AAo?$AAn?$AAm?$AAe?$AAn?$AAt?$AAD?$AAi?$AAr?$AAe?$AAc?$AAt?$AAo?$AAr?$AAy?$AA?$AA@ 10038384     MSVCRTD:_pdblkup_.obj
+ 0003:000013b8       ??_C@_1FM@DNCABAP@?$AAS?$AAO?$AAF?$AAT?$AAW?$AAA?$AAR?$AAE?$AA?2?$AAM?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt?$AA?2?$AAV?$AAi?$AAs?$AAu?$AAa?$AAl?$AAS?$AAt?$AAu?$AAd?$AAi?$AAo?$AA?2@ 100383b8     MSVCRTD:_pdblkup_.obj
+ 0003:00001428       ??_C@_0M@HLOHPNFA@RegCloseKey?$AA@ 10038428     MSVCRTD:_pdblkup_.obj
+ 0003:00001438       ??_C@_0BB@GLNAEDBD@RegQueryValueExW?$AA@ 10038438     MSVCRTD:_pdblkup_.obj
+ 0003:0000144c       ??_C@_0O@COHOBMLB@RegOpenKeyExW?$AA@ 1003844c     MSVCRTD:_pdblkup_.obj
+ 0003:0000145c       ??_C@_1BK@GAEMIDIL@?$AAA?$AAD?$AAV?$AAA?$AAP?$AAI?$AA3?$AA2?$AA?4?$AAD?$AAL?$AAL?$AA?$AA@ 1003845c     MSVCRTD:_pdblkup_.obj
+ 0003:000017a4       ??_R4NullVecExc@Imath@@6B@ 100387a4     ImathVec.obj
+ 0003:000017bc       ??_R3NullVecExc@Imath@@8   100387bc     ImathVec.obj
+ 0003:000017d0       ??_R2NullVecExc@Imath@@8   100387d0     ImathVec.obj
+ 0003:000017f4       ??_R1A@?0A@EA@NullVecExc@Imath@@8 100387f4     ImathVec.obj
+ 0003:00001818       ??_R1A@?0A@EA@MathExc@Iex@@8 10038818     ImathVec.obj
+ 0003:0000183c       ??_R3MathExc@Iex@@8        1003883c     ImathVec.obj
+ 0003:00001850       ??_R2MathExc@Iex@@8        10038850     ImathVec.obj
+ 0003:00001870       ??_R1A@?0A@EA@BaseExc@Iex@@8 10038870     ImathVec.obj
+ 0003:00001894       ??_R3BaseExc@Iex@@8        10038894     ImathVec.obj
+ 0003:000018a8       ??_R2BaseExc@Iex@@8        100388a8     ImathVec.obj
+ 0003:000018c4       ??_R1M@?0A@EA@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 100388c4     ImathVec.obj
+ 0003:000018e8       ??_R3?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 100388e8     ImathVec.obj
+ 0003:000018fc       ??_R2?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 100388fc     ImathVec.obj
+ 0003:0000190c       ??_R1A@?0A@EA@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 1003890c     ImathVec.obj
+ 0003:00001930       ??_R1A@?0A@EA@?$_String_val@DV?$allocator@D@std@@@std@@8 10038930     ImathVec.obj
+ 0003:00001954       ??_R3?$_String_val@DV?$allocator@D@std@@@std@@8 10038954     ImathVec.obj
+ 0003:00001968       ??_R2?$_String_val@DV?$allocator@D@std@@@std@@8 10038968     ImathVec.obj
+ 0003:00001974       ??_R1A@?0A@EA@_Container_base12@std@@8 10038974     ImathVec.obj
+ 0003:00001998       ??_R3_Container_base12@std@@8 10038998     ImathVec.obj
+ 0003:000019ac       ??_R2_Container_base12@std@@8 100389ac     ImathVec.obj
+ 0003:000019b4       ??_R1M@?0A@EA@?$_String_val@DV?$allocator@D@std@@@std@@8 100389b4     ImathVec.obj
+ 0003:000019d8       ??_R1M@?0A@EA@_Container_base12@std@@8 100389d8     ImathVec.obj
+ 0003:000019fc       ??_R1A@?0A@EA@exception@std@@8 100389fc     ImathVec.obj
+ 0003:00001a20       ??_R3exception@std@@8      10038a20     ImathVec.obj
+ 0003:00001a34       ??_R2exception@std@@8      10038a34     ImathVec.obj
+ 0003:00001a3c       ??_R4MathExc@Iex@@6B@      10038a3c     ImathVec.obj
+ 0003:00001a54       ??_R4IntVecNormalizeExc@Imath@@6B@ 10038a54     ImathVec.obj
+ 0003:00001a6c       ??_R3IntVecNormalizeExc@Imath@@8 10038a6c     ImathVec.obj
+ 0003:00001a80       ??_R2IntVecNormalizeExc@Imath@@8 10038a80     ImathVec.obj
+ 0003:00001aa4       ??_R1A@?0A@EA@IntVecNormalizeExc@Imath@@8 10038aa4     ImathVec.obj
+ 0003:00001ac8       ??_R4bad_alloc@std@@6B@    10038ac8     ImathVec.obj
+ 0003:00001ae0       ??_R3bad_alloc@std@@8      10038ae0     ImathVec.obj
+ 0003:00001af4       ??_R2bad_alloc@std@@8      10038af4     ImathVec.obj
+ 0003:00001b00       ??_R1A@?0A@EA@bad_alloc@std@@8 10038b00     ImathVec.obj
+ 0003:00001b24       ??_R4type_info@@6B@        10038b24     MSVCRTD:ti_inst.obj
+ 0003:00001b3c       ??_R3type_info@@8          10038b3c     MSVCRTD:ti_inst.obj
+ 0003:00001b50       ??_R2type_info@@8          10038b50     MSVCRTD:ti_inst.obj
+ 0003:00001b58       ??_R1A@?0A@EA@type_info@@8 10038b58     MSVCRTD:ti_inst.obj
+ 0003:00001c94       ___rtc_iaa                 10038c94     MSVCRTD:_initsect_.obj
+ 0003:00001eb0       ___rtc_izz                 10038eb0     MSVCRTD:_initsect_.obj
+ 0003:00001fb4       ___rtc_taa                 10038fb4     MSVCRTD:_initsect_.obj
+ 0003:000021d0       ___rtc_tzz                 100391d0     MSVCRTD:_initsect_.obj
+ 0003:000022d8       __TI7?AVNullVecExc@Imath@@ 100392d8     ImathVec.obj
+ 0003:000022ec       __CTA7?AVNullVecExc@Imath@@ 100392ec     ImathVec.obj
+ 0003:00002310       __CT??_R0?AVNullVecExc@Imath@@@8??0NullVecExc@Imath@@QAE@ABV01@@Z76 10039310     ImathVec.obj
+ 0003:00002330       __CT??_R0?AVMathExc@Iex@@@8??0MathExc@Iex@@QAE@ABV01@@Z76 10039330     ImathVec.obj
+ 0003:00002350       __CT??_R0?AVBaseExc@Iex@@@8??0BaseExc@Iex@@QAE@ABV01@@Z76 10039350     ImathVec.obj
+ 0003:00002370       __CT??_R0?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z3212 10039370     ImathVec.obj
+ 0003:00002390       __CT??_R0?AV?$_String_val@DV?$allocator@D@std@@@std@@@8??0?$_String_val@DV?$allocator@D@std@@@std@@QAE@ABV01@@Z3212 10039390     ImathVec.obj
+ 0003:000023b0       __CT??_R0?AU_Container_base12@std@@@8??0_Container_base12@std@@QAE@ABU01@@Z412 100393b0     ImathVec.obj
+ 0003:000023d0       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 100393d0     ImathVec.obj
+ 0003:0000251c       __TI7?AVIntVecNormalizeExc@Imath@@ 1003951c     ImathVec.obj
+ 0003:00002530       __CTA7?AVIntVecNormalizeExc@Imath@@ 10039530     ImathVec.obj
+ 0003:00002554       __CT??_R0?AVIntVecNormalizeExc@Imath@@@8??0IntVecNormalizeExc@Imath@@QAE@ABV01@@Z76 10039554     ImathVec.obj
+ 0003:00002574       __TI2?AVbad_alloc@std@@    10039574     ImathVec.obj
+ 0003:00002588       __CTA2?AVbad_alloc@std@@   10039588     ImathVec.obj
+ 0003:00002598       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 10039598     ImathVec.obj
+ 0004:00000000       ??_R0?AVNullVecExc@Imath@@@8 1003a000     ImathVec.obj
+ 0004:00000028       ??_R0?AVMathExc@Iex@@@8    1003a028     ImathVec.obj
+ 0004:00000048       ??_R0?AVBaseExc@Iex@@@8    1003a048     ImathVec.obj
+ 0004:00000068       ??_R0?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 1003a068     ImathVec.obj
+ 0004:000000c0       ??_R0?AV?$_String_val@DV?$allocator@D@std@@@std@@@8 1003a0c0     ImathVec.obj
+ 0004:00000100       ??_R0?AU_Container_base12@std@@@8 1003a100     ImathVec.obj
+ 0004:0000012c       ??_R0?AVexception@std@@@8  1003a12c     ImathVec.obj
+ 0004:00000150       ??_R0?AVIntVecNormalizeExc@Imath@@@8 1003a150     ImathVec.obj
+ 0004:00000180       ??_R0?AVbad_alloc@std@@@8  1003a180     ImathVec.obj
+ 0004:000001b0       ___security_cookie         1003a1b0     MSVCRTD:gs_cookie.obj
+ 0004:000001b4       ___security_cookie_complement 1003a1b4     MSVCRTD:gs_cookie.obj
+ 0004:000001c0       ??_R0?AVtype_info@@@8      1003a1c0     MSVCRTD:ti_inst.obj
+ 0004:000001dc       ?_RTC_ErrorLevels@@3PAHA   1003a1dc     MSVCRTD:_error_.obj
+ 0004:000001f4       ___native_dllmain_reason   1003a1f4     MSVCRTD:natstart.obj
+ 0004:000001f8       ___native_vcclrit_reason   1003a1f8     MSVCRTD:natstart.obj
+ 0004:00000310       ?identity33d@Imath@@3V?$Matrix33@N@1@A 1003a310     ImathMatrixAlgo.obj
+ 0004:00000358       ?identity44d@Imath@@3V?$Matrix44@N@1@A 1003a358     ImathMatrixAlgo.obj
+ 0004:000003d8       ?identity44f@Imath@@3V?$Matrix44@M@1@A 1003a3d8     ImathMatrixAlgo.obj
+ 0004:00000418       ?identity33f@Imath@@3V?$Matrix33@M@1@A 1003a418     ImathMatrixAlgo.obj
+ 0004:00000478       ?staticState@?A0xf39c232e@Imath@@3PAGA 1003a478     ImathRandom.obj
+ 0004:00000484       ?wsprintffp@@3P6AHPADPBDZZA 1003a484     MSVCRTD:_error_.obj
+ 0004:0000085c       ?__type_info_root_node@@3U__type_info_node@@A 1003a85c     MSVCRTD:tncleanup.obj
+ 0004:00000870       ___native_startup_state    1003a870     <common>
+ 0004:00000880       ___native_startup_lock     1003a880     <common>
+ 0004:00000884       ___onexitend               1003a884     <common>
+ 0004:00000894       ___onexitbegin             1003a894     <common>
+ 0004:00000898       ___sse2_available          1003a898     <common>
+ 0004:000008a4       ___dyn_tls_init_callback   1003a8a4     <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_Iex    1003b000     Iex:Iex.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCP100D 1003b014     msvcprtd:MSVCP100D.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_MSVCR100D 1003b028     MSVCRTD:MSVCR100D.dll
+ 0005:0000003c       __IMPORT_DESCRIPTOR_KERNEL32 1003b03c     kernel32:KERNEL32.dll
+ 0005:00000050       __NULL_IMPORT_DESCRIPTOR   1003b050     Iex:Iex.dll
+ 0005:0000027c       __imp_?what@BaseExc@Iex@@UBEPBDXZ 1003b27c     Iex:Iex.dll
+ 0005:00000280       __imp_??0BaseExc@Iex@@QAE@PBD@Z 1003b280     Iex:Iex.dll
+ 0005:00000284       __imp_??1BaseExc@Iex@@UAE@XZ 1003b284     Iex:Iex.dll
+ 0005:00000288       __imp_??0BaseExc@Iex@@QAE@ABV01@@Z 1003b288     Iex:Iex.dll
+ 0005:0000028c       \177Iex_NULL_THUNK_DATA    1003b28c     Iex:Iex.dll
+ 0005:000002b8       __imp__FreeLibrary@4       1003b2b8     kernel32:KERNEL32.dll
+ 0005:000002bc       __imp__GetModuleHandleW@4  1003b2bc     kernel32:KERNEL32.dll
+ 0005:000002c0       __imp__VirtualQuery@12     1003b2c0     kernel32:KERNEL32.dll
+ 0005:000002c4       __imp__GetModuleFileNameW@12 1003b2c4     kernel32:KERNEL32.dll
+ 0005:000002c8       __imp__GetProcessHeap@0    1003b2c8     kernel32:KERNEL32.dll
+ 0005:000002cc       __imp__HeapAlloc@12        1003b2cc     kernel32:KERNEL32.dll
+ 0005:000002d0       __imp__HeapFree@12         1003b2d0     kernel32:KERNEL32.dll
+ 0005:000002d4       __imp__DisableThreadLibraryCalls@4 1003b2d4     kernel32:KERNEL32.dll
+ 0005:000002d8       __imp__GetSystemTimeAsFileTime@4 1003b2d8     kernel32:KERNEL32.dll
+ 0005:000002dc       __imp__GetCurrentProcessId@0 1003b2dc     kernel32:KERNEL32.dll
+ 0005:000002e0       __imp__GetCurrentThreadId@0 1003b2e0     kernel32:KERNEL32.dll
+ 0005:000002e4       __imp__GetTickCount@0      1003b2e4     kernel32:KERNEL32.dll
+ 0005:000002e8       __imp__QueryPerformanceCounter@4 1003b2e8     kernel32:KERNEL32.dll
+ 0005:000002ec       __imp__SetUnhandledExceptionFilter@4 1003b2ec     kernel32:KERNEL32.dll
+ 0005:000002f0       __imp__UnhandledExceptionFilter@4 1003b2f0     kernel32:KERNEL32.dll
+ 0005:000002f4       __imp__GetCurrentProcess@0 1003b2f4     kernel32:KERNEL32.dll
+ 0005:000002f8       __imp__TerminateProcess@8  1003b2f8     kernel32:KERNEL32.dll
+ 0005:000002fc       __imp__IsProcessorFeaturePresent@4 1003b2fc     kernel32:KERNEL32.dll
+ 0005:00000300       __imp__LoadLibraryW@4      1003b300     kernel32:KERNEL32.dll
+ 0005:00000304       __imp__GetProcAddress@8    1003b304     kernel32:KERNEL32.dll
+ 0005:00000308       __imp__lstrlenA@4          1003b308     kernel32:KERNEL32.dll
+ 0005:0000030c       __imp__RaiseException@16   1003b30c     kernel32:KERNEL32.dll
+ 0005:00000310       __imp__MultiByteToWideChar@24 1003b310     kernel32:KERNEL32.dll
+ 0005:00000314       __imp__IsDebuggerPresent@0 1003b314     kernel32:KERNEL32.dll
+ 0005:00000318       __imp__WideCharToMultiByte@32 1003b318     kernel32:KERNEL32.dll
+ 0005:0000031c       __imp__InterlockedCompareExchange@12 1003b31c     kernel32:KERNEL32.dll
+ 0005:00000320       __imp__Sleep@4             1003b320     kernel32:KERNEL32.dll
+ 0005:00000324       __imp__InterlockedExchange@8 1003b324     kernel32:KERNEL32.dll
+ 0005:00000328       __imp__DecodePointer@4     1003b328     kernel32:KERNEL32.dll
+ 0005:0000032c       __imp__EncodePointer@4     1003b32c     kernel32:KERNEL32.dll
+ 0005:00000330       \177KERNEL32_NULL_THUNK_DATA 1003b330     kernel32:KERNEL32.dll
+ 0005:00000374       __imp_?_Debug_message@std@@YAXPB_W0I@Z 1003b374     msvcprtd:MSVCP100D.dll
+ 0005:00000378       __imp_??1_Container_base12@std@@QAE@XZ 1003b378     msvcprtd:MSVCP100D.dll
+ 0005:0000037c       __imp_??0_Container_base12@std@@QAE@XZ 1003b37c     msvcprtd:MSVCP100D.dll
+ 0005:00000380       __imp_?_Orphan_all@_Container_base12@std@@QAEXXZ 1003b380     msvcprtd:MSVCP100D.dll
+ 0005:00000384       __imp_?_Xlength_error@std@@YAXPBD@Z 1003b384     msvcprtd:MSVCP100D.dll
+ 0005:00000388       __imp_?_Xout_of_range@std@@YAXPBD@Z 1003b388     msvcprtd:MSVCP100D.dll
+ 0005:0000038c       __imp_??0_Container_base12@std@@QAE@ABU01@@Z 1003b38c     msvcprtd:MSVCP100D.dll
+ 0005:00000390       \177MSVCP100D_NULL_THUNK_DATA 1003b390     msvcprtd:MSVCP100D.dll
+ 0005:000003c0       __imp___onexit             1003b3c0     MSVCRTD:MSVCR100D.dll
+ 0005:000003c4       __imp___except_handler4_common 1003b3c4     MSVCRTD:MSVCR100D.dll
+ 0005:000003c8       __imp___wmakepath_s        1003b3c8     MSVCRTD:MSVCR100D.dll
+ 0005:000003cc       __imp__wcscpy_s            1003b3cc     MSVCRTD:MSVCR100D.dll
+ 0005:000003d0       __imp___wsplitpath_s       1003b3d0     MSVCRTD:MSVCR100D.dll
+ 0005:000003d4       __imp___amsg_exit          1003b3d4     MSVCRTD:MSVCR100D.dll
+ 0005:000003d8       __imp___initterm_e         1003b3d8     MSVCRTD:MSVCR100D.dll
+ 0005:000003dc       __imp___initterm           1003b3dc     MSVCRTD:MSVCR100D.dll
+ 0005:000003e0       __imp___CrtSetCheckCount   1003b3e0     MSVCRTD:MSVCR100D.dll
+ 0005:000003e4       __imp___encoded_null       1003b3e4     MSVCRTD:MSVCR100D.dll
+ 0005:000003e8       __imp___free_dbg           1003b3e8     MSVCRTD:MSVCR100D.dll
+ 0005:000003ec       __imp___malloc_dbg         1003b3ec     MSVCRTD:MSVCR100D.dll
+ 0005:000003f0       __imp___CRT_RTC_INITW      1003b3f0     MSVCRTD:MSVCR100D.dll
+ 0005:000003f4       __imp___lock               1003b3f4     MSVCRTD:MSVCR100D.dll
+ 0005:000003f8       __imp_?what@exception@std@@UBEPBDXZ 1003b3f8     MSVCRTD:MSVCR100D.dll
+ 0005:000003fc       __imp_??0exception@std@@QAE@ABQBD@Z 1003b3fc     MSVCRTD:MSVCR100D.dll
+ 0005:00000400       __imp_??2@YAPAXI@Z         1003b400     MSVCRTD:MSVCR100D.dll
+ 0005:00000404       __imp__memmove             1003b404     MSVCRTD:MSVCR100D.dll
+ 0005:00000408       __imp____CxxFrameHandler3  1003b408     MSVCRTD:MSVCR100D.dll
+ 0005:0000040c       __imp_??3@YAXPAX@Z         1003b40c     MSVCRTD:MSVCR100D.dll
+ 0005:00000410       __imp_??0exception@std@@QAE@ABV01@@Z 1003b410     MSVCRTD:MSVCR100D.dll
+ 0005:00000414       __imp___CxxThrowException@8 1003b414     MSVCRTD:MSVCR100D.dll
+ 0005:00000418       __imp__sqrt                1003b418     MSVCRTD:MSVCR100D.dll
+ 0005:0000041c       __imp__memset              1003b41c     MSVCRTD:MSVCR100D.dll
+ 0005:00000420       __imp__memcpy              1003b420     MSVCRTD:MSVCR100D.dll
+ 0005:00000424       __imp__fabs                1003b424     MSVCRTD:MSVCR100D.dll
+ 0005:00000428       __imp__floor               1003b428     MSVCRTD:MSVCR100D.dll
+ 0005:0000042c       __imp____dllonexit         1003b42c     MSVCRTD:MSVCR100D.dll
+ 0005:00000430       __imp___unlock             1003b430     MSVCRTD:MSVCR100D.dll
+ 0005:00000434       __imp____CppXcptFilter     1003b434     MSVCRTD:MSVCR100D.dll
+ 0005:00000438       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 1003b438     MSVCRTD:MSVCR100D.dll
+ 0005:0000043c       __imp_?terminate@@YAXXZ    1003b43c     MSVCRTD:MSVCR100D.dll
+ 0005:00000440       __imp___crt_debugger_hook  1003b440     MSVCRTD:MSVCR100D.dll
+ 0005:00000444       __imp_??1exception@std@@UAE@XZ 1003b444     MSVCRTD:MSVCR100D.dll
+ 0005:00000448       __imp____clean_type_info_names_internal 1003b448     MSVCRTD:MSVCR100D.dll
+ 0005:0000044c       \177MSVCR100D_NULL_THUNK_DATA 1003b44c     MSVCRTD:MSVCR100D.dll
+
+ entry point at        0002:00000500
+
+
+ Exports
+
+  ordinal    name
+
+        1    ?identity33d@Imath@@3V?$Matrix33@N@1@A (class Imath::Matrix33<double> Imath::identity33d)
+        2    ?identity33f@Imath@@3V?$Matrix33@M@1@A (class Imath::Matrix33<float> Imath::identity33f)
+        3    ?identity44d@Imath@@3V?$Matrix44@N@1@A (class Imath::Matrix44<double> Imath::identity44d)
+        4    ?identity44f@Imath@@3V?$Matrix44@M@1@A (class Imath::Matrix44<float> Imath::identity44f)

@@ -1,0 +1,1693 @@
+﻿Build started 3/2/2013 2:40:43 AM.
+     1>Project "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\ImathTest\ImathTest.vcxproj" on node 8 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\ImathTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\Imath /I..\..\..\..\Half /I..\..\..\..\Iex /I..\..\..\..\ImathTest /Zi /nologo /W3 /WX- /Od /Oy- /D OPENEXR_DLL /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\ImathTest\main.cpp ..\..\..\..\ImathTest\testBox.cpp ..\..\..\..\ImathTest\testBoxAlgo.cpp ..\..\..\..\ImathTest\testColor.cpp ..\..\..\..\ImathTest\testExtractEuler.cpp ..\..\..\..\ImathTest\testExtractSHRT.cpp ..\..\..\..\ImathTest\testFrustum.cpp ..\..\..\..\ImathTest\testFrustumTest.cpp ..\..\..\..\ImathTest\testFun.cpp ..\..\..\..\ImathTest\testInvert.cpp ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp ..\..\..\..\ImathTest\testLineAlgo.cpp ..\..\..\..\ImathTest\testMatrix.cpp ..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp ..\..\..\..\ImathTest\testProcrustes.cpp ..\..\..\..\ImathTest\testQuat.cpp ..\..\..\..\ImathTest\testQuatSetRotation.cpp ..\..\..\..\ImathTest\testQuatSlerp.cpp ..\..\..\..\ImathTest\testRandom.cpp ..\..\..\..\ImathTest\testRoots.cpp ..\..\..\..\ImathTest\testShear.cpp ..\..\..\..\ImathTest\testTinySVD.cpp ..\..\..\..\ImathTest\testVec.cpp
+         main.cpp
+         testBox.cpp
+     1>..\..\..\..\ImathTest\testBox.cpp(119): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(978) : see reference to function template instantiation 'void `anonymous-namespace'::testConstructors<Imath::V2f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(133): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(134): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(119): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(983) : see reference to function template instantiation 'void `anonymous-namespace'::testConstructors<Imath::V3f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(133): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(134): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(119): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(988) : see reference to function template instantiation 'void `anonymous-namespace'::testConstructors<Imath::V4f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(133): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(134): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(249): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1030) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByPoint<Imath::V2s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(271): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(249): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1031) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByPoint<Imath::V2i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(271): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(249): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1035) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByPoint<Imath::V3s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(271): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(249): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1036) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByPoint<Imath::V3i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(271): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(249): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1040) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByPoint<Imath::V4s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(271): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(249): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1041) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByPoint<Imath::V4i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(271): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(348): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1048) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByBox<Imath::V2s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(349): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(348): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1049) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByBox<Imath::V2i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(349): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(348): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1053) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByBox<Imath::V3s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(349): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(348): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1054) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByBox<Imath::V3i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(349): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(348): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1058) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByBox<Imath::V4s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(349): warning C4244: '=' : conversion from 'float' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(348): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1059) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByBox<Imath::V4i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(349): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(644): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1086) : see reference to function template instantiation 'void `anonymous-namespace'::testSize<Imath::V2f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(644): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1091) : see reference to function template instantiation 'void `anonymous-namespace'::testSize<Imath::V3f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(644): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1096) : see reference to function template instantiation 'void `anonymous-namespace'::testSize<Imath::V4f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(704): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1102) : see reference to function template instantiation 'void `anonymous-namespace'::testCenter<Imath::V2s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(705): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(704): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1103) : see reference to function template instantiation 'void `anonymous-namespace'::testCenter<Imath::V2i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(705): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(704): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1104) : see reference to function template instantiation 'void `anonymous-namespace'::testCenter<Imath::V2f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(705): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(704): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1107) : see reference to function template instantiation 'void `anonymous-namespace'::testCenter<Imath::V3s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(705): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(704): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1108) : see reference to function template instantiation 'void `anonymous-namespace'::testCenter<Imath::V3i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(705): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(704): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1109) : see reference to function template instantiation 'void `anonymous-namespace'::testCenter<Imath::V3f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(705): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(704): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1112) : see reference to function template instantiation 'void `anonymous-namespace'::testCenter<Imath::V4s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(705): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(704): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1113) : see reference to function template instantiation 'void `anonymous-namespace'::testCenter<Imath::V4i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(705): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(704): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1114) : see reference to function template instantiation 'void `anonymous-namespace'::testCenter<Imath::V4f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(705): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(758): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1120) : see reference to function template instantiation 'void `anonymous-namespace'::testIsEmpty<Imath::V2s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(759): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(758): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1121) : see reference to function template instantiation 'void `anonymous-namespace'::testIsEmpty<Imath::V2i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(759): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(758): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1122) : see reference to function template instantiation 'void `anonymous-namespace'::testIsEmpty<Imath::V2f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(759): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(758): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1125) : see reference to function template instantiation 'void `anonymous-namespace'::testIsEmpty<Imath::V3s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(759): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(758): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1126) : see reference to function template instantiation 'void `anonymous-namespace'::testIsEmpty<Imath::V3i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(759): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(758): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1127) : see reference to function template instantiation 'void `anonymous-namespace'::testIsEmpty<Imath::V3f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(759): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(758): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1130) : see reference to function template instantiation 'void `anonymous-namespace'::testIsEmpty<Imath::V4s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(759): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(758): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1131) : see reference to function template instantiation 'void `anonymous-namespace'::testIsEmpty<Imath::V4i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(759): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(758): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1132) : see reference to function template instantiation 'void `anonymous-namespace'::testIsEmpty<Imath::V4f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(759): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(876): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1156) : see reference to function template instantiation 'void `anonymous-namespace'::testHasVolume<Imath::V2s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(877): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(876): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1157) : see reference to function template instantiation 'void `anonymous-namespace'::testHasVolume<Imath::V2i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(877): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(876): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1158) : see reference to function template instantiation 'void `anonymous-namespace'::testHasVolume<Imath::V2f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(877): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(876): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1161) : see reference to function template instantiation 'void `anonymous-namespace'::testHasVolume<Imath::V3s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(877): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(876): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1162) : see reference to function template instantiation 'void `anonymous-namespace'::testHasVolume<Imath::V3i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(877): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(876): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1163) : see reference to function template instantiation 'void `anonymous-namespace'::testHasVolume<Imath::V3f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(877): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(876): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1166) : see reference to function template instantiation 'void `anonymous-namespace'::testHasVolume<Imath::V4s>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(877): warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(876): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1167) : see reference to function template instantiation 'void `anonymous-namespace'::testHasVolume<Imath::V4i>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(877): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(876): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(1168) : see reference to function template instantiation 'void `anonymous-namespace'::testHasVolume<Imath::V4f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(877): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBox.cpp(63): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(76) : see reference to function template instantiation 'void `anonymous-namespace'::addItem<T>(const std::vector<_Ty> &,std::vector<T> &)' being compiled
+                 with
+                 [
+                     T=Imath::V2f,
+                     _Ty=int
+                 ]
+                 ..\..\..\..\ImathTest\testBox.cpp(95) : see reference to function template instantiation 'void `anonymous-namespace'::visit<T>(int &,int,int,std::vector<_Ty> &,std::vector<T> &)' being compiled
+                 with
+                 [
+                     T=Imath::V2f,
+                     _Ty=int
+                 ]
+                 ..\..\..\..\ImathTest\testBox.cpp(312) : see reference to function template instantiation 'void `anonymous-namespace'::permutations<T>(std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     T=Imath::V2f,
+                     _Ty=Imath::V2f
+                 ]
+                 ..\..\..\..\ImathTest\testBox.cpp(1050) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByBox<Imath::V2f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(63): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(76) : see reference to function template instantiation 'void `anonymous-namespace'::addItem<T>(const std::vector<_Ty> &,std::vector<T> &)' being compiled
+                 with
+                 [
+                     T=Imath::V3f,
+                     _Ty=int
+                 ]
+                 ..\..\..\..\ImathTest\testBox.cpp(95) : see reference to function template instantiation 'void `anonymous-namespace'::visit<T>(int &,int,int,std::vector<_Ty> &,std::vector<T> &)' being compiled
+                 with
+                 [
+                     T=Imath::V3f,
+                     _Ty=int
+                 ]
+                 ..\..\..\..\ImathTest\testBox.cpp(312) : see reference to function template instantiation 'void `anonymous-namespace'::permutations<T>(std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     T=Imath::V3f,
+                     _Ty=Imath::V3f
+                 ]
+                 ..\..\..\..\ImathTest\testBox.cpp(1055) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByBox<Imath::V3f>(const char *)' being compiled
+     1>..\..\..\..\ImathTest\testBox.cpp(63): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testBox.cpp(76) : see reference to function template instantiation 'void `anonymous-namespace'::addItem<T>(const std::vector<_Ty> &,std::vector<T> &)' being compiled
+                 with
+                 [
+                     T=Imath::V4f,
+                     _Ty=int
+                 ]
+                 ..\..\..\..\ImathTest\testBox.cpp(95) : see reference to function template instantiation 'void `anonymous-namespace'::visit<T>(int &,int,int,std::vector<_Ty> &,std::vector<T> &)' being compiled
+                 with
+                 [
+                     T=Imath::V4f,
+                     _Ty=int
+                 ]
+                 ..\..\..\..\ImathTest\testBox.cpp(312) : see reference to function template instantiation 'void `anonymous-namespace'::permutations<T>(std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     T=Imath::V4f,
+                     _Ty=Imath::V4f
+                 ]
+                 ..\..\..\..\ImathTest\testBox.cpp(1060) : see reference to function template instantiation 'void `anonymous-namespace'::testExtendByBox<Imath::V4f>(const char *)' being compiled
+         testBoxAlgo.cpp
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(84): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(84): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(84): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(128): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(175): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(175): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(175): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(185): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(185): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(185): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(479): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(479): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(479): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(523): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(559): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(559): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(559): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(586): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(586): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(586): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(596): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(596): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testBoxAlgo.cpp(596): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         testColor.cpp
+         testExtractEuler.cpp
+     1>..\..\..\..\ImathTest\testExtractEuler.cpp(50): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractEuler.cpp(51): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractEuler.cpp(131): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractEuler.cpp(132): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractEuler.cpp(133): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractEuler.cpp(144): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractEuler.cpp(208): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractEuler.cpp(208): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractEuler.cpp(208): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractEuler.cpp(217): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractEuler.cpp(221): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3289): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testExtractEuler.cpp(108) : see reference to function template instantiation 'std::ostream &Imath::operator <<<float>(std::ostream &,const Imath::Matrix44<T> &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3295): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+         testExtractSHRT.cpp
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(59): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(60): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(134): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(134): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(146): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(156): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(165): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(165): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(175): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(298): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(298): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(298): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(306): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(307): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(308): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(318): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(318): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(318): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(332): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(332): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(332): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(346): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(422): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(422): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testExtractSHRT.cpp(422): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3254): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testExtractSHRT.cpp(107) : see reference to function template instantiation 'std::ostream &Imath::operator <<<float>(std::ostream &,const Imath::Matrix33<T> &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3260): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3289): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testExtractSHRT.cpp(270) : see reference to function template instantiation 'std::ostream &Imath::operator <<<float>(std::ostream &,const Imath::Matrix44<T> &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3295): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+         testFrustum.cpp
+     1>..\..\..\..\ImathTest\testFrustum.cpp(56): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testFrustum.cpp(177): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testFrustum.cpp(181): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testFrustum.cpp(182): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testFrustum.cpp(279): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testFrustum.cpp(281): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testFrustum.cpp(283): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testFrustum.cpp(285): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testFrustum.cpp(287): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testFrustum.cpp(289): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         testFrustumTest.cpp
+     1>..\..\..\..\ImathTest\testFrustumTest.cpp(55): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testFrustumTest.cpp(59): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testFrustumTest.cpp(60): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         testFun.cpp
+     1>..\..\..\..\ImathTest\testFun.cpp(184): warning C4305: 'argument' : truncation from 'double' to 'float'
+         testInvert.cpp
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(112): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(117): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(122): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(123): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(143): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(143): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(143): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(143): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(147): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(152): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testInvert.cpp(153): warning C4305: 'argument' : truncation from 'double' to 'float'
+         testJacobiEigenSolver.cpp
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(137): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(251) : see reference to function template instantiation 'void testJacobiEigenSolver<Imath::Matrix33<T>>(const TM &)' being compiled
+                 with
+                 [
+                     T=float,
+                     TM=Imath::Matrix33<float>
+                 ]
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(288) : see reference to function template instantiation 'void testJacobiEigenSolverImp<float>(void)' being compiled
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(138): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(150): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(151): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(137): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(260) : see reference to function template instantiation 'void testJacobiEigenSolver<Imath::Matrix44<T>>(const TM &)' being compiled
+                 with
+                 [
+                     T=float,
+                     TM=Imath::Matrix44<float>
+                 ]
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(138): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(150): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(151): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(137): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(251) : see reference to function template instantiation 'void testJacobiEigenSolver<Imath::Matrix33<T>>(const TM &)' being compiled
+                 with
+                 [
+                     T=double,
+                     TM=Imath::Matrix33<double>
+                 ]
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(292) : see reference to function template instantiation 'void testJacobiEigenSolverImp<double>(void)' being compiled
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(138): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(150): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(151): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(137): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(260) : see reference to function template instantiation 'void testJacobiEigenSolver<Imath::Matrix44<T>>(const TM &)' being compiled
+                 with
+                 [
+                     T=double,
+                     TM=Imath::Matrix44<double>
+                 ]
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(138): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(150): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(151): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(121) : see reference to function template instantiation 'float computeThreshold<TM>(const TM &)' being compiled
+                 with
+                 [
+                     TM=Imath::Matrix33<float>
+                 ]
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(251) : see reference to function template instantiation 'void testJacobiEigenSolver<Imath::Matrix33<T>>(const TM &)' being compiled
+                 with
+                 [
+                     T=float,
+                     TM=Imath::Matrix33<float>
+                 ]
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(130) : see reference to function template instantiation 'void verifyOrthonormal<TM>(const TM &,const float)' being compiled
+                 with
+                 [
+                     TM=Imath::Matrix33<float>
+                 ]
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(121) : see reference to function template instantiation 'float computeThreshold<TM>(const TM &)' being compiled
+                 with
+                 [
+                     TM=Imath::Matrix44<float>
+                 ]
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(260) : see reference to function template instantiation 'void testJacobiEigenSolver<Imath::Matrix44<T>>(const TM &)' being compiled
+                 with
+                 [
+                     T=float,
+                     TM=Imath::Matrix44<float>
+                 ]
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(130) : see reference to function template instantiation 'void verifyOrthonormal<TM>(const TM &,const float)' being compiled
+                 with
+                 [
+                     TM=Imath::Matrix44<float>
+                 ]
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(121) : see reference to function template instantiation 'double computeThreshold<TM>(const TM &)' being compiled
+                 with
+                 [
+                     TM=Imath::Matrix33<double>
+                 ]
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(251) : see reference to function template instantiation 'void testJacobiEigenSolver<Imath::Matrix33<T>>(const TM &)' being compiled
+                 with
+                 [
+                     T=double,
+                     TM=Imath::Matrix33<double>
+                 ]
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(130) : see reference to function template instantiation 'void verifyOrthonormal<TM>(const TM &,const double)' being compiled
+                 with
+                 [
+                     TM=Imath::Matrix33<double>
+                 ]
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(121) : see reference to function template instantiation 'double computeThreshold<TM>(const TM &)' being compiled
+                 with
+                 [
+                     TM=Imath::Matrix44<double>
+                 ]
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(260) : see reference to function template instantiation 'void testJacobiEigenSolver<Imath::Matrix44<T>>(const TM &)' being compiled
+                 with
+                 [
+                     T=double,
+                     TM=Imath::Matrix44<double>
+                 ]
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(103): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(130) : see reference to function template instantiation 'void verifyOrthonormal<TM>(const TM &,const double)' being compiled
+                 with
+                 [
+                     TM=Imath::Matrix44<double>
+                 ]
+     1>..\..\..\..\ImathTest\testJacobiEigenSolver.cpp(88): warning C4018: '<' : signed/unsigned mismatch
+         testLineAlgo.cpp
+     1>..\..\..\..\ImathTest\testLineAlgo.cpp(347): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testLineAlgo.cpp(348): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testLineAlgo.cpp(393): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testLineAlgo.cpp(394): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         testMatrix.cpp
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2131): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testMatrix.cpp(239) : see reference to function template instantiation 'Imath::Matrix44<T> &Imath::Matrix44<T>::setValue<double>(const Imath::Matrix44<double> &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2132): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2133): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2134): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2135): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2136): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2137): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2138): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2139): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2140): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2141): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2142): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2143): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2144): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2145): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(2146): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3289): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testMatrix.cpp(451) : see reference to function template instantiation 'std::ostream &Imath::operator <<<float>(std::ostream &,const Imath::Matrix44<T> &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3295): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+         testMiscMatrixAlgo.cpp
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(57): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(62): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(71): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(71): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(71): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(81): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(81): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(81): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(130): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(130): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(130): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(132): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(133): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(134): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(139): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(139): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(139): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(160): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(160): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(160): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(174): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(190): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3289): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(209) : see reference to function template instantiation 'std::ostream &Imath::operator <<<float>(std::ostream &,const Imath::Matrix44<T> &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3295): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+     1>D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\Imath\ImathMatrixAlgo.h(1001): warning C4305: 'argument' : truncation from 'double' to 'float'
+                 ..\..\..\..\ImathTest\testMiscMatrixAlgo.cpp(235) : see reference to function template instantiation 'Imath::Matrix44<T> Imath::addOffset<float>(const Imath::Matrix44<T> &,const Imath::Vec3<T> &,const Imath::Vec3<T> &,const Imath::Vec3<T> &,const Imath::Matrix44<T> &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+         testProcrustes.cpp
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(349): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testProcrustes.cpp(398) : see reference to function template instantiation 'void testProcrustesImp<float>(void)' being compiled
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(349): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(359): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(359): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(359): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(360): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(360): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(360): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(378): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(387): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(71): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+                 ..\..\..\..\ImathTest\testProcrustes.cpp(304) : see reference to function template instantiation 'void testTranslationRotationMatrix<T>(const Imath::M44d &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 ..\..\..\..\ImathTest\testProcrustes.cpp(398) : see reference to function template instantiation 'void testProcrustesImp<float>(void)' being compiled
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(98): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+                 ..\..\..\..\ImathTest\testProcrustes.cpp(319) : see reference to function template instantiation 'void testWithTranslateRotateAndScale<T>(const Imath::M44d &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(103): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(173): warning C4244: '=' : conversion from 'size_t' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testProcrustes.cpp(351) : see reference to function template instantiation 'void verifyProcrustes<float>(const std::vector<_Ty> &,const std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     _Ty=Imath::Vec3<float>
+                 ]
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(181): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(245): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(98): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+                 ..\..\..\..\ImathTest\testProcrustes.cpp(319) : see reference to function template instantiation 'void testWithTranslateRotateAndScale<T>(const Imath::M44d &)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 ..\..\..\..\ImathTest\testProcrustes.cpp(401) : see reference to function template instantiation 'void testProcrustesImp<double>(void)' being compiled
+     1>..\..\..\..\ImathTest\testProcrustes.cpp(245): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\ImathTest\testProcrustes.cpp(351) : see reference to function template instantiation 'void verifyProcrustes<double>(const std::vector<_Ty> &,const std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     _Ty=Imath::Vec3<double>
+                 ]
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3289): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+                 ..\..\..\..\ImathTest\testProcrustes.cpp(50) : see reference to function template instantiation 'std::ostream &Imath::operator <<<double>(std::ostream &,const Imath::Matrix44<T> &)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 ..\..\..\..\ImathTest\testProcrustes.cpp(304) : see reference to function template instantiation 'void testTranslationRotationMatrix<T>(const Imath::M44d &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>d:\libraries\pvr_\3rdparty\openexr\ilmbase-1.0.3\imath\ImathMatrix.h(3295): warning C4244: '=' : conversion from 'std::streamsize' to 'int', possible loss of data
+         testQuat.cpp
+     1>..\..\..\..\ImathTest\testQuat.cpp(122): warning C4305: 'argument' : truncation from 'double' to 'float'
+                 ..\..\..\..\ImathTest\testQuat.cpp(267) : see reference to function template instantiation 'void `anonymous-namespace'::testQuatT<float>(void)' being compiled
+     1>..\..\..\..\ImathTest\testQuat.cpp(144): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testQuat.cpp(145): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testQuat.cpp(153): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testQuat.cpp(162): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testQuat.cpp(163): warning C4305: 'argument' : truncation from 'double' to 'float'
+         testQuatSetRotation.cpp
+     1>..\..\..\..\ImathTest\testQuatSetRotation.cpp(147): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testQuatSetRotation.cpp(148): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         testQuatSlerp.cpp
+     1>..\..\..\..\ImathTest\testQuatSlerp.cpp(126): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testQuatSlerp.cpp(138): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testQuatSlerp.cpp(169): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testQuatSlerp.cpp(170): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         testRandom.cpp
+     1>..\..\..\..\ImathTest\testRandom.cpp(179): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testRandom.cpp(244) : see reference to function template instantiation 'void `anonymous-namespace'::testGenerator<Imath::Rand32>(void)' being compiled
+     1>..\..\..\..\ImathTest\testRandom.cpp(182): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>..\..\..\..\ImathTest\testRandom.cpp(118): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 ..\..\..\..\ImathTest\testRandom.cpp(247) : see reference to function template instantiation 'void `anonymous-namespace'::testGenerator<Imath::Rand48>(void)' being compiled
+         testRoots.cpp
+         Generating Code...
+         Compiling...
+         testShear.cpp
+         testTinySVD.cpp
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(271): warning C4305: 'argument' : truncation from 'double' to 'const float'
+                 ..\..\..\..\ImathTest\testTinySVD.cpp(355) : see reference to function template instantiation 'void testTinySVDImp<float>(void)' being compiled
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(272): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(275): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(275): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(284): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(284): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(284): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(284): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(284): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(284): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(284): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(284): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(284): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(292): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(292): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(292): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(292): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(292): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(292): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(292): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(292): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(292): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(296): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(296): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(296): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(300): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(300): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(300): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(304): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(304): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(304): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(308): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(308): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(316): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(316): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(320): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(320): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(320): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(320): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(320): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(320): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(320): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(320): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(324): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(324): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(324): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(324): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(324): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(324): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(324): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(324): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(324): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(329): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(329): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(334): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(334): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(344): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(344): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(345): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>..\..\..\..\ImathTest\testTinySVD.cpp(345): warning C4305: 'argument' : truncation from 'double' to 'float'
+         testVec.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Win32\Release\ImathTest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\ImathTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Win32\Release\ImathTest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\Win32\Release\ImathTest.lib" /MACHINE:X86 Win32\Release\main.obj
+         Win32\Release\testBox.obj
+         Win32\Release\testBoxAlgo.obj
+         Win32\Release\testColor.obj
+         Win32\Release\testExtractEuler.obj
+         Win32\Release\testExtractSHRT.obj
+         Win32\Release\testFrustum.obj
+         Win32\Release\testFrustumTest.obj
+         Win32\Release\testFun.obj
+         Win32\Release\testInvert.obj
+         Win32\Release\testJacobiEigenSolver.obj
+         Win32\Release\testLineAlgo.obj
+         Win32\Release\testMatrix.obj
+         Win32\Release\testMiscMatrixAlgo.obj
+         Win32\Release\testProcrustes.obj
+         Win32\Release\testQuat.obj
+         Win32\Release\testQuatSetRotation.obj
+         Win32\Release\testQuatSlerp.obj
+         Win32\Release\testRandom.obj
+         Win32\Release\testRoots.obj
+         Win32\Release\testShear.obj
+         Win32\Release\testTinySVD.obj
+         Win32\Release\testVec.obj
+         "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Win32\Release\Half.lib"
+         "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Win32\Release\Iex.lib"
+         "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Win32\Release\Imath.lib"
+         ImathTest.vcxproj -> D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\ImathTest\..\Win32\Release\ImathTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Win32\Release\ImathTest.exe;#1" /manifest Win32\Release\ImathTest.exe.intermediate.manifest
+       PostBuildEvent:
+         Description: Running Imath unit tests...
+         D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\ImathTest\..\Win32\Release\ImathTest.exe
+         :VCEnd
+         Testing some basic vector operations
+         ok
+         
+         Testing functions in ImathColor.h & ImathColorAlgo.h
+         rgb2packed -> packed2rgb
+         Imath::Color4 * f
+         Imath::Color4 / f
+         Assignment and comparison
+         ok
+         
+         Testing functions in ImathShear.h
+         Imath::Shear6 constructors
+         Imath::Shear6 * f
+         Imath::Shear6 / f
+         Assignment and comparison
+         ok
+         
+         Testing functions in ImathMatrix.h
+         Imath::M33f shear functions
+         M33f constructors and equality operators
+         M33d constructors and equality operators
+         M44f constructors and equality operators
+         M44d constructors and equality operators
+         Converting between M33 and M44
+         3x3 Matrix minors
+         3x3 determinant
+         Outer product of two 3D vectors
+         4x4 determinants
+         4x4 matrix minors
+         M44 multiplicaftion test
+         ok
+         
+         Testing misc functions in ImathMatrixAlgo.h
+         Testing the building of an orthonormal direct frame from : a position, an x axis direction and a normal to the y axis
+         Imath::computeLocalFrame()
+         ok
+         
+         Add a translate/rotate/scale offset to an input frame and put it in another frame of reference
+         Imath::addOffset()
+         ok
+         
+         Compute Translate/Rotate/Scale matrix from matrix A 
+         with the Rotate/Scale of Matrix B
+         Imath::computeRSMatrix()
+         ok
+         
+         Testing functions in ImathRoots.h
+         
+         solveCubic
+         coefficients:   1   6  11   6  solutions: -3 -2 -1
+         coefficients:   2   2 -20  16  solutions: -4 1 2
+         coefficients:   3  -3   1  -1  solutions: 1
+         coefficients:   2   0 -24 -32  solutions: -2 4
+         coefficients:   1   0   0   0  solutions: -0
+         coefficients:   8 -24  24  -8  solutions: 1
+         coefficients:   0   2 -10  12  solutions: 2 3
+         coefficients:   0   1  -1 -20  solutions: -4 5
+         coefficients:   0   3 -12  12  solutions: 2
+         coefficients:   0   1   0   0  solutions: -0
+         coefficients:   0   1   0   1  solutions: none
+         coefficients:   0   0   3  -6  solutions: 2
+         coefficients:   0   0   5  15  solutions: -3
+         coefficients:   0   0   1   0  solutions: -0
+         coefficients:   0   0   0   1  solutions: none
+         coefficients:   0   0   0   0  solutions: [-inf, inf]
+         
+         solveQuadratic
+         coefficients:   1   3   2  solutions: -2 -1
+         coefficients:   1   0  -9  solutions: -3 3
+         coefficients:   1  -4   0  solutions: 0 4
+         coefficients:   2  -4   2  solutions: 1
+         coefficients:   0  -4   8  solutions: 2
+         coefficients:   0   7   0  solutions: -0
+         coefficients:  10   0   0  solutions: -0
+         coefficients:   0   0   0  solutions: [-inf, inf]
+         coefficients:   0   0   1  solutions: none
+         coefficients:   3  -6  30  solutions: none
+         ok
+         
+         Testing functions in ImathFun.h
+         floor
+         ceil
+         trunc
+         divs / mods
+         divp / modp
+         successor, predecessor
+         
+         f 0
+         sf 1.40129846e-045
+         pf -1.40129846e-045
+         spf -0
+         psf 0
+         
+         f -0
+         sf 1.40129846e-045
+         pf -1.40129846e-045
+         spf -0
+         psf 0
+         
+         f 1
+         sf 1.00000012
+         pf 0.99999994
+         spf 1
+         psf 1
+         
+         f -1
+         sf -0.99999994
+         pf -1.00000012
+         spf -1
+         psf -1
+         
+         f 16
+         sf 16.0000019
+         pf 15.999999
+         spf 16
+         psf 16
+         
+         f 7
+         sf 7.00000048
+         pf 6.99999952
+         spf 7
+         psf 7
+         
+         f 0.699999988
+         sf 0.700000048
+         pf 0.699999928
+         spf 0.699999988
+         psf 0.699999988
+         
+         f 1.#INF
+         sf 1.#INF
+         pf 1.#INF
+         spf 1.#INF
+         psf 1.#INF
+         
+         f 1.#QNAN
+         sf 1.#QNAN
+         pf 1.#QNAN
+         spf 1.#QNAN
+         psf 1.#QNAN
+         
+         f 3.40282347e+038
+         sf 1.#INF
+         pf 3.40282326e+038
+         spf 3.40282347e+038
+         psf 1.#INF
+         
+         f -3.40282347e+038
+         sf -3.40282326e+038
+         pf -1.#INF
+         spf -1.#INF
+         psf -3.40282347e+038
+         
+         d 0
+         sd 4.9406564584124654e-324
+         pd -4.9406564584124654e-324
+         spd -9.8813129168249309e-324
+         psd 0
+         
+         d -0
+         sd 4.9406564584124654e-324
+         pd -4.9406564584124654e-324
+         spd -9.8813129168249309e-324
+         psd 0
+         
+         d 1
+         sd 1.0000000000000002
+         pd 0.99999999999999989
+         spd 1
+         psd 1
+         
+         d -1
+         sd -1.0000000000000002
+         pd -0.99999999999999989
+         spd -1
+         psd -1
+         
+         d 16
+         sd 16.000000000000004
+         pd 15.999999999999998
+         spd 16
+         psd 16
+         
+         d 7
+         sd 7.0000000000000009
+         pd 6.9999999999999991
+         spd 7
+         psd 7
+         
+         d 0.69999999999999996
+         sd 0.70000000000000007
+         pd 0.69999999999999984
+         spd 0.69999999999999996
+         psd 0.69999999999999996
+         
+         d 1.#INF
+         sd 1.#INF
+         pd 1.#INF
+         spd 1.#INF
+         psd 1.#INF
+         
+         d 1.#SNAN
+         sd 1.#QNAN
+         pd 1.#QNAN
+         spd 1.#QNAN
+         psd 1.#QNAN
+         
+         d 1.7976931348623157e+308
+         sd 1.#INF
+         pd 1.7976931348623155e+308
+         spd 1.7976931348623157e+308
+         psd 1.#INF
+         
+         d -1.7976931348623157e+308
+         sd -1.#INF
+         pd -1.7976931348623155e+308
+         spd -1.7976931348623157e+308
+         psd -1.#INF
+         ok
+         
+         Testing 4x4 and 3x3 matrix inversion:
+         M44f
+         M33f
+         ok
+         
+         Testing functions in ImathFrustum.h
+         perspective 123
+         planes 
+         exceptions 123
+         orthographic 1
+         planes 
+         passed inequality test
+         passed equality test
+         ok
+         
+         Testing random number generators
+         erand48(), nrand48()
+         Rand32
+           values
+           differences between successive values
+           range
+         Rand48
+           values
+           differences between successive values
+           range
+         solidSphereRand()
+         hollowSphereRand()
+         ok
+         
+         Testing extraction of rotation angle from 3x3 matrices
+         Testing extraction of Euler angles from matrices
+         extractEulerXYZ()
+         order = 101
+         extractEulerZYX()
+         order = 2001
+         Eulerf::extract()
+         order = 101
+         order = 1
+         order = 1101
+         order = 1001
+         order = 2101
+         order = 2001
+         order = 11
+         order = 111
+         order = 1011
+         order = 1111
+         order = 2011
+         order = 2111
+         order = 2000
+         order = 2100
+         order = 1000
+         order = 1100
+         order = 0
+         order = 100
+         order = 2110
+         order = 2010
+         order = 1110
+         order = 1010
+         order = 110
+         order = 10
+         ok
+         
+         Testing extraction of scale, shear, rotation, translation from matrices
+         Imath::extractSHRT()
+           random angles
+             3x3
+             4x4
+           special angles
+             3x3
+             4x4
+         ok
+         
+         Testing basic quaternion operations
+         ok
+         
+         Testing quaternion rotations
+           exact 90-degree rotations
+           exact zero-degree rotations
+           exact 180-degree rotations
+           other angles
+           random from and to vectors
+           nearly equal from and to vectors
+           nearly opposite from and to vectors
+         ok
+         
+         Testing quaternion spherical linear interpolation
+           combinations of 90-degree rotations around x, y and z
+           random rotations
+         ok
+         
+         Testing line algorithms
+         closest points on two lines
+           non-intersecting, non-parallel lines
+           intersecting, non-parallel lines
+           parallel lines
+           coincident lines
+           random lines
+         line-triangle intersection
+           line-plane intersection inside triangle
+           line-plane intersection outside triangle
+           line parallel to triangle
+           zero-area triangle
+           random lines and triangles
+         ok
+         
+         Testing box algorithms
+           ray-box entry and exit, random rays
+             box = ((-1 -1 -1) (1 1 1))
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((10 20 30) (1010 21 31))
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((10 20 30) (11 1020 31))
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((10 20 30) (11 21 1030))
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((-1e+010 -2e+010 -3e+010) (5e+015 6e+015 7e+015))
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (2 1 1))
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (1 2 1))
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (1 1 2))
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (1 2 3))
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (2 3 1))
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (2 1 3))
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((-1 -2 1) (-1 -2 1))
+             single-point box, ray intersects
+             single-point box, ray does not intersect
+             box = ((1 1 1) (1 1 1))
+             single-point box, ray intersects
+             single-point box, ray does not intersect
+             box = ((0 0 0) (0 0 0))
+             single-point box, ray intersects
+             single-point box, ray does not intersect
+             empty box, no rays intersect
+           ray-box entry and exit, nearly axis-parallel rays
+             dir ~ (1 0 0), result = 1
+             dir ~ (-1 0 0), result = 1
+             dir ~ (1 0 0), result = 0
+             dir ~ (-1 0 0), result = 0
+             dir ~ (0 1 0), result = 1
+             dir ~ (0 -1 0), result = 1
+             dir ~ (0 1 0), result = 0
+             dir ~ (0 -1 0), result = 0
+             dir ~ (0 0 1), result = 1
+             dir ~ (0 0 -1), result = 1
+             dir ~ (0 0 1), result = 0
+             dir ~ (0 0 -1), result = 0
+           ray-box intersection, random rays
+             box = ((-1 -1 -1) (1 1 1))
+             ray starts inside box
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((10 20 30) (1010 21 31))
+             ray starts inside box
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((10 20 30) (11 1020 31))
+             ray starts inside box
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((10 20 30) (11 21 1030))
+             ray starts inside box
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((-1e+010 -2e+010 -3e+010) (5e+015 6e+015 7e+015))
+             ray starts inside box
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (2 1 1))
+             ray starts inside box
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (1 2 1))
+             ray starts inside box
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (1 1 2))
+             ray starts inside box
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (1 2 3))
+             ray starts inside box
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (2 3 1))
+             ray starts inside box
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((1 1 1) (2 1 3))
+             ray starts inside box
+             ray starts outside box, intersects
+             ray starts outside box, does not intersect
+             box = ((-1 -2 1) (-1 -2 1))
+             single-point box, ray intersects
+             single-point box, ray does not intersect
+             box = ((1 1 1) (1 1 1))
+             single-point box, ray intersects
+             single-point box, ray does not intersect
+             box = ((0 0 0) (0 0 0))
+             single-point box, ray intersects
+             single-point box, ray does not intersect
+             empty box, no rays intersect
+           ray-box intersection, nearly axis-parallel rays
+             dir ~ (1 0 0), result = 1
+             dir ~ (-1 0 0), result = 1
+             dir ~ (1 0 0), result = 0
+             dir ~ (-1 0 0), result = 0
+             dir ~ (0 1 0), result = 1
+             dir ~ (0 -1 0), result = 1
+             dir ~ (0 1 0), result = 0
+             dir ~ (0 -1 0), result = 0
+             dir ~ (0 0 1), result = 1
+             dir ~ (0 0 -1), result = 1
+             dir ~ (0 0 1), result = 0
+             dir ~ (0 0 -1), result = 0
+           transform box by matrix
+           closest points in and on box
+         ok
+         
+         Testing box methods
+             constructors for type V2s
+             constructors for type V2i
+             constructors for type V2f
+             constructors for type V2d
+             constructors for type V3s
+             constructors for type V3i
+             constructors for type V3f
+             constructors for type V3d
+             constructors for type V4s
+             constructors for type V4i
+             constructors for type V4f
+             constructors for type V4d
+             makeEmpty() for type V2s
+             makeEmpty() for type V2i
+             makeEmpty() for type V2f
+             makeEmpty() for type V2d
+             makeEmpty() for type V3s
+             makeEmpty() for type V3i
+             makeEmpty() for type V3f
+             makeEmpty() for type V3d
+             makeEmpty() for type V4s
+             makeEmpty() for type V4i
+             makeEmpty() for type V4f
+             makeEmpty() for type V4d
+             makeInfinite() for type V2s
+             makeInfinite() for type V2i
+             makeInfinite() for type V2f
+             makeInfinite() for type V2d
+             makeInfinite() for type V3s
+             makeInfinite() for type V3i
+             makeInfinite() for type V3f
+             makeInfinite() for type V3d
+             makeInfinite() for type V4s
+             makeInfinite() for type V4i
+             makeInfinite() for type V4f
+             makeInfinite() for type V4d
+             extendBy() point for type V2s
+             extendBy() point for type V2i
+             extendBy() point for type V2f
+             extendBy() point for type V2d
+             extendBy() point for type V3s
+             extendBy() point for type V3i
+             extendBy() point for type V3f
+             extendBy() point for type V3d
+             extendBy() point for type V4s
+             extendBy() point for type V4i
+             extendBy() point for type V4f
+             extendBy() point for type V4d
+             extendBy() box for type V2s
+             extendBy() box for type V2i
+             extendBy() box for type V2f
+             extendBy() box for type V2d
+             extendBy() box for type V3s
+             extendBy() box for type V3i
+             extendBy() box for type V3f
+             extendBy() box for type V3d
+             extendBy() box for type V4s
+             extendBy() box for type V4i
+             extendBy() box for type V4f
+             extendBy() box for type V4d
+             comparators for type V2s
+             comparators for type V2i
+             comparators for type V2f
+             comparators for type V2d
+             comparators for type V3s
+             comparators for type V3i
+             comparators for type V3f
+             comparators for type V3d
+             comparators for type V4s
+             comparators for type V4i
+             comparators for type V4f
+             comparators for type V4d
+             size() for type V2s
+             size() for type V2i
+             size() for type V2f
+             size() for type V2d
+             size() for type V3s
+             size() for type V3i
+             size() for type V3f
+             size() for type V3d
+             size() for type V4s
+             size() for type V4i
+             size() for type V4f
+             size() for type V4d
+             center() for type V2s
+             center() for type V2i
+             center() for type V2f
+             center() for type V2d
+             center() for type V3s
+             center() for type V3i
+             center() for type V3f
+             center() for type V3d
+             center() for type V4s
+             center() for type V4i
+             center() for type V4f
+             center() for type V4d
+             isEmpty() for type V2s
+             isEmpty() for type V2i
+             isEmpty() for type V2f
+             isEmpty() for type V2d
+             isEmpty() for type V3s
+             isEmpty() for type V3i
+             isEmpty() for type V3f
+             isEmpty() for type V3d
+             isEmpty() for type V4s
+             isEmpty() for type V4i
+             isEmpty() for type V4f
+             isEmpty() for type V4d
+             isInfinite() for type V2s
+             isInfinite() for type V2i
+             isInfinite() for type V2f
+             isInfinite() for type V2d
+             isInfinite() for type V3s
+             isInfinite() for type V3i
+             isInfinite() for type V3f
+             isInfinite() for type V3d
+             isInfinite() for type V4s
+             isInfinite() for type V4i
+             isInfinite() for type V4f
+             isInfinite() for type V4d
+             hasVolume() for type V2s
+             hasVolume() for type V2i
+             hasVolume() for type V2f
+             hasVolume() for type V2d
+             hasVolume() for type V3s
+             hasVolume() for type V3i
+             hasVolume() for type V3f
+             hasVolume() for type V3d
+             hasVolume() for type V4s
+             hasVolume() for type V4i
+             hasVolume() for type V4f
+             hasVolume() for type V4d
+             majorAxis() for type V2s
+             majorAxis() for type V2i
+             majorAxis() for type V2f
+             majorAxis() for type V2d
+             majorAxis() for type V3s
+             majorAxis() for type V3i
+             majorAxis() for type V3f
+             majorAxis() for type V3d
+             majorAxis() for type V4s
+             majorAxis() for type V4i
+             majorAxis() for type V4f
+             majorAxis() for type V4d
+         ok
+         
+         Testing Procrustes algorithms in single precision...
+         Testing known translate/rotate matrix:
+          ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  1.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  1.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  0.000000e+000  1.000000e+000)
+           OK
+         Testing known translate/rotate matrix:
+          ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  1.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  1.000000e+000  0.000000e+000
+           3.000000e+000  5.000000e+000 -2.000000e-001  1.000000e+000)
+           OK
+         Testing known translate/rotate matrix:
+          ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000 -1.000000e+000  1.224647e-016  0.000000e+000
+           0.000000e+000 -1.224647e-016 -1.000000e+000  0.000000e+000
+           3.000000e+000  5.000000e+000 -2.000000e-001  1.000000e+000)
+           OK
+         Testing known translate/rotate matrix:
+          ( 7.071068e-001  8.659561e-017  7.071068e-001  0.000000e+000
+           0.000000e+000 -1.000000e+000  1.224647e-016  0.000000e+000
+           7.071068e-001 -8.659561e-017 -7.071068e-001  0.000000e+000
+           3.000000e+000  5.000000e+000 -2.000000e-001  1.000000e+000)
+           OK
+         Testing known translate/rotate matrix:
+          (-5.000000e-001  7.071068e-001 -5.000000e-001 -0.000000e+000
+           5.000000e-001  7.071068e-001  5.000000e-001  0.000000e+000
+           7.071068e-001 -8.659561e-017 -7.071068e-001  0.000000e+000
+           3.000000e+000  5.000000e+000 -2.000000e-001  1.000000e+000)
+           OK
+         Testing with known translate/rotate/scale matrix
+         ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  1.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  1.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  0.000000e+000  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  1.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  1.000000e+000  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000 -1.000000e+000  1.224647e-016  0.000000e+000
+           0.000000e+000 -1.224647e-016 -1.000000e+000  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         ( 7.071068e-001  8.659561e-017  7.071068e-001  0.000000e+000
+           0.000000e+000 -1.000000e+000  1.224647e-016  0.000000e+000
+           7.071068e-001 -8.659561e-017 -7.071068e-001  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         (-5.000000e-001  7.071068e-001 -5.000000e-001 -0.000000e+000
+           5.000000e-001  7.071068e-001  5.000000e-001  0.000000e+000
+           7.071068e-001 -8.659561e-017 -7.071068e-001  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         (-1.000000e+000  1.414214e+000 -1.000000e+000 -0.000000e+000
+           1.000000e+000  1.414214e+000  1.000000e+000  0.000000e+000
+           1.414214e+000 -1.731912e-016 -1.414214e+000  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         (-1.000000e-002  1.414214e-002 -1.000000e-002 -0.000000e+000
+           1.000000e-002  1.414214e-002  1.000000e-002  0.000000e+000
+           1.414214e-002 -1.731912e-018 -1.414214e-002  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-1.000000e-002  1.414214e-002 -1.000000e-002 -0.000000e+000
+           1.000000e-002  1.414214e-002  1.000000e-002  0.000000e+000
+           1.414214e-002 -1.731912e-018 -1.414214e-002  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-1.000000e-002  1.414214e-002 -1.000000e-002 -0.000000e+000
+           1.000000e-002  1.414214e-002  1.000000e-002  0.000000e+000
+           1.414214e-002 -1.731912e-018 -1.414214e-002  0.000000e+000
+           4.241421e-001  6.098995e+000  9.995858e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-1.000000e-002  1.414214e-002 -1.000000e-002 -0.000000e+000
+           1.000000e-002  1.414214e-002  1.000000e-002  0.000000e+000
+           1.414214e-002 -1.731912e-018 -1.414214e-002  0.000000e+000
+           5.582843e-001  5.985858e+000  1.010172e+001  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         ( 1.219579e-002  1.573132e-002  1.946348e-003  0.000000e+000
+           5.124720e-003 -1.589186e-003 -1.926686e-002  0.000000e+000
+          -1.500000e-002  1.224745e-002 -5.000000e-003  0.000000e+000
+           6.842304e+000 -5.755414e+000 -7.631837e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         ( 1.829368e-002  2.359698e-002  2.919522e-003  0.000000e+000
+           3.279821e-002 -1.017079e-002 -1.233079e-001  0.000000e+000
+          -3.000000e-002  2.449490e-002 -1.000000e-002  0.000000e+000
+           6.842304e+000 -5.755414e+000 -7.631837e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-2.546762e-003 -9.270112e-003  2.841794e-002 -0.000000e+000
+          -7.301607e-002  1.017024e-001  2.663240e-002  0.000000e+000
+           3.267767e-002  2.090770e-002  9.748737e-003  0.000000e+000
+          -1.106096e+001  3.731658e+000  1.384479e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-2.546762e-003 -9.270112e-003  2.841794e-002 -0.000000e+000
+          -7.301607e-005  1.017024e-004  2.663240e-005  0.000000e+000
+           3.267767e-002  2.090770e-002  9.748737e-003  0.000000e+000
+          -1.106096e+001  3.731658e+000  1.384479e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-2.546762e-003 -9.270112e-003  2.841794e-002 -0.000000e+000
+          -7.301607e-005  1.017024e-004  2.663240e-005  0.000000e+000
+           0.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+          -1.106096e+001  3.731658e+000  1.384479e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithms in double precision...
+         Testing known translate/rotate matrix:
+          ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  1.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  1.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  0.000000e+000  1.000000e+000)
+           OK
+         Testing known translate/rotate matrix:
+          ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  1.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  1.000000e+000  0.000000e+000
+           3.000000e+000  5.000000e+000 -2.000000e-001  1.000000e+000)
+           OK
+         Testing known translate/rotate matrix:
+          ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000 -1.000000e+000  1.224647e-016  0.000000e+000
+           0.000000e+000 -1.224647e-016 -1.000000e+000  0.000000e+000
+           3.000000e+000  5.000000e+000 -2.000000e-001  1.000000e+000)
+           OK
+         Testing known translate/rotate matrix:
+          ( 7.071068e-001  8.659561e-017  7.071068e-001  0.000000e+000
+           0.000000e+000 -1.000000e+000  1.224647e-016  0.000000e+000
+           7.071068e-001 -8.659561e-017 -7.071068e-001  0.000000e+000
+           3.000000e+000  5.000000e+000 -2.000000e-001  1.000000e+000)
+           OK
+         Testing known translate/rotate matrix:
+          (-5.000000e-001  7.071068e-001 -5.000000e-001 -0.000000e+000
+           5.000000e-001  7.071068e-001  5.000000e-001  0.000000e+000
+           7.071068e-001 -8.659561e-017 -7.071068e-001  0.000000e+000
+           3.000000e+000  5.000000e+000 -2.000000e-001  1.000000e+000)
+           OK
+         Testing with known translate/rotate/scale matrix
+         ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  1.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  1.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  0.000000e+000  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  1.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000  0.000000e+000  1.000000e+000  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         ( 1.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+           0.000000e+000 -1.000000e+000  1.224647e-016  0.000000e+000
+           0.000000e+000 -1.224647e-016 -1.000000e+000  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         ( 7.071068e-001  8.659561e-017  7.071068e-001  0.000000e+000
+           0.000000e+000 -1.000000e+000  1.224647e-016  0.000000e+000
+           7.071068e-001 -8.659561e-017 -7.071068e-001  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         (-5.000000e-001  7.071068e-001 -5.000000e-001 -0.000000e+000
+           5.000000e-001  7.071068e-001  5.000000e-001  0.000000e+000
+           7.071068e-001 -8.659561e-017 -7.071068e-001  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         (-1.000000e+000  1.414214e+000 -1.000000e+000 -0.000000e+000
+           1.000000e+000  1.414214e+000  1.000000e+000  0.000000e+000
+           1.414214e+000 -1.731912e-016 -1.414214e+000  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing with known translate/rotate/scale matrix
+         (-1.000000e-002  1.414214e-002 -1.000000e-002 -0.000000e+000
+           1.000000e-002  1.414214e-002  1.000000e-002  0.000000e+000
+           1.414214e-002 -1.731912e-018 -1.414214e-002  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+         numPoints: 1 2 3 4 5 6 7 8 9   OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-1.000000e-002  1.414214e-002 -1.000000e-002 -0.000000e+000
+           1.000000e-002  1.414214e-002  1.000000e-002  0.000000e+000
+           1.414214e-002 -1.731912e-018 -1.414214e-002  0.000000e+000
+           4.000000e-001  6.000000e+000  1.000000e+001  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-1.000000e-002  1.414214e-002 -1.000000e-002 -0.000000e+000
+           1.000000e-002  1.414214e-002  1.000000e-002  0.000000e+000
+           1.414214e-002 -1.731912e-018 -1.414214e-002  0.000000e+000
+           4.241421e-001  6.098995e+000  9.995858e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-1.000000e-002  1.414214e-002 -1.000000e-002 -0.000000e+000
+           1.000000e-002  1.414214e-002  1.000000e-002  0.000000e+000
+           1.414214e-002 -1.731912e-018 -1.414214e-002  0.000000e+000
+           5.582843e-001  5.985858e+000  1.010172e+001  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         ( 1.219579e-002  1.573132e-002  1.946348e-003  0.000000e+000
+           5.124720e-003 -1.589186e-003 -1.926686e-002  0.000000e+000
+          -1.500000e-002  1.224745e-002 -5.000000e-003  0.000000e+000
+           6.842304e+000 -5.755414e+000 -7.631837e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         ( 1.829368e-002  2.359698e-002  2.919522e-003  0.000000e+000
+           3.279821e-002 -1.017079e-002 -1.233079e-001  0.000000e+000
+          -3.000000e-002  2.449490e-002 -1.000000e-002  0.000000e+000
+           6.842304e+000 -5.755414e+000 -7.631837e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-2.546762e-003 -9.270112e-003  2.841794e-002 -0.000000e+000
+          -7.301607e-002  1.017024e-001  2.663239e-002  0.000000e+000
+           3.267767e-002  2.090770e-002  9.748737e-003  0.000000e+000
+          -1.106096e+001  3.731658e+000  1.384479e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-2.546762e-003 -9.270112e-003  2.841794e-002 -0.000000e+000
+          -7.301607e-005  1.017024e-004  2.663239e-005  0.000000e+000
+           3.267767e-002  2.090770e-002  9.748737e-003  0.000000e+000
+          -1.106096e+001  3.731658e+000  1.384479e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing Procrustes algorithm with arbitrary matrix: 
+         (-2.546762e-003 -9.270112e-003  2.841794e-002 -0.000000e+000
+          -7.301607e-005  1.017024e-004  2.663239e-005  0.000000e+000
+           0.000000e+000  0.000000e+000  0.000000e+000  0.000000e+000
+          -1.106096e+001  3.731658e+000  1.384479e+000  1.000000e+000)
+            numPoints: 1 2 3 4 5 6 7 8 9 OK
+         Testing TinySVD algorithms in single precision...
+         Verifying SVD for [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+         Verifying SVD for [[1, 0, 0], [0, -1, 0], [0, 0, 1]]
+         Verifying SVD for [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+         Verifying SVD for [[0, 0, 0], [0, 0, 0], [0, 0, 1]]
+         Verifying SVD for [[1, 0, 0], [0, 1, 0], [0, 0, 0]]
+         Verifying SVD for [[1, 0, 0], [0, 0, 0], [0, 0, 0]]
+         Verifying SVD for [[1, 0, 0], [1e-010, 0, 0], [0, 0, 0]]
+         Verifying SVD for [[1, 0, 0], [1e-010, 0, 0], [0, 0, 100000]]
+         Verifying SVD for [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+         Verifying SVD for [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+         Verifying SVD for [[10000, 0.001, 0], [0.001, 1e-010, 0], [0, 0, 0]]
+         Verifying SVD for [[62720, 73500, 4900], [5120, 6000, 400], [256, 300, 20]]
+         Verifying SVD for [[60026, 4902, 248], [4902, 404, 26], [248, 26, 10]]
+         Verifying SVD for [[0.00235883, -0.00965581, 0.00109599], [0.00886718, 0.00167718, -0.00430815], [0.00397605, 0.00198805, 0.0089576]]
+         Verifying SVD for [[2.35883e-009, -9.65581e-009, 1.09599e-009], [8.86718e-009, 1.67718e-009, -4.30815e-009], [3.97605e-009, 1.98805e-009, 8.9576e-009]]
+         Verifying SVD for [[-0.466739, 0.674663, 0.97647], [-0.0324608, 0.0465845, 0.0674312], [-0.0888851, 0.128039, 0.185326]]
+         Verifying SVD for [[1e-008, 0, 0], [0, 1e-008, 0], [0, 0, 1e-008]]
+         Verifying SVD for [[1, 0, 0], [0, 0.00036, 0], [1e-018, 0, 0.00018]]
+         Verifying SVD for [[1.3, 0, 0], [0, 0.0003, 0], [1e-017, 0, 0]]
+         Verifying SVD for [[1, 0, 0], [0, 0.01, 0], [0, 0, 0.01]]
+         Verifying SVD for [[1, 0, 0], [0, 1, 0], [0, 0, 0]]
+         Verifying SVD for [[1, 0, 0], [0, 0.001, 0], [0, 0, 1e-006]]
+         Verifying SVD for [[0.595886, -0.797612, -1], [0.391945, 0.917631, -0.341818], [-0.450561, -0.712591, 0.47125]]
+         Verifying SVD for [[4.38805e-009, -2.5319e-009, -4.65679e-009], [-3.23e-010, 1.8637e-010, 3.42781e-010], [-4.61573e-009, 2.66326e-009, 4.8984e-009]]
+         Verifying SVD for [[0, -1e-022, 0], [1e-007, 0, 0], [0, 0, 0]]
+         Verifying SVD for [[0, -1e-022, 0], [1e-007, 0, 0], [0, 0, 1]]
+         Verifying SVD for [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+         Verifying SVD for [[1, 0, 0, 0], [0, -1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+         Verifying SVD for [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 0]]
+         Verifying SVD for [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+         Verifying SVD for [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+         Verifying SVD for [[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+         Verifying SVD for [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+         Verifying SVD for [[0, -1e-022, 0, 0], [1e-007, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+         Verifying SVD for [[10000, 0.001, 0, 0], [0.001, 1e-010, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+         Verifying SVD for [[62720, 73500, 4900, 2450], [5120, 6000, 400, 2450], [256, 300, 20, 2450], [128, 150, 10, 5]]
+         Verifying SVD for [[62750, 73560, 4990, 2540], [5130, 6020, 430, 2540], [266, 320, 50, 2540], [138, 170, 40, 35]]
+         Testing TinySVD algorithms in double precision...
+         Verifying SVD for [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+         Verifying SVD for [[1, 0, 0], [0, -1, 0], [0, 0, 1]]
+         Verifying SVD for [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+         Verifying SVD for [[0, 0, 0], [0, 0, 0], [0, 0, 1]]
+         Verifying SVD for [[1, 0, 0], [0, 1, 0], [0, 0, 0]]
+         Verifying SVD for [[1, 0, 0], [0, 0, 0], [0, 0, 0]]
+         Verifying SVD for [[1, 0, 0], [1e-010, 0, 0], [0, 0, 0]]
+         Verifying SVD for [[1, 0, 0], [1e-010, 0, 0], [0, 0, 100000]]
+         Verifying SVD for [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+         Verifying SVD for [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+         Verifying SVD for [[10000, 0.001, 0], [0.001, 1e-010, 0], [0, 0, 0]]
+         Verifying SVD for [[62720, 73500, 4900], [5120, 6000, 400], [256, 300, 20]]
+         Verifying SVD for [[60026, 4902, 248], [4902, 404, 26], [248, 26, 10]]
+         Verifying SVD for [[0.00235883, -0.00965581, 0.00109599], [0.00886718, 0.00167718, -0.00430815], [0.00397605, 0.00198805, 0.0089576]]
+         Verifying SVD for [[2.35883e-009, -9.65581e-009, 1.09599e-009], [8.86718e-009, 1.67718e-009, -4.30815e-009], [3.97605e-009, 1.98805e-009, 8.9576e-009]]
+         Verifying SVD for [[-0.466739, 0.674663, 0.97647], [-0.0324608, 0.0465845, 0.0674312], [-0.0888851, 0.128039, 0.185326]]
+         Verifying SVD for [[1e-008, 0, 0], [0, 1e-008, 0], [0, 0, 1e-008]]
+         Verifying SVD for [[1, 0, 0], [0, 0.00036, 0], [1e-018, 0, 0.00018]]
+         Verifying SVD for [[1.3, 0, 0], [0, 0.0003, 0], [1e-017, 0, 0]]
+         Verifying SVD for [[1, 0, 0], [0, 0.01, 0], [0, 0, 0.01]]
+         Verifying SVD for [[1, 0, 0], [0, 1, 0], [0, 0, 0]]
+         Verifying SVD for [[1, 0, 0], [0, 0.001, 0], [0, 0, 1e-006]]
+         Verifying SVD for [[0.595886, -0.797612, -1], [0.391945, 0.917631, -0.341818], [-0.450561, -0.712591, 0.47125]]
+         Verifying SVD for [[4.38805e-009, -2.5319e-009, -4.65679e-009], [-3.23e-010, 1.8637e-010, 3.42781e-010], [-4.61573e-009, 2.66326e-009, 4.8984e-009]]
+         Verifying SVD for [[0, -1e-022, 0], [1e-007, 0, 0], [0, 0, 0]]
+         Verifying SVD for [[0, -1e-022, 0], [1e-007, 0, 0], [0, 0, 1]]
+         Verifying SVD for [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+         Verifying SVD for [[1, 0, 0, 0], [0, -1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+         Verifying SVD for [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 0]]
+         Verifying SVD for [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+         Verifying SVD for [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+         Verifying SVD for [[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+         Verifying SVD for [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+         Verifying SVD for [[0, -1e-022, 0, 0], [1e-007, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+         Verifying SVD for [[10000, 0.001, 0, 0], [0.001, 1e-010, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+         Verifying SVD for [[62720, 73500, 4900, 2450], [5120, 6000, 400, 2450], [256, 300, 20, 2450], [128, 150, 10, 5]]
+         Verifying SVD for [[62750, 73560, 4990, 2540], [5130, 6020, 430, 2540], [266, 320, 50, 2540], [138, 170, 40, 35]]
+         
+         ************ Testing Imath::ImathJacobiEigenSolver ************
+         Jacobi EigenSolver in single precision...PASS
+         Jacobi EigenSolver in double precision...PASS
+         Min/Max EigenValue in single precision...PASS
+         Min/Max EigenValue in double precision...PASS
+         Timing Jacobi EigenSolver in single precision...
+         Jacobi EigenSolver of 3x3 matrices took 124 clocks.
+         TinySVD            of 3x3 matrices took 172 clocks.
+         27.907% speed up.
+         Jacobi EigenSolver of 4x4 matrices took 234 clocks
+         TinySVD            of 4x4 matrices took 421 clocks
+         44.4181% speed up.
+         Timing Jacobi EigenSolver in double precision...
+         Jacobi EigenSolver of 3x3 matrices took 94 clocks.
+         TinySVD            of 3x3 matrices took 93 clocks.
+         -1.07527% speed up.
+         Jacobi EigenSolver of 4x4 matrices took 219 clocks
+         TinySVD            of 4x4 matrices took 218 clocks
+         -0.458716% speed up.
+         ************      ALL PASS          ************
+         Testing functions in ImathFrustumTest.h
+         isVisible(Vec3) passed Vec3
+         passed Box
+         passed Sphere
+         
+         ok
+         
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\ImathTest.unsuccessfulbuild".
+         Touching "Win32\Release\ImathTest.lastbuildstate".
+     1>Done Building Project "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\ImathTest\ImathTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:43.66

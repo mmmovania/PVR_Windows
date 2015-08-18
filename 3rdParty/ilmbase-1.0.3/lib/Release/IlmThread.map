@@ -1,0 +1,847 @@
+ IlmThread
+
+ Timestamp is 510d5da9 (Sun Feb 03 02:40:41 2013)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000041ecH .text                   CODE
+ 0001:000041f0 0000065dH .text$x                 CODE
+ 0001:00004850 00000027H .text$yd                CODE
+ 0002:00000000 00000174H .idata$5                DATA
+ 0002:00000174 00000004H .CRT$XCA                DATA
+ 0002:00000178 00000004H .CRT$XCZ                DATA
+ 0002:0000017c 00000004H .CRT$XIA                DATA
+ 0002:00000180 00000004H .CRT$XIAA               DATA
+ 0002:00000184 00000004H .CRT$XIZ                DATA
+ 0002:00000190 000002d0H .rdata                  DATA
+ 0002:00000460 00000074H .rdata$debug            DATA
+ 0002:000004d4 00000768H .rdata$r                DATA
+ 0002:00000c40 00000068H .rdata$sxdata           DATA
+ 0002:00000ca8 00000004H .rtc$IAA                DATA
+ 0002:00000cac 00000004H .rtc$IZZ                DATA
+ 0002:00000cb0 00000004H .rtc$TAA                DATA
+ 0002:00000cb4 00000004H .rtc$TZZ                DATA
+ 0002:00000cb8 0000082cH .xdata$x                DATA
+ 0002:000014e4 00000050H .idata$2                DATA
+ 0002:00001534 00000014H .idata$3                DATA
+ 0002:00001548 00000174H .idata$4                DATA
+ 0002:000016bc 00000c02H .idata$6                DATA
+ 0002:000022c0 000000fdH .edata                  DATA
+ 0003:00000000 00000448H .data                   DATA
+ 0003:00000448 00000350H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:0000001a       ___safe_se_handler_count   0000001a     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       ??0Mutex@IlmThread@@QAE@XZ 10001000 f   IlmThreadMutexWin32.obj
+ 0001:00000020       ??1Mutex@IlmThread@@UAE@XZ 10001020 f   IlmThreadMutexWin32.obj
+ 0001:00000040       ?lock@Mutex@IlmThread@@ABEXXZ 10001040 f   IlmThreadMutexWin32.obj
+ 0001:00000050       ?unlock@Mutex@IlmThread@@ABEXXZ 10001050 f   IlmThreadMutexWin32.obj
+ 0001:00000060       ??_GMutex@IlmThread@@UAEPAXI@Z 10001060 f i IlmThreadMutexWin32.obj
+ 0001:00000060       ??_EMutex@IlmThread@@UAEPAXI@Z 10001060 f i IlmThreadMutexWin32.obj
+ 0001:00000090       ??0Lock@IlmThread@@QAE@ABVMutex@1@_N@Z 10001090 f i IlmThreadPool.obj
+ 0001:000000c0       ??1Lock@IlmThread@@QAE@XZ  100010c0 f i IlmThreadPool.obj
+ 0001:000000d0       ?acquire@Lock@IlmThread@@QAEXXZ 100010d0 f i IlmThreadPool.obj
+ 0001:000000e0       ?release@Lock@IlmThread@@QAEXXZ 100010e0 f i IlmThreadPool.obj
+ 0001:000000f0       ??0bad_alloc@std@@QAE@PBD@Z 100010f0 f i IlmThreadPool.obj
+ 0001:00000110       ??1bad_alloc@std@@UAE@XZ   10001110 f i IlmThreadPool.obj
+ 0001:00000120       ??_Gbad_alloc@std@@UAEPAXI@Z 10001120 f i IlmThreadPool.obj
+ 0001:00000120       ??_Ebad_alloc@std@@UAEPAXI@Z 10001120 f i IlmThreadPool.obj
+ 0001:00000150       ??2@YAPAXIPAX@Z            10001150 f i IlmThreadPool.obj
+ 0001:00000160       ??0ArgExc@Iex@@QAE@PBD@Z   10001160 f i IlmThreadPool.obj
+ 0001:00000180       ??0WorkerThread@?A0x6357f155@IlmThread@@QAE@PAUData@ThreadPool@2@@Z 10001180 f   IlmThreadPool.obj
+ 0001:000001e0       ??1WorkerThread@?A0x6357f155@IlmThread@@UAE@XZ 100011e0 f i IlmThreadPool.obj
+ 0001:000001f0       ??0Data@TaskGroup@IlmThread@@QAE@XZ 100011f0 f   IlmThreadPool.obj
+ 0001:00000210       ??1Data@TaskGroup@IlmThread@@QAE@XZ 10001210 f   IlmThreadPool.obj
+ 0001:00000270       ?addTask@Data@TaskGroup@IlmThread@@QAEXXZ 10001270 f   IlmThreadPool.obj
+ 0001:00000290       ?removeTask@Data@TaskGroup@IlmThread@@QAEXXZ 10001290 f   IlmThreadPool.obj
+ 0001:000002a0       ?stopped@Data@ThreadPool@IlmThread@@QBE_NXZ 100012a0 f   IlmThreadPool.obj
+ 0001:000002c0       ?stop@Data@ThreadPool@IlmThread@@QAEXXZ 100012c0 f   IlmThreadPool.obj
+ 0001:000002e0       ??0Task@IlmThread@@QAE@PAVTaskGroup@1@@Z 100012e0 f   IlmThreadPool.obj
+ 0001:00000300       ??1Task@IlmThread@@UAE@XZ  10001300 f   IlmThreadPool.obj
+ 0001:00000310       ?group@Task@IlmThread@@QAEPAVTaskGroup@2@XZ 10001310 f   IlmThreadPool.obj
+ 0001:00000320       ??0TaskGroup@IlmThread@@QAE@XZ 10001320 f   IlmThreadPool.obj
+ 0001:000003a0       ??_GData@TaskGroup@IlmThread@@QAEPAXI@Z 100013a0 f i IlmThreadPool.obj
+ 0001:00000410       ?numThreads@ThreadPool@IlmThread@@QBEHXZ 10001410 f   IlmThreadPool.obj
+ 0001:00000440       ?_Prevnode@?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@SAAAPAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@2@PAU342@@Z 10001440 f i IlmThreadPool.obj
+ 0001:00000440       ?_Prevnode@?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@SAAAPAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@2@PAU342@@Z 10001440 f i IlmThreadPool.obj
+ 0001:00000450       ??$forward@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@YA$$QAPAVWorkerThread@?A0x6357f155@IlmThread@@AAPAV123@@Z 10001450 f i IlmThreadPool.obj
+ 0001:00000450       ??$addressof@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@YAPAPAVWorkerThread@?A0x6357f155@IlmThread@@AAPAV123@@Z 10001450 f i IlmThreadPool.obj
+ 0001:00000450       ??$forward@ABQAVTask@IlmThread@@@std@@YAABQAVTask@IlmThread@@ABQAV12@@Z 10001450 f i IlmThreadPool.obj
+ 0001:00000450       ?_Nextnode@?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@SAAAPAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@2@PAU342@@Z 10001450 f i IlmThreadPool.obj
+ 0001:00000450       ?_Nextnode@?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@SAAAPAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@2@PAU342@@Z 10001450 f i IlmThreadPool.obj
+ 0001:00000450       ??$forward@V?$allocator@D@std@@@std@@YA$$QAV?$allocator@D@0@AAV10@@Z 10001450 f i IlmThreadSemaphoreWin32.obj
+ 0001:00000450       ??$addressof@PAVTask@IlmThread@@@std@@YAPAPAVTask@IlmThread@@AAPAV12@@Z 10001450 f i IlmThreadPool.obj
+ 0001:00000450       ??$forward@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z 10001450 f i IlmThreadSemaphoreWin32.obj
+ 0001:00000460       ??8?$_List_const_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QBE_NABV01@@Z 10001460 f i IlmThreadPool.obj
+ 0001:00000480       ?_Myval@?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@SAAAPAVTask@IlmThread@@PAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@2@@Z 10001480 f i IlmThreadPool.obj
+ 0001:00000480       ?_Myval@?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@SAAAPAVWorkerThread@?A0x6357f155@IlmThread@@PAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@2@@Z 10001480 f i IlmThreadPool.obj
+ 0001:00000490       ?_Mynode@?$_List_unchecked_const_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@U_Iterator_base0@2@@std@@QBEPAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@2@XZ 10001490 f i IlmThreadPool.obj
+ 0001:00000490       ?_Mynode@?$_List_unchecked_const_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@U_Iterator_base0@2@@std@@QBEPAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@2@XZ 10001490 f i IlmThreadPool.obj
+ 0001:000004a0       ??$_Allocate@U_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@YAPAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@0@IPAU120@@Z 100014a0 f i IlmThreadPool.obj
+ 0001:000004a0       ??$_Allocate@U_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@YAPAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@0@IPAU120@@Z 100014a0 f i IlmThreadPool.obj
+ 0001:00000500       ??0bad_alloc@std@@QAE@ABV01@@Z 10001500 f i IlmThreadPool.obj
+ 0001:00000520       ?max_size@?$list@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QBEIXZ 10001520 f i IlmThreadPool.obj
+ 0001:00000520       ?max_size@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QBEIXZ 10001520 f i IlmThreadPool.obj
+ 0001:00000520       ?max_size@?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@QBEIXZ 10001520 f i IlmThreadPool.obj
+ 0001:00000520       ?max_size@?$allocator@PAVTask@IlmThread@@@std@@QBEIXZ 10001520 f i IlmThreadPool.obj
+ 0001:00000530       ??$_Construct@PAVTask@IlmThread@@ABQAV12@@std@@YAXPAPAVTask@IlmThread@@ABQAV12@@Z 10001530 f i IlmThreadPool.obj
+ 0001:00000550       ??_GWorkerThread@?A0x6357f155@IlmThread@@UAEPAXI@Z 10001550 f i IlmThreadPool.obj
+ 0001:00000550       ??_EWorkerThread@?A0x6357f155@IlmThread@@UAEPAXI@Z 10001550 f i IlmThreadPool.obj
+ 0001:00000580       ??_GTask@IlmThread@@UAEPAXI@Z 10001580 f i IlmThreadPool.obj
+ 0001:00000580       ??_ETask@IlmThread@@UAEPAXI@Z 10001580 f i IlmThreadPool.obj
+ 0001:000005b0       ??1TaskGroup@IlmThread@@QAE@XZ 100015b0 f   IlmThreadPool.obj
+ 0001:00000620       ??E?$_List_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QAEAAV01@XZ 10001620 f i IlmThreadPool.obj
+ 0001:00000620       ??E?$_List_const_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@QAEAAV01@XZ 10001620 f i IlmThreadPool.obj
+ 0001:00000620       ??E?$_List_const_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QAEAAV01@XZ 10001620 f i IlmThreadPool.obj
+ 0001:00000630       ??9?$_List_const_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QBE_NABV01@@Z 10001630 f i IlmThreadPool.obj
+ 0001:00000650       ??1?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAE@XZ 10001650 f i IlmThreadPool.obj
+ 0001:00000650       ??1?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAE@XZ 10001650 f i IlmThreadPool.obj
+ 0001:00000660       ??0?$allocator@D@std@@QAE@ABV01@@Z 10001660 f i IlmThreadPool.obj
+ 0001:00000660       ??0?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAE@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@1@@Z 10001660 f i IlmThreadPool.obj
+ 0001:00000660       ??0?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@QAE@ABV01@@Z 10001660 f i IlmThreadPool.obj
+ 0001:00000660       ??$?0PAVWorkerThread@?A0x6357f155@IlmThread@@@?$allocator@U_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QAE@ABV?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@1@@Z 10001660 f i IlmThreadPool.obj
+ 0001:00000660       ??$?0PAVTask@IlmThread@@@?$allocator@U_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@QAE@ABV?$allocator@PAVTask@IlmThread@@@1@@Z 10001660 f i IlmThreadPool.obj
+ 0001:00000660       ??0?$allocator@PAVTask@IlmThread@@@std@@QAE@ABV01@@Z 10001660 f i IlmThreadPool.obj
+ 0001:00000660       ??0?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAE@V?$allocator@PAVTask@IlmThread@@@1@@Z 10001660 f i IlmThreadPool.obj
+ 0001:00000660       ??0?$_String_val@DV?$allocator@D@std@@@std@@QAE@V?$allocator@D@1@@Z 10001660 f i IlmThreadPool.obj
+ 0001:00000670       ?allocate@?$allocator@U_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QAEPAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@2@I@Z 10001670 f i IlmThreadPool.obj
+ 0001:00000670       ?allocate@?$allocator@U_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@QAEPAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@2@I@Z 10001670 f i IlmThreadPool.obj
+ 0001:000006d0       ??0?$_List_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QAE@PAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@1@PBV?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@1@@Z 100016d0 f i IlmThreadPool.obj
+ 0001:000006d0       ??0?$_List_const_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@QAE@PAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@1@PBV?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@1@@Z 100016d0 f i IlmThreadPool.obj
+ 0001:000006d0       ??0?$_List_unchecked_const_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@U_Iterator_base0@2@@std@@QAE@PAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@1@PBV?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@1@@Z 100016d0 f i IlmThreadPool.obj
+ 0001:000006d0       ??0?$_List_const_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QAE@PAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@1@PBV?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@1@@Z 100016d0 f i IlmThreadPool.obj
+ 0001:000006d0       ??0?$_List_unchecked_const_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@U_Iterator_base0@2@@std@@QAE@PAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@1@PBV?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@1@@Z 100016d0 f i IlmThreadPool.obj
+ 0001:000006d0       ??0?$_List_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@QAE@PAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@1@PBV?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@1@@Z 100016d0 f i IlmThreadPool.obj
+ 0001:000006e0       ??E?$_List_const_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@QAE?AV01@H@Z 100016e0 f i IlmThreadPool.obj
+ 0001:00000700       ?construct@?$allocator@PAVTask@IlmThread@@@std@@QAEXPAPAVTask@IlmThread@@ABQAV34@@Z 10001700 f i IlmThreadPool.obj
+ 0001:00000700       ?construct@?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@QAEXPAPAVWorkerThread@?A0x6357f155@IlmThread@@$$QAPAV345@@Z 10001700 f i IlmThreadPool.obj
+ 0001:00000720       ?destroy@?$allocator@U_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@QAEXPAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@2@@Z 10001720 f i IlmThreadPool.obj
+ 0001:00000720       ?_Adopt@_Iterator_base0@std@@QAEXPBX@Z 10001720 f i IlmThreadPool.obj
+ 0001:00000720       ?destroy@?$allocator@U_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QAEXPAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@2@@Z 10001720 f i IlmThreadPool.obj
+ 0001:00000730       ??0?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAE@V?$allocator@PAVTask@IlmThread@@@1@@Z 10001730 f i IlmThreadPool.obj
+ 0001:00000730       ??0?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAE@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@1@@Z 10001730 f i IlmThreadPool.obj
+ 0001:00000790       ??D?$_List_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@QBEAAPAVTask@IlmThread@@XZ 10001790 f i IlmThreadPool.obj
+ 0001:00000790       ??D?$_List_const_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@QBEABQAVTask@IlmThread@@XZ 10001790 f i IlmThreadPool.obj
+ 0001:00000790       ??D?$_List_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QBEAAPAVWorkerThread@?A0x6357f155@IlmThread@@XZ 10001790 f i IlmThreadPool.obj
+ 0001:00000790       ??D?$_List_const_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QBEABQAVWorkerThread@?A0x6357f155@IlmThread@@XZ 10001790 f i IlmThreadPool.obj
+ 0001:000007a0       ?_Incsize@?$list@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAEXI@Z 100017a0 f i IlmThreadPool.obj
+ 0001:000007a0       ?_Incsize@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAEXI@Z 100017a0 f i IlmThreadPool.obj
+ 0001:000007d0       ??$_Destroy@U_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@YAXPAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@0@@Z 100017d0 f i IlmThreadPool.obj
+ 0001:000007d0       ??$_Dest_val@V?$allocator@U_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@U_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@2@@std@@YAXAAV?$allocator@U_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@0@PAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@0@@Z 100017d0 f i IlmThreadPool.obj
+ 0001:000007d0       ??$_Destroy@U_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@YAXPAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@0@@Z 100017d0 f i IlmThreadPool.obj
+ 0001:000007d0       ??$_Dest_val@V?$allocator@U_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@U_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@2@@std@@YAXAAV?$allocator@U_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@0@PAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@0@@Z 100017d0 f i IlmThreadPool.obj
+ 0001:000007d0       ??1?$_String_val@DV?$allocator@D@std@@@std@@QAE@XZ 100017d0 f i IlmThreadPool.obj
+ 0001:000007d0       ??3@YAXPAX0@Z              100017d0 f i IlmThreadPool.obj
+ 0001:000007e0       ??$_Cons_val@V?$allocator@PAVTask@IlmThread@@@std@@PAVTask@IlmThread@@ABQAV34@@std@@YAXAAV?$allocator@PAVTask@IlmThread@@@0@PAPAVTask@IlmThread@@ABQAV23@@Z 100017e0 f i IlmThreadPool.obj
+ 0001:000007e0       ??$_Cons_val@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@PAVWorkerThread@?A0x6357f155@IlmThread@@PAV345@@std@@YAXAAV?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@0@PAPAVWorkerThread@?A0x6357f155@IlmThread@@$$QAPAV234@@Z 100017e0 f i IlmThreadPool.obj
+ 0001:00000800       ?_Buynode@?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAEPAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@2@PAU342@0ABQAVTask@IlmThread@@@Z 10001800 f i IlmThreadPool.obj
+ 0001:00000800       ??$_Buynode@PAVWorkerThread@?A0x6357f155@IlmThread@@@?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAEPAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@1@PAU231@0$$QAPAVWorkerThread@?A0x6357f155@IlmThread@@@Z 10001800 f i IlmThreadPool.obj
+ 0001:00000860       ??0?$list@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAE@XZ 10001860 f i IlmThreadPool.obj
+ 0001:00000860       ??0?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAE@XZ 10001860 f i IlmThreadPool.obj
+ 0001:000008c0       ?_Tidy@?$list@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAEXXZ 100018c0 f i IlmThreadPool.obj
+ 0001:000008c0       ?_Tidy@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAEXXZ 100018c0 f i IlmThreadPool.obj
+ 0001:000008c0       ?clear@?$list@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAEXXZ 100018c0 f i IlmThreadPool.obj
+ 0001:000008c0       ?clear@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAEXXZ 100018c0 f i IlmThreadPool.obj
+ 0001:00000900       ?end@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAE?AV?$_List_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@2@XZ 10001900 f i IlmThreadPool.obj
+ 0001:00000900       ?end@?$list@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAE?AV?$_List_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@2@XZ 10001900 f i IlmThreadPool.obj
+ 0001:00000910       ?begin@?$list@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAE?AV?$_List_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@2@XZ 10001910 f i IlmThreadPool.obj
+ 0001:00000910       ?begin@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAE?AV?$_List_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@2@XZ 10001910 f i IlmThreadPool.obj
+ 0001:00000920       ?_Make_iter@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QBE?AV?$_List_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@2@V?$_List_const_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@2@@Z 10001920 f i IlmThreadPool.obj
+ 0001:00000930       ?finish@Data@ThreadPool@IlmThread@@QAEXXZ 10001930 f   IlmThreadPool.obj
+ 0001:00000a70       ?front@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAEAAPAVTask@IlmThread@@XZ 10001a70 f i IlmThreadPool.obj
+ 0001:00000a80       ?push_back@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAEXABQAVTask@IlmThread@@@Z 10001a80 f i IlmThreadPool.obj
+ 0001:00000a80       ?push_back@?$list@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAEX$$QAPAVWorkerThread@?A0x6357f155@IlmThread@@@Z 10001a80 f i IlmThreadPool.obj
+ 0001:00000ad0       ??1?$list@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAE@XZ 10001ad0 f i IlmThreadPool.obj
+ 0001:00000ad0       ??1?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAE@XZ 10001ad0 f i IlmThreadPool.obj
+ 0001:00000b10       ??$_Insert_rv@PAVWorkerThread@?A0x6357f155@IlmThread@@@?$list@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@QAEXV?$_List_const_iterator@V?$_List_val@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@1@$$QAPAVWorkerThread@?A0x6357f155@IlmThread@@@Z 10001b10 f i IlmThreadPool.obj
+ 0001:00000b10       ?_Insert@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAEXV?$_List_const_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@2@ABQAVTask@IlmThread@@@Z 10001b10 f i IlmThreadPool.obj
+ 0001:00000b60       ?erase@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAE?AV?$_List_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@2@V?$_List_const_iterator@V?$_List_val@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@2@@Z 10001b60 f i IlmThreadPool.obj
+ 0001:00000ba0       ??0Data@ThreadPool@IlmThread@@QAE@XZ 10001ba0 f   IlmThreadPool.obj
+ 0001:00000cb0       ??1Data@ThreadPool@IlmThread@@QAE@XZ 10001cb0 f   IlmThreadPool.obj
+ 0001:00000dd0       ??_GData@ThreadPool@IlmThread@@QAEPAXI@Z 10001dd0 f i IlmThreadPool.obj
+ 0001:00000e00       ?setNumThreads@ThreadPool@IlmThread@@QAEXH@Z 10001e00 f   IlmThreadPool.obj
+ 0001:00000ff0       ?copy@?$char_traits@D@std@@SAPADPADPBDI@Z 10001ff0 f i IlmThreadPool.obj
+ 0001:00001000       ?move@?$char_traits@D@std@@SAPADPADPBDI@Z 10002000 f i IlmThreadPool.obj
+ 0001:00001010       ?assign@?$char_traits@D@std@@SAXAADABD@Z 10002010 f i IlmThreadPool.obj
+ 0001:00001020       ??0ArgExc@Iex@@QAE@ABV01@@Z 10002020 f i IlmThreadPool.obj
+ 0001:00001040       ?size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 10002040 f i IlmThreadPool.obj
+ 0001:00001050       ?deallocate@?$allocator@U_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@@std@@QAEXPAU_Node@?$_List_nod@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@2@I@Z 10002050 f i IlmThreadPool.obj
+ 0001:00001050       ?deallocate@?$allocator@D@std@@QAEXPADI@Z 10002050 f i IlmThreadPool.obj
+ 0001:00001050       ?deallocate@?$allocator@U_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@std@@@std@@QAEXPAU_Node@?$_List_nod@PAVWorkerThread@?A0x6357f155@IlmThread@@V?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@@2@I@Z 10002050 f i IlmThreadPool.obj
+ 0001:00001070       ?_Myptr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 10002070 f i IlmThreadPool.obj
+ 0001:00001070       ?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 10002070 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001070       ?_Myptr@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEPADXZ 10002070 f i IlmThreadPool.obj
+ 0001:00001080       ?_Xlen@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ 10002080 f i IlmThreadPool.obj
+ 0001:00001090       ?_Xran@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEXXZ 10002090 f i IlmThreadPool.obj
+ 0001:000010a0       ?max_size@?$allocator@D@std@@QBEIXZ 100020a0 f i IlmThreadPool.obj
+ 0001:000010a0       ?eof@?$char_traits@D@std@@SAHXZ 100020a0 f i IlmThreadSemaphoreWin32.obj
+ 0001:000010b0       ??$_Allocate@D@std@@YAPADIPAD@Z 100020b0 f i IlmThreadPool.obj
+ 0001:00001100       ??0?$_String_val@DV?$allocator@D@std@@@std@@QAE@ABV01@@Z 10002100 f i IlmThreadPool.obj
+ 0001:00001130       ?allocate@?$allocator@D@std@@QAEPADI@Z 10002130 f i IlmThreadPool.obj
+ 0001:00001180       ?_Eos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXI@Z 10002180 f i IlmThreadPool.obj
+ 0001:000011a0       ?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 100021a0 f i IlmThreadPool.obj
+ 0001:000011b0       ?_Tidy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEX_NI@Z 100021b0 f i IlmThreadPool.obj
+ 0001:00001200       ?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@II@Z 10002200 f i IlmThreadPool.obj
+ 0001:00001290       ?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 10002290 f i IlmThreadPool.obj
+ 0001:00001400       ?_Grow@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NI_N@Z 10002400 f i IlmThreadPool.obj
+ 0001:000014b0       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@II@Z 100024b0 f i IlmThreadPool.obj
+ 0001:000015a0       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 100025a0 f i IlmThreadPool.obj
+ 0001:000015d0       ?pop_front@?$list@PAVTask@IlmThread@@V?$allocator@PAVTask@IlmThread@@@std@@@std@@QAEXXZ 100025d0 f i IlmThreadPool.obj
+ 0001:00001600       ?run@WorkerThread@?A0x6357f155@IlmThread@@UAEXXZ 10002600 f   IlmThreadPool.obj
+ 0001:00001740       ??0ThreadPool@IlmThread@@QAE@I@Z 10002740 f   IlmThreadPool.obj
+ 0001:000017c0       ??1ThreadPool@IlmThread@@UAE@XZ 100027c0 f   IlmThreadPool.obj
+ 0001:000017e0       ?addTask@ThreadPool@IlmThread@@QAEXPAVTask@2@@Z 100027e0 f   IlmThreadPool.obj
+ 0001:00001900       ??_GThreadPool@IlmThread@@UAEPAXI@Z 10002900 f i IlmThreadPool.obj
+ 0001:00001900       ??_EThreadPool@IlmThread@@UAEPAXI@Z 10002900 f i IlmThreadPool.obj
+ 0001:00001940       ?globalThreadPool@ThreadPool@IlmThread@@SAAAV12@XZ 10002940 f   IlmThreadPool.obj
+ 0001:000019e0       ?addGlobalTask@ThreadPool@IlmThread@@SAXPAVTask@2@@Z 100029e0 f   IlmThreadPool.obj
+ 0001:00001a00       ?length@?$char_traits@D@std@@SAIPBD@Z 10002a00 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001a20       ?eq_int_type@?$char_traits@D@std@@SA_NABH0@Z 10002a20 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001a40       ??0LogicExc@Iex@@QAE@AAV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10002a40 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001a60       ??1ArgExc@Iex@@UAE@XZ      10002a60 f i IlmThreadPool.obj
+ 0001:00001a60       ??1LogicExc@Iex@@UAE@XZ    10002a60 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001a70       ??1Semaphore@IlmThread@@UAE@XZ 10002a70 f   IlmThreadSemaphoreWin32.obj
+ 0001:00001a90       ?tryWait@Semaphore@IlmThread@@QAE_NXZ 10002a90 f   IlmThreadSemaphoreWin32.obj
+ 0001:00001ab0       ??0?$allocator@PAVTask@IlmThread@@@std@@QAE@XZ 10002ab0 f i IlmThreadPool.obj
+ 0001:00001ab0       ??0?$allocator@D@std@@QAE@XZ 10002ab0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001ab0       ??0?$allocator@PAVWorkerThread@?A0x6357f155@IlmThread@@@std@@QAE@XZ 10002ab0 f i IlmThreadPool.obj
+ 0001:00001ac0       ?_Tidy@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEXXZ 10002ac0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001b20       ??Bsentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QBEPQ_Bool_struct@2@HXZ 10002b20 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001b30       ?get_allocator@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$allocator@D@2@XZ 10002b30 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001b40       ?_Getstate@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEHH@Z 10002b40 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001b70       ??0_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z 10002b70 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001ba0       ??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ 10002ba0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001bc0       ??_GArgExc@Iex@@UAEPAXI@Z  10002bc0 f i IlmThreadPool.obj
+ 0001:00001bc0       ??_GLogicExc@Iex@@UAEPAXI@Z 10002bc0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001bc0       ??_ELogicExc@Iex@@UAEPAXI@Z 10002bc0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001bc0       ??_EArgExc@Iex@@UAEPAXI@Z  10002bc0 f i IlmThreadPool.obj
+ 0001:00001bf0       ??_GSemaphore@IlmThread@@UAEPAXI@Z 10002bf0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001bf0       ??_ESemaphore@IlmThread@@UAEPAXI@Z 10002bf0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001c20       ??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAE@XZ 10002c20 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001c40       ?eq@?$char_traits@D@std@@SA_NABD0@Z 10002c40 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001c60       ?to_char_type@?$char_traits@D@std@@SADABH@Z 10002c60 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001c70       ?to_int_type@?$char_traits@D@std@@SAHABD@Z 10002c70 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001c80       ?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MAEHXZ 10002c80 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001cf0       ??0?$fpos@H@std@@QAE@_J@Z  10002cf0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001d10       ??B?$fpos@H@std@@QBE_JXZ   10002d10 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001d20       ?not_eof@?$char_traits@D@std@@SAHABH@Z 10002d20 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001d40       ?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MAEHH@Z 10002d40 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001d90       ?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MAE?AV?$fpos@H@2@_JHH@Z 10002d90 f i IlmThreadSemaphoreWin32.obj
+ 0001:00001f40       ?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MAE?AV?$fpos@H@2@V32@H@Z 10002f40 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002060       ??_E?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAEPAXI@Z 10003060 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002060       ??_G?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAEPAXI@Z 10003060 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002090       ??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z 10003090 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002120       ??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ 10003120 f i IlmThreadSemaphoreWin32.obj
+ 0001:000021a0       ?_Inside@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE_NPBD@Z 100031a0 f i IlmThreadSemaphoreWin32.obj
+ 0001:000021e0       ?_Init@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IAEXPBDIH@Z 100031e0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002290       ??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 10003290 f i IlmThreadSemaphoreWin32.obj
+ 0001:000024e0       ??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 100034e0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002710       ??$?9DD@std@@YA_NABV?$allocator@D@0@0@Z 10003710 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002720       ??1?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAE@XZ 10003720 f i IlmThreadSemaphoreWin32.obj
+ 0001:000027a0       ?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MAEHH@Z 100037a0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002970       ??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z 10003970 f i IlmThreadSemaphoreWin32.obj
+ 0001:000029f0       ??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ 100039f0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002a90       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 10003a90 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002ab0       ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 10003ab0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002ae0       ??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z 10003ae0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002bc0       ??_E?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAEPAXI@Z 10003bc0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002bc0       ??_G?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAEPAXI@Z 10003bc0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002bf0       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBDI@Z 10003bf0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002cf0       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@PBD@Z 10003cf0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002cf0       ??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@PBD@Z 10003cf0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002d20       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z 10003d20 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002d20       ??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@ABV01@@Z 10003d20 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002d40       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@$$QAV12@@Z 10003d40 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002dc0       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@$$QAV01@@Z 10003dc0 f i IlmThreadSemaphoreWin32.obj
+ 0001:00002df0       ?errorString@?A0xf8146dba@IlmThread@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 10003df0 f   IlmThreadSemaphoreWin32.obj
+ 0001:00002ea0       ??0Semaphore@IlmThread@@QAE@I@Z 10003ea0 f   IlmThreadSemaphoreWin32.obj
+ 0001:00003010       ??0LogicExc@Iex@@QAE@ABV01@@Z 10004010 f i IlmThreadSemaphoreWin32.obj
+ 0001:00003030       ?wait@Semaphore@IlmThread@@QAEXXZ 10004030 f   IlmThreadSemaphoreWin32.obj
+ 0001:00003190       ?post@Semaphore@IlmThread@@QAEXXZ 10004190 f   IlmThreadSemaphoreWin32.obj
+ 0001:000032f0       ?value@Semaphore@IlmThread@@QBEHXZ 100042f0 f   IlmThreadSemaphoreWin32.obj
+ 0001:00003460       ??$?8DD@std@@YA_NABV?$allocator@D@0@0@Z 10004460 f   IlmThreadSemaphoreWin32.obj
+ 0001:00003460       ?supportsThreads@IlmThread@@YA_NXZ 10004460 f   IlmThreadWin32.obj
+ 0001:00003470       ?threadLoop@?A0x2a77d626@IlmThread@@YGIPAX@Z 10004470 f   IlmThreadWin32.obj
+ 0001:00003490       ??0Thread@IlmThread@@QAE@XZ 10004490 f   IlmThreadWin32.obj
+ 0001:000034a0       ??1Thread@IlmThread@@UAE@XZ 100044a0 f   IlmThreadWin32.obj
+ 0001:000034d0       ??_GThread@IlmThread@@UAEPAXI@Z 100044d0 f i IlmThreadWin32.obj
+ 0001:00003510       ??_EThread@IlmThread@@UAEPAXI@Z 10004510 f i IlmThreadWin32.obj
+ 0001:00003580       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 10004580 f i IlmThreadWin32.obj
+ 0001:000035c0       ?start@Thread@IlmThread@@QAEXXZ 100045c0 f   IlmThreadWin32.obj
+ 0001:00003666       _InitializeCriticalSection@4 10004666 f   kernel32:KERNEL32.dll
+ 0001:0000366c       _DeleteCriticalSection@4   1000466c f   kernel32:KERNEL32.dll
+ 0001:00003672       _EnterCriticalSection@4    10004672 f   kernel32:KERNEL32.dll
+ 0001:00003678       _LeaveCriticalSection@4    10004678 f   kernel32:KERNEL32.dll
+ 0001:0000367e       _CloseHandle@4             1000467e f   kernel32:KERNEL32.dll
+ 0001:00003684       _WaitForSingleObject@8     10004684 f   kernel32:KERNEL32.dll
+ 0001:0000368a       _LocalFree@4               1000468a f   kernel32:KERNEL32.dll
+ 0001:00003690       _FormatMessageA@28         10004690 f   kernel32:KERNEL32.dll
+ 0001:00003696       _GetLastError@0            10004696 f   kernel32:KERNEL32.dll
+ 0001:0000369c       _CreateSemaphoreA@16       1000469c f   kernel32:KERNEL32.dll
+ 0001:000036a2       _ReleaseSemaphore@12       100046a2 f   kernel32:KERNEL32.dll
+ 0001:000036a8       ??0BaseExc@Iex@@QAE@PBD@Z  100046a8 f   Iex:Iex.dll
+ 0001:000036ae       ?what@BaseExc@Iex@@UBEPBDXZ 100046ae f   Iex:Iex.dll
+ 0001:000036b4       ??1BaseExc@Iex@@UAE@XZ     100046b4 f   Iex:Iex.dll
+ 0001:000036ba       ??0BaseExc@Iex@@QAE@ABV01@@Z 100046ba f   Iex:Iex.dll
+ 0001:000036c0       ??0BaseExc@Iex@@QAE@AAV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100046c0 f   Iex:Iex.dll
+ 0001:000036c6       ?throwErrnoExc@Iex@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100046c6 f   Iex:Iex.dll
+ 0001:000036cc       ??0type_info@@AAE@ABV0@@Z  100046cc f   MSVCRT:ti_inst.obj
+ 0001:000036d7       ??_Etype_info@@UAEPAXI@Z   100046d7 f i MSVCRT:ti_inst.obj
+ 0001:00003723       ??4type_info@@AAEAAV0@ABV0@@Z 10004723 f   MSVCRT:ti_inst.obj
+ 0001:00003728       ??3@YAXPAX@Z               10004728 f   MSVCRT:MSVCR100.dll
+ 0001:0000372e       ??0exception@std@@QAE@ABQBD@Z 1000472e f   MSVCRT:MSVCR100.dll
+ 0001:00003734       ?what@exception@std@@UBEPBDXZ 10004734 f   MSVCRT:MSVCR100.dll
+ 0001:0000373a       ??1exception@std@@UAE@XZ   1000473a f   MSVCRT:MSVCR100.dll
+ 0001:00003740       ___CxxFrameHandler3        10004740 f   MSVCRT:MSVCR100.dll
+ 0001:00003746       @__security_check_cookie@4 10004746 f   MSVCRT:secchk.obj
+ 0001:00003756       __purecall                 10004756 f   MSVCRT:MSVCR100.dll
+ 0001:0000375c       ??2@YAPAXI@Z               1000475c f   MSVCRT:MSVCR100.dll
+ 0001:00003762       __CxxThrowException@8      10004762 f   MSVCRT:MSVCR100.dll
+ 0001:00003768       ??0exception@std@@QAE@ABV01@@Z 10004768 f   MSVCRT:MSVCR100.dll
+ 0001:0000376e       _memcpy                    1000476e f   MSVCRT:MSVCR100.dll
+ 0001:00003774       _memmove                   10004774 f   MSVCRT:MSVCR100.dll
+ 0001:0000377a       __onexit                   1000477a f   MSVCRT:atonexit.obj
+ 0001:0000381b       _atexit                    1000481b f   MSVCRT:atonexit.obj
+ 0001:00003832       __endthreadex              10004832 f   MSVCRT:MSVCR100.dll
+ 0001:0000384a       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 1000484a f   MSVCRT:ehvecdtr.obj
+ 0001:000038a8       ??_M@YGXPAXIHP6EX0@Z@Z     100048a8 f   MSVCRT:ehvecdtr.obj
+ 0001:0000390c       __beginthreadex            1000490c f   MSVCRT:MSVCR100.dll
+ 0001:00003912       _NtCurrentTeb              10004912 f i MSVCRT:crtdll.obj
+ 0001:00003967       __CRT_INIT@12              10004967 f   MSVCRT:crtdll.obj
+ 0001:00003c87       __DllMainCRTStartup@12     10004c87 f   MSVCRT:crtdll.obj
+ 0001:00003caa       ___report_gsfailure        10004caa f   MSVCRT:gs_report.obj
+ 0001:00003db0       __unlock                   10004db0 f   MSVCRT:MSVCR100.dll
+ 0001:00003db6       ___dllonexit               10004db6 f   MSVCRT:MSVCR100.dll
+ 0001:00003dbc       __lock                     10004dbc f   MSVCRT:MSVCR100.dll
+ 0001:00003dd0       __SEH_prolog4              10004dd0 f   MSVCRT:sehprolg4.obj
+ 0001:00003e15       __SEH_epilog4              10004e15 f   MSVCRT:sehprolg4.obj
+ 0001:00003e29       __except_handler4          10004e29 f   MSVCRT:chandler4gs.obj
+ 0001:00003e4e       ?terminate@@YAXXZ          10004e4e f   MSVCRT:MSVCR100.dll
+ 0001:00003e54       ___clean_type_info_names   10004e54 f   MSVCRT:tncleanup.obj
+ 0001:00003e60       __RTC_Initialize           10004e60 f   MSVCRT:_initsect_.obj
+ 0001:00003e86       __RTC_Terminate            10004e86 f   MSVCRT:_initsect_.obj
+ 0001:00003eac       __malloc_crt               10004eac f   MSVCRT:MSVCR100.dll
+ 0001:00003eb2       _free                      10004eb2 f   MSVCRT:MSVCR100.dll
+ 0001:00003eb8       __encoded_null             10004eb8 f   MSVCRT:MSVCR100.dll
+ 0001:00003ec0       __ValidateImageBase        10004ec0 f   MSVCRT:pesect.obj
+ 0001:00003f00       __FindPESection            10004f00 f   MSVCRT:pesect.obj
+ 0001:00003f50       __IsNonwritableInCurrentImage 10004f50 f   MSVCRT:pesect.obj
+ 0001:0000400c       __initterm                 1000500c f   MSVCRT:MSVCR100.dll
+ 0001:00004012       __initterm_e               10005012 f   MSVCRT:MSVCR100.dll
+ 0001:00004018       __amsg_exit                10005018 f   MSVCRT:MSVCR100.dll
+ 0001:0000401e       ___CppXcptFilter           1000501e f   MSVCRT:MSVCR100.dll
+ 0001:00004024       _DllMain@12                10005024 f   MSVCRT:dllmain.obj
+ 0001:00004048       ___security_init_cookie    10005048 f   MSVCRT:gs_support.obj
+ 0001:000040e4       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 100050e4 f   MSVCRT:MSVCR100.dll
+ 0001:000040e4       ??1type_info@@UAE@XZ       100050e4 f   MSVCRT:MSVCR100.dll
+ 0001:000040ea       __crt_debugger_hook        100050ea f   MSVCRT:MSVCR100.dll
+ 0001:000040f0       __except_handler4_common   100050f0 f   MSVCRT:MSVCR100.dll
+ 0001:000040f6       ___clean_type_info_names_internal 100050f6 f   MSVCRT:MSVCR100.dll
+ 0001:000040fc       ?_Xlength_error@std@@YAXPBD@Z 100050fc f   msvcprt:MSVCP100.dll
+ 0001:00004102       ?_Xout_of_range@std@@YAXPBD@Z 10005102 f   msvcprt:MSVCP100.dll
+ 0001:00004108       ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ 10005108 f   msvcprt:MSVCP100.dll
+ 0001:0000410e       ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ 1000510e f   msvcprt:MSVCP100.dll
+ 0001:00004114       ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ 10005114 f   msvcprt:MSVCP100.dll
+ 0001:0000411a       ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ 1000511a f   msvcprt:MSVCP100.dll
+ 0001:00004120       ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ 10005120 f   msvcprt:MSVCP100.dll
+ 0001:00004126       ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z 10005126 f   msvcprt:MSVCP100.dll
+ 0001:0000412c       ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z 1000512c f   msvcprt:MSVCP100.dll
+ 0001:00004132       ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z 10005132 f   msvcprt:MSVCP100.dll
+ 0001:00004138       ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ 10005138 f   msvcprt:MSVCP100.dll
+ 0001:0000413e       ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z 1000513e f   msvcprt:MSVCP100.dll
+ 0001:00004144       ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ 10005144 f   msvcprt:MSVCP100.dll
+ 0001:0000414a       ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ 1000514a f   msvcprt:MSVCP100.dll
+ 0001:00004150       ?uncaught_exception@std@@YA_NXZ 10005150 f   msvcprt:MSVCP100.dll
+ 0001:00004156       ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z 10005156 f   msvcprt:MSVCP100.dll
+ 0001:0000415c       ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z 1000515c f   msvcprt:MSVCP100.dll
+ 0001:00004162       ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z 10005162 f   msvcprt:MSVCP100.dll
+ 0001:00004168       ??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ 10005168 f   msvcprt:MSVCP100.dll
+ 0001:0000416e       ?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ 1000516e f   msvcprt:MSVCP100.dll
+ 0001:00004174       ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ 10005174 f   msvcprt:MSVCP100.dll
+ 0001:0000417a       ?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z 1000517a f   msvcprt:MSVCP100.dll
+ 0001:00004180       ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ 10005180 f   msvcprt:MSVCP100.dll
+ 0001:00004186       ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z 10005186 f   msvcprt:MSVCP100.dll
+ 0001:0000418c       _EncodePointer@4           1000518c f   kernel32:KERNEL32.dll
+ 0001:00004192       _DecodePointer@4           10005192 f   kernel32:KERNEL32.dll
+ 0001:00004198       _InterlockedExchange@8     10005198 f   kernel32:KERNEL32.dll
+ 0001:0000419e       _Sleep@4                   1000519e f   kernel32:KERNEL32.dll
+ 0001:000041a4       _InterlockedCompareExchange@12 100051a4 f   kernel32:KERNEL32.dll
+ 0001:000041aa       _TerminateProcess@8        100051aa f   kernel32:KERNEL32.dll
+ 0001:000041b0       _GetCurrentProcess@0       100051b0 f   kernel32:KERNEL32.dll
+ 0001:000041b6       _UnhandledExceptionFilter@4 100051b6 f   kernel32:KERNEL32.dll
+ 0001:000041bc       _SetUnhandledExceptionFilter@4 100051bc f   kernel32:KERNEL32.dll
+ 0001:000041c2       _IsDebuggerPresent@0       100051c2 f   kernel32:KERNEL32.dll
+ 0001:000041c8       _DisableThreadLibraryCalls@4 100051c8 f   kernel32:KERNEL32.dll
+ 0001:000041ce       _QueryPerformanceCounter@4 100051ce f   kernel32:KERNEL32.dll
+ 0001:000041d4       _GetTickCount@0            100051d4 f   kernel32:KERNEL32.dll
+ 0001:000041da       _GetCurrentThreadId@0      100051da f   kernel32:KERNEL32.dll
+ 0001:000041e0       _GetCurrentProcessId@0     100051e0 f   kernel32:KERNEL32.dll
+ 0001:000041e6       _GetSystemTimeAsFileTime@4 100051e6 f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_??0BaseExc@Iex@@QAE@AAV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10006000     Iex:Iex.dll
+ 0002:00000004       __imp_??0BaseExc@Iex@@QAE@ABV01@@Z 10006004     Iex:Iex.dll
+ 0002:00000008       __imp_??1BaseExc@Iex@@UAE@XZ 10006008     Iex:Iex.dll
+ 0002:0000000c       __imp_?what@BaseExc@Iex@@UBEPBDXZ 1000600c     Iex:Iex.dll
+ 0002:00000010       __imp_??0BaseExc@Iex@@QAE@PBD@Z 10006010     Iex:Iex.dll
+ 0002:00000014       __imp_?throwErrnoExc@Iex@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10006014     Iex:Iex.dll
+ 0002:00000018       \177Iex_NULL_THUNK_DATA    10006018     Iex:Iex.dll
+ 0002:0000001c       __imp__FormatMessageA@28   1000601c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__GetLastError@0      10006020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__LocalFree@4         10006024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__ReleaseSemaphore@12 10006028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__WaitForSingleObject@8 1000602c     kernel32:KERNEL32.dll
+ 0002:00000030       __imp__CloseHandle@4       10006030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__LeaveCriticalSection@4 10006034     kernel32:KERNEL32.dll
+ 0002:00000038       __imp__EnterCriticalSection@4 10006038     kernel32:KERNEL32.dll
+ 0002:0000003c       __imp__DeleteCriticalSection@4 1000603c     kernel32:KERNEL32.dll
+ 0002:00000040       __imp__CreateSemaphoreA@16 10006040     kernel32:KERNEL32.dll
+ 0002:00000044       __imp__InitializeCriticalSection@4 10006044     kernel32:KERNEL32.dll
+ 0002:00000048       __imp__GetCurrentProcessId@0 10006048     kernel32:KERNEL32.dll
+ 0002:0000004c       __imp__GetCurrentThreadId@0 1000604c     kernel32:KERNEL32.dll
+ 0002:00000050       __imp__GetTickCount@0      10006050     kernel32:KERNEL32.dll
+ 0002:00000054       __imp__QueryPerformanceCounter@4 10006054     kernel32:KERNEL32.dll
+ 0002:00000058       __imp__DisableThreadLibraryCalls@4 10006058     kernel32:KERNEL32.dll
+ 0002:0000005c       __imp__IsDebuggerPresent@0 1000605c     kernel32:KERNEL32.dll
+ 0002:00000060       __imp__SetUnhandledExceptionFilter@4 10006060     kernel32:KERNEL32.dll
+ 0002:00000064       __imp__UnhandledExceptionFilter@4 10006064     kernel32:KERNEL32.dll
+ 0002:00000068       __imp__GetCurrentProcess@0 10006068     kernel32:KERNEL32.dll
+ 0002:0000006c       __imp__TerminateProcess@8  1000606c     kernel32:KERNEL32.dll
+ 0002:00000070       __imp__InterlockedCompareExchange@12 10006070     kernel32:KERNEL32.dll
+ 0002:00000074       __imp__Sleep@4             10006074     kernel32:KERNEL32.dll
+ 0002:00000078       __imp__InterlockedExchange@8 10006078     kernel32:KERNEL32.dll
+ 0002:0000007c       __imp__DecodePointer@4     1000607c     kernel32:KERNEL32.dll
+ 0002:00000080       __imp__EncodePointer@4     10006080     kernel32:KERNEL32.dll
+ 0002:00000084       __imp__GetSystemTimeAsFileTime@4 10006084     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 10006088     kernel32:KERNEL32.dll
+ 0002:0000008c       __imp_?uncaught_exception@std@@YA_NXZ 1000608c     msvcprt:MSVCP100.dll
+ 0002:00000090       __imp_??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z 10006090     msvcprt:MSVCP100.dll
+ 0002:00000094       __imp_??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ 10006094     msvcprt:MSVCP100.dll
+ 0002:00000098       __imp_??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@ 10006098     msvcprt:MSVCP100.dll
+ 0002:0000009c       __imp_??_7ios_base@std@@6B@ 1000609c     msvcprt:MSVCP100.dll
+ 0002:000000a0       __imp_?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z 100060a0     msvcprt:MSVCP100.dll
+ 0002:000000a4       __imp_??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ 100060a4     msvcprt:MSVCP100.dll
+ 0002:000000a8       __imp_?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ 100060a8     msvcprt:MSVCP100.dll
+ 0002:000000ac       __imp_??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ 100060ac     msvcprt:MSVCP100.dll
+ 0002:000000b0       __imp_?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z 100060b0     msvcprt:MSVCP100.dll
+ 0002:000000b4       __imp_?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z 100060b4     msvcprt:MSVCP100.dll
+ 0002:000000b8       __imp_?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z 100060b8     msvcprt:MSVCP100.dll
+ 0002:000000bc       __imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ 100060bc     msvcprt:MSVCP100.dll
+ 0002:000000c0       __imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ 100060c0     msvcprt:MSVCP100.dll
+ 0002:000000c4       __imp_?_Xlength_error@std@@YAXPBD@Z 100060c4     msvcprt:MSVCP100.dll
+ 0002:000000c8       __imp_?_Xout_of_range@std@@YAXPBD@Z 100060c8     msvcprt:MSVCP100.dll
+ 0002:000000cc       __imp_??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ 100060cc     msvcprt:MSVCP100.dll
+ 0002:000000d0       __imp_?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ 100060d0     msvcprt:MSVCP100.dll
+ 0002:000000d4       __imp_?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ 100060d4     msvcprt:MSVCP100.dll
+ 0002:000000d8       __imp_?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ 100060d8     msvcprt:MSVCP100.dll
+ 0002:000000dc       __imp_?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ 100060dc     msvcprt:MSVCP100.dll
+ 0002:000000e0       __imp_?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z 100060e0     msvcprt:MSVCP100.dll
+ 0002:000000e4       __imp_?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z 100060e4     msvcprt:MSVCP100.dll
+ 0002:000000e8       __imp_?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z 100060e8     msvcprt:MSVCP100.dll
+ 0002:000000ec       __imp_?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ 100060ec     msvcprt:MSVCP100.dll
+ 0002:000000f0       __imp_?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z 100060f0     msvcprt:MSVCP100.dll
+ 0002:000000f4       __imp_?_BADOFF@std@@3_JB   100060f4     msvcprt:MSVCP100.dll
+ 0002:000000f8       \177MSVCP100_NULL_THUNK_DATA 100060f8     msvcprt:MSVCP100.dll
+ 0002:000000fc       __imp___except_handler4_common 100060fc     MSVCRT:MSVCR100.dll
+ 0002:00000100       __imp___onexit             10006100     MSVCRT:MSVCR100.dll
+ 0002:00000104       __imp___lock               10006104     MSVCRT:MSVCR100.dll
+ 0002:00000108       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10006108     MSVCRT:MSVCR100.dll
+ 0002:0000010c       __imp____CppXcptFilter     1000610c     MSVCRT:MSVCR100.dll
+ 0002:00000110       __imp___amsg_exit          10006110     MSVCRT:MSVCR100.dll
+ 0002:00000114       __imp___initterm_e         10006114     MSVCRT:MSVCR100.dll
+ 0002:00000118       __imp___initterm           10006118     MSVCRT:MSVCR100.dll
+ 0002:0000011c       __imp___encoded_null       1000611c     MSVCRT:MSVCR100.dll
+ 0002:00000120       __imp__free                10006120     MSVCRT:MSVCR100.dll
+ 0002:00000124       __imp___malloc_crt         10006124     MSVCRT:MSVCR100.dll
+ 0002:00000128       __imp_?terminate@@YAXXZ    10006128     MSVCRT:MSVCR100.dll
+ 0002:0000012c       __imp____clean_type_info_names_internal 1000612c     MSVCRT:MSVCR100.dll
+ 0002:00000130       __imp____dllonexit         10006130     MSVCRT:MSVCR100.dll
+ 0002:00000134       __imp___unlock             10006134     MSVCRT:MSVCR100.dll
+ 0002:00000138       __imp___beginthreadex      10006138     MSVCRT:MSVCR100.dll
+ 0002:0000013c       __imp___endthreadex        1000613c     MSVCRT:MSVCR100.dll
+ 0002:00000140       __imp__memmove             10006140     MSVCRT:MSVCR100.dll
+ 0002:00000144       __imp__memcpy              10006144     MSVCRT:MSVCR100.dll
+ 0002:00000148       __imp_??0exception@std@@QAE@ABV01@@Z 10006148     MSVCRT:MSVCR100.dll
+ 0002:0000014c       __imp___CxxThrowException@8 1000614c     MSVCRT:MSVCR100.dll
+ 0002:00000150       __imp_??2@YAPAXI@Z         10006150     MSVCRT:MSVCR100.dll
+ 0002:00000154       __imp___purecall           10006154     MSVCRT:MSVCR100.dll
+ 0002:00000158       __imp____CxxFrameHandler3  10006158     MSVCRT:MSVCR100.dll
+ 0002:0000015c       __imp_??1exception@std@@UAE@XZ 1000615c     MSVCRT:MSVCR100.dll
+ 0002:00000160       __imp_?what@exception@std@@UBEPBDXZ 10006160     MSVCRT:MSVCR100.dll
+ 0002:00000164       __imp_??0exception@std@@QAE@ABQBD@Z 10006164     MSVCRT:MSVCR100.dll
+ 0002:00000168       __imp_??3@YAXPAX@Z         10006168     MSVCRT:MSVCR100.dll
+ 0002:0000016c       __imp___crt_debugger_hook  1000616c     MSVCRT:MSVCR100.dll
+ 0002:00000170       \177MSVCR100_NULL_THUNK_DATA 10006170     MSVCRT:MSVCR100.dll
+ 0002:00000174       ___xc_a                    10006174     MSVCRT:cinitexe.obj
+ 0002:00000178       ___xc_z                    10006178     MSVCRT:cinitexe.obj
+ 0002:0000017c       ___xi_a                    1000617c     MSVCRT:cinitexe.obj
+ 0002:00000184       ___xi_z                    10006184     MSVCRT:cinitexe.obj
+ 0002:000001ac       ?value@?$integral_constant@_N$0A@@tr1@std@@2_NB 100061ac     IlmThreadMutexWin32.obj
+ 0002:000001ad       ?value@?$integral_constant@_N$00@tr1@std@@2_NB 100061ad     IlmThreadMutexWin32.obj
+ 0002:000001b0       ?_Rank@?$_Arithmetic_traits@C@std@@2HB 100061b0     IlmThreadMutexWin32.obj
+ 0002:000001b0       ?ctype@?$_Locbase@H@std@@2HB 100061b0     IlmThreadMutexWin32.obj
+ 0002:000001b0       ?out@?$_Iosb@H@std@@2W4_Openmode@12@B 100061b0     IlmThreadMutexWin32.obj
+ 0002:000001b0       ?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061b0     IlmThreadMutexWin32.obj
+ 0002:000001b0       ?end@?$_Iosb@H@std@@2W4_Seekdir@12@B 100061b0     IlmThreadMutexWin32.obj
+ 0002:000001b0       ?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B 100061b0     IlmThreadMutexWin32.obj
+ 0002:000001b0       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 100061b0     MSVCRT:tncleanup.obj
+ 0002:000001b0       ?_Rank@?$_Arithmetic_traits@D@std@@2HB 100061b0     IlmThreadMutexWin32.obj
+ 0002:000001b0       ?_Rank@?$_Arithmetic_traits@E@std@@2HB 100061b0     IlmThreadMutexWin32.obj
+ 0002:000001b4       ?_Rank@?$_Arithmetic_traits@F@std@@2HB 100061b4     IlmThreadMutexWin32.obj
+ 0002:000001b4       ?_Rank@?$_Arithmetic_traits@G@std@@2HB 100061b4     IlmThreadMutexWin32.obj
+ 0002:000001b4       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 100061b4     MSVCRT:tncleanup.obj
+ 0002:000001b8       ?_Rank@?$_Arithmetic_traits@J@std@@2HB 100061b8     IlmThreadMutexWin32.obj
+ 0002:000001b8       ?_Rank@?$_Arithmetic_traits@K@std@@2HB 100061b8     IlmThreadMutexWin32.obj
+ 0002:000001bc       ?_Rank@?$_Arithmetic_traits@_J@std@@2HB 100061bc     IlmThreadMutexWin32.obj
+ 0002:000001bc       ?_Rank@?$_Arithmetic_traits@_K@std@@2HB 100061bc     IlmThreadMutexWin32.obj
+ 0002:000001c0       ?_Rank@?$_Arithmetic_traits@M@std@@2HB 100061c0     IlmThreadMutexWin32.obj
+ 0002:000001c4       ?_Rank@?$_Arithmetic_traits@O@std@@2HB 100061c4     IlmThreadMutexWin32.obj
+ 0002:000001c8       ?all@?$_Locbase@H@std@@2HB 100061c8     IlmThreadMutexWin32.obj
+ 0002:000001cc       ?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B 100061cc     IlmThreadMutexWin32.obj
+ 0002:000001cc       ?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061cc     IlmThreadMutexWin32.obj
+ 0002:000001cc       ?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B 100061cc     IlmThreadMutexWin32.obj
+ 0002:000001cc       ?time@?$_Locbase@H@std@@2HB 100061cc     IlmThreadMutexWin32.obj
+ 0002:000001d0       ?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061d0     IlmThreadMutexWin32.obj
+ 0002:000001d4       ?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061d4     IlmThreadMutexWin32.obj
+ 0002:000001d8       ?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061d8     IlmThreadMutexWin32.obj
+ 0002:000001dc       ?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061dc     IlmThreadMutexWin32.obj
+ 0002:000001e0       ?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061e0     IlmThreadMutexWin32.obj
+ 0002:000001e4       ?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061e4     IlmThreadMutexWin32.obj
+ 0002:000001e8       ?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061e8     IlmThreadMutexWin32.obj
+ 0002:000001ec       ?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061ec     IlmThreadMutexWin32.obj
+ 0002:000001f0       ?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061f0     IlmThreadMutexWin32.obj
+ 0002:000001f4       ?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061f4     IlmThreadMutexWin32.obj
+ 0002:000001f8       ?hexfloat@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061f8     IlmThreadMutexWin32.obj
+ 0002:000001f8       ?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061f8     IlmThreadMutexWin32.obj
+ 0002:000001fc       ?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B 100061fc     IlmThreadMutexWin32.obj
+ 0002:000001fc       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 100061fc     MSVCRT:tncleanup.obj
+ 0002:000001fc       ?_Rank@?$_Arithmetic_traits@H@std@@2HB 100061fc     IlmThreadMutexWin32.obj
+ 0002:000001fc       ?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B 100061fc     IlmThreadMutexWin32.obj
+ 0002:000001fc       ?_Rank@?$_Arithmetic_traits@I@std@@2HB 100061fc     IlmThreadMutexWin32.obj
+ 0002:000001fc       ?monetary@?$_Locbase@H@std@@2HB 100061fc     IlmThreadMutexWin32.obj
+ 0002:000001fc       ?ate@?$_Iosb@H@std@@2W4_Openmode@12@B 100061fc     IlmThreadMutexWin32.obj
+ 0002:00000200       ?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10006200     IlmThreadMutexWin32.obj
+ 0002:00000200       ?numeric@?$_Locbase@H@std@@2HB 10006200     IlmThreadMutexWin32.obj
+ 0002:00000200       ?app@?$_Iosb@H@std@@2W4_Openmode@12@B 10006200     IlmThreadMutexWin32.obj
+ 0002:00000200       ?_Rank@?$_Arithmetic_traits@N@std@@2HB 10006200     IlmThreadMutexWin32.obj
+ 0002:00000204       ?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B 10006204     IlmThreadMutexWin32.obj
+ 0002:00000204       ?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10006204     IlmThreadMutexWin32.obj
+ 0002:00000208       ?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10006208     IlmThreadMutexWin32.obj
+ 0002:00000208       ?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B 10006208     IlmThreadMutexWin32.obj
+ 0002:0000020c       ?binary@?$_Iosb@H@std@@2W4_Openmode@12@B 1000620c     IlmThreadMutexWin32.obj
+ 0002:0000020c       ?messages@?$_Locbase@H@std@@2HB 1000620c     IlmThreadMutexWin32.obj
+ 0002:0000020c       ?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1000620c     IlmThreadMutexWin32.obj
+ 0002:00000214       ??_7Mutex@IlmThread@@6B@   10006214     IlmThreadMutexWin32.obj
+ 0002:0000021c       ??_7bad_alloc@std@@6B@     1000621c     IlmThreadPool.obj
+ 0002:00000228       ??_7ArgExc@Iex@@6B@        10006228     IlmThreadPool.obj
+ 0002:00000234       ??_7WorkerThread@?A0x6357f155@IlmThread@@6B@ 10006234     IlmThreadPool.obj
+ 0002:00000240       ??_7Task@IlmThread@@6B@    10006240     IlmThreadPool.obj
+ 0002:00000248       ??_C@_0BB@MOGOBHAF@list?$DMT?$DO?5too?5long?$AA@ 10006248     IlmThreadPool.obj
+ 0002:00000260       ??_C@_0EL@DLLOMFBF@Attempt?5to?5set?5the?5number?5of?5thr@ 10006260     IlmThreadPool.obj
+ 0002:000002ac       ??_C@_0BA@JFNIOLAK@string?5too?5long?$AA@ 100062ac     IlmThreadPool.obj
+ 0002:000002bc       ??_C@_0BI@CFPLBAOH@invalid?5string?5position?$AA@ 100062bc     IlmThreadPool.obj
+ 0002:000002d8       ??_7ThreadPool@IlmThread@@6B@ 100062d8     IlmThreadPool.obj
+ 0002:000002e0       ??_7LogicExc@Iex@@6B@      100062e0     IlmThreadSemaphoreWin32.obj
+ 0002:000002ec       ??_7Semaphore@IlmThread@@6B@ 100062ec     IlmThreadSemaphoreWin32.obj
+ 0002:000002f4       ??_7?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@ 100062f4     IlmThreadSemaphoreWin32.obj
+ 0002:00000334       ??_7?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@ 10006334     IlmThreadSemaphoreWin32.obj
+ 0002:00000338       ??_8?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@7B?$basic_ostream@DU?$char_traits@D@std@@@1@@ 10006338     IlmThreadSemaphoreWin32.obj
+ 0002:00000340       ??_8?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@7B?$basic_istream@DU?$char_traits@D@std@@@1@@ 10006340     IlmThreadSemaphoreWin32.obj
+ 0002:00000348       ??_C@_0BN@GNKBEIOC@Could?5not?5create?5semaphore?5?$CI?$AA@ 10006348     IlmThreadSemaphoreWin32.obj
+ 0002:00000368       ??_C@_02DMCFFCKO@?$CJ?4?$AA@ 10006368     IlmThreadSemaphoreWin32.obj
+ 0002:0000036c       ??_C@_0BO@OKMBNFDM@Could?5not?5wait?5on?5semaphore?5?$CI?$AA@ 1000636c     IlmThreadSemaphoreWin32.obj
+ 0002:0000038c       ??_C@_0BO@KDNOPMKO@Could?5not?5post?5on?5semaphore?5?$CI?$AA@ 1000638c     IlmThreadSemaphoreWin32.obj
+ 0002:000003ac       ??_C@_0CD@LHHALIDH@Could?5not?5get?5value?5of?5semaphore@ 100063ac     IlmThreadSemaphoreWin32.obj
+ 0002:000003d4       ??_7Thread@IlmThread@@6B@  100063d4     IlmThreadWin32.obj
+ 0002:000003dc       ??_C@_0BP@EPDMNPGJ@Cannot?5create?5new?5thread?5?$CI?$CFT?$CJ?4?$AA@ 100063dc     IlmThreadWin32.obj
+ 0002:00000400       ??_7type_info@@6B@         10006400     MSVCRT:ti_inst.obj
+ 0002:00000404       __pRawDllMain              10006404     MSVCRT:crtdll.obj
+ 0002:00000404       __pDefaultRawDllMain       10006404     MSVCRT:crtdll.obj
+ 0002:00000410       ?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B 10006410     IlmThreadMutexWin32.obj
+ 0002:00000410       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 10006410     MSVCRT:tncleanup.obj
+ 0002:00000410       ?value@?$integral_constant@I$0A@@tr1@std@@2IB 10006410     IlmThreadMutexWin32.obj
+ 0002:00000410       ?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B 10006410     IlmThreadMutexWin32.obj
+ 0002:00000410       ?none@?$_Locbase@H@std@@2HB 10006410     IlmThreadMutexWin32.obj
+ 0002:00000414       ?_Rank@?$_Arithmetic_traits@_N@std@@2HB 10006414     IlmThreadMutexWin32.obj
+ 0002:00000414       ?collate@?$_Locbase@H@std@@2HB 10006414     IlmThreadMutexWin32.obj
+ 0002:00000414       ?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B 10006414     IlmThreadMutexWin32.obj
+ 0002:00000414       ?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B 10006414     IlmThreadMutexWin32.obj
+ 0002:00000414       ?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B 10006414     IlmThreadMutexWin32.obj
+ 0002:00000414       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 10006414     MSVCRT:tncleanup.obj
+ 0002:00000414       ?in@?$_Iosb@H@std@@2W4_Openmode@12@B 10006414     IlmThreadMutexWin32.obj
+ 0002:00000418       __load_config_used         10006418     MSVCRT:loadcfg.obj
+ 0002:000004d4       ??_R4Mutex@IlmThread@@6B@  100064d4     IlmThreadMutexWin32.obj
+ 0002:000004e8       ??_R3Mutex@IlmThread@@8    100064e8     IlmThreadMutexWin32.obj
+ 0002:000004f8       ??_R2Mutex@IlmThread@@8    100064f8     IlmThreadMutexWin32.obj
+ 0002:00000500       ??_R1A@?0A@EA@Mutex@IlmThread@@8 10006500     IlmThreadMutexWin32.obj
+ 0002:0000051c       ??_R4bad_alloc@std@@6B@    1000651c     IlmThreadPool.obj
+ 0002:00000530       ??_R3bad_alloc@std@@8      10006530     IlmThreadPool.obj
+ 0002:00000540       ??_R2bad_alloc@std@@8      10006540     IlmThreadPool.obj
+ 0002:0000054c       ??_R1A@?0A@EA@bad_alloc@std@@8 1000654c     IlmThreadPool.obj
+ 0002:00000568       ??_R1A@?0A@EA@exception@std@@8 10006568     IlmThreadPool.obj
+ 0002:00000584       ??_R3exception@std@@8      10006584     IlmThreadPool.obj
+ 0002:00000594       ??_R2exception@std@@8      10006594     IlmThreadPool.obj
+ 0002:0000059c       ??_R4ArgExc@Iex@@6B@       1000659c     IlmThreadPool.obj
+ 0002:000005b0       ??_R3ArgExc@Iex@@8         100065b0     IlmThreadPool.obj
+ 0002:000005c0       ??_R2ArgExc@Iex@@8         100065c0     IlmThreadPool.obj
+ 0002:000005dc       ??_R1A@?0A@EA@ArgExc@Iex@@8 100065dc     IlmThreadPool.obj
+ 0002:000005f8       ??_R1A@?0A@EA@BaseExc@Iex@@8 100065f8     IlmThreadPool.obj
+ 0002:00000614       ??_R3BaseExc@Iex@@8        10006614     IlmThreadPool.obj
+ 0002:00000624       ??_R2BaseExc@Iex@@8        10006624     IlmThreadPool.obj
+ 0002:0000063c       ??_R1M@?0A@EA@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 1000663c     IlmThreadPool.obj
+ 0002:00000658       ??_R3?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 10006658     IlmThreadPool.obj
+ 0002:00000668       ??_R2?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 10006668     IlmThreadPool.obj
+ 0002:00000678       ??_R1A@?0A@EA@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 10006678     IlmThreadPool.obj
+ 0002:00000694       ??_R1A@?0A@EA@?$_String_val@DV?$allocator@D@std@@@std@@8 10006694     IlmThreadPool.obj
+ 0002:000006b0       ??_R3?$_String_val@DV?$allocator@D@std@@@std@@8 100066b0     IlmThreadPool.obj
+ 0002:000006c0       ??_R2?$_String_val@DV?$allocator@D@std@@@std@@8 100066c0     IlmThreadPool.obj
+ 0002:000006cc       ??_R1A@?0A@EA@_Container_base0@std@@8 100066cc     IlmThreadPool.obj
+ 0002:000006e8       ??_R3_Container_base0@std@@8 100066e8     IlmThreadPool.obj
+ 0002:000006f8       ??_R2_Container_base0@std@@8 100066f8     IlmThreadPool.obj
+ 0002:00000700       ??_R1M@?0A@EA@?$_String_val@DV?$allocator@D@std@@@std@@8 10006700     IlmThreadPool.obj
+ 0002:0000071c       ??_R1M@?0A@EA@_Container_base0@std@@8 1000671c     IlmThreadPool.obj
+ 0002:00000738       ??_R4WorkerThread@?A0x6357f155@IlmThread@@6B@ 10006738     IlmThreadPool.obj
+ 0002:0000074c       ??_R3WorkerThread@?A0x6357f155@IlmThread@@8 1000674c     IlmThreadPool.obj
+ 0002:0000075c       ??_R2WorkerThread@?A0x6357f155@IlmThread@@8 1000675c     IlmThreadPool.obj
+ 0002:00000768       ??_R1A@?0A@EA@WorkerThread@?A0x6357f155@IlmThread@@8 10006768     IlmThreadPool.obj
+ 0002:00000784       ??_R1A@?0A@EA@Thread@IlmThread@@8 10006784     IlmThreadPool.obj
+ 0002:000007a0       ??_R3Thread@IlmThread@@8   100067a0     IlmThreadPool.obj
+ 0002:000007b0       ??_R2Thread@IlmThread@@8   100067b0     IlmThreadPool.obj
+ 0002:000007b8       ??_R4Task@IlmThread@@6B@   100067b8     IlmThreadPool.obj
+ 0002:000007cc       ??_R3Task@IlmThread@@8     100067cc     IlmThreadPool.obj
+ 0002:000007dc       ??_R2Task@IlmThread@@8     100067dc     IlmThreadPool.obj
+ 0002:000007e4       ??_R1A@?0A@EA@Task@IlmThread@@8 100067e4     IlmThreadPool.obj
+ 0002:00000800       ??_R4ThreadPool@IlmThread@@6B@ 10006800     IlmThreadPool.obj
+ 0002:00000814       ??_R3ThreadPool@IlmThread@@8 10006814     IlmThreadPool.obj
+ 0002:00000824       ??_R2ThreadPool@IlmThread@@8 10006824     IlmThreadPool.obj
+ 0002:0000082c       ??_R1A@?0A@EA@ThreadPool@IlmThread@@8 1000682c     IlmThreadPool.obj
+ 0002:00000848       ??_R4LogicExc@Iex@@6B@     10006848     IlmThreadSemaphoreWin32.obj
+ 0002:0000085c       ??_R3LogicExc@Iex@@8       1000685c     IlmThreadSemaphoreWin32.obj
+ 0002:0000086c       ??_R2LogicExc@Iex@@8       1000686c     IlmThreadSemaphoreWin32.obj
+ 0002:00000888       ??_R1A@?0A@EA@LogicExc@Iex@@8 10006888     IlmThreadSemaphoreWin32.obj
+ 0002:000008a4       ??_R4Semaphore@IlmThread@@6B@ 100068a4     IlmThreadSemaphoreWin32.obj
+ 0002:000008b8       ??_R3Semaphore@IlmThread@@8 100068b8     IlmThreadSemaphoreWin32.obj
+ 0002:000008c8       ??_R2Semaphore@IlmThread@@8 100068c8     IlmThreadSemaphoreWin32.obj
+ 0002:000008d0       ??_R1A@?0A@EA@Semaphore@IlmThread@@8 100068d0     IlmThreadSemaphoreWin32.obj
+ 0002:000008ec       ??_R4?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@ 100068ec     IlmThreadSemaphoreWin32.obj
+ 0002:00000900       ??_R3?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 10006900     IlmThreadSemaphoreWin32.obj
+ 0002:00000910       ??_R2?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 10006910     IlmThreadSemaphoreWin32.obj
+ 0002:0000091c       ??_R1A@?0A@EA@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 1000691c     IlmThreadSemaphoreWin32.obj
+ 0002:00000938       ??_R1A@?0A@EA@?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 10006938     IlmThreadSemaphoreWin32.obj
+ 0002:00000954       ??_R3?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 10006954     IlmThreadSemaphoreWin32.obj
+ 0002:00000964       ??_R2?$basic_streambuf@DU?$char_traits@D@std@@@std@@8 10006964     IlmThreadSemaphoreWin32.obj
+ 0002:0000096c       ??_R4?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@ 1000696c     IlmThreadSemaphoreWin32.obj
+ 0002:00000980       ??_R3?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 10006980     IlmThreadSemaphoreWin32.obj
+ 0002:00000990       ??_R2?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 10006990     IlmThreadSemaphoreWin32.obj
+ 0002:000009bc       ??_R1A@?0A@EA@?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 100069bc     IlmThreadSemaphoreWin32.obj
+ 0002:000009d8       ??_R1A@?0A@EA@?$basic_iostream@DU?$char_traits@D@std@@@std@@8 100069d8     IlmThreadSemaphoreWin32.obj
+ 0002:000009f4       ??_R3?$basic_iostream@DU?$char_traits@D@std@@@std@@8 100069f4     IlmThreadSemaphoreWin32.obj
+ 0002:00000a04       ??_R2?$basic_iostream@DU?$char_traits@D@std@@@std@@8 10006a04     IlmThreadSemaphoreWin32.obj
+ 0002:00000a2c       ??_R1A@?0A@EA@?$basic_istream@DU?$char_traits@D@std@@@std@@8 10006a2c     IlmThreadSemaphoreWin32.obj
+ 0002:00000a48       ??_R3?$basic_istream@DU?$char_traits@D@std@@@std@@8 10006a48     IlmThreadSemaphoreWin32.obj
+ 0002:00000a58       ??_R2?$basic_istream@DU?$char_traits@D@std@@@std@@8 10006a58     IlmThreadSemaphoreWin32.obj
+ 0002:00000a6c       ??_R1A@A@3FA@?$basic_ios@DU?$char_traits@D@std@@@std@@8 10006a6c     IlmThreadSemaphoreWin32.obj
+ 0002:00000a88       ??_R3?$basic_ios@DU?$char_traits@D@std@@@std@@8 10006a88     IlmThreadSemaphoreWin32.obj
+ 0002:00000a98       ??_R2?$basic_ios@DU?$char_traits@D@std@@@std@@8 10006a98     IlmThreadSemaphoreWin32.obj
+ 0002:00000aa8       ??_R1A@?0A@EA@?$basic_ios@DU?$char_traits@D@std@@@std@@8 10006aa8     IlmThreadSemaphoreWin32.obj
+ 0002:00000ac4       ??_R1A@?0A@EA@ios_base@std@@8 10006ac4     IlmThreadSemaphoreWin32.obj
+ 0002:00000ae0       ??_R3ios_base@std@@8       10006ae0     IlmThreadSemaphoreWin32.obj
+ 0002:00000af0       ??_R2ios_base@std@@8       10006af0     IlmThreadSemaphoreWin32.obj
+ 0002:00000afc       ??_R17?0A@EA@?$_Iosb@H@std@@8 10006afc     IlmThreadSemaphoreWin32.obj
+ 0002:00000b18       ??_R3?$_Iosb@H@std@@8      10006b18     IlmThreadSemaphoreWin32.obj
+ 0002:00000b28       ??_R2?$_Iosb@H@std@@8      10006b28     IlmThreadSemaphoreWin32.obj
+ 0002:00000b30       ??_R1A@?0A@EA@?$_Iosb@H@std@@8 10006b30     IlmThreadSemaphoreWin32.obj
+ 0002:00000b4c       ??_R1A@A@3EA@ios_base@std@@8 10006b4c     IlmThreadSemaphoreWin32.obj
+ 0002:00000b68       ??_R17A@3EA@?$_Iosb@H@std@@8 10006b68     IlmThreadSemaphoreWin32.obj
+ 0002:00000b84       ??_R1BA@?0A@EA@?$basic_ostream@DU?$char_traits@D@std@@@std@@8 10006b84     IlmThreadSemaphoreWin32.obj
+ 0002:00000ba0       ??_R3?$basic_ostream@DU?$char_traits@D@std@@@std@@8 10006ba0     IlmThreadSemaphoreWin32.obj
+ 0002:00000bb0       ??_R2?$basic_ostream@DU?$char_traits@D@std@@@std@@8 10006bb0     IlmThreadSemaphoreWin32.obj
+ 0002:00000bc4       ??_R1A@?0A@EA@?$basic_ostream@DU?$char_traits@D@std@@@std@@8 10006bc4     IlmThreadSemaphoreWin32.obj
+ 0002:00000be0       ??_R4Thread@IlmThread@@6B@ 10006be0     IlmThreadWin32.obj
+ 0002:00000bf4       ??_R4type_info@@6B@        10006bf4     MSVCRT:ti_inst.obj
+ 0002:00000c08       ??_R3type_info@@8          10006c08     MSVCRT:ti_inst.obj
+ 0002:00000c18       ??_R2type_info@@8          10006c18     MSVCRT:ti_inst.obj
+ 0002:00000c20       ??_R1A@?0A@EA@type_info@@8 10006c20     MSVCRT:ti_inst.obj
+ 0002:00000c40       ___safe_se_handler_table   10006c40     <linker-defined>
+ 0002:00000ca8       ___rtc_iaa                 10006ca8     MSVCRT:_initsect_.obj
+ 0002:00000cac       ___rtc_izz                 10006cac     MSVCRT:_initsect_.obj
+ 0002:00000cb0       ___rtc_taa                 10006cb0     MSVCRT:_initsect_.obj
+ 0002:00000cb4       ___rtc_tzz                 10006cb4     MSVCRT:_initsect_.obj
+ 0002:00000d3c       __TI2?AVbad_alloc@std@@    10006d3c     IlmThreadPool.obj
+ 0002:00000d4c       __CTA2?AVbad_alloc@std@@   10006d4c     IlmThreadPool.obj
+ 0002:00000d58       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 10006d58     IlmThreadPool.obj
+ 0002:00000d74       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 10006d74     IlmThreadPool.obj
+ 0002:00000e74       __TI6?AVArgExc@Iex@@       10006e74     IlmThreadPool.obj
+ 0002:00000ed0       __CTA6?AVArgExc@Iex@@      10006ed0     IlmThreadPool.obj
+ 0002:00000eec       __CT??_R0?AVArgExc@Iex@@@8??0ArgExc@Iex@@QAE@ABV01@@Z68 10006eec     IlmThreadPool.obj
+ 0002:00000f08       __CT??_R0?AVBaseExc@Iex@@@8??0BaseExc@Iex@@QAE@ABV01@@Z68 10006f08     IlmThreadPool.obj
+ 0002:00000f24       __CT??_R0?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z2812 10006f24     IlmThreadPool.obj
+ 0002:00000f40       __CT??_R0?AV?$_String_val@DV?$allocator@D@std@@@std@@@8??0?$_String_val@DV?$allocator@D@std@@@std@@QAE@ABV01@@Z2812 10006f40     IlmThreadPool.obj
+ 0002:00000f5c       __CT??_R0?AU_Container_base0@std@@@8112 10006f5c     IlmThreadPool.obj
+ 0002:000012e8       __TI6?AVLogicExc@Iex@@     100072e8     IlmThreadSemaphoreWin32.obj
+ 0002:00001344       __CTA6?AVLogicExc@Iex@@    10007344     IlmThreadSemaphoreWin32.obj
+ 0002:00001360       __CT??_R0?AVLogicExc@Iex@@@8??0LogicExc@Iex@@QAE@ABV01@@Z68 10007360     IlmThreadSemaphoreWin32.obj
+ 0002:000014e4       __IMPORT_DESCRIPTOR_KERNEL32 100074e4     kernel32:KERNEL32.dll
+ 0002:000014f8       __IMPORT_DESCRIPTOR_Iex    100074f8     Iex:Iex.dll
+ 0002:0000150c       __IMPORT_DESCRIPTOR_MSVCR100 1000750c     MSVCRT:MSVCR100.dll
+ 0002:00001520       __IMPORT_DESCRIPTOR_MSVCP100 10007520     msvcprt:MSVCP100.dll
+ 0002:00001534       __NULL_IMPORT_DESCRIPTOR   10007534     kernel32:KERNEL32.dll
+ 0003:00000000       ??_R0?AVMutex@IlmThread@@@8 10009000     IlmThreadMutexWin32.obj
+ 0003:00000020       ??_R0?AVbad_alloc@std@@@8  10009020     IlmThreadPool.obj
+ 0003:0000003c       ??_R0?AVexception@std@@@8  1000903c     IlmThreadPool.obj
+ 0003:00000058       ??_R0?AVArgExc@Iex@@@8     10009058     IlmThreadPool.obj
+ 0003:00000074       ??_R0?AVBaseExc@Iex@@@8    10009074     IlmThreadPool.obj
+ 0003:00000090       ??_R0?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 10009090     IlmThreadPool.obj
+ 0003:000000dc       ??_R0?AV?$_String_val@DV?$allocator@D@std@@@std@@@8 100090dc     IlmThreadPool.obj
+ 0003:00000114       ??_R0?AU_Container_base0@std@@@8 10009114     IlmThreadPool.obj
+ 0003:00000138       ??_R0?AVWorkerThread@?A0x6357f155@IlmThread@@@8 10009138     IlmThreadPool.obj
+ 0003:0000016c       ??_R0?AVThread@IlmThread@@@8 1000916c     IlmThreadPool.obj
+ 0003:0000018c       ??_R0?AVTask@IlmThread@@@8 1000918c     IlmThreadPool.obj
+ 0003:000001ac       ??_R0?AVThreadPool@IlmThread@@@8 100091ac     IlmThreadPool.obj
+ 0003:000001d0       ??_R0?AVLogicExc@Iex@@@8   100091d0     IlmThreadSemaphoreWin32.obj
+ 0003:000001ec       ??_R0?AVSemaphore@IlmThread@@@8 100091ec     IlmThreadSemaphoreWin32.obj
+ 0003:00000210       ??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 10009210     IlmThreadSemaphoreWin32.obj
+ 0003:00000260       ??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 10009260     IlmThreadSemaphoreWin32.obj
+ 0003:000002a0       ??_R0?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 100092a0     IlmThreadSemaphoreWin32.obj
+ 0003:000002f0       ??_R0?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@@8 100092f0     IlmThreadSemaphoreWin32.obj
+ 0003:0000032c       ??_R0?AV?$basic_istream@DU?$char_traits@D@std@@@std@@@8 1000932c     IlmThreadSemaphoreWin32.obj
+ 0003:00000368       ??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 10009368     IlmThreadSemaphoreWin32.obj
+ 0003:000003a0       ??_R0?AVios_base@std@@@8   100093a0     IlmThreadSemaphoreWin32.obj
+ 0003:000003bc       ??_R0?AV?$_Iosb@H@std@@@8  100093bc     IlmThreadSemaphoreWin32.obj
+ 0003:000003d8       ??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 100093d8     IlmThreadSemaphoreWin32.obj
+ 0003:00000414       ??_R0?AVtype_info@@@8      10009414     MSVCRT:ti_inst.obj
+ 0003:0000042c       ___security_cookie         1000942c     MSVCRT:gs_cookie.obj
+ 0003:00000430       ___security_cookie_complement 10009430     MSVCRT:gs_cookie.obj
+ 0003:00000440       ___native_dllmain_reason   10009440     MSVCRT:natstart.obj
+ 0003:00000444       ___native_vcclrit_reason   10009444     MSVCRT:natstart.obj
+ 0003:0000077c       ?__type_info_root_node@@3U__type_info_node@@A 1000977c     MSVCRT:tncleanup.obj
+ 0003:00000784       ___native_startup_state    10009784     <common>
+ 0003:00000788       ___native_startup_lock     10009788     <common>
+ 0003:0000078c       ___dyn_tls_init_callback   1000978c     <common>
+ 0003:00000790       ___onexitend               10009790     <common>
+ 0003:00000794       ___onexitbegin             10009794     <common>
+
+ entry point at        0001:00003c87
+
+ Static symbols
+
+ 0001:fffff000       __ehhandler$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 10000000 f   IlmThreadWin32.obj
+ 0001:fffff000       __ehhandler$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 10000000 f   IlmThreadSemaphoreWin32.obj
+ 0001:fffff0b4       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$0 100000b4 f   IlmThreadSemaphoreWin32.obj
+ 0001:fffff0b4       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$0 100000b4 f   IlmThreadWin32.obj
+ 0001:fffff13c       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$1 1000013c f   IlmThreadSemaphoreWin32.obj
+ 0001:fffff13c       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$1 1000013c f   IlmThreadWin32.obj
+ 0001:00001344       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$0 10002344 f i IlmThreadPool.obj
+ 0001:000013cc       __catch$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z$1 100023cc f i IlmThreadPool.obj
+ 0001:000024b4       __catch$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z$0 100034b4 f i IlmThreadSemaphoreWin32.obj
+ 0001:000026e5       __catch$??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z$0 100036e5 f i IlmThreadSemaphoreWin32.obj
+ 0001:00003838       ?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 10004838 f   MSVCRT:ehvecdtr.obj
+ 0001:00003919       _pre_c_init                10004919 f   MSVCRT:crtdll.obj
+ 0001:00003b71       ___DllMainCRTStartup       10004b71 f   MSVCRT:crtdll.obj
+ 0001:000041f0       __unwindfunclet$??0WorkerThread@?A0x6357f155@IlmThread@@QAE@PAUData@ThreadPool@2@@Z$0 100051f0 f   IlmThreadPool.obj
+ 0001:000041f8       __ehhandler$??0WorkerThread@?A0x6357f155@IlmThread@@QAE@PAUData@ThreadPool@2@@Z 100051f8 f   IlmThreadPool.obj
+ 0001:00004220       __unwindfunclet$??1Data@TaskGroup@IlmThread@@QAE@XZ$0 10005220 f   IlmThreadPool.obj
+ 0001:00004220       __unwindfunclet$??_GData@TaskGroup@IlmThread@@QAEPAXI@Z$0 10005220 f   IlmThreadPool.obj
+ 0001:00004220       __unwindfunclet$??1TaskGroup@IlmThread@@QAE@XZ$0 10005220 f   IlmThreadPool.obj
+ 0001:00004228       __ehhandler$??1Data@TaskGroup@IlmThread@@QAE@XZ 10005228 f   IlmThreadPool.obj
+ 0001:00004228       __ehhandler$??1TaskGroup@IlmThread@@QAE@XZ 10005228 f   IlmThreadPool.obj
+ 0001:00004228       __ehhandler$??_GData@TaskGroup@IlmThread@@QAEPAXI@Z 10005228 f   IlmThreadPool.obj
+ 0001:00004250       __unwindfunclet$??0TaskGroup@IlmThread@@QAE@XZ$0 10005250 f   IlmThreadPool.obj
+ 0001:0000425b       __ehhandler$??0TaskGroup@IlmThread@@QAE@XZ 1000525b f   IlmThreadPool.obj
+ 0001:00004280       __unwindfunclet$?finish@Data@ThreadPool@IlmThread@@QAEXXZ$0 10005280 f   IlmThreadPool.obj
+ 0001:00004288       __ehhandler$?finish@Data@ThreadPool@IlmThread@@QAEXXZ 10005288 f   IlmThreadPool.obj
+ 0001:000042b0       __unwindfunclet$??0Data@ThreadPool@IlmThread@@QAE@XZ$0 100052b0 f   IlmThreadPool.obj
+ 0001:000042b8       __unwindfunclet$??0Data@ThreadPool@IlmThread@@QAE@XZ$1 100052b8 f   IlmThreadPool.obj
+ 0001:000042c3       __unwindfunclet$??0Data@ThreadPool@IlmThread@@QAE@XZ$2 100052c3 f   IlmThreadPool.obj
+ 0001:000042ce       __unwindfunclet$??0Data@ThreadPool@IlmThread@@QAE@XZ$3 100052ce f   IlmThreadPool.obj
+ 0001:000042d9       __unwindfunclet$??0Data@ThreadPool@IlmThread@@QAE@XZ$4 100052d9 f   IlmThreadPool.obj
+ 0001:000042e4       __unwindfunclet$??0Data@ThreadPool@IlmThread@@QAE@XZ$5 100052e4 f   IlmThreadPool.obj
+ 0001:000042ef       __ehhandler$??0Data@ThreadPool@IlmThread@@QAE@XZ 100052ef f   IlmThreadPool.obj
+ 0001:00004310       __unwindfunclet$??1Data@ThreadPool@IlmThread@@QAE@XZ$0 10005310 f   IlmThreadPool.obj
+ 0001:00004318       __unwindfunclet$??1Data@ThreadPool@IlmThread@@QAE@XZ$1 10005318 f   IlmThreadPool.obj
+ 0001:00004323       __unwindfunclet$??1Data@ThreadPool@IlmThread@@QAE@XZ$2 10005323 f   IlmThreadPool.obj
+ 0001:0000432e       __unwindfunclet$??1Data@ThreadPool@IlmThread@@QAE@XZ$3 1000532e f   IlmThreadPool.obj
+ 0001:00004339       __unwindfunclet$??1Data@ThreadPool@IlmThread@@QAE@XZ$4 10005339 f   IlmThreadPool.obj
+ 0001:00004344       __unwindfunclet$??1Data@ThreadPool@IlmThread@@QAE@XZ$5 10005344 f   IlmThreadPool.obj
+ 0001:0000434f       __unwindfunclet$??1Data@ThreadPool@IlmThread@@QAE@XZ$6 1000534f f   IlmThreadPool.obj
+ 0001:0000435a       __unwindfunclet$??1Data@ThreadPool@IlmThread@@QAE@XZ$7 1000535a f   IlmThreadPool.obj
+ 0001:00004362       __ehhandler$??1Data@ThreadPool@IlmThread@@QAE@XZ 10005362 f   IlmThreadPool.obj
+ 0001:00004380       __unwindfunclet$?setNumThreads@ThreadPool@IlmThread@@QAEXH@Z$0 10005380 f   IlmThreadPool.obj
+ 0001:00004388       __unwindfunclet$?setNumThreads@ThreadPool@IlmThread@@QAEXH@Z$1 10005388 f   IlmThreadPool.obj
+ 0001:00004393       __unwindfunclet$?setNumThreads@ThreadPool@IlmThread@@QAEXH@Z$3 10005393 f   IlmThreadPool.obj
+ 0001:0000439b       __unwindfunclet$?setNumThreads@ThreadPool@IlmThread@@QAEXH@Z$2 1000539b f   IlmThreadPool.obj
+ 0001:000043a6       __unwindfunclet$?setNumThreads@ThreadPool@IlmThread@@QAEXH@Z$4 100053a6 f   IlmThreadPool.obj
+ 0001:000043ae       __ehhandler$?setNumThreads@ThreadPool@IlmThread@@QAEXH@Z 100053ae f   IlmThreadPool.obj
+ 0001:000043e0       __ehhandler$?_Copy@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXII@Z 100053e0 f   IlmThreadPool.obj
+ 0001:00004400       __unwindfunclet$?run@WorkerThread@?A0x6357f155@IlmThread@@UAEXXZ$0 10005400 f   IlmThreadPool.obj
+ 0001:00004408       __ehhandler$?run@WorkerThread@?A0x6357f155@IlmThread@@UAEXXZ 10005408 f   IlmThreadPool.obj
+ 0001:00004430       __unwindfunclet$??0ThreadPool@IlmThread@@QAE@I@Z$0 10005430 f   IlmThreadPool.obj
+ 0001:0000443b       __ehhandler$??0ThreadPool@IlmThread@@QAE@I@Z 1000543b f   IlmThreadPool.obj
+ 0001:00004460       __unwindfunclet$?addTask@ThreadPool@IlmThread@@QAEXPAVTask@2@@Z$0 10005460 f   IlmThreadPool.obj
+ 0001:00004468       __unwindfunclet$?addTask@ThreadPool@IlmThread@@QAEXPAVTask@2@@Z$1 10005468 f   IlmThreadPool.obj
+ 0001:00004470       __ehhandler$?addTask@ThreadPool@IlmThread@@QAEXPAVTask@2@@Z 10005470 f   IlmThreadPool.obj
+ 0001:00004490       __unwindfunclet$?globalThreadPool@ThreadPool@IlmThread@@SAAAV12@XZ$0 10005490 f   IlmThreadPool.obj
+ 0001:0000449e       __unwindfunclet$?globalThreadPool@ThreadPool@IlmThread@@SAAAV12@XZ$1 1000549e f   IlmThreadPool.obj
+ 0001:000044a9       __ehhandler$?globalThreadPool@ThreadPool@IlmThread@@SAAAV12@XZ 100054a9 f   IlmThreadPool.obj
+ 0001:000044d0       __unwindfunclet$??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z$0 100054d0 f   IlmThreadSemaphoreWin32.obj
+ 0001:000044d8       __ehhandler$??0sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@AAV12@@Z 100054d8 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004500       __unwindfunclet$??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ$0 10005500 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004508       __ehhandler$??1sentry@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@XZ 10005508 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004530       __unwindfunclet$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z$3 10005530 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004538       __unwindfunclet$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z$2 10005538 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004540       __unwindfunclet$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z$4 10005540 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004548       __ehhandler$??$?6U?$char_traits@D@std@@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@PBD@Z 10005548 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004570       __unwindfunclet$??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z$3 10005570 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004578       __unwindfunclet$??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z$2 10005578 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004580       __unwindfunclet$??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z$4 10005580 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004588       __ehhandler$??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@0@AAV10@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z 10005588 f   IlmThreadSemaphoreWin32.obj
+ 0001:000045b0       __unwindfunclet$??1?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAE@XZ$0 100055b0 f   IlmThreadSemaphoreWin32.obj
+ 0001:000045bc       __ehhandler$??1?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UAE@XZ 100055bc f   IlmThreadSemaphoreWin32.obj
+ 0001:000045e0       __unwindfunclet$??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z$0 100055e0 f   IlmThreadSemaphoreWin32.obj
+ 0001:000045e9       __ehhandler$??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z 100055e9 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004610       __unwindfunclet$??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ$0 10005610 f   IlmThreadSemaphoreWin32.obj
+ 0001:0000461c       __ehhandler$??_D?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ 1000561c f   IlmThreadSemaphoreWin32.obj
+ 0001:00004640       __unwindfunclet$??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z$0 10005640 f   IlmThreadSemaphoreWin32.obj
+ 0001:0000465d       __unwindfunclet$??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z$1 1000565d f   IlmThreadSemaphoreWin32.obj
+ 0001:00004669       __unwindfunclet$??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z$4 10005669 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004672       __ehhandler$??0?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@H@Z 10005672 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004690       __unwindfunclet$?errorString@?A0xf8146dba@IlmThread@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ$0 10005690 f   IlmThreadSemaphoreWin32.obj
+ 0001:000046a9       __ehhandler$?errorString@?A0xf8146dba@IlmThread@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 100056a9 f   IlmThreadSemaphoreWin32.obj
+ 0001:000046d0       __unwindfunclet$??0Semaphore@IlmThread@@QAE@I@Z$2 100056d0 f   IlmThreadSemaphoreWin32.obj
+ 0001:000046ed       __unwindfunclet$??0Semaphore@IlmThread@@QAE@I@Z$3 100056ed f   IlmThreadSemaphoreWin32.obj
+ 0001:000046f9       __unwindfunclet$??0Semaphore@IlmThread@@QAE@I@Z$6 100056f9 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004705       __unwindfunclet$??0Semaphore@IlmThread@@QAE@I@Z$0 10005705 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004710       __unwindfunclet$??0Semaphore@IlmThread@@QAE@I@Z$1 10005710 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004718       __ehhandler$??0Semaphore@IlmThread@@QAE@I@Z 10005718 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004740       __unwindfunclet$?wait@Semaphore@IlmThread@@QAEXXZ$2 10005740 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004740       __unwindfunclet$?post@Semaphore@IlmThread@@QAEXXZ$2 10005740 f   IlmThreadSemaphoreWin32.obj
+ 0001:0000475d       __unwindfunclet$?wait@Semaphore@IlmThread@@QAEXXZ$3 1000575d f   IlmThreadSemaphoreWin32.obj
+ 0001:0000475d       __unwindfunclet$?post@Semaphore@IlmThread@@QAEXXZ$3 1000575d f   IlmThreadSemaphoreWin32.obj
+ 0001:00004769       __unwindfunclet$?wait@Semaphore@IlmThread@@QAEXXZ$6 10005769 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004769       __unwindfunclet$?post@Semaphore@IlmThread@@QAEXXZ$6 10005769 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004775       __unwindfunclet$?post@Semaphore@IlmThread@@QAEXXZ$0 10005775 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004775       __unwindfunclet$?wait@Semaphore@IlmThread@@QAEXXZ$0 10005775 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004780       __unwindfunclet$?post@Semaphore@IlmThread@@QAEXXZ$1 10005780 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004780       __unwindfunclet$?wait@Semaphore@IlmThread@@QAEXXZ$1 10005780 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004788       __ehhandler$?wait@Semaphore@IlmThread@@QAEXXZ 10005788 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004788       __ehhandler$?post@Semaphore@IlmThread@@QAEXXZ 10005788 f   IlmThreadSemaphoreWin32.obj
+ 0001:000047b0       __unwindfunclet$?value@Semaphore@IlmThread@@QBEHXZ$2 100057b0 f   IlmThreadSemaphoreWin32.obj
+ 0001:000047cd       __unwindfunclet$?value@Semaphore@IlmThread@@QBEHXZ$3 100057cd f   IlmThreadSemaphoreWin32.obj
+ 0001:000047d9       __unwindfunclet$?value@Semaphore@IlmThread@@QBEHXZ$6 100057d9 f   IlmThreadSemaphoreWin32.obj
+ 0001:000047e5       __unwindfunclet$?value@Semaphore@IlmThread@@QBEHXZ$0 100057e5 f   IlmThreadSemaphoreWin32.obj
+ 0001:000047f0       __unwindfunclet$?value@Semaphore@IlmThread@@QBEHXZ$1 100057f0 f   IlmThreadSemaphoreWin32.obj
+ 0001:000047f8       __ehhandler$?value@Semaphore@IlmThread@@QBEHXZ 100057f8 f   IlmThreadSemaphoreWin32.obj
+ 0001:00004820       __unwindfunclet$?start@Thread@IlmThread@@QAEXXZ$0 10005820 f   IlmThreadWin32.obj
+ 0001:00004828       __ehhandler$?start@Thread@IlmThread@@QAEXXZ 10005828 f   IlmThreadWin32.obj
+ 0001:00004850       ??__FgThreadPool@?1??globalThreadPool@ThreadPool@IlmThread@@SAAAV12@XZ@YAXXZ 10005850 f   IlmThreadPool.obj
+
+ Exports
+
+  ordinal    name
+
+        1    ??0Thread@IlmThread@@QAE@XZ (public: __thiscall IlmThread::Thread::Thread(void))
+        2    ??1Thread@IlmThread@@UAE@XZ (public: virtual __thiscall IlmThread::Thread::~Thread(void))
+        3    ??_7Thread@IlmThread@@6B@ (const IlmThread::Thread::`vftable')
+        4    ?start@Thread@IlmThread@@QAEXXZ (public: void __thiscall IlmThread::Thread::start(void))
+        5    ?supportsThreads@IlmThread@@YA_NXZ (bool __cdecl IlmThread::supportsThreads(void))

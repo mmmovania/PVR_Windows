@@ -1,0 +1,15 @@
+﻿Build started 3/2/2013 2:24:55 AM.
+     1>Project "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\vc\vc9\IlmBase\IexTest\IexTest.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\IexTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\Iex /I..\..\..\..\IexTest /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\IexTest\main.cpp ..\..\..\..\IexTest\testBaseExc.cpp
+         main.cpp
+         testBaseExc.cpp
+     1>..\..\..\..\IexTest\testBaseExc.cpp(38): fatal error C1083: Cannot open include file: 'Iex.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\vc\vc9\IlmBase\IexTest\IexTest.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.65

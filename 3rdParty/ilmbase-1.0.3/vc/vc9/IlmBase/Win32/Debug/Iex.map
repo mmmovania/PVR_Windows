@@ -1,0 +1,952 @@
+ Iex
+
+ Timestamp is 50fd52ed (Mon Jan 21 22:38:37 2013)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00010000H .textbss                DATA
+ 0002:00000000 00009130H .text                   CODE
+ 0002:00009130 000010caH .text$x                 CODE
+ 0003:00000000 00000104H .CRT$XCA                DATA
+ 0003:00000104 00000104H .CRT$XCZ                DATA
+ 0003:00000208 00000104H .CRT$XIA                DATA
+ 0003:0000030c 00000104H .CRT$XIAA               DATA
+ 0003:00000410 00000104H .CRT$XIZ                DATA
+ 0003:00000520 00000dc2H .rdata                  DATA
+ 0003:000012e4 00000180H .rdata$debug            DATA
+ 0003:00001464 00001662H .rdata$r                DATA
+ 0003:00002ac8 00000104H .rtc$IAA                DATA
+ 0003:00002bcc 00000109H .rtc$IMZ                DATA
+ 0003:00002cd8 00000104H .rtc$IZZ                DATA
+ 0003:00002ddc 00000104H .rtc$TAA                DATA
+ 0003:00002ee0 00000109H .rtc$TMZ                DATA
+ 0003:00002fec 00000104H .rtc$TZZ                DATA
+ 0003:000030f0 00001334H .xdata$x                DATA
+ 0003:00004424 00000000H .edata                  DATA
+ 0004:00000000 0000080aH .data                   DATA
+ 0004:00000810 00000440H .bss                    DATA
+ 0005:00000000 0000003cH .idata$2                DATA
+ 0005:0000003c 00000014H .idata$3                DATA
+ 0005:00000050 000001d0H .idata$4                DATA
+ 0005:00000220 000001d0H .idata$5                DATA
+ 0005:000003f0 00000a4eH .idata$6                DATA
+ 0006:00000000 00000169H .rsrc$01                DATA
+ 0006:00000170 00000a99H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000000       __enc$textbss$begin        10001000     <linker-defined>
+ 0001:00010000       __enc$textbss$end          10011000     <linker-defined>
+ 0002:00000c70       ?setStackTracer@Iex@@YAXP6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ@Z 10011c70 f   IexBaseExc.obj
+ 0002:00000cb0       ?stackTracer@Iex@@YAP6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZXZ 10011cb0 f   IexBaseExc.obj
+ 0002:00000cf0       ??0BaseExc@Iex@@QAE@PBD@Z  10011cf0 f   IexBaseExc.obj
+ 0002:00000eb0       ??_GBaseExc@Iex@@UAEPAXI@Z 10011eb0 f i IexBaseExc.obj
+ 0002:00000eb0       ??_EBaseExc@Iex@@UAEPAXI@Z 10011eb0 f i IexBaseExc.obj
+ 0002:00000f20       ??0BaseExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10011f20 f   IexBaseExc.obj
+ 0002:000010c0       ??0BaseExc@Iex@@QAE@AAV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100120c0 f   IexBaseExc.obj
+ 0002:00001260       ??0BaseExc@Iex@@QAE@ABV01@@Z 10012260 f   IexBaseExc.obj
+ 0002:00001340       ??1BaseExc@Iex@@UAE@XZ     10012340 f   IexBaseExc.obj
+ 0002:000013e0       ?what@BaseExc@Iex@@UBEPBDXZ 100123e0 f   IexBaseExc.obj
+ 0002:00001440       ?assign@BaseExc@Iex@@QAEAAV12@AAV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10012440 f   IexBaseExc.obj
+ 0002:00001550       ?append@BaseExc@Iex@@QAEAAV12@AAV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10012550 f   IexBaseExc.obj
+ 0002:00001660       ?throwErrnoExc@Iex@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z 10012660 f   IexThrowErrnoExc.obj
+ 0002:00001f10       ??0ErrnoExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10012f10 f i IexThrowErrnoExc.obj
+ 0002:00001f80       ??_EErrnoExc@Iex@@UAEPAXI@Z 10012f80 f i IexThrowErrnoExc.obj
+ 0002:00001f80       ??_GErrnoExc@Iex@@UAEPAXI@Z 10012f80 f i IexThrowErrnoExc.obj
+ 0002:00001ff0       ??1ErrnoExc@Iex@@UAE@XZ    10012ff0 f i IexThrowErrnoExc.obj
+ 0002:00002040       ??0EpermExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10013040 f i IexThrowErrnoExc.obj
+ 0002:000020b0       ??_GEpermExc@Iex@@UAEPAXI@Z 100130b0 f i IexThrowErrnoExc.obj
+ 0002:000020b0       ??_EEpermExc@Iex@@UAEPAXI@Z 100130b0 f i IexThrowErrnoExc.obj
+ 0002:00002120       ??1EpermExc@Iex@@UAE@XZ    10013120 f i IexThrowErrnoExc.obj
+ 0002:00002170       ??0EnoentExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10013170 f i IexThrowErrnoExc.obj
+ 0002:000021e0       ??_GEnoentExc@Iex@@UAEPAXI@Z 100131e0 f i IexThrowErrnoExc.obj
+ 0002:000021e0       ??_EEnoentExc@Iex@@UAEPAXI@Z 100131e0 f i IexThrowErrnoExc.obj
+ 0002:00002250       ??1EnoentExc@Iex@@UAE@XZ   10013250 f i IexThrowErrnoExc.obj
+ 0002:000022a0       ??0EsrchExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100132a0 f i IexThrowErrnoExc.obj
+ 0002:00002310       ??_GEsrchExc@Iex@@UAEPAXI@Z 10013310 f i IexThrowErrnoExc.obj
+ 0002:00002310       ??_EEsrchExc@Iex@@UAEPAXI@Z 10013310 f i IexThrowErrnoExc.obj
+ 0002:00002380       ??1EsrchExc@Iex@@UAE@XZ    10013380 f i IexThrowErrnoExc.obj
+ 0002:000023d0       ??0EintrExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100133d0 f i IexThrowErrnoExc.obj
+ 0002:00002440       ??_GEintrExc@Iex@@UAEPAXI@Z 10013440 f i IexThrowErrnoExc.obj
+ 0002:00002440       ??_EEintrExc@Iex@@UAEPAXI@Z 10013440 f i IexThrowErrnoExc.obj
+ 0002:000024b0       ??1EintrExc@Iex@@UAE@XZ    100134b0 f i IexThrowErrnoExc.obj
+ 0002:00002500       ??0EioExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10013500 f i IexThrowErrnoExc.obj
+ 0002:00002570       ??_EEioExc@Iex@@UAEPAXI@Z  10013570 f i IexThrowErrnoExc.obj
+ 0002:00002570       ??_GEioExc@Iex@@UAEPAXI@Z  10013570 f i IexThrowErrnoExc.obj
+ 0002:000025e0       ??1EioExc@Iex@@UAE@XZ      100135e0 f i IexThrowErrnoExc.obj
+ 0002:00002630       ??0EnxioExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10013630 f i IexThrowErrnoExc.obj
+ 0002:000026a0       ??_EEnxioExc@Iex@@UAEPAXI@Z 100136a0 f i IexThrowErrnoExc.obj
+ 0002:000026a0       ??_GEnxioExc@Iex@@UAEPAXI@Z 100136a0 f i IexThrowErrnoExc.obj
+ 0002:00002710       ??1EnxioExc@Iex@@UAE@XZ    10013710 f i IexThrowErrnoExc.obj
+ 0002:00002760       ??0E2bigExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10013760 f i IexThrowErrnoExc.obj
+ 0002:000027d0       ??_GE2bigExc@Iex@@UAEPAXI@Z 100137d0 f i IexThrowErrnoExc.obj
+ 0002:000027d0       ??_EE2bigExc@Iex@@UAEPAXI@Z 100137d0 f i IexThrowErrnoExc.obj
+ 0002:00002840       ??1E2bigExc@Iex@@UAE@XZ    10013840 f i IexThrowErrnoExc.obj
+ 0002:00002890       ??0EnoexecExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10013890 f i IexThrowErrnoExc.obj
+ 0002:00002900       ??_GEnoexecExc@Iex@@UAEPAXI@Z 10013900 f i IexThrowErrnoExc.obj
+ 0002:00002900       ??_EEnoexecExc@Iex@@UAEPAXI@Z 10013900 f i IexThrowErrnoExc.obj
+ 0002:00002970       ??1EnoexecExc@Iex@@UAE@XZ  10013970 f i IexThrowErrnoExc.obj
+ 0002:000029c0       ??0EbadfExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100139c0 f i IexThrowErrnoExc.obj
+ 0002:00002a30       ??_GEbadfExc@Iex@@UAEPAXI@Z 10013a30 f i IexThrowErrnoExc.obj
+ 0002:00002a30       ??_EEbadfExc@Iex@@UAEPAXI@Z 10013a30 f i IexThrowErrnoExc.obj
+ 0002:00002aa0       ??1EbadfExc@Iex@@UAE@XZ    10013aa0 f i IexThrowErrnoExc.obj
+ 0002:00002af0       ??0EchildExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10013af0 f i IexThrowErrnoExc.obj
+ 0002:00002b60       ??_EEchildExc@Iex@@UAEPAXI@Z 10013b60 f i IexThrowErrnoExc.obj
+ 0002:00002b60       ??_GEchildExc@Iex@@UAEPAXI@Z 10013b60 f i IexThrowErrnoExc.obj
+ 0002:00002bd0       ??1EchildExc@Iex@@UAE@XZ   10013bd0 f i IexThrowErrnoExc.obj
+ 0002:00002c20       ??0EagainExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10013c20 f i IexThrowErrnoExc.obj
+ 0002:00002c90       ??_GEagainExc@Iex@@UAEPAXI@Z 10013c90 f i IexThrowErrnoExc.obj
+ 0002:00002c90       ??_EEagainExc@Iex@@UAEPAXI@Z 10013c90 f i IexThrowErrnoExc.obj
+ 0002:00002d00       ??1EagainExc@Iex@@UAE@XZ   10013d00 f i IexThrowErrnoExc.obj
+ 0002:00002d50       ??0EnomemExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10013d50 f i IexThrowErrnoExc.obj
+ 0002:00002dc0       ??_GEnomemExc@Iex@@UAEPAXI@Z 10013dc0 f i IexThrowErrnoExc.obj
+ 0002:00002dc0       ??_EEnomemExc@Iex@@UAEPAXI@Z 10013dc0 f i IexThrowErrnoExc.obj
+ 0002:00002e30       ??1EnomemExc@Iex@@UAE@XZ   10013e30 f i IexThrowErrnoExc.obj
+ 0002:00002e80       ??0EaccesExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10013e80 f i IexThrowErrnoExc.obj
+ 0002:00002ef0       ??_GEaccesExc@Iex@@UAEPAXI@Z 10013ef0 f i IexThrowErrnoExc.obj
+ 0002:00002ef0       ??_EEaccesExc@Iex@@UAEPAXI@Z 10013ef0 f i IexThrowErrnoExc.obj
+ 0002:00002f60       ??1EaccesExc@Iex@@UAE@XZ   10013f60 f i IexThrowErrnoExc.obj
+ 0002:00002fb0       ??0EfaultExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10013fb0 f i IexThrowErrnoExc.obj
+ 0002:00003020       ??_GEfaultExc@Iex@@UAEPAXI@Z 10014020 f i IexThrowErrnoExc.obj
+ 0002:00003020       ??_EEfaultExc@Iex@@UAEPAXI@Z 10014020 f i IexThrowErrnoExc.obj
+ 0002:00003090       ??1EfaultExc@Iex@@UAE@XZ   10014090 f i IexThrowErrnoExc.obj
+ 0002:000030e0       ??0EbusyExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100140e0 f i IexThrowErrnoExc.obj
+ 0002:00003150       ??_EEbusyExc@Iex@@UAEPAXI@Z 10014150 f i IexThrowErrnoExc.obj
+ 0002:00003150       ??_GEbusyExc@Iex@@UAEPAXI@Z 10014150 f i IexThrowErrnoExc.obj
+ 0002:000031c0       ??1EbusyExc@Iex@@UAE@XZ    100141c0 f i IexThrowErrnoExc.obj
+ 0002:00003210       ??0EexistExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10014210 f i IexThrowErrnoExc.obj
+ 0002:00003280       ??_EEexistExc@Iex@@UAEPAXI@Z 10014280 f i IexThrowErrnoExc.obj
+ 0002:00003280       ??_GEexistExc@Iex@@UAEPAXI@Z 10014280 f i IexThrowErrnoExc.obj
+ 0002:000032f0       ??1EexistExc@Iex@@UAE@XZ   100142f0 f i IexThrowErrnoExc.obj
+ 0002:00003340       ??0ExdevExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10014340 f i IexThrowErrnoExc.obj
+ 0002:000033b0       ??_EExdevExc@Iex@@UAEPAXI@Z 100143b0 f i IexThrowErrnoExc.obj
+ 0002:000033b0       ??_GExdevExc@Iex@@UAEPAXI@Z 100143b0 f i IexThrowErrnoExc.obj
+ 0002:00003420       ??1ExdevExc@Iex@@UAE@XZ    10014420 f i IexThrowErrnoExc.obj
+ 0002:00003470       ??0EnodevExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10014470 f i IexThrowErrnoExc.obj
+ 0002:000034e0       ??_GEnodevExc@Iex@@UAEPAXI@Z 100144e0 f i IexThrowErrnoExc.obj
+ 0002:000034e0       ??_EEnodevExc@Iex@@UAEPAXI@Z 100144e0 f i IexThrowErrnoExc.obj
+ 0002:00003550       ??1EnodevExc@Iex@@UAE@XZ   10014550 f i IexThrowErrnoExc.obj
+ 0002:000035a0       ??0EnotdirExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100145a0 f i IexThrowErrnoExc.obj
+ 0002:00003610       ??_GEnotdirExc@Iex@@UAEPAXI@Z 10014610 f i IexThrowErrnoExc.obj
+ 0002:00003610       ??_EEnotdirExc@Iex@@UAEPAXI@Z 10014610 f i IexThrowErrnoExc.obj
+ 0002:00003680       ??1EnotdirExc@Iex@@UAE@XZ  10014680 f i IexThrowErrnoExc.obj
+ 0002:000036d0       ??0EisdirExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100146d0 f i IexThrowErrnoExc.obj
+ 0002:00003740       ??_EEisdirExc@Iex@@UAEPAXI@Z 10014740 f i IexThrowErrnoExc.obj
+ 0002:00003740       ??_GEisdirExc@Iex@@UAEPAXI@Z 10014740 f i IexThrowErrnoExc.obj
+ 0002:000037b0       ??1EisdirExc@Iex@@UAE@XZ   100147b0 f i IexThrowErrnoExc.obj
+ 0002:00003800       ??0EinvalExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10014800 f i IexThrowErrnoExc.obj
+ 0002:00003870       ??_EEinvalExc@Iex@@UAEPAXI@Z 10014870 f i IexThrowErrnoExc.obj
+ 0002:00003870       ??_GEinvalExc@Iex@@UAEPAXI@Z 10014870 f i IexThrowErrnoExc.obj
+ 0002:000038e0       ??1EinvalExc@Iex@@UAE@XZ   100148e0 f i IexThrowErrnoExc.obj
+ 0002:00003930       ??0EnfileExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10014930 f i IexThrowErrnoExc.obj
+ 0002:000039a0       ??_EEnfileExc@Iex@@UAEPAXI@Z 100149a0 f i IexThrowErrnoExc.obj
+ 0002:000039a0       ??_GEnfileExc@Iex@@UAEPAXI@Z 100149a0 f i IexThrowErrnoExc.obj
+ 0002:00003a10       ??1EnfileExc@Iex@@UAE@XZ   10014a10 f i IexThrowErrnoExc.obj
+ 0002:00003a60       ??0EmfileExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10014a60 f i IexThrowErrnoExc.obj
+ 0002:00003ad0       ??_GEmfileExc@Iex@@UAEPAXI@Z 10014ad0 f i IexThrowErrnoExc.obj
+ 0002:00003ad0       ??_EEmfileExc@Iex@@UAEPAXI@Z 10014ad0 f i IexThrowErrnoExc.obj
+ 0002:00003b40       ??1EmfileExc@Iex@@UAE@XZ   10014b40 f i IexThrowErrnoExc.obj
+ 0002:00003b90       ??0EnottyExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10014b90 f i IexThrowErrnoExc.obj
+ 0002:00003c00       ??_GEnottyExc@Iex@@UAEPAXI@Z 10014c00 f i IexThrowErrnoExc.obj
+ 0002:00003c00       ??_EEnottyExc@Iex@@UAEPAXI@Z 10014c00 f i IexThrowErrnoExc.obj
+ 0002:00003c70       ??1EnottyExc@Iex@@UAE@XZ   10014c70 f i IexThrowErrnoExc.obj
+ 0002:00003cc0       ??0EfbigExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10014cc0 f i IexThrowErrnoExc.obj
+ 0002:00003d30       ??_EEfbigExc@Iex@@UAEPAXI@Z 10014d30 f i IexThrowErrnoExc.obj
+ 0002:00003d30       ??_GEfbigExc@Iex@@UAEPAXI@Z 10014d30 f i IexThrowErrnoExc.obj
+ 0002:00003da0       ??1EfbigExc@Iex@@UAE@XZ    10014da0 f i IexThrowErrnoExc.obj
+ 0002:00003df0       ??0EnospcExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10014df0 f i IexThrowErrnoExc.obj
+ 0002:00003e60       ??_GEnospcExc@Iex@@UAEPAXI@Z 10014e60 f i IexThrowErrnoExc.obj
+ 0002:00003e60       ??_EEnospcExc@Iex@@UAEPAXI@Z 10014e60 f i IexThrowErrnoExc.obj
+ 0002:00003ed0       ??1EnospcExc@Iex@@UAE@XZ   10014ed0 f i IexThrowErrnoExc.obj
+ 0002:00003f20       ??0EspipeExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10014f20 f i IexThrowErrnoExc.obj
+ 0002:00003f90       ??_GEspipeExc@Iex@@UAEPAXI@Z 10014f90 f i IexThrowErrnoExc.obj
+ 0002:00003f90       ??_EEspipeExc@Iex@@UAEPAXI@Z 10014f90 f i IexThrowErrnoExc.obj
+ 0002:00004000       ??1EspipeExc@Iex@@UAE@XZ   10015000 f i IexThrowErrnoExc.obj
+ 0002:00004050       ??0ErofsExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10015050 f i IexThrowErrnoExc.obj
+ 0002:000040c0       ??_GErofsExc@Iex@@UAEPAXI@Z 100150c0 f i IexThrowErrnoExc.obj
+ 0002:000040c0       ??_EErofsExc@Iex@@UAEPAXI@Z 100150c0 f i IexThrowErrnoExc.obj
+ 0002:00004130       ??1ErofsExc@Iex@@UAE@XZ    10015130 f i IexThrowErrnoExc.obj
+ 0002:00004180       ??0EmlinkExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10015180 f i IexThrowErrnoExc.obj
+ 0002:000041f0       ??_EEmlinkExc@Iex@@UAEPAXI@Z 100151f0 f i IexThrowErrnoExc.obj
+ 0002:000041f0       ??_GEmlinkExc@Iex@@UAEPAXI@Z 100151f0 f i IexThrowErrnoExc.obj
+ 0002:00004260       ??1EmlinkExc@Iex@@UAE@XZ   10015260 f i IexThrowErrnoExc.obj
+ 0002:000042b0       ??0EpipeExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100152b0 f i IexThrowErrnoExc.obj
+ 0002:00004320       ??_GEpipeExc@Iex@@UAEPAXI@Z 10015320 f i IexThrowErrnoExc.obj
+ 0002:00004320       ??_EEpipeExc@Iex@@UAEPAXI@Z 10015320 f i IexThrowErrnoExc.obj
+ 0002:00004390       ??1EpipeExc@Iex@@UAE@XZ    10015390 f i IexThrowErrnoExc.obj
+ 0002:000043e0       ??0EdomExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100153e0 f i IexThrowErrnoExc.obj
+ 0002:00004450       ??_GEdomExc@Iex@@UAEPAXI@Z 10015450 f i IexThrowErrnoExc.obj
+ 0002:00004450       ??_EEdomExc@Iex@@UAEPAXI@Z 10015450 f i IexThrowErrnoExc.obj
+ 0002:000044c0       ??1EdomExc@Iex@@UAE@XZ     100154c0 f i IexThrowErrnoExc.obj
+ 0002:00004510       ??0ErangeExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10015510 f i IexThrowErrnoExc.obj
+ 0002:00004580       ??_EErangeExc@Iex@@UAEPAXI@Z 10015580 f i IexThrowErrnoExc.obj
+ 0002:00004580       ??_GErangeExc@Iex@@UAEPAXI@Z 10015580 f i IexThrowErrnoExc.obj
+ 0002:000045f0       ??1ErangeExc@Iex@@UAE@XZ   100155f0 f i IexThrowErrnoExc.obj
+ 0002:00004640       ??0EdeadlkExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10015640 f i IexThrowErrnoExc.obj
+ 0002:000046b0       ??_EEdeadlkExc@Iex@@UAEPAXI@Z 100156b0 f i IexThrowErrnoExc.obj
+ 0002:000046b0       ??_GEdeadlkExc@Iex@@UAEPAXI@Z 100156b0 f i IexThrowErrnoExc.obj
+ 0002:00004720       ??1EdeadlkExc@Iex@@UAE@XZ  10015720 f i IexThrowErrnoExc.obj
+ 0002:00004770       ??0EnolckExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10015770 f i IexThrowErrnoExc.obj
+ 0002:000047e0       ??_EEnolckExc@Iex@@UAEPAXI@Z 100157e0 f i IexThrowErrnoExc.obj
+ 0002:000047e0       ??_GEnolckExc@Iex@@UAEPAXI@Z 100157e0 f i IexThrowErrnoExc.obj
+ 0002:00004850       ??1EnolckExc@Iex@@UAE@XZ   10015850 f i IexThrowErrnoExc.obj
+ 0002:000048a0       ??0EnametoolongExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100158a0 f i IexThrowErrnoExc.obj
+ 0002:00004910       ??_EEnametoolongExc@Iex@@UAEPAXI@Z 10015910 f i IexThrowErrnoExc.obj
+ 0002:00004910       ??_GEnametoolongExc@Iex@@UAEPAXI@Z 10015910 f i IexThrowErrnoExc.obj
+ 0002:00004980       ??1EnametoolongExc@Iex@@UAE@XZ 10015980 f i IexThrowErrnoExc.obj
+ 0002:000049d0       ??0EilseqExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100159d0 f i IexThrowErrnoExc.obj
+ 0002:00004a40       ??_EEilseqExc@Iex@@UAEPAXI@Z 10015a40 f i IexThrowErrnoExc.obj
+ 0002:00004a40       ??_GEilseqExc@Iex@@UAEPAXI@Z 10015a40 f i IexThrowErrnoExc.obj
+ 0002:00004ab0       ??1EilseqExc@Iex@@UAE@XZ   10015ab0 f i IexThrowErrnoExc.obj
+ 0002:00004b00       ??0EnosysExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10015b00 f i IexThrowErrnoExc.obj
+ 0002:00004b70       ??_EEnosysExc@Iex@@UAEPAXI@Z 10015b70 f i IexThrowErrnoExc.obj
+ 0002:00004b70       ??_GEnosysExc@Iex@@UAEPAXI@Z 10015b70 f i IexThrowErrnoExc.obj
+ 0002:00004be0       ??1EnosysExc@Iex@@UAE@XZ   10015be0 f i IexThrowErrnoExc.obj
+ 0002:00004c30       ??0EnotemptyExc@Iex@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10015c30 f i IexThrowErrnoExc.obj
+ 0002:00004ca0       ??_GEnotemptyExc@Iex@@UAEPAXI@Z 10015ca0 f i IexThrowErrnoExc.obj
+ 0002:00004ca0       ??_EEnotemptyExc@Iex@@UAEPAXI@Z 10015ca0 f i IexThrowErrnoExc.obj
+ 0002:00004d10       ??1EnotemptyExc@Iex@@UAE@XZ 10015d10 f i IexThrowErrnoExc.obj
+ 0002:00004d60       ??0EpermExc@Iex@@QAE@ABV01@@Z 10015d60 f i IexThrowErrnoExc.obj
+ 0002:00004dd0       ??0ErrnoExc@Iex@@QAE@ABV01@@Z 10015dd0 f i IexThrowErrnoExc.obj
+ 0002:00004e40       ??0EnoentExc@Iex@@QAE@ABV01@@Z 10015e40 f i IexThrowErrnoExc.obj
+ 0002:00004eb0       ??0EsrchExc@Iex@@QAE@ABV01@@Z 10015eb0 f i IexThrowErrnoExc.obj
+ 0002:00004f20       ??0EintrExc@Iex@@QAE@ABV01@@Z 10015f20 f i IexThrowErrnoExc.obj
+ 0002:00004f90       ??0EioExc@Iex@@QAE@ABV01@@Z 10015f90 f i IexThrowErrnoExc.obj
+ 0002:00005000       ??0EnxioExc@Iex@@QAE@ABV01@@Z 10016000 f i IexThrowErrnoExc.obj
+ 0002:00005070       ??0E2bigExc@Iex@@QAE@ABV01@@Z 10016070 f i IexThrowErrnoExc.obj
+ 0002:000050e0       ??0EnoexecExc@Iex@@QAE@ABV01@@Z 100160e0 f i IexThrowErrnoExc.obj
+ 0002:00005150       ??0EbadfExc@Iex@@QAE@ABV01@@Z 10016150 f i IexThrowErrnoExc.obj
+ 0002:000051c0       ??0EchildExc@Iex@@QAE@ABV01@@Z 100161c0 f i IexThrowErrnoExc.obj
+ 0002:00005230       ??0EagainExc@Iex@@QAE@ABV01@@Z 10016230 f i IexThrowErrnoExc.obj
+ 0002:000052a0       ??0EnomemExc@Iex@@QAE@ABV01@@Z 100162a0 f i IexThrowErrnoExc.obj
+ 0002:00005310       ??0EaccesExc@Iex@@QAE@ABV01@@Z 10016310 f i IexThrowErrnoExc.obj
+ 0002:00005380       ??0EfaultExc@Iex@@QAE@ABV01@@Z 10016380 f i IexThrowErrnoExc.obj
+ 0002:000053f0       ??0EbusyExc@Iex@@QAE@ABV01@@Z 100163f0 f i IexThrowErrnoExc.obj
+ 0002:00005460       ??0EexistExc@Iex@@QAE@ABV01@@Z 10016460 f i IexThrowErrnoExc.obj
+ 0002:000054d0       ??0ExdevExc@Iex@@QAE@ABV01@@Z 100164d0 f i IexThrowErrnoExc.obj
+ 0002:00005540       ??0EnodevExc@Iex@@QAE@ABV01@@Z 10016540 f i IexThrowErrnoExc.obj
+ 0002:000055b0       ??0EnotdirExc@Iex@@QAE@ABV01@@Z 100165b0 f i IexThrowErrnoExc.obj
+ 0002:00005620       ??0EisdirExc@Iex@@QAE@ABV01@@Z 10016620 f i IexThrowErrnoExc.obj
+ 0002:00005690       ??0EinvalExc@Iex@@QAE@ABV01@@Z 10016690 f i IexThrowErrnoExc.obj
+ 0002:00005700       ??0EnfileExc@Iex@@QAE@ABV01@@Z 10016700 f i IexThrowErrnoExc.obj
+ 0002:00005770       ??0EmfileExc@Iex@@QAE@ABV01@@Z 10016770 f i IexThrowErrnoExc.obj
+ 0002:000057e0       ??0EnottyExc@Iex@@QAE@ABV01@@Z 100167e0 f i IexThrowErrnoExc.obj
+ 0002:00005850       ??0EfbigExc@Iex@@QAE@ABV01@@Z 10016850 f i IexThrowErrnoExc.obj
+ 0002:000058c0       ??0EnospcExc@Iex@@QAE@ABV01@@Z 100168c0 f i IexThrowErrnoExc.obj
+ 0002:00005930       ??0EspipeExc@Iex@@QAE@ABV01@@Z 10016930 f i IexThrowErrnoExc.obj
+ 0002:000059a0       ??0ErofsExc@Iex@@QAE@ABV01@@Z 100169a0 f i IexThrowErrnoExc.obj
+ 0002:00005a10       ??0EmlinkExc@Iex@@QAE@ABV01@@Z 10016a10 f i IexThrowErrnoExc.obj
+ 0002:00005a80       ??0EpipeExc@Iex@@QAE@ABV01@@Z 10016a80 f i IexThrowErrnoExc.obj
+ 0002:00005af0       ??0EdomExc@Iex@@QAE@ABV01@@Z 10016af0 f i IexThrowErrnoExc.obj
+ 0002:00005b60       ??0ErangeExc@Iex@@QAE@ABV01@@Z 10016b60 f i IexThrowErrnoExc.obj
+ 0002:00005bd0       ??0EdeadlkExc@Iex@@QAE@ABV01@@Z 10016bd0 f i IexThrowErrnoExc.obj
+ 0002:00005c40       ??0EnolckExc@Iex@@QAE@ABV01@@Z 10016c40 f i IexThrowErrnoExc.obj
+ 0002:00005cb0       ??0EnametoolongExc@Iex@@QAE@ABV01@@Z 10016cb0 f i IexThrowErrnoExc.obj
+ 0002:00005d20       ??0EilseqExc@Iex@@QAE@ABV01@@Z 10016d20 f i IexThrowErrnoExc.obj
+ 0002:00005d90       ??0EnosysExc@Iex@@QAE@ABV01@@Z 10016d90 f i IexThrowErrnoExc.obj
+ 0002:00005e00       ??0EnotemptyExc@Iex@@QAE@ABV01@@Z 10016e00 f i IexThrowErrnoExc.obj
+ 0002:00005e70       ?throwErrnoExc@Iex@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10016e70 f   IexThrowErrnoExc.obj
+ 0002:00005ed4       ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 10016ed4 f   msvcprtd:MSVCP90D.dll
+ 0002:00005eda       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 10016eda f   msvcprtd:MSVCP90D.dll
+ 0002:00005ee0       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 10016ee0 f   msvcprtd:MSVCP90D.dll
+ 0002:00005ee6       ?str@?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ 10016ee6 f   msvcprtd:MSVCP90D.dll
+ 0002:00005eec       ?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 10016eec f   msvcprtd:MSVCP90D.dll
+ 0002:00005ef2       ?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z 10016ef2 f   msvcprtd:MSVCP90D.dll
+ 0002:00005ef8       ?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z 10016ef8 f   msvcprtd:MSVCP90D.dll
+ 0002:00005efe       ?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIPBDI@Z 10016efe f   msvcprtd:MSVCP90D.dll
+ 0002:00005f04       ?find@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDI@Z 10016f04 f   msvcprtd:MSVCP90D.dll
+ 0002:00005f0a       ??0?$_String_val@DV?$allocator@D@std@@@std@@QAE@ABV01@@Z 10016f0a f   msvcprtd:MSVCP90D.dll
+ 0002:00005f10       ??0_String_base@std@@QAE@ABV01@@Z 10016f10 f   msvcprtd:MSVCP90D.dll
+ 0002:00005f16       ??0_Container_base_secure@std@@QAE@ABV01@@Z 10016f16 f   msvcprtd:MSVCP90D.dll
+ 0002:00005f20       __RTC_InitBase             10016f20 f   MSVCRTD:_init_.obj
+ 0002:00005f60       __RTC_Shutdown             10016f60 f   MSVCRTD:_init_.obj
+ 0002:00005f78       ??0exception@std@@QAE@XZ   10016f78 f   MSVCRTD:MSVCR90D.dll
+ 0002:00005f80       __RTC_CheckEsp             10016f80 f   MSVCRTD:_stack_.obj
+ 0002:00005fb0       @_RTC_CheckStackVars@8     10016fb0 f   MSVCRTD:_stack_.obj
+ 0002:00006030       @_RTC_AllocaHelper@12      10017030 f   MSVCRTD:_stack_.obj
+ 0002:00006070       @_RTC_CheckStackVars2@12   10017070 f   MSVCRTD:_stack_.obj
+ 0002:00006180       ??0type_info@@AAE@ABV0@@Z  10017180 f   MSVCRTD:ti_inst.obj
+ 0002:000061b0       ??_Etype_info@@UAEPAXI@Z   100171b0 f i MSVCRTD:ti_inst.obj
+ 0002:00006240       ??4type_info@@AAEAAV0@ABV0@@Z 10017240 f   MSVCRTD:ti_inst.obj
+ 0002:00006256       ??3@YAXPAX@Z               10017256 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000625c       ??1exception@std@@UAE@XZ   1001725c f   MSVCRTD:MSVCR90D.dll
+ 0002:00006262       ___CxxFrameHandler3        10017262 f   MSVCRTD:MSVCR90D.dll
+ 0002:00006270       @__security_check_cookie@4 10017270 f   MSVCRTD:secchk.obj
+ 0002:00006282       _strlen                    10017282 f   MSVCRTD:MSVCR90D.dll
+ 0002:00006288       _strerror                  10017288 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000628e       __CxxThrowException@8      1001728e f   MSVCRTD:MSVCR90D.dll
+ 0002:00006294       ??0exception@std@@QAE@ABV01@@Z 10017294 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000629a       __errno                    1001729a f   MSVCRTD:MSVCR90D.dll
+ 0002:00006340       __CRT_INIT@12              10017340 f   MSVCRTD:crtdll.obj
+ 0002:00006710       _NtCurrentTeb              10017710 f i MSVCRTD:crtdll.obj
+ 0002:00006720       __DllMainCRTStartup@12     10017720 f   MSVCRTD:crtdll.obj
+ 0002:000069a0       __RTC_NumErrors            100179a0 f   MSVCRTD:_userapi_.obj
+ 0002:000069b0       __RTC_GetErrDesc           100179b0 f   MSVCRTD:_userapi_.obj
+ 0002:000069d0       __RTC_SetErrorType         100179d0 f   MSVCRTD:_userapi_.obj
+ 0002:00006a00       __RTC_SetErrorFunc         10017a00 f   MSVCRTD:_userapi_.obj
+ 0002:00006a30       __RTC_SetErrorFuncW        10017a30 f   MSVCRTD:_userapi_.obj
+ 0002:00006a60       ?_RTC_GetErrorFunc@@YAP6AHHPBDH00ZZPBX@Z 10017a60 f   MSVCRTD:_userapi_.obj
+ 0002:00006a70       ?_RTC_GetErrorFuncW@@YAP6AHHPB_WH00ZZPBX@Z 10017a70 f   MSVCRTD:_userapi_.obj
+ 0002:00006a76       __CRT_RTC_INITW            10017a76 f   MSVCRTD:MSVCR90D.dll
+ 0002:00006a80       _DebuggerKnownHandle       10017a80 f   MSVCRTD:_error_.obj
+ 0002:00006b60       ?_RTC_Failure@@YAXPAXH@Z   10017b60 f   MSVCRTD:_error_.obj
+ 0002:00006f30       ?_RTC_StackFailure@@YAXPAXPBD@Z 10017f30 f   MSVCRTD:_error_.obj
+ 0002:00007070       ?_RTC_AllocaFailure@@YAXPAXPAU_RTC_ALLOCA_NODE@@H@Z 10018070 f   MSVCRTD:_error_.obj
+ 0002:00007280       __RTC_UninitUse            10018280 f   MSVCRTD:_error_.obj
+ 0002:000073b0       ??_M@YGXPAXIHP6EX0@Z@Z     100183b0 f   MSVCRTD:ehvecdtr.obj
+ 0002:00007490       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 10018490 f   MSVCRTD:ehvecdtr.obj
+ 0002:00007580       ___report_gsfailure        10018580 f   MSVCRTD:gs_report.obj
+ 0002:000076e0       ___clean_type_info_names   100186e0 f   MSVCRTD:tncleanup.obj
+ 0002:00007700       __onexit                   10018700 f   MSVCRTD:atonexit.obj
+ 0002:00007850       _atexit                    10018850 f   MSVCRTD:atonexit.obj
+ 0002:00007880       __RTC_Initialize           10018880 f   MSVCRTD:_initsect_.obj
+ 0002:000078b0       __RTC_Terminate            100188b0 f   MSVCRTD:_initsect_.obj
+ 0002:000078e0       __encode_pointer           100188e0 f   MSVCRTD:MSVCR90D.dll
+ 0002:000078e6       __malloc_dbg               100188e6 f   MSVCRTD:MSVCR90D.dll
+ 0002:000078ec       __free_dbg                 100188ec f   MSVCRTD:MSVCR90D.dll
+ 0002:000078f2       __encoded_null             100188f2 f   MSVCRTD:MSVCR90D.dll
+ 0002:000078f8       __decode_pointer           100188f8 f   MSVCRTD:MSVCR90D.dll
+ 0002:000078fe       __CrtSetCheckCount         100188fe f   MSVCRTD:MSVCR90D.dll
+ 0002:00007910       __ValidateImageBase        10018910 f   MSVCRTD:pesect.obj
+ 0002:00007990       __FindPESection            10018990 f   MSVCRTD:pesect.obj
+ 0002:00007a30       __IsNonwritableInCurrentImage 10018a30 f   MSVCRTD:pesect.obj
+ 0002:00007b86       __initterm                 10018b86 f   MSVCRTD:MSVCR90D.dll
+ 0002:00007b8c       __initterm_e               10018b8c f   MSVCRTD:MSVCR90D.dll
+ 0002:00007b92       __amsg_exit                10018b92 f   MSVCRTD:MSVCR90D.dll
+ 0002:00007ba0       ___security_init_cookie    10018ba0 f   MSVCRTD:gs_support.obj
+ 0002:00007cb2       ___CppXcptFilter           10018cb2 f   MSVCRTD:MSVCR90D.dll
+ 0002:00007cc0       _DllMain@12                10018cc0 f   MSVCRTD:dllmain.obj
+ 0002:00007cf0       __except_handler4          10018cf0 f   MSVCRTD:chandler4gs.obj
+ 0002:00007d30       ?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z 10018d30 f   MSVCRTD:_pdblkup_.obj
+ 0002:000082ec       ?terminate@@YAXXZ          100192ec f   MSVCRTD:MSVCR90D.dll
+ 0002:000082f2       ??1type_info@@UAE@XZ       100192f2 f   MSVCRTD:MSVCR90D.dll
+ 0002:000082f2       ?_type_info_dtor_internal_method@type_info@@QAEXXZ 100192f2 f   MSVCRTD:MSVCR90D.dll
+ 0002:000082f8       __crt_debugger_hook        100192f8 f   MSVCRTD:MSVCR90D.dll
+ 0002:000082fe       ___clean_type_info_names_internal 100192fe f   MSVCRTD:MSVCR90D.dll
+ 0002:00008304       __unlock                   10019304 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000830a       ___dllonexit               1001930a f   MSVCRTD:MSVCR90D.dll
+ 0002:00008310       __lock                     10019310 f   MSVCRTD:MSVCR90D.dll
+ 0002:00008316       __except_handler4_common   10019316 f   MSVCRTD:MSVCR90D.dll
+ 0002:0000831c       _InterlockedExchange@8     1001931c f   kernel32:KERNEL32.dll
+ 0002:00008322       _Sleep@4                   10019322 f   kernel32:KERNEL32.dll
+ 0002:00008328       _InterlockedCompareExchange@12 10019328 f   kernel32:KERNEL32.dll
+ 0002:0000832e       _IsDebuggerPresent@0       1001932e f   kernel32:KERNEL32.dll
+ 0002:00008334       _RaiseException@16         10019334 f   kernel32:KERNEL32.dll
+ 0002:0000833a       _DebugBreak@0              1001933a f   kernel32:KERNEL32.dll
+ 0002:00008340       _WideCharToMultiByte@32    10019340 f   kernel32:KERNEL32.dll
+ 0002:00008346       _MultiByteToWideChar@24    10019346 f   kernel32:KERNEL32.dll
+ 0002:0000834c       _lstrlenA@4                1001934c f   kernel32:KERNEL32.dll
+ 0002:00008352       _GetProcAddress@8          10019352 f   kernel32:KERNEL32.dll
+ 0002:00008358       _LoadLibraryA@4            10019358 f   kernel32:KERNEL32.dll
+ 0002:0000835e       _TerminateProcess@8        1001935e f   kernel32:KERNEL32.dll
+ 0002:00008364       _GetCurrentProcess@0       10019364 f   kernel32:KERNEL32.dll
+ 0002:0000836a       _UnhandledExceptionFilter@4 1001936a f   kernel32:KERNEL32.dll
+ 0002:00008370       _SetUnhandledExceptionFilter@4 10019370 f   kernel32:KERNEL32.dll
+ 0002:00008376       _QueryPerformanceCounter@4 10019376 f   kernel32:KERNEL32.dll
+ 0002:0000837c       _GetTickCount@0            1001937c f   kernel32:KERNEL32.dll
+ 0002:00008382       _GetCurrentThreadId@0      10019382 f   kernel32:KERNEL32.dll
+ 0002:00008388       _GetCurrentProcessId@0     10019388 f   kernel32:KERNEL32.dll
+ 0002:0000838e       _GetSystemTimeAsFileTime@4 1001938e f   kernel32:KERNEL32.dll
+ 0002:00008394       _DisableThreadLibraryCalls@4 10019394 f   kernel32:KERNEL32.dll
+ 0002:0000839a       _HeapFree@12               1001939a f   kernel32:KERNEL32.dll
+ 0002:000083a0       _HeapAlloc@12              100193a0 f   kernel32:KERNEL32.dll
+ 0002:000083a6       _GetProcessHeap@0          100193a6 f   kernel32:KERNEL32.dll
+ 0002:000083ac       _GetModuleFileNameW@12     100193ac f   kernel32:KERNEL32.dll
+ 0002:000083b2       _VirtualQuery@12           100193b2 f   kernel32:KERNEL32.dll
+ 0002:000083b8       _FreeLibrary@4             100193b8 f   kernel32:KERNEL32.dll
+ 0003:00000000       ___xc_a                    1001c000     MSVCRTD:cinitexe.obj
+ 0003:00000104       ___xc_z                    1001c104     MSVCRTD:cinitexe.obj
+ 0003:00000208       ___xi_a                    1001c208     MSVCRTD:cinitexe.obj
+ 0003:00000410       ___xi_z                    1001c410     MSVCRTD:cinitexe.obj
+ 0003:0000053c       ??_C@_0P@GHFPNOJB@bad?5allocation?$AA@ 1001c53c     IexBaseExc.obj
+ 0003:0000054e       ?_Value@?$_Is_swap_move@U_Swap_move_tag@std@@@std@@2_NB 1001c54e     IexBaseExc.obj
+ 0003:00000550       ?collate@?$_Locbase@H@std@@2HB 1001c550     IexBaseExc.obj
+ 0003:00000554       ?ctype@?$_Locbase@H@std@@2HB 1001c554     IexBaseExc.obj
+ 0003:00000558       ?monetary@?$_Locbase@H@std@@2HB 1001c558     IexBaseExc.obj
+ 0003:0000055c       ?numeric@?$_Locbase@H@std@@2HB 1001c55c     IexBaseExc.obj
+ 0003:00000560       ?time@?$_Locbase@H@std@@2HB 1001c560     IexBaseExc.obj
+ 0003:00000564       ?messages@?$_Locbase@H@std@@2HB 1001c564     IexBaseExc.obj
+ 0003:00000568       ?all@?$_Locbase@H@std@@2HB 1001c568     IexBaseExc.obj
+ 0003:0000056c       ?none@?$_Locbase@H@std@@2HB 1001c56c     IexBaseExc.obj
+ 0003:00000570       ?skipws@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c570     IexBaseExc.obj
+ 0003:00000574       ?unitbuf@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c574     IexBaseExc.obj
+ 0003:00000578       ?uppercase@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c578     IexBaseExc.obj
+ 0003:0000057c       ?showbase@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c57c     IexBaseExc.obj
+ 0003:00000580       ?showpoint@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c580     IexBaseExc.obj
+ 0003:00000584       ?showpos@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c584     IexBaseExc.obj
+ 0003:00000588       ?left@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c588     IexBaseExc.obj
+ 0003:0000058c       ?right@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c58c     IexBaseExc.obj
+ 0003:00000590       ?internal@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c590     IexBaseExc.obj
+ 0003:00000594       ?dec@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c594     IexBaseExc.obj
+ 0003:00000598       ?oct@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c598     IexBaseExc.obj
+ 0003:0000059c       ?hex@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c59c     IexBaseExc.obj
+ 0003:000005a0       ?scientific@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c5a0     IexBaseExc.obj
+ 0003:000005a4       ?fixed@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c5a4     IexBaseExc.obj
+ 0003:000005a8       ?hexfloat@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c5a8     IexBaseExc.obj
+ 0003:000005ac       ?boolalpha@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c5ac     IexBaseExc.obj
+ 0003:000005b0       ?_Stdio@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c5b0     IexBaseExc.obj
+ 0003:000005b4       ?adjustfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c5b4     IexBaseExc.obj
+ 0003:000005b8       ?basefield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c5b8     IexBaseExc.obj
+ 0003:000005bc       ?floatfield@?$_Iosb@H@std@@2W4_Fmtflags@12@B 1001c5bc     IexBaseExc.obj
+ 0003:000005c0       ?goodbit@?$_Iosb@H@std@@2W4_Iostate@12@B 1001c5c0     IexBaseExc.obj
+ 0003:000005c4       ?eofbit@?$_Iosb@H@std@@2W4_Iostate@12@B 1001c5c4     IexBaseExc.obj
+ 0003:000005c8       ?failbit@?$_Iosb@H@std@@2W4_Iostate@12@B 1001c5c8     IexBaseExc.obj
+ 0003:000005cc       ?badbit@?$_Iosb@H@std@@2W4_Iostate@12@B 1001c5cc     IexBaseExc.obj
+ 0003:000005d0       ?_Hardfail@?$_Iosb@H@std@@2W4_Iostate@12@B 1001c5d0     IexBaseExc.obj
+ 0003:000005d4       ?in@?$_Iosb@H@std@@2W4_Openmode@12@B 1001c5d4     IexBaseExc.obj
+ 0003:000005d8       ?out@?$_Iosb@H@std@@2W4_Openmode@12@B 1001c5d8     IexBaseExc.obj
+ 0003:000005dc       ?ate@?$_Iosb@H@std@@2W4_Openmode@12@B 1001c5dc     IexBaseExc.obj
+ 0003:000005e0       ?app@?$_Iosb@H@std@@2W4_Openmode@12@B 1001c5e0     IexBaseExc.obj
+ 0003:000005e4       ?trunc@?$_Iosb@H@std@@2W4_Openmode@12@B 1001c5e4     IexBaseExc.obj
+ 0003:000005e8       ?_Nocreate@?$_Iosb@H@std@@2W4_Openmode@12@B 1001c5e8     IexBaseExc.obj
+ 0003:000005ec       ?_Noreplace@?$_Iosb@H@std@@2W4_Openmode@12@B 1001c5ec     IexBaseExc.obj
+ 0003:000005f0       ?binary@?$_Iosb@H@std@@2W4_Openmode@12@B 1001c5f0     IexBaseExc.obj
+ 0003:000005f4       ?beg@?$_Iosb@H@std@@2W4_Seekdir@12@B 1001c5f4     IexBaseExc.obj
+ 0003:000005f8       ?cur@?$_Iosb@H@std@@2W4_Seekdir@12@B 1001c5f8     IexBaseExc.obj
+ 0003:000005fc       ?end@?$_Iosb@H@std@@2W4_Seekdir@12@B 1001c5fc     IexBaseExc.obj
+ 0003:00000604       ??_7BaseExc@Iex@@6B@       1001c604     IexBaseExc.obj
+ 0003:0000060e       ??_C@_00CNPNBAHC@?$AA@     1001c60e     IexBaseExc.obj
+ 0003:00000610       ??_C@_02OAOPDKLG@?$CFT?$AA@ 1001c610     IexThrowErrnoExc.obj
+ 0003:00000618       ??_7ErrnoExc@Iex@@6B@      1001c618     IexThrowErrnoExc.obj
+ 0003:00000628       ??_7EpermExc@Iex@@6B@      1001c628     IexThrowErrnoExc.obj
+ 0003:00000638       ??_7EnoentExc@Iex@@6B@     1001c638     IexThrowErrnoExc.obj
+ 0003:00000648       ??_7EsrchExc@Iex@@6B@      1001c648     IexThrowErrnoExc.obj
+ 0003:00000658       ??_7EintrExc@Iex@@6B@      1001c658     IexThrowErrnoExc.obj
+ 0003:00000668       ??_7EioExc@Iex@@6B@        1001c668     IexThrowErrnoExc.obj
+ 0003:00000678       ??_7EnxioExc@Iex@@6B@      1001c678     IexThrowErrnoExc.obj
+ 0003:00000688       ??_7E2bigExc@Iex@@6B@      1001c688     IexThrowErrnoExc.obj
+ 0003:00000698       ??_7EnoexecExc@Iex@@6B@    1001c698     IexThrowErrnoExc.obj
+ 0003:000006a8       ??_7EbadfExc@Iex@@6B@      1001c6a8     IexThrowErrnoExc.obj
+ 0003:000006b8       ??_7EchildExc@Iex@@6B@     1001c6b8     IexThrowErrnoExc.obj
+ 0003:000006c8       ??_7EagainExc@Iex@@6B@     1001c6c8     IexThrowErrnoExc.obj
+ 0003:000006d8       ??_7EnomemExc@Iex@@6B@     1001c6d8     IexThrowErrnoExc.obj
+ 0003:000006e8       ??_7EaccesExc@Iex@@6B@     1001c6e8     IexThrowErrnoExc.obj
+ 0003:000006f8       ??_7EfaultExc@Iex@@6B@     1001c6f8     IexThrowErrnoExc.obj
+ 0003:00000708       ??_7EbusyExc@Iex@@6B@      1001c708     IexThrowErrnoExc.obj
+ 0003:00000718       ??_7EexistExc@Iex@@6B@     1001c718     IexThrowErrnoExc.obj
+ 0003:00000728       ??_7ExdevExc@Iex@@6B@      1001c728     IexThrowErrnoExc.obj
+ 0003:00000738       ??_7EnodevExc@Iex@@6B@     1001c738     IexThrowErrnoExc.obj
+ 0003:00000748       ??_7EnotdirExc@Iex@@6B@    1001c748     IexThrowErrnoExc.obj
+ 0003:00000758       ??_7EisdirExc@Iex@@6B@     1001c758     IexThrowErrnoExc.obj
+ 0003:00000768       ??_7EinvalExc@Iex@@6B@     1001c768     IexThrowErrnoExc.obj
+ 0003:00000778       ??_7EnfileExc@Iex@@6B@     1001c778     IexThrowErrnoExc.obj
+ 0003:00000788       ??_7EmfileExc@Iex@@6B@     1001c788     IexThrowErrnoExc.obj
+ 0003:00000798       ??_7EnottyExc@Iex@@6B@     1001c798     IexThrowErrnoExc.obj
+ 0003:000007a8       ??_7EfbigExc@Iex@@6B@      1001c7a8     IexThrowErrnoExc.obj
+ 0003:000007b8       ??_7EnospcExc@Iex@@6B@     1001c7b8     IexThrowErrnoExc.obj
+ 0003:000007c8       ??_7EspipeExc@Iex@@6B@     1001c7c8     IexThrowErrnoExc.obj
+ 0003:000007d8       ??_7ErofsExc@Iex@@6B@      1001c7d8     IexThrowErrnoExc.obj
+ 0003:000007e8       ??_7EmlinkExc@Iex@@6B@     1001c7e8     IexThrowErrnoExc.obj
+ 0003:000007f8       ??_7EpipeExc@Iex@@6B@      1001c7f8     IexThrowErrnoExc.obj
+ 0003:00000808       ??_7EdomExc@Iex@@6B@       1001c808     IexThrowErrnoExc.obj
+ 0003:00000818       ??_7ErangeExc@Iex@@6B@     1001c818     IexThrowErrnoExc.obj
+ 0003:00000828       ??_7EdeadlkExc@Iex@@6B@    1001c828     IexThrowErrnoExc.obj
+ 0003:00000838       ??_7EnolckExc@Iex@@6B@     1001c838     IexThrowErrnoExc.obj
+ 0003:00000848       ??_7EnametoolongExc@Iex@@6B@ 1001c848     IexThrowErrnoExc.obj
+ 0003:00000858       ??_7EilseqExc@Iex@@6B@     1001c858     IexThrowErrnoExc.obj
+ 0003:00000868       ??_7EnosysExc@Iex@@6B@     1001c868     IexThrowErrnoExc.obj
+ 0003:00000878       ??_7EnotemptyExc@Iex@@6B@  1001c878     IexThrowErrnoExc.obj
+ 0003:00000888       ??_7type_info@@6B@         1001c888     MSVCRTD:ti_inst.obj
+ 0003:00000890       __pDefaultRawDllMain       1001c890     MSVCRTD:crtdll.obj
+ 0003:00000890       __pRawDllMain              1001c890     MSVCRTD:crtdll.obj
+ 0003:00000894       ??_C@_0DA@FJPPCPEH@f?3?2dd?2vctools?2crt_bld?2self_x86?2c@ 1001c894     MSVCRTD:crtdll.obj
+ 0003:000008d0       ??_C@_0BP@OGBCLIBO@Stack?5around?5_alloca?5corrupted?$AA@ 1001c8d0     MSVCRTD:_userapi_.obj
+ 0003:000008f8       ??_C@_0CK@CNLNOEPB@Local?5variable?5used?5before?5initi@ 1001c8f8     MSVCRTD:_userapi_.obj
+ 0003:0000092c       ??_C@_0BI@CIGMDCBH@Stack?5memory?5corruption?$AA@ 1001c92c     MSVCRTD:_userapi_.obj
+ 0003:00000948       ??_C@_0CK@FEGOIOPB@Cast?5to?5smaller?5type?5causing?5los@ 1001c948     MSVCRTD:_userapi_.obj
+ 0003:0000097c       ??_C@_0BJ@HEGAHDFO@Stack?5pointer?5corruption?$AA@ 1001c97c     MSVCRTD:_userapi_.obj
+ 0003:000009b4       ??_C@_0BO@GNIAFIKK@Unknown?5Runtime?5Check?5Error?6?$AN?$AA@ 1001c9b4     MSVCRTD:_error_.obj
+ 0003:000009d8       ??_C@_0CM@NGINOKPC@Stack?5memory?5around?5_alloca?5was?5@ 1001c9d8     MSVCRTD:_error_.obj
+ 0003:00000a0c       ??_C@_0DG@HKJMLLLP@A?5local?5variable?5was?5used?5before@ 1001ca0c     MSVCRTD:_error_.obj
+ 0003:00000a4c       ??_C@_0BN@FFOINMNJ@Stack?5memory?5was?5corrupted?6?$AN?$AA@ 1001ca4c     MSVCRTD:_error_.obj
+ 0003:00000a70       ??_C@_0BBN@GPMLNJCF@A?5cast?5to?5a?5smaller?5data?5type?5ha@ 1001ca70     MSVCRTD:_error_.obj
+ 0003:00000bc8       ??_C@_0NN@NGPKDKPD@The?5value?5of?5ESP?5was?5not?5properl@ 1001cbc8     MSVCRTD:_error_.obj
+ 0003:00000d90       ??_C@_0CA@IODNCDPG@Run?9Time?5Check?5Failure?5?$CD?$CFd?5?9?5?$CFs?$AA@ 1001cd90     MSVCRTD:_error_.obj
+ 0003:00000db8       ??_C@_0BE@GNBOBNCK@Unknown?5Module?5Name?$AA@ 1001cdb8     MSVCRTD:_error_.obj
+ 0003:00000dd0       ??_C@_0BB@PFFGGCJP@Unknown?5Filename?$AA@ 1001cdd0     MSVCRTD:_error_.obj
+ 0003:00000de8       ??_C@_1EA@NFKNIFJP@?$AAR?$AAu?$AAn?$AA?9?$AAT?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAu?$AAr?$AAe?$AA?5?$AA?$CD?$AA?$CF?$AAd?$AA?5?$AA?9?$AA?5?$AA?$CF?$AAs?$AA?$AA@ 1001cde8     MSVCRTD:_error_.obj
+ 0003:00000e38       ??_C@_1GM@OLMCBDMB@?$AAR?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAC?$AAh?$AAe?$AAc?$AAk?$AA?5?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?4?$AA?6?$AA?$AN?$AA?5?$AAU?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo@ 1001ce38     MSVCRTD:_error_.obj
+ 0003:00000ebc       ??_C@_0CG@IAFNJNEE@Stack?5corrupted?5near?5unknown?5var@ 1001cebc     MSVCRTD:_error_.obj
+ 0003:00000ef0       ??_C@_0EJ@LJKNEOLN@Stack?5area?5around?5_alloca?5memory@ 1001cef0     MSVCRTD:_error_.obj
+ 0003:00000f48       ??_C@_08KJEDNCKC@?$CFs?$CFs?$CFs?$CFs?$AA@ 1001cf48     MSVCRTD:_error_.obj
+ 0003:00000f54       ??_C@_02LLMPMKNF@?$DO?5?$AA@ 1001cf54     MSVCRTD:_error_.obj
+ 0003:00000f58       ??_C@_01EEMJAFIK@?6?$AA@   1001cf58     MSVCRTD:_error_.obj
+ 0003:00000f5c       ??_C@_0BC@KIBAILCI@?$CFs?$CFs?$CFp?$CFs?$CFld?$CFs?$CFd?$CFs?$AA@ 1001cf5c     MSVCRTD:_error_.obj
+ 0003:00000f78       ??_C@_0EI@CLEPFNGI@Stack?5area?5around?5_alloca?5memory@ 1001cf78     MSVCRTD:_error_.obj
+ 0003:00000fd0       ??_C@_0N@MHFFIMFG@?6Address?3?50x?$AA@ 1001cfd0     MSVCRTD:_error_.obj
+ 0003:00000fe0       ??_C@_07DFDJCKFN@?6Size?3?5?$AA@ 1001cfe0     MSVCRTD:_error_.obj
+ 0003:00000fec       ??_C@_0CK@DKGBICFE@?6Allocation?5number?5within?5this?5f@ 1001cfec     MSVCRTD:_error_.obj
+ 0003:00001020       ??_C@_08OMAHNMHJ@?6Data?3?5?$DM?$AA@ 1001d020     MSVCRTD:_error_.obj
+ 0003:0000102c       ??_C@_09FOPFMPEJ@wsprintfA?$AA@ 1001d02c     MSVCRTD:_error_.obj
+ 0003:00001038       ??_C@_0L@GMPLCCII@user32?4dll?$AA@ 1001d038     MSVCRTD:_error_.obj
+ 0003:00001048       ??_C@_05MKKEDADM@?$CF?42X?5?$AA@ 1001d048     MSVCRTD:_error_.obj
+ 0003:00001050       ??_C@_0DE@OHJBPMBP@A?5variable?5is?5being?5used?5without@ 1001d050     MSVCRTD:_error_.obj
+ 0003:0000109c       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 1001d09c     MSVCRTD:tncleanup.obj
+ 0003:000010a0       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 1001d0a0     MSVCRTD:tncleanup.obj
+ 0003:000010a4       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 1001d0a4     MSVCRTD:tncleanup.obj
+ 0003:000010a8       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 1001d0a8     MSVCRTD:tncleanup.obj
+ 0003:000010ac       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 1001d0ac     MSVCRTD:tncleanup.obj
+ 0003:000010b0       ??_C@_0M@EKFFODEC@MSPDB80?4DLL?$AA@ 1001d0b0     MSVCRTD:_pdblkup_.obj
+ 0003:000010c0       ??_C@_01KDCPPGHE@r?$AA@    1001d0c0     MSVCRTD:_pdblkup_.obj
+ 0003:000010c4       ??_C@_0BB@KCIACLNC@PDBOpenValidate5?$AA@ 1001d0c4     MSVCRTD:_pdblkup_.obj
+ 0003:000010d8       ??_C@_0BF@BMIHBHCA@EnvironmentDirectory?$AA@ 1001d0d8     MSVCRTD:_pdblkup_.obj
+ 0003:000010f4       ??_C@_0CN@JNNIHDGH@SOFTWARE?2Microsoft?2VisualStudio?2@ 1001d0f4     MSVCRTD:_pdblkup_.obj
+ 0003:0000112c       ??_C@_0M@HLOHPNFA@RegCloseKey?$AA@ 1001d12c     MSVCRTD:_pdblkup_.obj
+ 0003:0000113c       ??_C@_0BB@HHEIPGME@RegQueryValueExA?$AA@ 1001d13c     MSVCRTD:_pdblkup_.obj
+ 0003:00001150       ??_C@_0O@DCOGKJGG@RegOpenKeyExA?$AA@ 1001d150     MSVCRTD:_pdblkup_.obj
+ 0003:00001160       ??_C@_0N@JJPEKNFO@ADVAPI32?4DLL?$AA@ 1001d160     MSVCRTD:_pdblkup_.obj
+ 0003:00001464       ??_R4BaseExc@Iex@@6B@      1001d464     IexBaseExc.obj
+ 0003:0000147c       ??_R3BaseExc@Iex@@8        1001d47c     IexBaseExc.obj
+ 0003:00001490       ??_R2BaseExc@Iex@@8        1001d490     IexBaseExc.obj
+ 0003:000014b0       ??_R1A@?0A@EA@BaseExc@Iex@@8 1001d4b0     IexBaseExc.obj
+ 0003:000014d4       ??_R1M@?0A@EA@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 1001d4d4     IexBaseExc.obj
+ 0003:000014f8       ??_R3?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 1001d4f8     IexBaseExc.obj
+ 0003:0000150c       ??_R2?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 1001d50c     IexBaseExc.obj
+ 0003:00001520       ??_R1A@?0A@EA@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@8 1001d520     IexBaseExc.obj
+ 0003:00001544       ??_R1A@?0A@EA@?$_String_val@DV?$allocator@D@std@@@std@@8 1001d544     IexBaseExc.obj
+ 0003:00001568       ??_R3?$_String_val@DV?$allocator@D@std@@@std@@8 1001d568     IexBaseExc.obj
+ 0003:0000157c       ??_R2?$_String_val@DV?$allocator@D@std@@@std@@8 1001d57c     IexBaseExc.obj
+ 0003:0000158c       ??_R1A@?0A@EA@_String_base@std@@8 1001d58c     IexBaseExc.obj
+ 0003:000015b0       ??_R3_String_base@std@@8   1001d5b0     IexBaseExc.obj
+ 0003:000015c4       ??_R2_String_base@std@@8   1001d5c4     IexBaseExc.obj
+ 0003:000015d0       ??_R1A@?0A@EA@_Container_base_secure@std@@8 1001d5d0     IexBaseExc.obj
+ 0003:000015f4       ??_R3_Container_base_secure@std@@8 1001d5f4     IexBaseExc.obj
+ 0003:00001608       ??_R2_Container_base_secure@std@@8 1001d608     IexBaseExc.obj
+ 0003:00001610       ??_R1M@?0A@EA@?$_String_val@DV?$allocator@D@std@@@std@@8 1001d610     IexBaseExc.obj
+ 0003:00001634       ??_R1M@?0A@EA@_String_base@std@@8 1001d634     IexBaseExc.obj
+ 0003:00001658       ??_R1M@?0A@EA@_Container_base_secure@std@@8 1001d658     IexBaseExc.obj
+ 0003:0000167c       ??_R1A@?0A@EA@exception@std@@8 1001d67c     IexBaseExc.obj
+ 0003:000016a0       ??_R3exception@std@@8      1001d6a0     IexBaseExc.obj
+ 0003:000016b4       ??_R2exception@std@@8      1001d6b4     IexBaseExc.obj
+ 0003:000016bc       ??_R4ErrnoExc@Iex@@6B@     1001d6bc     IexThrowErrnoExc.obj
+ 0003:000016d4       ??_R3ErrnoExc@Iex@@8       1001d6d4     IexThrowErrnoExc.obj
+ 0003:000016e8       ??_R2ErrnoExc@Iex@@8       1001d6e8     IexThrowErrnoExc.obj
+ 0003:0000170c       ??_R1A@?0A@EA@ErrnoExc@Iex@@8 1001d70c     IexThrowErrnoExc.obj
+ 0003:00001730       ??_R4EpermExc@Iex@@6B@     1001d730     IexThrowErrnoExc.obj
+ 0003:00001748       ??_R3EpermExc@Iex@@8       1001d748     IexThrowErrnoExc.obj
+ 0003:0000175c       ??_R2EpermExc@Iex@@8       1001d75c     IexThrowErrnoExc.obj
+ 0003:00001784       ??_R1A@?0A@EA@EpermExc@Iex@@8 1001d784     IexThrowErrnoExc.obj
+ 0003:000017a8       ??_R4EnoentExc@Iex@@6B@    1001d7a8     IexThrowErrnoExc.obj
+ 0003:000017c0       ??_R3EnoentExc@Iex@@8      1001d7c0     IexThrowErrnoExc.obj
+ 0003:000017d4       ??_R2EnoentExc@Iex@@8      1001d7d4     IexThrowErrnoExc.obj
+ 0003:000017fc       ??_R1A@?0A@EA@EnoentExc@Iex@@8 1001d7fc     IexThrowErrnoExc.obj
+ 0003:00001820       ??_R4EsrchExc@Iex@@6B@     1001d820     IexThrowErrnoExc.obj
+ 0003:00001838       ??_R3EsrchExc@Iex@@8       1001d838     IexThrowErrnoExc.obj
+ 0003:0000184c       ??_R2EsrchExc@Iex@@8       1001d84c     IexThrowErrnoExc.obj
+ 0003:00001874       ??_R1A@?0A@EA@EsrchExc@Iex@@8 1001d874     IexThrowErrnoExc.obj
+ 0003:00001898       ??_R4EintrExc@Iex@@6B@     1001d898     IexThrowErrnoExc.obj
+ 0003:000018b0       ??_R3EintrExc@Iex@@8       1001d8b0     IexThrowErrnoExc.obj
+ 0003:000018c4       ??_R2EintrExc@Iex@@8       1001d8c4     IexThrowErrnoExc.obj
+ 0003:000018ec       ??_R1A@?0A@EA@EintrExc@Iex@@8 1001d8ec     IexThrowErrnoExc.obj
+ 0003:00001910       ??_R4EioExc@Iex@@6B@       1001d910     IexThrowErrnoExc.obj
+ 0003:00001928       ??_R3EioExc@Iex@@8         1001d928     IexThrowErrnoExc.obj
+ 0003:0000193c       ??_R2EioExc@Iex@@8         1001d93c     IexThrowErrnoExc.obj
+ 0003:00001964       ??_R1A@?0A@EA@EioExc@Iex@@8 1001d964     IexThrowErrnoExc.obj
+ 0003:00001988       ??_R4EnxioExc@Iex@@6B@     1001d988     IexThrowErrnoExc.obj
+ 0003:000019a0       ??_R3EnxioExc@Iex@@8       1001d9a0     IexThrowErrnoExc.obj
+ 0003:000019b4       ??_R2EnxioExc@Iex@@8       1001d9b4     IexThrowErrnoExc.obj
+ 0003:000019dc       ??_R1A@?0A@EA@EnxioExc@Iex@@8 1001d9dc     IexThrowErrnoExc.obj
+ 0003:00001a00       ??_R4E2bigExc@Iex@@6B@     1001da00     IexThrowErrnoExc.obj
+ 0003:00001a18       ??_R3E2bigExc@Iex@@8       1001da18     IexThrowErrnoExc.obj
+ 0003:00001a2c       ??_R2E2bigExc@Iex@@8       1001da2c     IexThrowErrnoExc.obj
+ 0003:00001a54       ??_R1A@?0A@EA@E2bigExc@Iex@@8 1001da54     IexThrowErrnoExc.obj
+ 0003:00001a78       ??_R4EnoexecExc@Iex@@6B@   1001da78     IexThrowErrnoExc.obj
+ 0003:00001a90       ??_R3EnoexecExc@Iex@@8     1001da90     IexThrowErrnoExc.obj
+ 0003:00001aa4       ??_R2EnoexecExc@Iex@@8     1001daa4     IexThrowErrnoExc.obj
+ 0003:00001acc       ??_R1A@?0A@EA@EnoexecExc@Iex@@8 1001dacc     IexThrowErrnoExc.obj
+ 0003:00001af0       ??_R4EbadfExc@Iex@@6B@     1001daf0     IexThrowErrnoExc.obj
+ 0003:00001b08       ??_R3EbadfExc@Iex@@8       1001db08     IexThrowErrnoExc.obj
+ 0003:00001b1c       ??_R2EbadfExc@Iex@@8       1001db1c     IexThrowErrnoExc.obj
+ 0003:00001b44       ??_R1A@?0A@EA@EbadfExc@Iex@@8 1001db44     IexThrowErrnoExc.obj
+ 0003:00001b68       ??_R4EchildExc@Iex@@6B@    1001db68     IexThrowErrnoExc.obj
+ 0003:00001b80       ??_R3EchildExc@Iex@@8      1001db80     IexThrowErrnoExc.obj
+ 0003:00001b94       ??_R2EchildExc@Iex@@8      1001db94     IexThrowErrnoExc.obj
+ 0003:00001bbc       ??_R1A@?0A@EA@EchildExc@Iex@@8 1001dbbc     IexThrowErrnoExc.obj
+ 0003:00001be0       ??_R4EagainExc@Iex@@6B@    1001dbe0     IexThrowErrnoExc.obj
+ 0003:00001bf8       ??_R3EagainExc@Iex@@8      1001dbf8     IexThrowErrnoExc.obj
+ 0003:00001c0c       ??_R2EagainExc@Iex@@8      1001dc0c     IexThrowErrnoExc.obj
+ 0003:00001c34       ??_R1A@?0A@EA@EagainExc@Iex@@8 1001dc34     IexThrowErrnoExc.obj
+ 0003:00001c58       ??_R4EnomemExc@Iex@@6B@    1001dc58     IexThrowErrnoExc.obj
+ 0003:00001c70       ??_R3EnomemExc@Iex@@8      1001dc70     IexThrowErrnoExc.obj
+ 0003:00001c84       ??_R2EnomemExc@Iex@@8      1001dc84     IexThrowErrnoExc.obj
+ 0003:00001cac       ??_R1A@?0A@EA@EnomemExc@Iex@@8 1001dcac     IexThrowErrnoExc.obj
+ 0003:00001cd0       ??_R4EaccesExc@Iex@@6B@    1001dcd0     IexThrowErrnoExc.obj
+ 0003:00001ce8       ??_R3EaccesExc@Iex@@8      1001dce8     IexThrowErrnoExc.obj
+ 0003:00001cfc       ??_R2EaccesExc@Iex@@8      1001dcfc     IexThrowErrnoExc.obj
+ 0003:00001d24       ??_R1A@?0A@EA@EaccesExc@Iex@@8 1001dd24     IexThrowErrnoExc.obj
+ 0003:00001d48       ??_R4EfaultExc@Iex@@6B@    1001dd48     IexThrowErrnoExc.obj
+ 0003:00001d60       ??_R3EfaultExc@Iex@@8      1001dd60     IexThrowErrnoExc.obj
+ 0003:00001d74       ??_R2EfaultExc@Iex@@8      1001dd74     IexThrowErrnoExc.obj
+ 0003:00001d9c       ??_R1A@?0A@EA@EfaultExc@Iex@@8 1001dd9c     IexThrowErrnoExc.obj
+ 0003:00001dc0       ??_R4EbusyExc@Iex@@6B@     1001ddc0     IexThrowErrnoExc.obj
+ 0003:00001dd8       ??_R3EbusyExc@Iex@@8       1001ddd8     IexThrowErrnoExc.obj
+ 0003:00001dec       ??_R2EbusyExc@Iex@@8       1001ddec     IexThrowErrnoExc.obj
+ 0003:00001e14       ??_R1A@?0A@EA@EbusyExc@Iex@@8 1001de14     IexThrowErrnoExc.obj
+ 0003:00001e38       ??_R4EexistExc@Iex@@6B@    1001de38     IexThrowErrnoExc.obj
+ 0003:00001e50       ??_R3EexistExc@Iex@@8      1001de50     IexThrowErrnoExc.obj
+ 0003:00001e64       ??_R2EexistExc@Iex@@8      1001de64     IexThrowErrnoExc.obj
+ 0003:00001e8c       ??_R1A@?0A@EA@EexistExc@Iex@@8 1001de8c     IexThrowErrnoExc.obj
+ 0003:00001eb0       ??_R4ExdevExc@Iex@@6B@     1001deb0     IexThrowErrnoExc.obj
+ 0003:00001ec8       ??_R3ExdevExc@Iex@@8       1001dec8     IexThrowErrnoExc.obj
+ 0003:00001edc       ??_R2ExdevExc@Iex@@8       1001dedc     IexThrowErrnoExc.obj
+ 0003:00001f04       ??_R1A@?0A@EA@ExdevExc@Iex@@8 1001df04     IexThrowErrnoExc.obj
+ 0003:00001f28       ??_R4EnodevExc@Iex@@6B@    1001df28     IexThrowErrnoExc.obj
+ 0003:00001f40       ??_R3EnodevExc@Iex@@8      1001df40     IexThrowErrnoExc.obj
+ 0003:00001f54       ??_R2EnodevExc@Iex@@8      1001df54     IexThrowErrnoExc.obj
+ 0003:00001f7c       ??_R1A@?0A@EA@EnodevExc@Iex@@8 1001df7c     IexThrowErrnoExc.obj
+ 0003:00001fa0       ??_R4EnotdirExc@Iex@@6B@   1001dfa0     IexThrowErrnoExc.obj
+ 0003:00001fb8       ??_R3EnotdirExc@Iex@@8     1001dfb8     IexThrowErrnoExc.obj
+ 0003:00001fcc       ??_R2EnotdirExc@Iex@@8     1001dfcc     IexThrowErrnoExc.obj
+ 0003:00001ff4       ??_R1A@?0A@EA@EnotdirExc@Iex@@8 1001dff4     IexThrowErrnoExc.obj
+ 0003:00002018       ??_R4EisdirExc@Iex@@6B@    1001e018     IexThrowErrnoExc.obj
+ 0003:00002030       ??_R3EisdirExc@Iex@@8      1001e030     IexThrowErrnoExc.obj
+ 0003:00002044       ??_R2EisdirExc@Iex@@8      1001e044     IexThrowErrnoExc.obj
+ 0003:0000206c       ??_R1A@?0A@EA@EisdirExc@Iex@@8 1001e06c     IexThrowErrnoExc.obj
+ 0003:00002090       ??_R4EinvalExc@Iex@@6B@    1001e090     IexThrowErrnoExc.obj
+ 0003:000020a8       ??_R3EinvalExc@Iex@@8      1001e0a8     IexThrowErrnoExc.obj
+ 0003:000020bc       ??_R2EinvalExc@Iex@@8      1001e0bc     IexThrowErrnoExc.obj
+ 0003:000020e4       ??_R1A@?0A@EA@EinvalExc@Iex@@8 1001e0e4     IexThrowErrnoExc.obj
+ 0003:00002108       ??_R4EnfileExc@Iex@@6B@    1001e108     IexThrowErrnoExc.obj
+ 0003:00002120       ??_R3EnfileExc@Iex@@8      1001e120     IexThrowErrnoExc.obj
+ 0003:00002134       ??_R2EnfileExc@Iex@@8      1001e134     IexThrowErrnoExc.obj
+ 0003:0000215c       ??_R1A@?0A@EA@EnfileExc@Iex@@8 1001e15c     IexThrowErrnoExc.obj
+ 0003:00002180       ??_R4EmfileExc@Iex@@6B@    1001e180     IexThrowErrnoExc.obj
+ 0003:00002198       ??_R3EmfileExc@Iex@@8      1001e198     IexThrowErrnoExc.obj
+ 0003:000021ac       ??_R2EmfileExc@Iex@@8      1001e1ac     IexThrowErrnoExc.obj
+ 0003:000021d4       ??_R1A@?0A@EA@EmfileExc@Iex@@8 1001e1d4     IexThrowErrnoExc.obj
+ 0003:000021f8       ??_R4EnottyExc@Iex@@6B@    1001e1f8     IexThrowErrnoExc.obj
+ 0003:00002210       ??_R3EnottyExc@Iex@@8      1001e210     IexThrowErrnoExc.obj
+ 0003:00002224       ??_R2EnottyExc@Iex@@8      1001e224     IexThrowErrnoExc.obj
+ 0003:0000224c       ??_R1A@?0A@EA@EnottyExc@Iex@@8 1001e24c     IexThrowErrnoExc.obj
+ 0003:00002270       ??_R4EfbigExc@Iex@@6B@     1001e270     IexThrowErrnoExc.obj
+ 0003:00002288       ??_R3EfbigExc@Iex@@8       1001e288     IexThrowErrnoExc.obj
+ 0003:0000229c       ??_R2EfbigExc@Iex@@8       1001e29c     IexThrowErrnoExc.obj
+ 0003:000022c4       ??_R1A@?0A@EA@EfbigExc@Iex@@8 1001e2c4     IexThrowErrnoExc.obj
+ 0003:000022e8       ??_R4EnospcExc@Iex@@6B@    1001e2e8     IexThrowErrnoExc.obj
+ 0003:00002300       ??_R3EnospcExc@Iex@@8      1001e300     IexThrowErrnoExc.obj
+ 0003:00002314       ??_R2EnospcExc@Iex@@8      1001e314     IexThrowErrnoExc.obj
+ 0003:0000233c       ??_R1A@?0A@EA@EnospcExc@Iex@@8 1001e33c     IexThrowErrnoExc.obj
+ 0003:00002360       ??_R4EspipeExc@Iex@@6B@    1001e360     IexThrowErrnoExc.obj
+ 0003:00002378       ??_R3EspipeExc@Iex@@8      1001e378     IexThrowErrnoExc.obj
+ 0003:0000238c       ??_R2EspipeExc@Iex@@8      1001e38c     IexThrowErrnoExc.obj
+ 0003:000023b4       ??_R1A@?0A@EA@EspipeExc@Iex@@8 1001e3b4     IexThrowErrnoExc.obj
+ 0003:000023d8       ??_R4ErofsExc@Iex@@6B@     1001e3d8     IexThrowErrnoExc.obj
+ 0003:000023f0       ??_R3ErofsExc@Iex@@8       1001e3f0     IexThrowErrnoExc.obj
+ 0003:00002404       ??_R2ErofsExc@Iex@@8       1001e404     IexThrowErrnoExc.obj
+ 0003:0000242c       ??_R1A@?0A@EA@ErofsExc@Iex@@8 1001e42c     IexThrowErrnoExc.obj
+ 0003:00002450       ??_R4EmlinkExc@Iex@@6B@    1001e450     IexThrowErrnoExc.obj
+ 0003:00002468       ??_R3EmlinkExc@Iex@@8      1001e468     IexThrowErrnoExc.obj
+ 0003:0000247c       ??_R2EmlinkExc@Iex@@8      1001e47c     IexThrowErrnoExc.obj
+ 0003:000024a4       ??_R1A@?0A@EA@EmlinkExc@Iex@@8 1001e4a4     IexThrowErrnoExc.obj
+ 0003:000024c8       ??_R4EpipeExc@Iex@@6B@     1001e4c8     IexThrowErrnoExc.obj
+ 0003:000024e0       ??_R3EpipeExc@Iex@@8       1001e4e0     IexThrowErrnoExc.obj
+ 0003:000024f4       ??_R2EpipeExc@Iex@@8       1001e4f4     IexThrowErrnoExc.obj
+ 0003:0000251c       ??_R1A@?0A@EA@EpipeExc@Iex@@8 1001e51c     IexThrowErrnoExc.obj
+ 0003:00002540       ??_R4EdomExc@Iex@@6B@      1001e540     IexThrowErrnoExc.obj
+ 0003:00002558       ??_R3EdomExc@Iex@@8        1001e558     IexThrowErrnoExc.obj
+ 0003:0000256c       ??_R2EdomExc@Iex@@8        1001e56c     IexThrowErrnoExc.obj
+ 0003:00002594       ??_R1A@?0A@EA@EdomExc@Iex@@8 1001e594     IexThrowErrnoExc.obj
+ 0003:000025b8       ??_R4ErangeExc@Iex@@6B@    1001e5b8     IexThrowErrnoExc.obj
+ 0003:000025d0       ??_R3ErangeExc@Iex@@8      1001e5d0     IexThrowErrnoExc.obj
+ 0003:000025e4       ??_R2ErangeExc@Iex@@8      1001e5e4     IexThrowErrnoExc.obj
+ 0003:0000260c       ??_R1A@?0A@EA@ErangeExc@Iex@@8 1001e60c     IexThrowErrnoExc.obj
+ 0003:00002630       ??_R4EdeadlkExc@Iex@@6B@   1001e630     IexThrowErrnoExc.obj
+ 0003:00002648       ??_R3EdeadlkExc@Iex@@8     1001e648     IexThrowErrnoExc.obj
+ 0003:0000265c       ??_R2EdeadlkExc@Iex@@8     1001e65c     IexThrowErrnoExc.obj
+ 0003:00002684       ??_R1A@?0A@EA@EdeadlkExc@Iex@@8 1001e684     IexThrowErrnoExc.obj
+ 0003:000026a8       ??_R4EnolckExc@Iex@@6B@    1001e6a8     IexThrowErrnoExc.obj
+ 0003:000026c0       ??_R3EnolckExc@Iex@@8      1001e6c0     IexThrowErrnoExc.obj
+ 0003:000026d4       ??_R2EnolckExc@Iex@@8      1001e6d4     IexThrowErrnoExc.obj
+ 0003:000026fc       ??_R1A@?0A@EA@EnolckExc@Iex@@8 1001e6fc     IexThrowErrnoExc.obj
+ 0003:00002720       ??_R4EnametoolongExc@Iex@@6B@ 1001e720     IexThrowErrnoExc.obj
+ 0003:00002738       ??_R3EnametoolongExc@Iex@@8 1001e738     IexThrowErrnoExc.obj
+ 0003:0000274c       ??_R2EnametoolongExc@Iex@@8 1001e74c     IexThrowErrnoExc.obj
+ 0003:00002774       ??_R1A@?0A@EA@EnametoolongExc@Iex@@8 1001e774     IexThrowErrnoExc.obj
+ 0003:00002798       ??_R4EilseqExc@Iex@@6B@    1001e798     IexThrowErrnoExc.obj
+ 0003:000027b0       ??_R3EilseqExc@Iex@@8      1001e7b0     IexThrowErrnoExc.obj
+ 0003:000027c4       ??_R2EilseqExc@Iex@@8      1001e7c4     IexThrowErrnoExc.obj
+ 0003:000027ec       ??_R1A@?0A@EA@EilseqExc@Iex@@8 1001e7ec     IexThrowErrnoExc.obj
+ 0003:00002810       ??_R4EnosysExc@Iex@@6B@    1001e810     IexThrowErrnoExc.obj
+ 0003:00002828       ??_R3EnosysExc@Iex@@8      1001e828     IexThrowErrnoExc.obj
+ 0003:0000283c       ??_R2EnosysExc@Iex@@8      1001e83c     IexThrowErrnoExc.obj
+ 0003:00002864       ??_R1A@?0A@EA@EnosysExc@Iex@@8 1001e864     IexThrowErrnoExc.obj
+ 0003:00002888       ??_R4EnotemptyExc@Iex@@6B@ 1001e888     IexThrowErrnoExc.obj
+ 0003:000028a0       ??_R3EnotemptyExc@Iex@@8   1001e8a0     IexThrowErrnoExc.obj
+ 0003:000028b4       ??_R2EnotemptyExc@Iex@@8   1001e8b4     IexThrowErrnoExc.obj
+ 0003:000028dc       ??_R1A@?0A@EA@EnotemptyExc@Iex@@8 1001e8dc     IexThrowErrnoExc.obj
+ 0003:00002900       ??_R4type_info@@6B@        1001e900     MSVCRTD:ti_inst.obj
+ 0003:00002918       ??_R3type_info@@8          1001e918     MSVCRTD:ti_inst.obj
+ 0003:0000292c       ??_R2type_info@@8          1001e92c     MSVCRTD:ti_inst.obj
+ 0003:00002934       ??_R1A@?0A@EA@type_info@@8 1001e934     MSVCRTD:ti_inst.obj
+ 0003:00002ac8       ___rtc_iaa                 1001eac8     MSVCRTD:_initsect_.obj
+ 0003:00002cd8       ___rtc_izz                 1001ecd8     MSVCRTD:_initsect_.obj
+ 0003:00002ddc       ___rtc_taa                 1001eddc     MSVCRTD:_initsect_.obj
+ 0003:00002fec       ___rtc_tzz                 1001efec     MSVCRTD:_initsect_.obj
+ 0003:00003150       __TI7?AVErrnoExc@Iex@@     1001f150     IexThrowErrnoExc.obj
+ 0003:00003164       __TI8?AVEnotemptyExc@Iex@@ 1001f164     IexThrowErrnoExc.obj
+ 0003:00003178       __TI8?AVEnosysExc@Iex@@    1001f178     IexThrowErrnoExc.obj
+ 0003:0000318c       __TI8?AVEilseqExc@Iex@@    1001f18c     IexThrowErrnoExc.obj
+ 0003:000031a0       __TI8?AVEnametoolongExc@Iex@@ 1001f1a0     IexThrowErrnoExc.obj
+ 0003:000031b4       __TI8?AVEnolckExc@Iex@@    1001f1b4     IexThrowErrnoExc.obj
+ 0003:000031c8       __TI8?AVEdeadlkExc@Iex@@   1001f1c8     IexThrowErrnoExc.obj
+ 0003:000031dc       __TI8?AVErangeExc@Iex@@    1001f1dc     IexThrowErrnoExc.obj
+ 0003:000031f0       __TI8?AVEdomExc@Iex@@      1001f1f0     IexThrowErrnoExc.obj
+ 0003:00003204       __TI8?AVEpipeExc@Iex@@     1001f204     IexThrowErrnoExc.obj
+ 0003:00003218       __TI8?AVEmlinkExc@Iex@@    1001f218     IexThrowErrnoExc.obj
+ 0003:0000322c       __TI8?AVErofsExc@Iex@@     1001f22c     IexThrowErrnoExc.obj
+ 0003:00003240       __TI8?AVEspipeExc@Iex@@    1001f240     IexThrowErrnoExc.obj
+ 0003:00003254       __TI8?AVEnospcExc@Iex@@    1001f254     IexThrowErrnoExc.obj
+ 0003:00003268       __TI8?AVEfbigExc@Iex@@     1001f268     IexThrowErrnoExc.obj
+ 0003:0000327c       __TI8?AVEnottyExc@Iex@@    1001f27c     IexThrowErrnoExc.obj
+ 0003:00003290       __TI8?AVEmfileExc@Iex@@    1001f290     IexThrowErrnoExc.obj
+ 0003:000032a4       __TI8?AVEnfileExc@Iex@@    1001f2a4     IexThrowErrnoExc.obj
+ 0003:000032b8       __TI8?AVEinvalExc@Iex@@    1001f2b8     IexThrowErrnoExc.obj
+ 0003:000032cc       __TI8?AVEisdirExc@Iex@@    1001f2cc     IexThrowErrnoExc.obj
+ 0003:000032e0       __TI8?AVEnotdirExc@Iex@@   1001f2e0     IexThrowErrnoExc.obj
+ 0003:000032f4       __TI8?AVEnodevExc@Iex@@    1001f2f4     IexThrowErrnoExc.obj
+ 0003:00003308       __TI8?AVExdevExc@Iex@@     1001f308     IexThrowErrnoExc.obj
+ 0003:0000331c       __TI8?AVEexistExc@Iex@@    1001f31c     IexThrowErrnoExc.obj
+ 0003:00003330       __TI8?AVEbusyExc@Iex@@     1001f330     IexThrowErrnoExc.obj
+ 0003:00003344       __TI8?AVEfaultExc@Iex@@    1001f344     IexThrowErrnoExc.obj
+ 0003:00003358       __TI8?AVEaccesExc@Iex@@    1001f358     IexThrowErrnoExc.obj
+ 0003:0000336c       __TI8?AVEnomemExc@Iex@@    1001f36c     IexThrowErrnoExc.obj
+ 0003:00003380       __TI8?AVEagainExc@Iex@@    1001f380     IexThrowErrnoExc.obj
+ 0003:00003394       __TI8?AVEchildExc@Iex@@    1001f394     IexThrowErrnoExc.obj
+ 0003:000033a8       __TI8?AVEbadfExc@Iex@@     1001f3a8     IexThrowErrnoExc.obj
+ 0003:000033bc       __TI8?AVEnoexecExc@Iex@@   1001f3bc     IexThrowErrnoExc.obj
+ 0003:000033d0       __TI8?AVE2bigExc@Iex@@     1001f3d0     IexThrowErrnoExc.obj
+ 0003:000033e4       __TI8?AVEnxioExc@Iex@@     1001f3e4     IexThrowErrnoExc.obj
+ 0003:000033f8       __TI8?AVEioExc@Iex@@       1001f3f8     IexThrowErrnoExc.obj
+ 0003:0000340c       __TI8?AVEintrExc@Iex@@     1001f40c     IexThrowErrnoExc.obj
+ 0003:00003420       __TI8?AVEsrchExc@Iex@@     1001f420     IexThrowErrnoExc.obj
+ 0003:00003434       __TI8?AVEnoentExc@Iex@@    1001f434     IexThrowErrnoExc.obj
+ 0003:00003448       __TI8?AVEpermExc@Iex@@     1001f448     IexThrowErrnoExc.obj
+ 0003:0000348c       __CTA8?AVEpermExc@Iex@@    1001f48c     IexThrowErrnoExc.obj
+ 0003:000034b4       __CT??_R0?AVEpermExc@Iex@@@8??0EpermExc@Iex@@QAE@ABV01@@Z76 1001f4b4     IexThrowErrnoExc.obj
+ 0003:000034d4       __CT??_R0?AVErrnoExc@Iex@@@8??0ErrnoExc@Iex@@QAE@ABV01@@Z76 1001f4d4     IexThrowErrnoExc.obj
+ 0003:000034f4       __CT??_R0?AVBaseExc@Iex@@@8??0BaseExc@Iex@@QAE@ABV01@@Z76 1001f4f4     IexThrowErrnoExc.obj
+ 0003:00003514       __CT??_R0?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z3212 1001f514     IexThrowErrnoExc.obj
+ 0003:00003534       __CT??_R0?AV?$_String_val@DV?$allocator@D@std@@@std@@@8??0?$_String_val@DV?$allocator@D@std@@@std@@QAE@ABV01@@Z812 1001f534     IexThrowErrnoExc.obj
+ 0003:00003554       __CT??_R0?AV_String_base@std@@@8??0_String_base@std@@QAE@ABV01@@Z412 1001f554     IexThrowErrnoExc.obj
+ 0003:00003574       __CT??_R0?AV_Container_base_secure@std@@@8??0_Container_base_secure@std@@QAE@ABV01@@Z412 1001f574     IexThrowErrnoExc.obj
+ 0003:00003594       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 1001f594     IexThrowErrnoExc.obj
+ 0003:000035b4       __CTA8?AVEnoentExc@Iex@@   1001f5b4     IexThrowErrnoExc.obj
+ 0003:000035dc       __CT??_R0?AVEnoentExc@Iex@@@8??0EnoentExc@Iex@@QAE@ABV01@@Z76 1001f5dc     IexThrowErrnoExc.obj
+ 0003:000035fc       __CTA8?AVEsrchExc@Iex@@    1001f5fc     IexThrowErrnoExc.obj
+ 0003:00003624       __CT??_R0?AVEsrchExc@Iex@@@8??0EsrchExc@Iex@@QAE@ABV01@@Z76 1001f624     IexThrowErrnoExc.obj
+ 0003:00003644       __CTA8?AVEintrExc@Iex@@    1001f644     IexThrowErrnoExc.obj
+ 0003:0000366c       __CT??_R0?AVEintrExc@Iex@@@8??0EintrExc@Iex@@QAE@ABV01@@Z76 1001f66c     IexThrowErrnoExc.obj
+ 0003:0000368c       __CTA8?AVEioExc@Iex@@      1001f68c     IexThrowErrnoExc.obj
+ 0003:000036b4       __CT??_R0?AVEioExc@Iex@@@8??0EioExc@Iex@@QAE@ABV01@@Z76 1001f6b4     IexThrowErrnoExc.obj
+ 0003:000036d4       __CTA8?AVEnxioExc@Iex@@    1001f6d4     IexThrowErrnoExc.obj
+ 0003:000036fc       __CT??_R0?AVEnxioExc@Iex@@@8??0EnxioExc@Iex@@QAE@ABV01@@Z76 1001f6fc     IexThrowErrnoExc.obj
+ 0003:0000371c       __CTA8?AVE2bigExc@Iex@@    1001f71c     IexThrowErrnoExc.obj
+ 0003:00003744       __CT??_R0?AVE2bigExc@Iex@@@8??0E2bigExc@Iex@@QAE@ABV01@@Z76 1001f744     IexThrowErrnoExc.obj
+ 0003:00003764       __CTA8?AVEnoexecExc@Iex@@  1001f764     IexThrowErrnoExc.obj
+ 0003:0000378c       __CT??_R0?AVEnoexecExc@Iex@@@8??0EnoexecExc@Iex@@QAE@ABV01@@Z76 1001f78c     IexThrowErrnoExc.obj
+ 0003:000037ac       __CTA8?AVEbadfExc@Iex@@    1001f7ac     IexThrowErrnoExc.obj
+ 0003:000037d4       __CT??_R0?AVEbadfExc@Iex@@@8??0EbadfExc@Iex@@QAE@ABV01@@Z76 1001f7d4     IexThrowErrnoExc.obj
+ 0003:000037f4       __CTA8?AVEchildExc@Iex@@   1001f7f4     IexThrowErrnoExc.obj
+ 0003:0000381c       __CT??_R0?AVEchildExc@Iex@@@8??0EchildExc@Iex@@QAE@ABV01@@Z76 1001f81c     IexThrowErrnoExc.obj
+ 0003:0000383c       __CTA8?AVEagainExc@Iex@@   1001f83c     IexThrowErrnoExc.obj
+ 0003:00003864       __CT??_R0?AVEagainExc@Iex@@@8??0EagainExc@Iex@@QAE@ABV01@@Z76 1001f864     IexThrowErrnoExc.obj
+ 0003:00003884       __CTA8?AVEnomemExc@Iex@@   1001f884     IexThrowErrnoExc.obj
+ 0003:000038ac       __CT??_R0?AVEnomemExc@Iex@@@8??0EnomemExc@Iex@@QAE@ABV01@@Z76 1001f8ac     IexThrowErrnoExc.obj
+ 0003:000038cc       __CTA8?AVEaccesExc@Iex@@   1001f8cc     IexThrowErrnoExc.obj
+ 0003:000038f4       __CT??_R0?AVEaccesExc@Iex@@@8??0EaccesExc@Iex@@QAE@ABV01@@Z76 1001f8f4     IexThrowErrnoExc.obj
+ 0003:00003914       __CTA8?AVEfaultExc@Iex@@   1001f914     IexThrowErrnoExc.obj
+ 0003:0000393c       __CT??_R0?AVEfaultExc@Iex@@@8??0EfaultExc@Iex@@QAE@ABV01@@Z76 1001f93c     IexThrowErrnoExc.obj
+ 0003:0000395c       __CTA8?AVEbusyExc@Iex@@    1001f95c     IexThrowErrnoExc.obj
+ 0003:00003984       __CT??_R0?AVEbusyExc@Iex@@@8??0EbusyExc@Iex@@QAE@ABV01@@Z76 1001f984     IexThrowErrnoExc.obj
+ 0003:000039a4       __CTA8?AVEexistExc@Iex@@   1001f9a4     IexThrowErrnoExc.obj
+ 0003:000039cc       __CT??_R0?AVEexistExc@Iex@@@8??0EexistExc@Iex@@QAE@ABV01@@Z76 1001f9cc     IexThrowErrnoExc.obj
+ 0003:000039ec       __CTA8?AVExdevExc@Iex@@    1001f9ec     IexThrowErrnoExc.obj
+ 0003:00003a14       __CT??_R0?AVExdevExc@Iex@@@8??0ExdevExc@Iex@@QAE@ABV01@@Z76 1001fa14     IexThrowErrnoExc.obj
+ 0003:00003a34       __CTA8?AVEnodevExc@Iex@@   1001fa34     IexThrowErrnoExc.obj
+ 0003:00003a5c       __CT??_R0?AVEnodevExc@Iex@@@8??0EnodevExc@Iex@@QAE@ABV01@@Z76 1001fa5c     IexThrowErrnoExc.obj
+ 0003:00003a7c       __CTA8?AVEnotdirExc@Iex@@  1001fa7c     IexThrowErrnoExc.obj
+ 0003:00003aa4       __CT??_R0?AVEnotdirExc@Iex@@@8??0EnotdirExc@Iex@@QAE@ABV01@@Z76 1001faa4     IexThrowErrnoExc.obj
+ 0003:00003ac4       __CTA8?AVEisdirExc@Iex@@   1001fac4     IexThrowErrnoExc.obj
+ 0003:00003aec       __CT??_R0?AVEisdirExc@Iex@@@8??0EisdirExc@Iex@@QAE@ABV01@@Z76 1001faec     IexThrowErrnoExc.obj
+ 0003:00003b0c       __CTA8?AVEinvalExc@Iex@@   1001fb0c     IexThrowErrnoExc.obj
+ 0003:00003b34       __CT??_R0?AVEinvalExc@Iex@@@8??0EinvalExc@Iex@@QAE@ABV01@@Z76 1001fb34     IexThrowErrnoExc.obj
+ 0003:00003b54       __CTA8?AVEnfileExc@Iex@@   1001fb54     IexThrowErrnoExc.obj
+ 0003:00003b7c       __CT??_R0?AVEnfileExc@Iex@@@8??0EnfileExc@Iex@@QAE@ABV01@@Z76 1001fb7c     IexThrowErrnoExc.obj
+ 0003:00003b9c       __CTA8?AVEmfileExc@Iex@@   1001fb9c     IexThrowErrnoExc.obj
+ 0003:00003bc4       __CT??_R0?AVEmfileExc@Iex@@@8??0EmfileExc@Iex@@QAE@ABV01@@Z76 1001fbc4     IexThrowErrnoExc.obj
+ 0003:00003be4       __CTA8?AVEnottyExc@Iex@@   1001fbe4     IexThrowErrnoExc.obj
+ 0003:00003c0c       __CT??_R0?AVEnottyExc@Iex@@@8??0EnottyExc@Iex@@QAE@ABV01@@Z76 1001fc0c     IexThrowErrnoExc.obj
+ 0003:00003c2c       __CTA8?AVEfbigExc@Iex@@    1001fc2c     IexThrowErrnoExc.obj
+ 0003:00003c54       __CT??_R0?AVEfbigExc@Iex@@@8??0EfbigExc@Iex@@QAE@ABV01@@Z76 1001fc54     IexThrowErrnoExc.obj
+ 0003:00003c74       __CTA8?AVEnospcExc@Iex@@   1001fc74     IexThrowErrnoExc.obj
+ 0003:00003c9c       __CT??_R0?AVEnospcExc@Iex@@@8??0EnospcExc@Iex@@QAE@ABV01@@Z76 1001fc9c     IexThrowErrnoExc.obj
+ 0003:00003cbc       __CTA8?AVEspipeExc@Iex@@   1001fcbc     IexThrowErrnoExc.obj
+ 0003:00003ce4       __CT??_R0?AVEspipeExc@Iex@@@8??0EspipeExc@Iex@@QAE@ABV01@@Z76 1001fce4     IexThrowErrnoExc.obj
+ 0003:00003d04       __CTA8?AVErofsExc@Iex@@    1001fd04     IexThrowErrnoExc.obj
+ 0003:00003d2c       __CT??_R0?AVErofsExc@Iex@@@8??0ErofsExc@Iex@@QAE@ABV01@@Z76 1001fd2c     IexThrowErrnoExc.obj
+ 0003:00003d4c       __CTA8?AVEmlinkExc@Iex@@   1001fd4c     IexThrowErrnoExc.obj
+ 0003:00003d74       __CT??_R0?AVEmlinkExc@Iex@@@8??0EmlinkExc@Iex@@QAE@ABV01@@Z76 1001fd74     IexThrowErrnoExc.obj
+ 0003:00003d94       __CTA8?AVEpipeExc@Iex@@    1001fd94     IexThrowErrnoExc.obj
+ 0003:00003dbc       __CT??_R0?AVEpipeExc@Iex@@@8??0EpipeExc@Iex@@QAE@ABV01@@Z76 1001fdbc     IexThrowErrnoExc.obj
+ 0003:00003ddc       __CTA8?AVEdomExc@Iex@@     1001fddc     IexThrowErrnoExc.obj
+ 0003:00003e04       __CT??_R0?AVEdomExc@Iex@@@8??0EdomExc@Iex@@QAE@ABV01@@Z76 1001fe04     IexThrowErrnoExc.obj
+ 0003:00003e24       __CTA8?AVErangeExc@Iex@@   1001fe24     IexThrowErrnoExc.obj
+ 0003:00003e4c       __CT??_R0?AVErangeExc@Iex@@@8??0ErangeExc@Iex@@QAE@ABV01@@Z76 1001fe4c     IexThrowErrnoExc.obj
+ 0003:00003e6c       __CTA8?AVEdeadlkExc@Iex@@  1001fe6c     IexThrowErrnoExc.obj
+ 0003:00003e94       __CT??_R0?AVEdeadlkExc@Iex@@@8??0EdeadlkExc@Iex@@QAE@ABV01@@Z76 1001fe94     IexThrowErrnoExc.obj
+ 0003:00003eb4       __CTA8?AVEnolckExc@Iex@@   1001feb4     IexThrowErrnoExc.obj
+ 0003:00003edc       __CT??_R0?AVEnolckExc@Iex@@@8??0EnolckExc@Iex@@QAE@ABV01@@Z76 1001fedc     IexThrowErrnoExc.obj
+ 0003:00003efc       __CTA8?AVEnametoolongExc@Iex@@ 1001fefc     IexThrowErrnoExc.obj
+ 0003:00003f24       __CT??_R0?AVEnametoolongExc@Iex@@@8??0EnametoolongExc@Iex@@QAE@ABV01@@Z76 1001ff24     IexThrowErrnoExc.obj
+ 0003:00003f44       __CTA8?AVEilseqExc@Iex@@   1001ff44     IexThrowErrnoExc.obj
+ 0003:00003f6c       __CT??_R0?AVEilseqExc@Iex@@@8??0EilseqExc@Iex@@QAE@ABV01@@Z76 1001ff6c     IexThrowErrnoExc.obj
+ 0003:00003f8c       __CTA8?AVEnosysExc@Iex@@   1001ff8c     IexThrowErrnoExc.obj
+ 0003:00003fb4       __CT??_R0?AVEnosysExc@Iex@@@8??0EnosysExc@Iex@@QAE@ABV01@@Z76 1001ffb4     IexThrowErrnoExc.obj
+ 0003:00003fd4       __CTA8?AVEnotemptyExc@Iex@@ 1001ffd4     IexThrowErrnoExc.obj
+ 0003:00003ffc       __CT??_R0?AVEnotemptyExc@Iex@@@8??0EnotemptyExc@Iex@@QAE@ABV01@@Z76 1001fffc     IexThrowErrnoExc.obj
+ 0003:0000401c       __CTA7?AVErrnoExc@Iex@@    1002001c     IexThrowErrnoExc.obj
+ 0004:00000004       ??_R0?AVBaseExc@Iex@@@8    10021004     IexBaseExc.obj
+ 0004:00000028       ??_R0?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 10021028     IexBaseExc.obj
+ 0004:00000080       ??_R0?AV?$_String_val@DV?$allocator@D@std@@@std@@@8 10021080     IexBaseExc.obj
+ 0004:000000c0       ??_R0?AV_String_base@std@@@8 100210c0     IexBaseExc.obj
+ 0004:000000e8       ??_R0?AV_Container_base_secure@std@@@8 100210e8     IexBaseExc.obj
+ 0004:0000011c       ??_R0?AVexception@std@@@8  1002111c     IexBaseExc.obj
+ 0004:00000144       ??_R0?AVEpermExc@Iex@@@8   10021144     IexThrowErrnoExc.obj
+ 0004:00000164       ??_R0?AVErrnoExc@Iex@@@8   10021164     IexThrowErrnoExc.obj
+ 0004:00000184       ??_R0?AVEnoentExc@Iex@@@8  10021184     IexThrowErrnoExc.obj
+ 0004:000001a8       ??_R0?AVEsrchExc@Iex@@@8   100211a8     IexThrowErrnoExc.obj
+ 0004:000001c8       ??_R0?AVEintrExc@Iex@@@8   100211c8     IexThrowErrnoExc.obj
+ 0004:000001e8       ??_R0?AVEioExc@Iex@@@8     100211e8     IexThrowErrnoExc.obj
+ 0004:00000208       ??_R0?AVEnxioExc@Iex@@@8   10021208     IexThrowErrnoExc.obj
+ 0004:00000228       ??_R0?AVE2bigExc@Iex@@@8   10021228     IexThrowErrnoExc.obj
+ 0004:00000248       ??_R0?AVEnoexecExc@Iex@@@8 10021248     IexThrowErrnoExc.obj
+ 0004:0000026c       ??_R0?AVEbadfExc@Iex@@@8   1002126c     IexThrowErrnoExc.obj
+ 0004:0000028c       ??_R0?AVEchildExc@Iex@@@8  1002128c     IexThrowErrnoExc.obj
+ 0004:000002b0       ??_R0?AVEagainExc@Iex@@@8  100212b0     IexThrowErrnoExc.obj
+ 0004:000002d4       ??_R0?AVEnomemExc@Iex@@@8  100212d4     IexThrowErrnoExc.obj
+ 0004:000002f8       ??_R0?AVEaccesExc@Iex@@@8  100212f8     IexThrowErrnoExc.obj
+ 0004:0000031c       ??_R0?AVEfaultExc@Iex@@@8  1002131c     IexThrowErrnoExc.obj
+ 0004:00000340       ??_R0?AVEbusyExc@Iex@@@8   10021340     IexThrowErrnoExc.obj
+ 0004:00000360       ??_R0?AVEexistExc@Iex@@@8  10021360     IexThrowErrnoExc.obj
+ 0004:00000384       ??_R0?AVExdevExc@Iex@@@8   10021384     IexThrowErrnoExc.obj
+ 0004:000003a4       ??_R0?AVEnodevExc@Iex@@@8  100213a4     IexThrowErrnoExc.obj
+ 0004:000003c8       ??_R0?AVEnotdirExc@Iex@@@8 100213c8     IexThrowErrnoExc.obj
+ 0004:000003ec       ??_R0?AVEisdirExc@Iex@@@8  100213ec     IexThrowErrnoExc.obj
+ 0004:00000410       ??_R0?AVEinvalExc@Iex@@@8  10021410     IexThrowErrnoExc.obj
+ 0004:00000434       ??_R0?AVEnfileExc@Iex@@@8  10021434     IexThrowErrnoExc.obj
+ 0004:00000458       ??_R0?AVEmfileExc@Iex@@@8  10021458     IexThrowErrnoExc.obj
+ 0004:0000047c       ??_R0?AVEnottyExc@Iex@@@8  1002147c     IexThrowErrnoExc.obj
+ 0004:000004a0       ??_R0?AVEfbigExc@Iex@@@8   100214a0     IexThrowErrnoExc.obj
+ 0004:000004c0       ??_R0?AVEnospcExc@Iex@@@8  100214c0     IexThrowErrnoExc.obj
+ 0004:000004e4       ??_R0?AVEspipeExc@Iex@@@8  100214e4     IexThrowErrnoExc.obj
+ 0004:00000508       ??_R0?AVErofsExc@Iex@@@8   10021508     IexThrowErrnoExc.obj
+ 0004:00000528       ??_R0?AVEmlinkExc@Iex@@@8  10021528     IexThrowErrnoExc.obj
+ 0004:0000054c       ??_R0?AVEpipeExc@Iex@@@8   1002154c     IexThrowErrnoExc.obj
+ 0004:0000056c       ??_R0?AVEdomExc@Iex@@@8    1002156c     IexThrowErrnoExc.obj
+ 0004:0000058c       ??_R0?AVErangeExc@Iex@@@8  1002158c     IexThrowErrnoExc.obj
+ 0004:000005b0       ??_R0?AVEdeadlkExc@Iex@@@8 100215b0     IexThrowErrnoExc.obj
+ 0004:000005d4       ??_R0?AVEnolckExc@Iex@@@8  100215d4     IexThrowErrnoExc.obj
+ 0004:000005f8       ??_R0?AVEnametoolongExc@Iex@@@8 100215f8     IexThrowErrnoExc.obj
+ 0004:00000620       ??_R0?AVEilseqExc@Iex@@@8  10021620     IexThrowErrnoExc.obj
+ 0004:00000644       ??_R0?AVEnosysExc@Iex@@@8  10021644     IexThrowErrnoExc.obj
+ 0004:00000668       ??_R0?AVEnotemptyExc@Iex@@@8 10021668     IexThrowErrnoExc.obj
+ 0004:00000690       ??_R0?AVtype_info@@@8      10021690     MSVCRTD:ti_inst.obj
+ 0004:000006ac       ___security_cookie         100216ac     MSVCRTD:gs_cookie.obj
+ 0004:000006b0       ___security_cookie_complement 100216b0     MSVCRTD:gs_cookie.obj
+ 0004:000006b4       ?_RTC_ErrorLevels@@3PAHA   100216b4     MSVCRTD:_error_.obj
+ 0004:000006cc       ___native_dllmain_reason   100216cc     MSVCRTD:natstart.obj
+ 0004:000006d0       ___native_vcclrit_reason   100216d0     MSVCRTD:natstart.obj
+ 0004:00000810       ?currentStackTracer@?A0xb1640017@Iex@@3P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZA 10021810     IexBaseExc.obj
+ 0004:00000828       ?wsprintffp@@3P6AHPADPBDZZA 10021828     MSVCRTD:_error_.obj
+ 0004:00000bf4       __forceCRTManifestRTM      10021bf4     MSVCRTD:crtmanifestrtm.obj
+ 0004:00000bf8       ?__type_info_root_node@@3U__type_info_node@@A 10021bf8     MSVCRTD:tncleanup.obj
+ 0004:00000c10       __adjust_fdiv              10021c10     <common>
+ 0004:00000c1c       ___native_startup_state    10021c1c     <common>
+ 0004:00000c2c       ___native_startup_lock     10021c2c     <common>
+ 0004:00000c30       ___onexitend               10021c30     <common>
+ 0004:00000c40       ___onexitbegin             10021c40     <common>
+ 0004:00000c44       ___dyn_tls_init_callback   10021c44     <common>
+ 0005:00000000       __IMPORT_DESCRIPTOR_MSVCP90D 10022000     msvcprtd:MSVCP90D.dll
+ 0005:00000014       __IMPORT_DESCRIPTOR_MSVCR90D 10022014     MSVCRTD:MSVCR90D.dll
+ 0005:00000028       __IMPORT_DESCRIPTOR_KERNEL32 10022028     kernel32:KERNEL32.dll
+ 0005:0000003c       __NULL_IMPORT_DESCRIPTOR   1002203c     msvcprtd:MSVCP90D.dll
+ 0005:00000220       __imp__Sleep@4             10022220     kernel32:KERNEL32.dll
+ 0005:00000224       __imp__InterlockedCompareExchange@12 10022224     kernel32:KERNEL32.dll
+ 0005:00000228       __imp__IsDebuggerPresent@0 10022228     kernel32:KERNEL32.dll
+ 0005:0000022c       __imp__RaiseException@16   1002222c     kernel32:KERNEL32.dll
+ 0005:00000230       __imp__DebugBreak@0        10022230     kernel32:KERNEL32.dll
+ 0005:00000234       __imp__WideCharToMultiByte@32 10022234     kernel32:KERNEL32.dll
+ 0005:00000238       __imp__MultiByteToWideChar@24 10022238     kernel32:KERNEL32.dll
+ 0005:0000023c       __imp__lstrlenA@4          1002223c     kernel32:KERNEL32.dll
+ 0005:00000240       __imp__GetProcAddress@8    10022240     kernel32:KERNEL32.dll
+ 0005:00000244       __imp__LoadLibraryA@4      10022244     kernel32:KERNEL32.dll
+ 0005:00000248       __imp__TerminateProcess@8  10022248     kernel32:KERNEL32.dll
+ 0005:0000024c       __imp__GetCurrentProcess@0 1002224c     kernel32:KERNEL32.dll
+ 0005:00000250       __imp__UnhandledExceptionFilter@4 10022250     kernel32:KERNEL32.dll
+ 0005:00000254       __imp__FreeLibrary@4       10022254     kernel32:KERNEL32.dll
+ 0005:00000258       __imp__VirtualQuery@12     10022258     kernel32:KERNEL32.dll
+ 0005:0000025c       __imp__GetModuleFileNameW@12 1002225c     kernel32:KERNEL32.dll
+ 0005:00000260       __imp__GetProcessHeap@0    10022260     kernel32:KERNEL32.dll
+ 0005:00000264       __imp__HeapAlloc@12        10022264     kernel32:KERNEL32.dll
+ 0005:00000268       __imp__HeapFree@12         10022268     kernel32:KERNEL32.dll
+ 0005:0000026c       __imp__DisableThreadLibraryCalls@4 1002226c     kernel32:KERNEL32.dll
+ 0005:00000270       __imp__GetSystemTimeAsFileTime@4 10022270     kernel32:KERNEL32.dll
+ 0005:00000274       __imp__GetCurrentProcessId@0 10022274     kernel32:KERNEL32.dll
+ 0005:00000278       __imp__GetCurrentThreadId@0 10022278     kernel32:KERNEL32.dll
+ 0005:0000027c       __imp__GetTickCount@0      1002227c     kernel32:KERNEL32.dll
+ 0005:00000280       __imp__QueryPerformanceCounter@4 10022280     kernel32:KERNEL32.dll
+ 0005:00000284       __imp__SetUnhandledExceptionFilter@4 10022284     kernel32:KERNEL32.dll
+ 0005:00000288       __imp__InterlockedExchange@8 10022288     kernel32:KERNEL32.dll
+ 0005:0000028c       \177KERNEL32_NULL_THUNK_DATA 1002228c     kernel32:KERNEL32.dll
+ 0005:000002cc       __imp_??0_Container_base_secure@std@@QAE@ABV01@@Z 100222cc     msvcprtd:MSVCP90D.dll
+ 0005:000002d0       __imp_??0_String_base@std@@QAE@ABV01@@Z 100222d0     msvcprtd:MSVCP90D.dll
+ 0005:000002d4       __imp_??0?$_String_val@DV?$allocator@D@std@@@std@@QAE@ABV01@@Z 100222d4     msvcprtd:MSVCP90D.dll
+ 0005:000002d8       __imp_?find@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIPBDI@Z 100222d8     msvcprtd:MSVCP90D.dll
+ 0005:000002dc       __imp_?npos@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@2IB 100222dc     msvcprtd:MSVCP90D.dll
+ 0005:000002e0       __imp_?replace@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@IIPBDI@Z 100222e0     msvcprtd:MSVCP90D.dll
+ 0005:000002e4       __imp_?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z 100222e4     msvcprtd:MSVCP90D.dll
+ 0005:000002e8       __imp_?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV12@ABV12@@Z 100222e8     msvcprtd:MSVCP90D.dll
+ 0005:000002ec       __imp_??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 100222ec     msvcprtd:MSVCP90D.dll
+ 0005:000002f0       __imp_?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 100222f0     msvcprtd:MSVCP90D.dll
+ 0005:000002f4       __imp_?str@?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ 100222f4     msvcprtd:MSVCP90D.dll
+ 0005:000002f8       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z 100222f8     msvcprtd:MSVCP90D.dll
+ 0005:000002fc       __imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 100222fc     msvcprtd:MSVCP90D.dll
+ 0005:00000300       \177MSVCP90D_NULL_THUNK_DATA 10022300     msvcprtd:MSVCP90D.dll
+ 0005:00000334       __imp___lock               10022334     MSVCRTD:MSVCR90D.dll
+ 0005:00000338       __imp___onexit             10022338     MSVCRTD:MSVCR90D.dll
+ 0005:0000033c       __imp___except_handler4_common 1002233c     MSVCRTD:MSVCR90D.dll
+ 0005:00000340       __imp____dllonexit         10022340     MSVCRTD:MSVCR90D.dll
+ 0005:00000344       __imp___unlock             10022344     MSVCRTD:MSVCR90D.dll
+ 0005:00000348       __imp____clean_type_info_names_internal 10022348     MSVCRTD:MSVCR90D.dll
+ 0005:0000034c       __imp___crt_debugger_hook  1002234c     MSVCRTD:MSVCR90D.dll
+ 0005:00000350       __imp_?_type_info_dtor_internal_method@type_info@@QAEXXZ 10022350     MSVCRTD:MSVCR90D.dll
+ 0005:00000354       __imp____CppXcptFilter     10022354     MSVCRTD:MSVCR90D.dll
+ 0005:00000358       __imp___adjust_fdiv        10022358     MSVCRTD:MSVCR90D.dll
+ 0005:0000035c       __imp___amsg_exit          1002235c     MSVCRTD:MSVCR90D.dll
+ 0005:00000360       __imp___initterm_e         10022360     MSVCRTD:MSVCR90D.dll
+ 0005:00000364       __imp___initterm           10022364     MSVCRTD:MSVCR90D.dll
+ 0005:00000368       __imp___CrtSetCheckCount   10022368     MSVCRTD:MSVCR90D.dll
+ 0005:0000036c       __imp___decode_pointer     1002236c     MSVCRTD:MSVCR90D.dll
+ 0005:00000370       __imp___encoded_null       10022370     MSVCRTD:MSVCR90D.dll
+ 0005:00000374       __imp___free_dbg           10022374     MSVCRTD:MSVCR90D.dll
+ 0005:00000378       __imp___malloc_dbg         10022378     MSVCRTD:MSVCR90D.dll
+ 0005:0000037c       __imp___encode_pointer     1002237c     MSVCRTD:MSVCR90D.dll
+ 0005:00000380       __imp___CRT_RTC_INITW      10022380     MSVCRTD:MSVCR90D.dll
+ 0005:00000384       __imp___errno              10022384     MSVCRTD:MSVCR90D.dll
+ 0005:00000388       __imp_??0exception@std@@QAE@ABV01@@Z 10022388     MSVCRTD:MSVCR90D.dll
+ 0005:0000038c       __imp___CxxThrowException@8 1002238c     MSVCRTD:MSVCR90D.dll
+ 0005:00000390       __imp__strerror            10022390     MSVCRTD:MSVCR90D.dll
+ 0005:00000394       __imp__strlen              10022394     MSVCRTD:MSVCR90D.dll
+ 0005:00000398       __imp____CxxFrameHandler3  10022398     MSVCRTD:MSVCR90D.dll
+ 0005:0000039c       __imp_??1exception@std@@UAE@XZ 1002239c     MSVCRTD:MSVCR90D.dll
+ 0005:000003a0       __imp_??3@YAXPAX@Z         100223a0     MSVCRTD:MSVCR90D.dll
+ 0005:000003a4       __imp_??0exception@std@@QAE@XZ 100223a4     MSVCRTD:MSVCR90D.dll
+ 0005:000003a8       __imp_?terminate@@YAXXZ    100223a8     MSVCRTD:MSVCR90D.dll
+ 0005:000003ac       \177MSVCR90D_NULL_THUNK_DATA 100223ac     MSVCRTD:MSVCR90D.dll
+
+ entry point at        0002:0000034d
+

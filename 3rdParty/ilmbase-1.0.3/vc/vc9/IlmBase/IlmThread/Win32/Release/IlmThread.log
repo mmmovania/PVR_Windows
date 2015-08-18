@@ -1,0 +1,34 @@
+﻿Build started 3/2/2013 2:24:56 AM.
+     1>Project "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\vc\vc9\IlmBase\IlmThread\IlmThread.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\IlmThread.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\IlmThread /I..\..\..\..\Iex /I..\..\..\..\config.windows /Zi /nologo /W3 /WX- /O2 /Oy- /D OPENEXR_DLL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ILMTHREAD_EXPORTS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\IlmThread\IlmThread.cpp ..\..\..\..\IlmThread\IlmThreadMutex.cpp ..\..\..\..\IlmThread\IlmThreadMutexPosix.cpp ..\..\..\..\IlmThread\IlmThreadMutexWin32.cpp ..\..\..\..\IlmThread\IlmThreadPool.cpp ..\..\..\..\IlmThread\IlmThreadPosix.cpp ..\..\..\..\IlmThread\IlmThreadSemaphore.cpp ..\..\..\..\IlmThread\IlmThreadSemaphorePosix.cpp ..\..\..\..\IlmThread\IlmThreadSemaphorePosixCompat.cpp ..\..\..\..\IlmThread\IlmThreadSemaphoreWin32.cpp ..\..\..\..\IlmThread\IlmThreadWin32.cpp
+         IlmThread.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\IlmThread\IlmThread.cpp': No such file or directory
+         IlmThreadMutex.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\IlmThread\IlmThreadMutex.cpp': No such file or directory
+         IlmThreadMutexPosix.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\IlmThread\IlmThreadMutexPosix.cpp': No such file or directory
+         IlmThreadMutexWin32.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\IlmThread\IlmThreadMutexWin32.cpp': No such file or directory
+         IlmThreadPool.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\IlmThread\IlmThreadPool.cpp': No such file or directory
+         IlmThreadPosix.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\IlmThread\IlmThreadPosix.cpp': No such file or directory
+         IlmThreadSemaphore.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\IlmThread\IlmThreadSemaphore.cpp': No such file or directory
+         IlmThreadSemaphorePosix.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\IlmThread\IlmThreadSemaphorePosix.cpp': No such file or directory
+         IlmThreadSemaphorePosixCompat.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\IlmThread\IlmThreadSemaphorePosixCompat.cpp': No such file or directory
+         IlmThreadSemaphoreWin32.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\IlmThread\IlmThreadSemaphoreWin32.cpp': No such file or directory
+         IlmThreadWin32.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\..\..\IlmThread\IlmThreadWin32.cpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\vc\vc9\IlmBase\IlmThread\IlmThread.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.31

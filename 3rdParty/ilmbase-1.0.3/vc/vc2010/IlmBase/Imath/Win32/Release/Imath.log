@@ -1,0 +1,104 @@
+﻿Build started 3/2/2013 2:40:36 AM.
+     1>Project "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Imath\Imath.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\Imath.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\Iex /I..\..\..\..\Half /I..\..\..\..\Imath /Zi /nologo /W3 /WX- /O2 /Oy- /D OPENEXR_DLL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D IMATH_EXPORTS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\Imath\ImathBox.cpp ..\..\..\..\Imath\ImathColorAlgo.cpp ..\..\..\..\Imath\ImathFun.cpp ..\..\..\..\Imath\ImathMatrixAlgo.cpp ..\..\..\..\Imath\ImathRandom.cpp ..\..\..\..\Imath\ImathShear.cpp ..\..\..\..\Imath\ImathVec.cpp
+         ImathBox.cpp
+         ImathColorAlgo.cpp
+         ImathFun.cpp
+         ImathMatrixAlgo.cpp
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\Imath\ImathMatrixAlgo.cpp(253) : see reference to function template instantiation 'Imath::M44d Imath::procrustesRotationAndTranslation<double>(const Imath::V3d *,const Imath::V3d *,const double *,const size_t,const bool)' being compiled
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(126): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(154): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(159): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(199): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(204): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(117): warning C4018: '<' : signed/unsigned mismatch
+                 ..\..\..\..\Imath\ImathMatrixAlgo.cpp(254) : see reference to function template instantiation 'Imath::M44d Imath::procrustesRotationAndTranslation<float>(const Imath::V3f *,const Imath::V3f *,const float *,const size_t,const bool)' being compiled
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(126): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(154): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(159): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(199): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\..\Imath\ImathMatrixAlgo.cpp(204): warning C4018: '<' : signed/unsigned mismatch
+         ImathRandom.cpp
+         ImathShear.cpp
+         ImathVec.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Win32\Release\Imath.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\Imath.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Win32\Release\Imath.pdb" /MAP /MAPINFO:EXPORTS /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\Win32\Release\Imath.lib" /MACHINE:X86 /DLL Win32\Release\ImathBox.obj
+         Win32\Release\ImathColorAlgo.obj
+         Win32\Release\ImathFun.obj
+         Win32\Release\ImathMatrixAlgo.obj
+         Win32\Release\ImathRandom.obj
+         Win32\Release\ImathShear.obj
+         Win32\Release\ImathVec.obj
+         "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Win32\Release\Half.lib"
+         "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Win32\Release\Iex.lib"
+            Creating library ..\Win32\Release\Imath.lib and object ..\Win32\Release\Imath.exp
+         Imath.vcxproj -> D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Imath\..\Win32\Release\Imath.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Win32\Release\Imath.dll;#2" /manifest Win32\Release\Imath.dll.intermediate.manifest
+       PostBuildEvent:
+         ..\Win32\Release\createDLL -n..\Win32\Release\Imath.map -MWin32 -lWin32\Release\ -i..\Win32\Release\Imath.lib && ..\..\..\installImath.cmd Win32\Release\
+         :VCEnd
+         CreateDLL v1.2.5
+         Setting string: name of map file to use=..\Win32\Release\Imath.map
+         Setting string: machine name: X86, X64, IA64, ... as supported by Microsoft Linker=Win32
+         Setting string vector: semi-colon separated lib dirs=Win32\Release\
+         Setting string: the import lib to go with the DLL=..\Win32\Release\Imath.lib
+         Linker response file is C:\Users\User\AppData\Local\Temp\response.txt
+         Log file is C:\Users\User\AppData\Local\Temp\createDLL_out.txt
+         CreateDLL found 367 symbols
+         Exporting DLL
+     1>ImathMatrixAlgo.obj : warning LNK4197: export '?identity33f@Imath@@3V?$Matrix33@M@1@A' specified multiple times; using first specification
+     1>ImathMatrixAlgo.obj : warning LNK4197: export '?identity33d@Imath@@3V?$Matrix33@N@1@A' specified multiple times; using first specification
+     1>ImathMatrixAlgo.obj : warning LNK4197: export '?identity44f@Imath@@3V?$Matrix44@M@1@A' specified multiple times; using first specification
+     1>ImathMatrixAlgo.obj : warning LNK4197: export '?identity44d@Imath@@3V?$Matrix44@N@1@A' specified multiple times; using first specification
+            Creating library ..\Win32\Release\Imath.lib and object ..\Win32\Release\Imath.exp
+         createDLL: linking success. Linker: link.exe, status: 0
+         Installing into Win32\Release\
+                 1 file(s) copied.
+                 1 file(s) copied.
+                 1 file(s) copied.
+         A subdirectory or file ..\..\..\Deploy\include already exists.
+         ImathBox.h
+         ImathBoxAlgo.h
+         ImathColor.h
+         ImathColorAlgo.h
+         ImathEuler.h
+         ImathExc.h
+         ImathFrame.h
+         ImathFrustum.h
+         ImathFrustumTest.h
+         ImathFun.h
+         ImathGL.h
+         ImathGLU.h
+         ImathHalfLimits.h
+         ImathInt64.h
+         ImathInterval.h
+         ImathLimits.h
+         ImathLine.h
+         ImathLineAlgo.h
+         ImathMath.h
+         ImathMatrix.h
+         ImathMatrixAlgo.h
+         ImathPlane.h
+         ImathPlatform.h
+         ImathQuat.h
+         ImathRandom.h
+         ImathRoots.h
+         ImathShear.h
+         ImathSphere.h
+         ImathVec.h
+         ImathVecAlgo.h
+                30 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\Imath.unsuccessfulbuild".
+         Touching "Win32\Release\Imath.lastbuildstate".
+     1>Done Building Project "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Imath\Imath.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.39

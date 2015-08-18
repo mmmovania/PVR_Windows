@@ -1,0 +1,39 @@
+﻿Build started 3/2/2013 2:34:46 AM.
+     1>Project "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\createDLL\createDLL.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32\Debug\createDLL.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32\Debug\createDLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\.\..\..\..\config.windows /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\createDLL\createDLL.cpp ..\..\..\createDLL\OptionParser.cpp
+         OptionParser.cpp
+         createDLL.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\createDLL.exe.embed.manifest.res" Win32\Debug\createDLL_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Win32\Debug\createDLL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\createDLL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\Win32\Debug\createDLL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\Win32\Debug\createDLL.lib" /MACHINE:X86 Win32\Debug\createDLL.exe.embed.manifest.res
+         Win32\Debug\createDLL.obj
+         Win32\Debug\OptionParser.obj
+       Manifest:
+         Deleting file "Win32\Debug\createDLL.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32\Debug\createDLL.exe.embed.manifest" /manifest Win32\Debug\createDLL.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\createDLL.exe.embed.manifest.res" Win32\Debug\createDLL_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Win32\Debug\createDLL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\createDLL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\Win32\Debug\createDLL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\Win32\Debug\createDLL.lib" /MACHINE:X86 Win32\Debug\createDLL.exe.embed.manifest.res
+         Win32\Debug\createDLL.obj
+         Win32\Debug\OptionParser.obj
+         createDLL.vcxproj -> D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\createDLL\..\Win32\Debug\createDLL.exe
+       PostBuildEvent:
+         ..\..\..\installCreateDLL.cmd Win32\Debug\
+         :VCEnd
+         Installing into ..\..\..\..\..\..\Deploy\bin\Win32\Debug\
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\createDLL.unsuccessfulbuild".
+         Touching "Win32\Debug\createDLL.lastbuildstate".
+     1>Done Building Project "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\createDLL\createDLL.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.97

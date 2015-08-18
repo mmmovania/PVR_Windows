@@ -1,0 +1,27 @@
+﻿Build started 3/2/2013 2:24:55 AM.
+     1>Project "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\vc\vc9\IlmBase\HalfTest\HalfTest.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\HalfTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\HalfTest /I..\..\..\..\Half /I..\..\..\..\config.windows /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D OPENEXR_DLL /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\HalfTest\main.cpp ..\..\..\..\HalfTest\testArithmetic.cpp ..\..\..\..\HalfTest\testBitPatterns.cpp ..\..\..\..\HalfTest\testClassification.cpp ..\..\..\..\HalfTest\testError.cpp ..\..\..\..\HalfTest\testFunction.cpp ..\..\..\..\HalfTest\testLimits.cpp ..\..\..\..\HalfTest\testSize.cpp
+         main.cpp
+         testArithmetic.cpp
+     1>..\..\..\..\HalfTest\testArithmetic.cpp(2): fatal error C1083: Cannot open include file: 'half.h': No such file or directory
+         testBitPatterns.cpp
+     1>..\..\..\..\HalfTest\testBitPatterns.cpp(2): fatal error C1083: Cannot open include file: 'half.h': No such file or directory
+         testClassification.cpp
+     1>..\..\..\..\HalfTest\testClassification.cpp(2): fatal error C1083: Cannot open include file: 'half.h': No such file or directory
+         testError.cpp
+     1>..\..\..\..\HalfTest\testError.cpp(2): fatal error C1083: Cannot open include file: 'half.h': No such file or directory
+         testFunction.cpp
+     1>..\..\..\..\HalfTest\testFunction.cpp(2): fatal error C1083: Cannot open include file: 'halfFunction.h': No such file or directory
+         testLimits.cpp
+     1>..\..\..\..\HalfTest\testLimits.cpp(2): fatal error C1083: Cannot open include file: 'halfLimits.h': No such file or directory
+         testSize.cpp
+     1>..\..\..\..\HalfTest\testSize.cpp(2): fatal error C1083: Cannot open include file: 'half.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\vc\vc9\IlmBase\HalfTest\HalfTest.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.54

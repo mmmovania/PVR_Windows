@@ -1,0 +1,37 @@
+﻿Build started 3/2/2013 2:40:36 AM.
+     1>Project "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\IexTest\IexTest.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\IexTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\..\Iex /I..\..\..\..\IexTest /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MD /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\..\IexTest\main.cpp ..\..\..\..\IexTest\testBaseExc.cpp
+         main.cpp
+         testBaseExc.cpp
+     1>..\..\..\..\IexTest\testBaseExc.cpp(189): warning C4101: 'e' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Win32\Release\IexTest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\IexTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Win32\Release\IexTest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\Win32\Release\IexTest.lib" /MACHINE:X86 Win32\Release\main.obj
+         Win32\Release\testBaseExc.obj
+         "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\Win32\Release\Iex.lib"
+         IexTest.vcxproj -> D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\IexTest\..\Win32\Release\IexTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Win32\Release\IexTest.exe;#1" /manifest Win32\Release\IexTest.exe.intermediate.manifest
+       PostBuildEvent:
+         Description: Running Iex unit tests...
+         D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\IexTest\..\Win32\Release\IexTest.exe
+         :VCEnd
+         See if throw and catch work:
+         1
+         2
+         3
+         4
+         5
+         ok
+         
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\IexTest.unsuccessfulbuild".
+         Touching "Win32\Release\IexTest.lastbuildstate".
+     1>Done Building Project "D:\Libraries\PVR_\3rdParty\OpenEXR\ilmbase-1.0.3\vc\vc9\IlmBase\IexTest\IexTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.37
