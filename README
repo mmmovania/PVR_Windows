@@ -12,7 +12,7 @@ All of the libraries including the third party libraries are built using VisualS
 ################
 # How to Build #
 ################
-First extract the lib.rar file in 3rdparty/boost_1_51 folder. This contains boost 1.5.1 prebuilt binaries. Then, simply go to the vs2010 directory and open the pvrbook.sln 
+First extract the multipart rar files (lib.part01.rar, lib.part02.rar and lib.part03.rar) to lib folder in 3rdparty/boost_1_51 folder. This contains boost 1.5.1 prebuilt binaries. Then, simply go to the vs2010 directory and open the pvrbook.sln 
 project. For projects using python, please install python v 2.7 from https://www.python.org/downloads/release/python-2710/ and set the environment variable PYTHONHOME to point to the root folder of python. Additoinally for debug builds of projects using python, you will need the debug libs of python 27. Pre-built python27 debug builds are available from here:
 For Windows 32-bit http://uspgamedev.org/downloads/libs/windows/x86/
 
