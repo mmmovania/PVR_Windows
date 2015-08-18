@@ -1,0 +1,1892 @@
+﻿Build started 5/2/2013 7:24:05 PM.
+     1>Project "D:\Libraries\PVR\3rdParty\Field3D\Field3D_VS\Field3D_VS\Field3D_VS.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\Field3D.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\Field3D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Libraries\PVR\3rdParty\boost_1_51 /ID:\Libraries\PVR\3rdParty\Field3D\include /I"D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\include" /I"D:\Libraries\PVR\3rdParty\hdf5-1.8.10\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D BUILDING_FIELD3D /D OPENEXR_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\ClassFactory.cpp ..\..\src\DenseFieldIO.cpp ..\..\src\Field.cpp ..\..\src\Field3DFile.cpp ..\..\src\FieldInterp.cpp ..\..\src\FieldMapping.cpp ..\..\src\FieldMappingIO.cpp ..\..\src\Hdf5Util.cpp ..\..\src\InitIO.cpp ..\..\src\Log.cpp ..\..\src\PluginLoader.cpp ..\..\src\SparseFieldIO.cpp ..\..\src\SparseFile.cpp
+         ClassFactory.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/ClassFactory.h(143): warning C4251: 'Field3D::v1_3::ClassFactory::m_fields' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldFnPtr
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/ClassFactory.h(145): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/ClassFactory.h(148): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldIOs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldIOFnPtr
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/ClassFactory.h(150): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldIONames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/ClassFactory.h(153): warning C4251: 'Field3D::v1_3::ClassFactory::m_mappings' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldMappingFnPtr
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/ClassFactory.h(155): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldMappingNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/ClassFactory.h(159): warning C4251: 'Field3D::v1_3::ClassFactory::m_mappingIOs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldMappingIOFnPtr
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/ClassFactory.h(161): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldMappingIONames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>..\..\src\ClassFactory.cpp(102): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : see declaration of 'getenv'
+     1>..\..\src\ClassFactory.cpp(153): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : see declaration of 'getenv'
+     1>..\..\src\ClassFactory.cpp(205): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : see declaration of 'getenv'
+     1>..\..\src\ClassFactory.cpp(255): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : see declaration of 'getenv'
+         DenseFieldIO.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+     1>..\..\src\DenseFieldIO.cpp(127): warning C4244: 'initializing' : conversion from 'hsize_t' to 'int', possible loss of data
+     1>..\..\src\DenseFieldIO.cpp(138): warning C4800: 'htri_t' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\src\DenseFieldIO.cpp(139): warning C4800: 'htri_t' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\src\DenseFieldIO.cpp(140): warning C4800: 'htri_t' : forcing value to bool 'true' or 'false' (performance warning)
+         Field.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+     1>..\..\src\Field.cpp(56): warning C4355: 'this' : used in base member initializer list
+     1>..\..\src\Field.cpp(65): warning C4355: 'this' : used in base member initializer list
+         Field3DFile.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(143): warning C4251: 'Field3D::v1_3::ClassFactory::m_fields' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(145): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(148): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldIOs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldIOFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(150): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldIONames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(153): warning C4251: 'Field3D::v1_3::ClassFactory::m_mappings' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldMappingFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(155): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldMappingNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(159): warning C4251: 'Field3D::v1_3::ClassFactory::m_mappingIOs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldMappingIOFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(161): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldMappingIONames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field3DFile.h(200): warning C4251: 'Field3D::v1_3::File::Partition::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field3DFile.h(202): warning C4251: 'Field3D::v1_3::File::Partition::mapping' : class 'boost::intrusive_ptr<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     T=Field3D::v1_3::FieldMapping
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field3DFile.h(209): warning C4251: 'Field3D::v1_3::File::Partition::m_scalarLayers' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::File::Layer
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field3DFile.h(211): warning C4251: 'Field3D::v1_3::File::Partition::m_vectorLayers' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::File::Layer
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field3DFile.h(383): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_layerInfo' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::Field3DFileBase::LayerInfo
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field3DFile.h(388): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_partitions' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::File::Partition::Ptr
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field3DFile.h(390): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_partitionNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field3DFile.h(394): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_partitionCount' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=int
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field3DFile.h(399): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_groupMembership' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=std::string
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field3DFile.h(402): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::Field3DFileBase
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field3DFile.h(719): warning C4251: 'Field3D::v1_3::Field3DInputFile::m_filename' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DInputFile'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>..\..\src\Field3DFile.cpp(286): warning C4355: 'this' : used in base member initializer list
+     1>..\..\src\Field3DFile.cpp(291): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : see declaration of 'getenv'
+     1>..\..\src\Field3DFile.cpp(830): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+     1>..\..\src\Field3DFile.cpp(870): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+     1>..\..\src\Field3DFile.cpp(877): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+     1>..\..\src\Field3DFile.cpp(892): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+     1>..\..\src\Field3DFile.cpp(900): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+     1>..\..\src\Field3DFile.cpp(939): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+     1>..\..\src\Field3DFile.cpp(979): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+     1>..\..\src\Field3DFile.cpp(986): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+     1>..\..\src\Field3DFile.cpp(1001): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+     1>..\..\src\Field3DFile.cpp(1009): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+     1>..\..\src\Field3DFile.cpp(1058): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+         FieldInterp.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ProceduralField.h(219): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ProceduralField.h(229): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>d:\libraries\pvr\3rdparty\ilmbase-1.0.3\include\imath\ImathVec.h(1323): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+                 d:\libraries\pvr\3rdparty\field3d\include\field3d\ProceduralField.h(249) : see reference to function template instantiation 'Imath::Vec3<T>::Vec3<int>(const Imath::Vec3<int> &)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::half
+                 ]
+     1>d:\libraries\pvr\3rdparty\ilmbase-1.0.3\include\imath\ImathVec.h(1324): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>d:\libraries\pvr\3rdparty\ilmbase-1.0.3\include\imath\ImathVec.h(1325): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/FieldInterp.h(1619): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/FieldInterp.h(1635) : see reference to function template instantiation 'Data_T Field3D::v1_3::monotonicCubicInterpolantVec<Imath::Vec3<T>>(const Data_T &,const Data_T &,const Data_T &,const Data_T &,double)' being compiled
+                 with
+                 [
+                     Data_T=Imath::Vec3<Field3D::v1_3::half>,
+                     T=Field3D::v1_3::half
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/FieldInterp.h(1619): warning C4244: 'initializing' : conversion from 'double' to 'T', possible loss of data
+                 D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/FieldInterp.h(1645) : see reference to function template instantiation 'Data_T Field3D::v1_3::monotonicCubicInterpolantVec<Imath::V3f>(const Data_T &,const Data_T &,const Data_T &,const Data_T &,double)' being compiled
+                 with
+                 [
+                     Data_T=Imath::V3f
+                 ]
+         FieldMapping.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3d/Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+     1>..\..\src\FieldMapping.cpp(690): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\src\FieldMapping.cpp(691): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\src\FieldMapping.cpp(715): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>..\..\src\FieldMapping.cpp(715): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+         FieldMappingIO.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+         Hdf5Util.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+     1>..\..\src\Hdf5Util.cpp(96): warning C4244: 'argument' : conversion from 'hsize_t' to 'unsigned int', possible loss of data
+     1>..\..\src\Hdf5Util.cpp(341): warning C4018: '<' : signed/unsigned mismatch
+         InitIO.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(447): warning C4251: 'Field3D::v1_3::SparseFileManager::m_fileData' : class 'Field3D::v1_3::SparseFile::FileReferences' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(207) : see declaration of 'Field3D::v1_3::SparseFile::FileReferences'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(454): warning C4251: 'Field3D::v1_3::SparseFileManager::m_blockCacheList' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::SparseFile::CacheBlock
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(458): warning C4251: 'Field3D::v1_3::SparseFileManager::m_nextBlock' : class 'std::_List_iterator<_Mylist>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 with
+                 [
+                     _Mylist=std::_List_val<Field3D::v1_3::SparseFile::CacheBlock,std::allocator<Field3D::v1_3::SparseFile::CacheBlock>>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(462): warning C4251: 'Field3D::v1_3::SparseFileManager::m_mutex' : class 'boost::mutex' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/thread/win32/mutex.hpp(22) : see declaration of 'boost::mutex'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(143): warning C4251: 'Field3D::v1_3::ClassFactory::m_fields' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(145): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(148): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldIOs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldIOFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(150): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldIONames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(153): warning C4251: 'Field3D::v1_3::ClassFactory::m_mappings' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldMappingFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(155): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldMappingNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(159): warning C4251: 'Field3D::v1_3::ClassFactory::m_mappingIOs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldMappingIOFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(161): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldMappingIONames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(200): warning C4251: 'Field3D::v1_3::File::Partition::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(202): warning C4251: 'Field3D::v1_3::File::Partition::mapping' : class 'boost::intrusive_ptr<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     T=Field3D::v1_3::FieldMapping
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(209): warning C4251: 'Field3D::v1_3::File::Partition::m_scalarLayers' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::File::Layer
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(211): warning C4251: 'Field3D::v1_3::File::Partition::m_vectorLayers' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::File::Layer
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(383): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_layerInfo' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::Field3DFileBase::LayerInfo
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(388): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_partitions' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::File::Partition::Ptr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(390): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_partitionNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(394): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_partitionCount' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=int
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(399): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_groupMembership' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(402): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::Field3DFileBase
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(719): warning C4251: 'Field3D::v1_3::Field3DInputFile::m_filename' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DInputFile'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+         Log.cpp
+         PluginLoader.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/ClassFactory.h(143): warning C4251: 'Field3D::v1_3::ClassFactory::m_fields' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldFnPtr
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/ClassFactory.h(145): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/ClassFactory.h(148): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldIOs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldIOFnPtr
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/ClassFactory.h(150): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldIONames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/ClassFactory.h(153): warning C4251: 'Field3D::v1_3::ClassFactory::m_mappings' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldMappingFnPtr
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/ClassFactory.h(155): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldMappingNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/ClassFactory.h(159): warning C4251: 'Field3D::v1_3::ClassFactory::m_mappingIOs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldMappingIOFnPtr
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/ClassFactory.h(161): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldMappingIONames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>..\..\src\PluginLoader.cpp(224): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : see declaration of 'getenv'
+     1>..\..\src\PluginLoader.cpp(255): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : see declaration of 'getenv'
+         SparseFieldIO.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(447): warning C4251: 'Field3D::v1_3::SparseFileManager::m_fileData' : class 'Field3D::v1_3::SparseFile::FileReferences' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(207) : see declaration of 'Field3D::v1_3::SparseFile::FileReferences'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(454): warning C4251: 'Field3D::v1_3::SparseFileManager::m_blockCacheList' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::SparseFile::CacheBlock
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(458): warning C4251: 'Field3D::v1_3::SparseFileManager::m_nextBlock' : class 'std::_List_iterator<_Mylist>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 with
+                 [
+                     _Mylist=std::_List_val<Field3D::v1_3::SparseFile::CacheBlock,std::allocator<Field3D::v1_3::SparseFile::CacheBlock>>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(462): warning C4251: 'Field3D::v1_3::SparseFileManager::m_mutex' : class 'boost::mutex' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/thread/win32/mutex.hpp(22) : see declaration of 'boost::mutex'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(143): warning C4251: 'Field3D::v1_3::ClassFactory::m_fields' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(145): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(148): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldIOs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldIOFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(150): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldIONames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(153): warning C4251: 'Field3D::v1_3::ClassFactory::m_mappings' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldMappingFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(155): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldMappingNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(159): warning C4251: 'Field3D::v1_3::ClassFactory::m_mappingIOs' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=Field3D::v1_3::ClassFactory::CreateFieldMappingIOFnPtr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\ClassFactory.h(161): warning C4251: 'Field3D::v1_3::ClassFactory::m_fieldMappingIONames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::ClassFactory'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(200): warning C4251: 'Field3D::v1_3::File::Partition::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(202): warning C4251: 'Field3D::v1_3::File::Partition::mapping' : class 'boost::intrusive_ptr<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     T=Field3D::v1_3::FieldMapping
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(209): warning C4251: 'Field3D::v1_3::File::Partition::m_scalarLayers' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::File::Layer
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(211): warning C4251: 'Field3D::v1_3::File::Partition::m_vectorLayers' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::File::Partition'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::File::Layer
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(383): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_layerInfo' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::Field3DFileBase::LayerInfo
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(388): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_partitions' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::File::Partition::Ptr
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(390): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_partitionNames' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(394): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_partitionCount' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=int
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(399): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_groupMembership' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=std::string
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(402): warning C4251: 'Field3D::v1_3::Field3DFileBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DFileBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::Field3DFileBase
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field3DFile.h(719): warning C4251: 'Field3D::v1_3::Field3DInputFile::m_filename' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::Field3DInputFile'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1539): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+                 d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1536) : while compiling class template member function 'void Field3D::v1_3::SparseField<Data_T>::setupBlocks(void)'
+                 with
+                 [
+                     Data_T=Field3D::v1_3::half
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(177) : see reference to class template instantiation 'Field3D::v1_3::SparseField<Data_T>' being compiled
+                 with
+                 [
+                     Data_T=Field3D::v1_3::half
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(424): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+                 ..\..\src\SparseFieldIO.cpp(180) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<Field3D::v1_3::half>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<T>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::SparseField<Field3D::v1_3::half>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1539): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+                 d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1536) : while compiling class template member function 'void Field3D::v1_3::SparseField<Data_T>::setupBlocks(void)'
+                 with
+                 [
+                     Data_T=float
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(183) : see reference to class template instantiation 'Field3D::v1_3::SparseField<Data_T>' being compiled
+                 with
+                 [
+                     Data_T=float
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(424): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+                 ..\..\src\SparseFieldIO.cpp(186) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<float>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<T>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::SparseField<float>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1539): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+                 d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1536) : while compiling class template member function 'void Field3D::v1_3::SparseField<Data_T>::setupBlocks(void)'
+                 with
+                 [
+                     Data_T=double
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(189) : see reference to class template instantiation 'Field3D::v1_3::SparseField<Data_T>' being compiled
+                 with
+                 [
+                     Data_T=double
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(424): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+                 ..\..\src\SparseFieldIO.cpp(192) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<double>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<T>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::SparseField<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1539): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+                 d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1536) : while compiling class template member function 'void Field3D::v1_3::SparseField<Data_T>::setupBlocks(void)'
+                 with
+                 [
+                     Data_T=Imath::Vec3<Field3D::v1_3::half>
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(197) : see reference to class template instantiation 'Field3D::v1_3::SparseField<Data_T>' being compiled
+                 with
+                 [
+                     Data_T=Imath::Vec3<Field3D::v1_3::half>
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(424): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+                 ..\..\src\SparseFieldIO.cpp(200) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<Imath::Vec3<T>>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<Field3D::v1_3::SparseField<Data_T>>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::half,
+                     Data_T=Imath::Vec3<Field3D::v1_3::half>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1539): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+                 d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1536) : while compiling class template member function 'void Field3D::v1_3::SparseField<Data_T>::setupBlocks(void)'
+                 with
+                 [
+                     Data_T=Imath::V3f
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(203) : see reference to class template instantiation 'Field3D::v1_3::SparseField<Data_T>' being compiled
+                 with
+                 [
+                     Data_T=Imath::V3f
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(424): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+                 ..\..\src\SparseFieldIO.cpp(206) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<Imath::V3f>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<T>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::SparseField<Imath::V3f>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1539): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+                 d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseField.h(1536) : while compiling class template member function 'void Field3D::v1_3::SparseField<Data_T>::setupBlocks(void)'
+                 with
+                 [
+                     Data_T=Imath::V3d
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(209) : see reference to class template instantiation 'Field3D::v1_3::SparseField<Data_T>' being compiled
+                 with
+                 [
+                     Data_T=Imath::V3d
+                 ]
+     1>D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(424): warning C4800: 'char' : forcing value to bool 'true' or 'false' (performance warning)
+                 ..\..\src\SparseFieldIO.cpp(212) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<Imath::V3d>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<T>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::SparseField<Imath::V3d>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Hdf5Util.h(595): warning C4244: 'initializing' : conversion from 'hsize_t' to 'int', possible loss of data
+                 D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(417) : see reference to function template instantiation 'void Field3D::v1_3::Hdf5Util::readSimpleData<char>(hid_t,const std::string &,std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     _Ty=char
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(180) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<Field3D::v1_3::half>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<T>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::SparseField<Field3D::v1_3::half>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Hdf5Util.h(595): warning C4244: 'initializing' : conversion from 'hsize_t' to 'int', possible loss of data
+                 D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(435) : see reference to function template instantiation 'void Field3D::v1_3::Hdf5Util::readSimpleData<Data_T>(hid_t,const std::string &,std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     Data_T=Field3D::v1_3::half,
+                     _Ty=Field3D::v1_3::half
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Hdf5Util.h(595): warning C4244: 'initializing' : conversion from 'hsize_t' to 'int', possible loss of data
+                 D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(435) : see reference to function template instantiation 'void Field3D::v1_3::Hdf5Util::readSimpleData<Data_T>(hid_t,const std::string &,std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     Data_T=float,
+                     _Ty=float
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(186) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<float>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<T>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::SparseField<float>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Hdf5Util.h(595): warning C4244: 'initializing' : conversion from 'hsize_t' to 'int', possible loss of data
+                 D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(435) : see reference to function template instantiation 'void Field3D::v1_3::Hdf5Util::readSimpleData<Data_T>(hid_t,const std::string &,std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     Data_T=double,
+                     _Ty=double
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(192) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<double>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<T>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::SparseField<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Hdf5Util.h(595): warning C4244: 'initializing' : conversion from 'hsize_t' to 'int', possible loss of data
+                 D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(435) : see reference to function template instantiation 'void Field3D::v1_3::Hdf5Util::readSimpleData<Data_T>(hid_t,const std::string &,std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     Data_T=Imath::Vec3<Field3D::v1_3::half>,
+                     _Ty=Imath::Vec3<Field3D::v1_3::half>
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(200) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<Imath::Vec3<T>>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<Field3D::v1_3::SparseField<Data_T>>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::half,
+                     Data_T=Imath::Vec3<Field3D::v1_3::half>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Hdf5Util.h(595): warning C4244: 'initializing' : conversion from 'hsize_t' to 'int', possible loss of data
+                 D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(435) : see reference to function template instantiation 'void Field3D::v1_3::Hdf5Util::readSimpleData<Data_T>(hid_t,const std::string &,std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     Data_T=Imath::V3f,
+                     _Ty=Imath::V3f
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(206) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<Imath::V3f>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<T>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::SparseField<Imath::V3f>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Hdf5Util.h(595): warning C4244: 'initializing' : conversion from 'hsize_t' to 'int', possible loss of data
+                 D:\Libraries\PVR\3rdParty\Field3D\include\Field3D/SparseFieldIO.h(435) : see reference to function template instantiation 'void Field3D::v1_3::Hdf5Util::readSimpleData<Data_T>(hid_t,const std::string &,std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     Data_T=Imath::V3d,
+                     _Ty=Imath::V3d
+                 ]
+                 ..\..\src\SparseFieldIO.cpp(212) : see reference to function template instantiation 'bool Field3D::v1_3::SparseFieldIO::readData<Imath::V3d>(hid_t,int,const std::string &,const std::string &,boost::intrusive_ptr<T>)' being compiled
+                 with
+                 [
+                     T=Field3D::v1_3::SparseField<Imath::V3d>
+                 ]
+         SparseFile.cpp
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\RefCount.h(185): warning C4251: 'Field3D::v1_3::RefBase::m_counter' : class 'boost::detail::atomic_count' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::RefBase'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/smart_ptr/detail/atomic_count_win32.hpp(29) : see declaration of 'boost::detail::atomic_count'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(190): warning C4251: 'Field3D::v1_3::FieldMapping::m_origin' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(193): warning C4251: 'Field3D::v1_3::FieldMapping::m_res' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(475): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(478): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToLs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(481): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(484): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsToVs' : class 'Imath::Matrix44<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(487): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_lsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(489): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_vsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(497): warning C4251: 'Field3D::v1_3::MatrixFieldMapping::m_wsVoxelSize' : class 'Imath::Vec3<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::MatrixFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(693): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_ssToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(695): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_csToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(698): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_lpsToWsCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=Imath::Matrix44<double>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(700): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_nearCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(702): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_farCurve' : class 'Field3D::v1_3::Curve<T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     T=double
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\FieldMapping.h(706): warning C4251: 'Field3D::v1_3::FrustumFieldMapping::m_wsVoxelSize' : class 'std::vector<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FrustumFieldMapping'
+                 with
+                 [
+                     _Ty=Imath::V3d
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(173): warning C4251: 'Field3D::v1_3::FieldBase::name' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(175): warning C4251: 'Field3D::v1_3::FieldBase::attribute' : class 'std::basic_string<_Elem,_Traits,_Ax>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\Field.h(182): warning C4251: 'Field3D::v1_3::FieldBase::m_metadata' : class 'Field3D::v1_3::FieldMetadata<CallBack_T>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::FieldBase'
+                 with
+                 [
+                     CallBack_T=Field3D::v1_3::FieldBase
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(447): warning C4251: 'Field3D::v1_3::SparseFileManager::m_fileData' : class 'Field3D::v1_3::SparseFile::FileReferences' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(207) : see declaration of 'Field3D::v1_3::SparseFile::FileReferences'
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(454): warning C4251: 'Field3D::v1_3::SparseFileManager::m_blockCacheList' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 with
+                 [
+                     _Ty=Field3D::v1_3::SparseFile::CacheBlock
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(458): warning C4251: 'Field3D::v1_3::SparseFileManager::m_nextBlock' : class 'std::_List_iterator<_Mylist>' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 with
+                 [
+                     _Mylist=std::_List_val<Field3D::v1_3::SparseFile::CacheBlock,std::allocator<Field3D::v1_3::SparseFile::CacheBlock>>
+                 ]
+     1>d:\libraries\pvr\3rdparty\field3d\include\field3d\SparseFile.h(462): warning C4251: 'Field3D::v1_3::SparseFileManager::m_mutex' : class 'boost::mutex' needs to have dll-interface to be used by clients of class 'Field3D::v1_3::SparseFileManager'
+                 D:\Libraries\PVR\3rdParty\boost_1_51\boost/thread/win32/mutex.hpp(22) : see declaration of 'boost::mutex'
+     1>..\..\src\SparseFile.cpp(385): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\SparseFile.cpp(392): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\src\SparseFile.cpp(399): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Libraries\PVR\3rdParty\Field3D\Field3D_VS\Release\Field3D.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Libraries\PVR\3rdParty\boost_1_51\lib /LIBPATH:"D:\Libraries\PVR\3rdParty\hdf5-1.8.10\lib" /LIBPATH:"D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release" Iex.lib Half.lib hdf5dll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Field3D.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Libraries\PVR\3rdParty\Field3D\Field3D_VS\Release\Field3D.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Libraries\PVR\3rdParty\Field3D\Field3D_VS\Release\Field3D.lib" /MACHINE:X86 /DLL Release\ClassFactory.obj
+         Release\DenseFieldIO.obj
+         Release\Field.obj
+         Release\Field3DFile.obj
+         Release\FieldInterp.obj
+         Release\FieldMapping.obj
+         Release\FieldMappingIO.obj
+         Release\Hdf5Util.obj
+         Release\InitIO.obj
+         Release\Log.obj
+         Release\PluginLoader.obj
+         Release\SparseFieldIO.obj
+         Release\SparseFile.obj
+            Creating library D:\Libraries\PVR\3rdParty\Field3D\Field3D_VS\Release\Field3D.lib and object D:\Libraries\PVR\3rdParty\Field3D\Field3D_VS\Release\Field3D.exp
+         Generating code
+         Finished generating code
+         Field3D_VS.vcxproj -> D:\Libraries\PVR\3rdParty\Field3D\Field3D_VS\Release\Field3D.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Libraries\PVR\3rdParty\Field3D\Field3D_VS\Release\Field3D.dll;#2" /manifest Release\Field3D.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Field3D.unsuccessfulbuild".
+         Touching "Release\Field3D.lastbuildstate".
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\Field3D\Field3D_VS\Field3D_VS\Field3D_VS.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:10.38
