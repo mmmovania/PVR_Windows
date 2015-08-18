@@ -1,0 +1,33 @@
+﻿Build started 21/1/2013 11:01:08 PM.
+     1>Project "D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\IlmImfExamples\IlmImfExamples.vcxproj" on node 7 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\IlmImfExamples.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Win32\Debug\IlmImfExamples.exe" /INCREMENTAL /NOLOGO ..\..\..\..\..\..\Deploy\lib\Win32\Debug\IlmThread.lib ..\..\..\..\..\..\Deploy\lib\Win32\Debug\Imath.lib ..\..\..\..\..\..\Deploy\lib\Win32\Debug\Iex.lib ..\..\..\..\..\..\Deploy\lib\Win32\Debug\Half.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\IlmImfExamples.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\Win32\Debug\IlmImfExamples.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Win32\Debug\IlmImfExamples.lib" /MACHINE:X86 Win32\Debug\IlmImfExamples.exe.embed.manifest.res
+         Win32\Debug\drawImage.obj
+         Win32\Debug\generalInterfaceExamples.obj
+         Win32\Debug\generalInterfaceTiledExamples.obj
+         Win32\Debug\lowLevelIoExamples.obj
+         Win32\Debug\main.obj
+         Win32\Debug\previewImageExamples.obj
+         Win32\Debug\rgbaInterfaceExamples.obj
+         Win32\Debug\rgbaInterfaceTiledExamples.obj
+         "D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Debug\IlmImf.lib"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32\Debug\IlmImfExamples.exe.embed.manifest" /manifest Win32\Debug\IlmImfExamples.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         IlmImfExamples.vcxproj -> D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\IlmImfExamples\..\Win32\Debug\IlmImfExamples.exe
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\IlmImfExamples.unsuccessfulbuild".
+         Touching "Win32\Debug\IlmImfExamples.lastbuildstate".
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\IlmImfExamples\IlmImfExamples.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.35

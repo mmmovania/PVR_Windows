@@ -1,0 +1,61 @@
+﻿Build started 21/1/2013 11:00:55 PM.
+     1>Project "D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\IlmImfTest\IlmImfTest.vcxproj" on node 8 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Win32\Release\IlmImfTest.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Win32\Release\IlmImfTest.exe" /INCREMENTAL:NO /NOLOGO ..\..\..\..\..\..\Deploy\lib\Win32\Release\IlmThread.lib ..\..\..\..\..\..\Deploy\lib\Win32\Release\Imath.lib ..\..\..\..\..\..\Deploy\lib\Win32\Release\Iex.lib ..\..\..\..\..\..\Deploy\lib\Win32\Release\Half.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\IlmImfTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Release\IlmImfTest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Win32\Release\IlmImfTest.lib" /MACHINE:X86 Win32\Release\compareB44.obj
+         Win32\Release\compareFloat.obj
+         Win32\Release\main.obj
+         Win32\Release\testAttributes.obj
+         Win32\Release\testChannels.obj
+         Win32\Release\testCompression.obj
+         Win32\Release\testConversion.obj
+         Win32\Release\testCopyPixels.obj
+         Win32\Release\testCustomAttributes.obj
+         Win32\Release\testExistingStreams.obj
+         Win32\Release\testHuf.obj
+         Win32\Release\testIsComplete.obj
+         Win32\Release\testLineOrder.obj
+         Win32\Release\testLut.obj
+         Win32\Release\testMagic.obj
+         Win32\Release\testMultiView.obj
+         Win32\Release\testNativeFormat.obj
+         Win32\Release\testPreviewImage.obj
+         Win32\Release\testRgba.obj
+         Win32\Release\testRgbaThreading.obj
+         Win32\Release\testSampleImages.obj
+         Win32\Release\testScanLineApi.obj
+         Win32\Release\testSharedFrameBuffer.obj
+         Win32\Release\testStandardAttributes.obj
+         Win32\Release\testTiledCompression.obj
+         Win32\Release\testTiledCopyPixels.obj
+         Win32\Release\testTiledLineOrder.obj
+         Win32\Release\testTiledRgba.obj
+         Win32\Release\testTiledYa.obj
+         Win32\Release\testWav.obj
+         Win32\Release\testXdr.obj
+         Win32\Release\testYca.obj
+         "D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Release\IlmImf.lib"
+         IlmImfTest.vcxproj -> D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\IlmImfTest\..\Win32\Release\IlmImfTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Win32\Release\IlmImfTest.exe;#1" /manifest Win32\Release\IlmImfTest.exe.intermediate.manifest
+       PostBuildEvent:
+         Description: Running IlmImf unit tests...
+         copy D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\IlmImfTest\..\Win32\Release\IlmImfTest.exe ..\..\..\..\..\..\Deploy\bin\Win32\Release\
+         pushd ..\..\..\..\IlmImfTest
+         ..\..\..\Deploy\bin\Win32\Release\IlmImfTest.exe
+         popd
+         del ..\..\..\..\..\..\Deploy\bin\Win32\Release\IlmImfTest.exe
+         
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\IlmImfTest.unsuccessfulbuild".
+         Touching "Win32\Release\IlmImfTest.lastbuildstate".
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\IlmImfTest\IlmImfTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34

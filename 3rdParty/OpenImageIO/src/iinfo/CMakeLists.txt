@@ -1,0 +1,8 @@
+set (iinfo_srcs iinfo.cpp)
+add_executable (iinfo ${iinfo_srcs})
+if (MSVC)
+    set_target_properties (OpenImageIO PROPERTIES LINK_FLAGS psapi.lib)
+endif (MSVC)
+link_ilmbase (iinfo)
+target_link_libraries (iinfo OpenImageIO ${Boost_LIBRARIES} ${CMAKE_DL_LIBS})
+oiio_install_targets (iinfo)

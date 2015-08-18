@@ -1,0 +1,27 @@
+﻿Build started 21/1/2013 11:00:54 PM.
+     1>Project "D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\exrmaketiled\exrmaketiled.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Win32\Release\exrmaketiled.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Win32\Release\exrmaketiled.exe" /INCREMENTAL:NO /NOLOGO ..\..\..\..\..\..\Deploy\lib\Win32\Release\IlmThread.lib ..\..\..\..\..\..\Deploy\lib\Win32\Release\Imath.lib ..\..\..\..\..\..\Deploy\lib\Win32\Release\Iex.lib ..\..\..\..\..\..\Deploy\lib\Win32\Release\Half.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\exrmaketiled.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Release\exrmaketiled.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Win32\Release\exrmaketiled.lib" /MACHINE:X86 Win32\Release\Image.obj
+         Win32\Release\main.obj
+         Win32\Release\makeTiled.obj
+         "D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Release\IlmImf.lib"
+         exrmaketiled.vcxproj -> D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\exrmaketiled\..\Win32\Release\exrmaketiled.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\Win32\Release\exrmaketiled.exe;#1" /manifest Win32\Release\exrmaketiled.exe.intermediate.manifest
+       PostBuildEvent:
+         ..\..\..\installexrmaketiled.cmd Win32\Release\
+         :VCEnd
+         Installing into ..\..\..\..\..\..\Deploy\bin\Win32\Release\
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\exrmaketiled.unsuccessfulbuild".
+         Touching "Win32\Release\exrmaketiled.lastbuildstate".
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\OpenEXR\openexr-1.7.1\vc\vc2010\OpenEXR\exrmaketiled\exrmaketiled.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.68

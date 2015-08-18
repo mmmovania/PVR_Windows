@@ -1,0 +1,82 @@
+# SPI-specific settings
+$(info Including spi/Makefile-bits-arnold)
+
+# READ THIS FIRST
+#
+# If you are building for Arnold, just make.
+
+
+# Default namespace
+NAMESPACE ?= 'OpenImageIO_Arnold'
+
+## OS X machines
+ifeq (${platform}, macosx)
+    MY_CMAKE_FLAGS += \
+        -DBUILD_WITH_INSTALL_RPATH=1 \
+        -DCMAKE_INSTALL_NAME_DIR="${working_dir}/dist/${platform}${variant}/lib"
+endif
+
+## Spinux (current)
+ifeq ($(SP_ARCH), spinux1_x86_64)
+    platform=spinux1
+    SPCOMP2_COMPILER=gcc44m64
+    INSTALL_SPCOMP2_LOCATION = /shots/spi/home/lib/SpComp2
+    # At SPI, we have two "flavors" of spinux.  One is based on Foresight, which
+    # uses a special libGL (below).  The other is based on Fedora which uses
+    # the standard libGL.  This attempts to detect which libGL to use.
+    SPINUX_GL_LIB = /usr/lib64/xorg.nvidia.3d/libGL.so
+    MY_CMAKE_FLAGS += $(if $(wildcard ${SPINUX_GL_LIB}), -DOPENGL_gl_LIBRARY=${SPINUX_GL_LIB})
+    ifeq (${OCIO_PATH},)
+        OCIO_PATH="${INSTALL_SPCOMP2_LOCATION}/OpenColorIO/${platform}-${SPCOMP2_COMPILER}/v2"
+    endif
+    ifeq (${FIELD3D_HOME},)
+        FIELD3D_HOME="${INSTALL_SPCOMP2_LOCATION}/Field3D/${platform}-${SPCOMP2_COMPILER}/v227"
+    endif
+
+    ## custom compiler: clang
+    ifeq (${LLVM_DIRECTORY},)
+        LLVM_DIRECTORY := /shots/spi/home/lib/arnold/spinux1/llvm_3.2
+    endif
+    ifeq (${COMPILER}, clang)
+        MY_CMAKE_FLAGS += \
+           -DCMAKE_C_COMPILER=${LLVM_DIRECTORY}/bin/clang \
+           -DCMAKE_CXX_COMPILER=${LLVM_DIRECTORY}/bin/clang++
+    endif
+
+    ifeq (${COMPILER}, gcc463)
+    MY_CMAKE_FLAGS += \
+         -DCMAKE_C_COMPILER=/net/soft_scratch/apps/arnold/tools/gcc-4.6.3-test/bin/gcc \
+         -DCMAKE_CXX_COMPILER=/net/soft_scratch/apps/arnold/tools/gcc-4.6.3-test/bin/g++
+    endif
+    ifeq (${COMPILER}, gcc470)
+    MY_CMAKE_FLAGS += \
+         -DCMAKE_C_COMPILER=/net/soft_scratch/apps/arnold/tools/gcc-4.7.0-test/bin/gcc \
+         -DCMAKE_CXX_COMPILER=/net/soft_scratch/apps/arnold/tools/gcc-4.7.0-test/bin/g++
+    endif
+
+
+    MY_CMAKE_FLAGS += \
+	  -DILMBASE_CUSTOM=1 \
+	  -DILMBASE_CUSTOM_LIBRARIES="SpiImath SpiHalf SpiIlmThread SpiIex" \
+	  -DOPENEXR_CUSTOM=1 \
+	  -DOPENEXR_CUSTOM_LIBRARY="SpiIlmImf" \
+	  -DOCIO_PATH=${OCIO_PATH} \
+	  -DFIELD3D_HOME=${FIELD3D_HOME} \
+          -DHDF5_CUSTOM=1 \
+	  -DHDF5_INCLUDE_DIRS=/usr/include \
+	  -DHDF5_LIBRARIES=/usr/lib64/libhdf5.so \
+	  -DHDF5_LIBRARY_DIRS=/usr/lib64
+endif  # endif spinux1_x86_64
+
+
+
+
+all: dist
+
+.PHONY: clean all
+
+comma:= ,
+empty:=
+space:= $(empty) $(empty)
+
+local: dist
