@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C5616CCE-5926-4474-AC61-D49343878BA5}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>maketx</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">maketx.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">maketx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">maketx.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">maketx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">maketx.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">maketx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">maketx.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">maketx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_51;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UndefinePreprocessorDefinitions>USE_FIELD3D</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;USE_TBB=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;JAS_WIN_MSVC_BUILD;BOOST_ALL_DYN_LINK;OPENEXR_DLL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/Debug/maketx.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;USE_TBB=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;JAS_WIN_MSVC_BUILD;BOOST_ALL_DYN_LINK;OPENEXR_DLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Debug\Half.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Debug\Iex.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Debug\Imath.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Debug\IlmThread.lib;..\libOpenImageIO\Debug\OpenImageIO.lib;psapi.lib;D:\Libraries\PVR\3rdParty\external\libpng-1.2.3\lib\libpng.lib;D:\Libraries\PVR\3rdParty\external\zlib-1.2.3\lib\zdll.lib;D:\Libraries\PVR\3rdParty\external\tiff-3.8.2\lib\libtiff.lib;D:\Libraries\PVR\3rdParty\external\jpeg-6b\lib\jpeg.lib;D:\Libraries\PVR\3rdParty\external\openjpeg-1.3\lib\OpenJPEG.lib;D:\Libraries\PVR\3rdParty\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Debug\IlmImf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(THIRD_PARTY_TOOLS_HOME)/boost_1_51/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/Debug/maketx.lib</ImportLibrary>
+      <LinkIncremental>true</LinkIncremental>
+      <ProgramDataBaseFile>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/Debug/maketx.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(THIRD_PARTY_TOOLS_HOME)/ilmbase-1.0.3/include;$(THIRD_PARTY_TOOLS_HOME)/ilmbase-1.0.3/include/OpenEXR;$(THIRD_PARTY_TOOLS_HOME)/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;$(THIRD_PARTY_TOOLS_HOME)/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;$(THIRD_PARTY_TOOLS_HOME)/boost_1_51;$(THIRD_PARTY_TOOLS_HOME)/OpenImageIO/src/include;$(THIRD_PARTY_TOOLS_HOME)/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UndefinePreprocessorDefinitions>USE_FIELD3D</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_TBB=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;JAS_WIN_MSVC_BUILD;BOOST_ALL_DYN_LINK;OPENEXR_DLL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/Release/maketx.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_TBB=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;JAS_WIN_MSVC_BUILD;BOOST_ALL_DYN_LINK;OPENEXR_DLL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Half.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Iex.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Imath.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\IlmThread.lib;..\libOpenImageIO\Release\OpenImageIO.lib;psapi.lib;D:\Libraries\PVR\3rdParty\external\libpng-1.2.3\lib\libpng.lib;D:\Libraries\PVR\3rdParty\external\zlib-1.2.3\lib\zdll.lib;D:\Libraries\PVR\3rdParty\external\tiff-3.8.2\lib\libtiff.lib;D:\Libraries\PVR\3rdParty\external\jpeg-6b\lib\jpeg.lib;D:\Libraries\PVR\3rdParty\external\openjpeg-1.3\lib\OpenJPEG.lib;D:\Libraries\PVR\3rdParty\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Debug\IlmImf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(THIRD_PARTY_TOOLS_HOME)/boost_1_51/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/Release/maketx.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/Release/maketx.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UndefinePreprocessorDefinitions>USE_FIELD3D</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_TBB=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;JAS_WIN_MSVC_BUILD;BOOST_ALL_DYN_LINK;OPENEXR_DLL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/MinSizeRel/maketx.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_TBB=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;JAS_WIN_MSVC_BUILD;BOOST_ALL_DYN_LINK;OPENEXR_DLL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Half.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Iex.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Imath.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\IlmThread.lib;..\libOpenImageIO\MinSizeRel\OpenImageIO.lib;D:\Libraries\PVR\3rdParty\boost_1_44\lib\boost_filesystem-vc100-mt-1_44.lib;D:\Libraries\PVR\3rdParty\boost_1_44\lib\boost_regex-vc100-mt-1_44.lib;D:\Libraries\PVR\3rdParty\boost_1_44\lib\boost_system-vc100-mt-1_44.lib;D:\Libraries\PVR\3rdParty\boost_1_44\lib\boost_thread-vc100-mt-1_44.lib;psapi.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Half.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Iex.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Imath.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\IlmThread.lib;D:\Libraries\PVR\3rdParty\external\libpng-1.2.3\lib\libpng.lib;D:\Libraries\PVR\3rdParty\external\zlib-1.2.3\lib\zdll.lib;D:\Libraries\PVR\3rdParty\external\tiff-3.8.2\lib\libtiff.lib;D:\Libraries\PVR\3rdParty\external\jpeg-6b\lib\jpeg.lib;D:\Libraries\PVR\3rdParty\external\zlib-1.2.3\lib\zdll.lib;D:\Libraries\PVR\3rdParty\external\tiff-3.8.2\lib\libtiff.lib;D:\Libraries\PVR\3rdParty\external\jpeg-6b\lib\jpeg.lib;D:\Libraries\PVR\3rdParty\external\openjpeg-1.3\lib\OpenJPEG.lib;D:\Libraries\PVR\3rdParty\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Debug\IlmImf.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Libraries/PVR/3rdParty/boost_1_44/lib;D:/Libraries/PVR/3rdParty/boost_1_44/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/MinSizeRel/maketx.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/MinSizeRel/maketx.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UndefinePreprocessorDefinitions>USE_FIELD3D</UndefinePreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_TBB=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;JAS_WIN_MSVC_BUILD;BOOST_ALL_DYN_LINK;OPENEXR_DLL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/RelWithDebInfo/maketx.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USE_TBB=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;JAS_WIN_MSVC_BUILD;BOOST_ALL_DYN_LINK;OPENEXR_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Half.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Iex.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Imath.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\IlmThread.lib;..\libOpenImageIO\RelWithDebInfo\OpenImageIO.lib;D:\Libraries\PVR\3rdParty\boost_1_44\lib\boost_filesystem-vc100-mt-1_44.lib;D:\Libraries\PVR\3rdParty\boost_1_44\lib\boost_regex-vc100-mt-1_44.lib;D:\Libraries\PVR\3rdParty\boost_1_44\lib\boost_system-vc100-mt-1_44.lib;D:\Libraries\PVR\3rdParty\boost_1_44\lib\boost_thread-vc100-mt-1_44.lib;psapi.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Half.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Iex.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Imath.lib;D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\IlmThread.lib;D:\Libraries\PVR\3rdParty\external\libpng-1.2.3\lib\libpng.lib;D:\Libraries\PVR\3rdParty\external\zlib-1.2.3\lib\zdll.lib;D:\Libraries\PVR\3rdParty\external\tiff-3.8.2\lib\libtiff.lib;D:\Libraries\PVR\3rdParty\external\jpeg-6b\lib\jpeg.lib;D:\Libraries\PVR\3rdParty\external\zlib-1.2.3\lib\zdll.lib;D:\Libraries\PVR\3rdParty\external\tiff-3.8.2\lib\libtiff.lib;D:\Libraries\PVR\3rdParty\external\jpeg-6b\lib\jpeg.lib;D:\Libraries\PVR\3rdParty\external\openjpeg-1.3\lib\OpenJPEG.lib;D:\Libraries\PVR\3rdParty\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Debug\IlmImf.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/Libraries/PVR/3rdParty/boost_1_44/lib;D:/Libraries/PVR/3rdParty/boost_1_44/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/RelWithDebInfo/maketx.lib</ImportLibrary>
+      <LinkIncremental>true</LinkIncremental>
+      <ProgramDataBaseFile>D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/RelWithDebInfo/maketx.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\maketx\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Libraries/PVR/3rdParty/OpenImageIO/src/maketx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Libraries/PVR/3rdParty/OpenImageIO/src -BD:/Libraries/PVR/3rdParty/OpenImageIO/src/build --check-stamp-file D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/maketx/CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\maketx\CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\maketx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Libraries/PVR/3rdParty/OpenImageIO/src/maketx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Libraries/PVR/3rdParty/OpenImageIO/src -BD:/Libraries/PVR/3rdParty/OpenImageIO/src/build --check-stamp-file D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/maketx/CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\maketx\CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\maketx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Libraries/PVR/3rdParty/OpenImageIO/src/maketx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Libraries/PVR/3rdParty/OpenImageIO/src -BD:/Libraries/PVR/3rdParty/OpenImageIO/src/build --check-stamp-file D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/maketx/CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\maketx\CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\maketx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Libraries/PVR/3rdParty/OpenImageIO/src/maketx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Libraries/PVR/3rdParty/OpenImageIO/src -BD:/Libraries/PVR/3rdParty/OpenImageIO/src/build --check-stamp-file D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/maketx/CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\maketx\CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\maketx\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\maketx\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\maketx\maketx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/libOpenImageIO/OpenImageIO.vcxproj">
+      <Project>87B2037B-BECB-4DC1-9E2C-5BC94C58243D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/ZERO_CHECK.vcxproj">
+      <Project>C3DE1D47-0C0A-479B-89CE-5B1C05AB4923</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

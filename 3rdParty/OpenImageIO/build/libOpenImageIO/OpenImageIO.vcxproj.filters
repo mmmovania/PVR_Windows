@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\libOpenImageIO\exif.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\formatspec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\imagebuf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\imageinput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\imageio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\imageioplugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\imageoutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\iptc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\xmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\color_ocio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\imagebufalgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\imagebufalgo_orient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\imagebufalgo_yee.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\imagebufalgo_opencv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libOpenImageIO\maketexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\argparse.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\errorhandler.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\filesystem.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\filter.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\hashes.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\paramlist.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\plugin.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\pystring.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\SHA1.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\strutil.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\sysutil.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\typedesc.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\ustring.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtexture\texturesys.cpp">
+      <Filter>libtexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtexture\texture3d.cpp">
+      <Filter>libtexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtexture\environment.cpp">
+      <Filter>libtexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtexture\texoptions.cpp">
+      <Filter>libtexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libtexture\imagecache.cpp">
+      <Filter>libtexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libutil\pugixml.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bmp.imageio\bmpinput.cpp">
+      <Filter>Plugins\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bmp.imageio\bmpoutput.cpp">
+      <Filter>Plugins\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\bmp.imageio\bmp_pvt.cpp">
+      <Filter>Plugins\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cineon.imageio\cineoninput.cpp">
+      <Filter>Plugins\cineon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cineon.imageio\cineonoutput.cpp">
+      <Filter>Plugins\cineon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cineon.imageio\libcineon\Cineon.cpp">
+      <Filter>Plugins\cineon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cineon.imageio\libcineon\Codec.cpp">
+      <Filter>Plugins\cineon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cineon.imageio\libcineon\Reader.cpp">
+      <Filter>Plugins\cineon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cineon.imageio\libcineon\Writer.cpp">
+      <Filter>Plugins\cineon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cineon.imageio\libcineon\CineonHeader.cpp">
+      <Filter>Plugins\cineon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cineon.imageio\libcineon\ElementReadStream.cpp">
+      <Filter>Plugins\cineon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cineon.imageio\libcineon\InStream.cpp">
+      <Filter>Plugins\cineon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dds.imageio\ddsinput.cpp">
+      <Filter>Plugins\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dds.imageio\ddsoutput.cpp">
+      <Filter>Plugins\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dds.imageio\squish\alpha.cpp">
+      <Filter>Plugins\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dds.imageio\squish\clusterfit.cpp">
+      <Filter>Plugins\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dds.imageio\squish\colourblock.cpp">
+      <Filter>Plugins\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dds.imageio\squish\colourfit.cpp">
+      <Filter>Plugins\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dds.imageio\squish\colourset.cpp">
+      <Filter>Plugins\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dds.imageio\squish\maths.cpp">
+      <Filter>Plugins\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dds.imageio\squish\rangefit.cpp">
+      <Filter>Plugins\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dds.imageio\squish\singlecolourfit.cpp">
+      <Filter>Plugins\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dds.imageio\squish\squish.cpp">
+      <Filter>Plugins\dds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\dpxinput.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\dpxoutput.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\libdpx\DPX.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\libdpx\OutStream.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\libdpx\RunLengthEncoding.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\libdpx\Codec.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\libdpx\Reader.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\libdpx\Writer.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\libdpx\DPXHeader.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\libdpx\ElementReadStream.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\libdpx\InStream.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dpx.imageio\libdpx\DPXColorConverter.cpp">
+      <Filter>Plugins\dpx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fits.imageio\fitsinput.cpp">
+      <Filter>Plugins\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fits.imageio\fitsoutput.cpp">
+      <Filter>Plugins\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\fits.imageio\fits_pvt.cpp">
+      <Filter>Plugins\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hdr.imageio\hdrinput.cpp">
+      <Filter>Plugins\hdr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hdr.imageio\hdroutput.cpp">
+      <Filter>Plugins\hdr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\hdr.imageio\rgbe.cpp">
+      <Filter>Plugins\hdr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ico.imageio\icoinput.cpp">
+      <Filter>Plugins\ico</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ico.imageio\icooutput.cpp">
+      <Filter>Plugins\ico</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\iff.imageio\iffinput.cpp">
+      <Filter>Plugins\iff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\iff.imageio\iffoutput.cpp">
+      <Filter>Plugins\iff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\iff.imageio\iff_pvt.cpp">
+      <Filter>Plugins\iff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jpeg.imageio\jpeginput.cpp">
+      <Filter>Plugins\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jpeg.imageio\jpegoutput.cpp">
+      <Filter>Plugins\jpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\png.imageio\pnginput.cpp">
+      <Filter>Plugins\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\png.imageio\pngoutput.cpp">
+      <Filter>Plugins\png</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pnm.imageio\pnminput.cpp">
+      <Filter>Plugins\pnm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\pnm.imageio\pnmoutput.cpp">
+      <Filter>Plugins\pnm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\psd.imageio\psdinput.cpp">
+      <Filter>Plugins\psd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\psd.imageio\psdoutput.cpp">
+      <Filter>Plugins\psd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\psd.imageio\jpeg_memory_src.cpp">
+      <Filter>Plugins\psd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptexinput.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptexoutput.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptex\PtexCache.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptex\PtexFilters.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptex\PtexHalf.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptex\PtexReader.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptex\PtexSeparableFilter.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptex\PtexSeparableKernel.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptex\PtexTriangleFilter.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptex\PtexTriangleKernel.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptex\PtexUtils.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ptex.imageio\ptex\PtexWriter.cpp">
+      <Filter>Plugins\ptex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openexr.imageio\exrinput.cpp">
+      <Filter>Plugins\openexr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\openexr.imageio\exroutput.cpp">
+      <Filter>Plugins\openexr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rla.imageio\rlainput.cpp">
+      <Filter>Plugins\rla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\rla.imageio\rlaoutput.cpp">
+      <Filter>Plugins\rla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sgi.imageio\sgiinput.cpp">
+      <Filter>Plugins\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sgi.imageio\sgioutput.cpp">
+      <Filter>Plugins\sgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\softimage.imageio\softimageinput.cpp">
+      <Filter>Plugins\softimage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\softimage.imageio\softimageoutput.cpp">
+      <Filter>Plugins\softimage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\softimage.imageio\softimage_pvt.cpp">
+      <Filter>Plugins\softimage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\targa.imageio\targainput.cpp">
+      <Filter>Plugins\targa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\targa.imageio\targaoutput.cpp">
+      <Filter>Plugins\targa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tiff.imageio\tiffinput.cpp">
+      <Filter>Plugins\tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tiff.imageio\tiffoutput.cpp">
+      <Filter>Plugins\tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zfile.imageio\zfile.cpp">
+      <Filter>Plugins\zfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\socket.imageio\socketinput.cpp">
+      <Filter>Plugins\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\socket.imageio\socketoutput.cpp">
+      <Filter>Plugins\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\socket.imageio\socket_pvt.cpp">
+      <Filter>Plugins\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jpeg2000.imageio\jpeg2000input.cpp">
+      <Filter>Plugins\jpeg2000</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jpeg2000.imageio\jpeg2000output.cpp">
+      <Filter>Plugins\jpeg2000</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\argparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\dassert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\errorhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\filesystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\fmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\imagebuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\imagecache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\imageio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\osdep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\paramlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\SHA1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\strutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sysutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\typedesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ustring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\varyingref.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\pugiconfig.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\pugixml.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\libOpenImageIO\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Plugins\bmp">
+      <UniqueIdentifier>{6A0D6BA9-2738-46EC-BF25-78BA8E4A1F98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\cineon">
+      <UniqueIdentifier>{F3A92EBE-80E0-49BC-BEF1-8DDD050F58F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\dds">
+      <UniqueIdentifier>{8EC2C460-0EEE-4FBC-B0EA-1A33BD83A6B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\dpx">
+      <UniqueIdentifier>{ABE0B1A7-1B6C-4F1A-A68C-68E707B02434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\fits">
+      <UniqueIdentifier>{32F96AD2-CE92-41BE-8E9C-82E0BD703E23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\hdr">
+      <UniqueIdentifier>{0585F361-3E7D-4FFF-A10E-23BE6B68A0F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ico">
+      <UniqueIdentifier>{72A0D7A2-B5AF-4EAC-8ECC-7972AF0FF39C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\iff">
+      <UniqueIdentifier>{14C4E657-1BD4-4DD7-8105-8A0194F268F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\jpeg">
+      <UniqueIdentifier>{DF442B9D-A54B-470E-B002-C9A19F51770D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\png">
+      <UniqueIdentifier>{2CE423C7-AAFF-4C60-B78B-77AB6446E996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\pnm">
+      <UniqueIdentifier>{FBFBFB08-7B24-4D4D-BEC5-EFF3F6853664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\psd">
+      <UniqueIdentifier>{55A038BA-08B4-4CEF-8BD6-A3D1ED2EC089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\ptex">
+      <UniqueIdentifier>{CAEE3CC1-F9C3-4BA7-9F8C-84D86EC83512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\openexr">
+      <UniqueIdentifier>{09856D37-BA72-4283-80CE-9CEE4C626DD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\rla">
+      <UniqueIdentifier>{8AC849D7-4976-4848-B697-2D234EDC740A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\sgi">
+      <UniqueIdentifier>{BA6B9B66-5197-4ACB-91E8-21D9035376D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\softimage">
+      <UniqueIdentifier>{80787635-60A2-4DF3-8356-9D4C447C5F72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\targa">
+      <UniqueIdentifier>{2D20E4E0-7B5E-4D7E-A751-AB46FFD4518D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\tiff">
+      <UniqueIdentifier>{994C3389-1B2E-49F5-84F5-3BA472408F2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\zfile">
+      <UniqueIdentifier>{913A5073-5D53-4FBA-8FE3-654F37418555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\socket">
+      <UniqueIdentifier>{2189BA40-C50F-47D4-9C79-DE751E7AB05C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\jpeg2000">
+      <UniqueIdentifier>{6A6A294F-78A3-4352-B65F-3B84555651CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BC639AFB-86C6-430D-8B9D-A40130958825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E56020D3-5575-4227-9CAA-1D9FDDB045B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{54DFC986-7F97-4C73-B190-AD6E37F07EE1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libutil">
+      <UniqueIdentifier>{121CC57B-E0D8-41A3-A6D3-22344351372F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libtexture">
+      <UniqueIdentifier>{326EE64B-B752-4630-9CF1-D4A38A6004A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

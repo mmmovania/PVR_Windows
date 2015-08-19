@@ -1,0 +1,24 @@
+﻿Build started 5/2/2013 9:03:34 PM.
+     1>Project "D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\libOpenImageIO\imagespeed_test.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "imagespeed_test.dir\Debug\imagespeed_test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include" /I"D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR" /I"D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib" /I"D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR" /ID:/Libraries/PVR/3rdParty/boost_1_51 /ID:/Libraries/PVR/3rdParty/OpenImageIO/src/include /ID:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include /I"D:/Libraries/PVR/3rdParty/external/libpng-1.2.3/include" /I"D:/Libraries/PVR/3rdParty/external/zlib-1.2.3/include" /I"D:/Libraries/PVR/3rdParty/external/jpeg-6b/include" /I"D:/Libraries/PVR/3rdParty/external/tiff-3.8.2/include" /I"D:/Libraries/PVR/3rdParty/external/openjpeg-1.3/include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D USE_TBB=0 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D JAS_WIN_MSVC_BUILD /D BOOST_ALL_DYN_LINK /D OPENEXR_DLL /D USE_BOOST_ASIO=1 /D EMBED_PLUGINS=1 /D USE_OPENJPEG /D BOOST_TEST_DYN_LINK /D PTEX_EXPORTS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /UUSE_FIELD3D /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"imagespeed_test.dir\Debug\\" /Fd"D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/libOpenImageIO/Debug/imagespeed_test.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\libOpenImageIO\imagespeed_test.cpp  /Zm1000 
+         imagespeed_test.cpp
+     1>D:\Libraries\PVR\3rdParty\OpenImageIO\src\include\imagebuf.h(776): warning C4800: 'const void *' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\libOpenImageIO\imagespeed_test.cpp(130): warning C4244: 'argument' : conversion from 'OpenImageIO::v1_2::imagesize_t' to 'unsigned int', possible loss of data
+     1>..\..\libOpenImageIO\imagespeed_test.cpp(150): warning C4244: 'argument' : conversion from 'OpenImageIO::v1_2::imagesize_t' to 'unsigned int', possible loss of data
+     1>..\..\libOpenImageIO\imagespeed_test.cpp(382): warning C4244: 'argument' : conversion from 'OpenImageIO::v1_2::imagesize_t' to 'unsigned int', possible loss of data
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\libOpenImageIO\Debug\imagespeed_test.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:/Libraries/PVR/3rdParty/boost_1_44/lib /LIBPATH:D:/Libraries/PVR/3rdParty/boost_1_44/lib/Debug Debug\OpenImageIO.lib psapi.lib "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Debug\Half.lib" "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Debug\Iex.lib" "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Debug\Imath.lib" "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Debug\IlmThread.lib" "D:\Libraries\PVR\3rdParty\external\libpng-1.2.3\lib\libpng.lib" "D:\Libraries\PVR\3rdParty\external\zlib-1.2.3\lib\zdll.lib" "D:\Libraries\PVR\3rdParty\external\tiff-3.8.2\lib\libtiff.lib" "D:\Libraries\PVR\3rdParty\external\jpeg-6b\lib\jpeg.lib" "D:\Libraries\PVR\3rdParty\external\openjpeg-1.3\lib\OpenJPEG.lib" "D:\Libraries\PVR\3rdParty\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Debug\IlmImf.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"imagespeed_test.dir\Debug\imagespeed_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/libOpenImageIO/Debug/imagespeed_test.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/libOpenImageIO/Debug/imagespeed_test.lib" /MACHINE:X86 imagespeed_test.dir\Debug\imagespeed_test.exe.embed.manifest.res
+         imagespeed_test.dir\Debug\imagespeed_test.obj  /machine:X86 /debug 
+     1>LINK : fatal error LNK1104: cannot open file 'boost_thread-vc100-mt-gd-1_51.lib'
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\libOpenImageIO\imagespeed_test.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.37

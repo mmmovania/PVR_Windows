@@ -1,0 +1,29 @@
+﻿Build started 5/2/2013 8:54:50 PM.
+     1>Project "D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\ZERO_CHECK.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/libOpenImageIO/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/iconvert/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/idiff/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/igrep/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/iinfo/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/maketx/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/oiiotool/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/testtex/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/iv/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/python/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/doc/CMakeFiles/generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild".
+         Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.lastbuildstate".
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\ZERO_CHECK.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.24

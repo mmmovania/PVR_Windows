@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E275CF4B-D658-48D2-96C9-9354FA40800E}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Experimental</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include;D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib;D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR;D:/Libraries/PVR/3rdParty/boost_1_44;D:/Libraries/PVR/3rdParty/OpenImageIO/src/include;D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Libraries/PVR/3rdParty/OpenImageIO/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Libraries/PVR/3rdParty/OpenImageIO/src -BD:/Libraries/PVR/3rdParty/OpenImageIO/src/build --check-stamp-file D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeSystem.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeCCompiler.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\util_macros.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\oiio_macros.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\platform.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\externalpackages.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindIlmBase.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\SelectLibraryConfigurations.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenEXR.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindBoost.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenColorIO.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindHDF5.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-config-version.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-config.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\ZLIB\ZLIB-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\ZLIB\ZLIB-targets-release.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\SZIP\SZIP-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\SZIP\SZIP-targets-release.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-targets-release.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenJpeg.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTest.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\DartConfiguration.tcl.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;D:\Libraries\PVR\3rdParty\OpenImageIO\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Libraries/PVR/3rdParty/OpenImageIO/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Libraries/PVR/3rdParty/OpenImageIO/src -BD:/Libraries/PVR/3rdParty/OpenImageIO/src/build --check-stamp-file D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeSystem.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeCCompiler.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\util_macros.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\oiio_macros.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\platform.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\externalpackages.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindIlmBase.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\SelectLibraryConfigurations.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenEXR.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindBoost.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenColorIO.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindHDF5.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-config-version.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-config.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\ZLIB\ZLIB-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\ZLIB\ZLIB-targets-release.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\SZIP\SZIP-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\SZIP\SZIP-targets-release.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-targets-release.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenJpeg.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTest.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\DartConfiguration.tcl.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;D:\Libraries\PVR\3rdParty\OpenImageIO\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Libraries/PVR/3rdParty/OpenImageIO/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Libraries/PVR/3rdParty/OpenImageIO/src -BD:/Libraries/PVR/3rdParty/OpenImageIO/src/build --check-stamp-file D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeSystem.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeCCompiler.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\util_macros.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\oiio_macros.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\platform.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\externalpackages.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindIlmBase.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\SelectLibraryConfigurations.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenEXR.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindBoost.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenColorIO.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindHDF5.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-config-version.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-config.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\ZLIB\ZLIB-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\ZLIB\ZLIB-targets-release.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\SZIP\SZIP-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\SZIP\SZIP-targets-release.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-targets-release.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenJpeg.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTest.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\DartConfiguration.tcl.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;D:\Libraries\PVR\3rdParty\OpenImageIO\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Libraries/PVR/3rdParty/OpenImageIO/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HD:/Libraries/PVR/3rdParty/OpenImageIO/src -BD:/Libraries/PVR/3rdParty/OpenImageIO/src/build --check-stamp-file D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\CMakeLists.txt;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeSystem.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeCCompiler.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\2.8.10.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\util_macros.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\oiio_macros.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\platform.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\externalpackages.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindIlmBase.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\SelectLibraryConfigurations.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenEXR.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindBoost.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenColorIO.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindHDF5.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\SelectLibraryConfigurations.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-config-version.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-config.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\ZLIB\ZLIB-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\ZLIB\ZLIB-targets-release.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\SZIP\SZIP-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\SZIP\SZIP-targets-release.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-targets.cmake;C:\Program Files\HDF Group\HDF5\1.8.9\share\cmake\hdf5\hdf5-targets-release.cmake;D:\Libraries\PVR\3rdParty\OpenImageIO\src\cmake\modules\FindOpenJpeg.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTest.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTestUseLaunchers.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CTestTargets.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\DartConfiguration.tcl.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPack.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Templates\CPackConfig.cmake.in;D:\Libraries\PVR\3rdParty\OpenImageIO\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\fec2f7fd03c82ad64915887619df552e\Experimental.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\ctest.exe" -C $(Configuration) -D Experimental
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/CMakeFiles/fec2f7fd03c82ad64915887619df552e/Experimental.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\Experimental</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\ctest.exe" -C $(Configuration) -D Experimental
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/CMakeFiles/fec2f7fd03c82ad64915887619df552e/Experimental.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\Experimental</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\ctest.exe" -C $(Configuration) -D Experimental
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/CMakeFiles/fec2f7fd03c82ad64915887619df552e/Experimental.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\Experimental</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake 2.8\bin\ctest.exe" -C $(Configuration) -D Experimental
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/CMakeFiles/fec2f7fd03c82ad64915887619df552e/Experimental.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\CMakeFiles\Experimental</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/ZERO_CHECK.vcxproj">
+      <Project>C3DE1D47-0C0A-479B-89CE-5B1C05AB4923</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

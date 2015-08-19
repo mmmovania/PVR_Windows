@@ -1,0 +1,67 @@
+# CMake generation dependency list for this directory.
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/CMakeLists.txt
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/CMakeFiles/2.8.10.2/CMakeSystem.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/CMakeFiles/2.8.10.2/CMakeCCompiler.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/CMakeFiles/2.8.10.2/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/CMakeFiles/2.8.10.2/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/cmake/util_macros.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/cmake/oiio_macros.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/cmake/platform.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/cmake/externalpackages.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/cmake/modules/FindIlmBase.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/cmake/modules/SelectLibraryConfigurations.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/cmake/modules/FindOpenEXR.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindBoost.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/cmake/modules/FindOpenColorIO.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindHDF5.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files/HDF Group/HDF5/1.8.9/share/cmake/hdf5/hdf5-config-version.cmake
+C:/Program Files/HDF Group/HDF5/1.8.9/share/cmake/hdf5/hdf5-config.cmake
+C:/Program Files/HDF Group/HDF5/1.8.9/share/cmake/ZLIB/ZLIB-targets.cmake
+C:/Program Files/HDF Group/HDF5/1.8.9/share/cmake/ZLIB/ZLIB-targets-release.cmake
+C:/Program Files/HDF Group/HDF5/1.8.9/share/cmake/SZIP/SZIP-targets.cmake
+C:/Program Files/HDF Group/HDF5/1.8.9/share/cmake/SZIP/SZIP-targets-release.cmake
+C:/Program Files/HDF Group/HDF5/1.8.9/share/cmake/hdf5/hdf5-targets.cmake
+C:/Program Files/HDF Group/HDF5/1.8.9/share/cmake/hdf5/hdf5-targets-release.cmake
+D:/Libraries/PVR/3rdParty/OpenImageIO/src/cmake/modules/FindOpenJpeg.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CTest.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CTestUseLaunchers.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CTestTargets.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/DartConfiguration.tcl.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/InstallRequiredSystemLibraries.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CPack.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CPackComponent.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Templates/CPackConfig.cmake.in
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Templates/CPackConfig.cmake.in

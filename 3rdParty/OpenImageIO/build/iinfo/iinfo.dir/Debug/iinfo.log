@@ -1,0 +1,15 @@
+﻿Build started 5/2/2013 9:03:39 PM.
+     1>Project "D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\iinfo\iinfo.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "iinfo.dir\Debug\iinfo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include" /I"D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR" /I"D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib" /I"D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR" /ID:/Libraries/PVR/3rdParty/boost_1_44 /ID:/Libraries/PVR/3rdParty/OpenImageIO/src/include /ID:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D USE_TBB=0 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D JAS_WIN_MSVC_BUILD /D BOOST_ALL_DYN_LINK /D OPENEXR_DLL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /UUSE_FIELD3D /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"iinfo.dir\Debug\\" /Fd"D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/iinfo/Debug/iinfo.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\iinfo\iinfo.cpp  /Zm1000 
+         iinfo.cpp
+     1>..\..\iinfo\iinfo.cpp(39): fatal error C1083: Cannot open include file: 'boost/foreach.hpp': No such file or directory
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\iinfo\iinfo.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.50

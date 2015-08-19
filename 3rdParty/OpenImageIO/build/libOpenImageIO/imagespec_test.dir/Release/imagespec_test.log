@@ -1,0 +1,29 @@
+﻿Build started 5/2/2013 8:58:44 PM.
+     1>Project "D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\libOpenImageIO\imagespec_test.vcxproj" on node 9 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "imagespec_test.dir\Release\imagespec_test.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "imagespec_test.dir\Release\imagespec_test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule D:/Libraries/PVR/3rdParty/OpenImageIO/src/libOpenImageIO/CMakeLists.txt
+         CMake does not need to re-run because D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\libOpenImageIO\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include" /I"D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR" /I"D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib" /I"D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR" /ID:/Libraries/PVR/3rdParty/boost_1_51 /ID:/Libraries/PVR/3rdParty/OpenImageIO/src/include /ID:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include /I"D:/Libraries/PVR/3rdParty/external/libpng-1.2.3/include" /I"D:/Libraries/PVR/3rdParty/external/zlib-1.2.3/include" /I"D:/Libraries/PVR/3rdParty/external/jpeg-6b/include" /I"D:/Libraries/PVR/3rdParty/external/tiff-3.8.2/include" /I"D:/Libraries/PVR/3rdParty/external/openjpeg-1.3/include" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D USE_TBB=0 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D JAS_WIN_MSVC_BUILD /D BOOST_ALL_DYN_LINK /D OPENEXR_DLL /D USE_BOOST_ASIO=1 /D EMBED_PLUGINS=1 /D USE_OPENJPEG /D BOOST_TEST_DYN_LINK /D PTEX_EXPORTS /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /UUSE_FIELD3D /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"imagespec_test.dir\Release\\" /Fd"D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/libOpenImageIO/Release/imagespec_test.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\libOpenImageIO\imagespec_test.cpp  /Zm1000 
+         imagespec_test.cpp
+     1>..\..\libOpenImageIO\imagespec_test.cpp(109): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\libOpenImageIO\imagespec_test.cpp(109): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\libOpenImageIO\imagespec_test.cpp(109): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>..\..\libOpenImageIO\imagespec_test.cpp(109): warning C4305: 'initializing' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\libOpenImageIO\Release\imagespec_test.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Libraries\PVR\3rdParty/boost_1_51/lib Release\OpenImageIO.lib psapi.lib "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Half.lib" "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Iex.lib" "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Imath.lib" "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\IlmThread.lib" "D:\Libraries\PVR\3rdParty\external\libpng-1.2.3\lib\libpng.lib" "D:\Libraries\PVR\3rdParty\external\zlib-1.2.3\lib\zdll.lib" "D:\Libraries\PVR\3rdParty\external\tiff-3.8.2\lib\libtiff.lib" "D:\Libraries\PVR\3rdParty\external\jpeg-6b\lib\jpeg.lib" "D:\Libraries\PVR\3rdParty\external\openjpeg-1.3\lib\OpenJPEG.lib" "D:\Libraries\PVR\3rdParty\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Debug\IlmImf.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"imagespec_test.dir\Release\imagespec_test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/libOpenImageIO/Release/imagespec_test.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/libOpenImageIO/Release/imagespec_test.lib" /MACHINE:X86 imagespec_test.dir\Release\imagespec_test.obj  /machine:X86 
+         imagespec_test.vcxproj -> D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\libOpenImageIO\Release\imagespec_test.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\libOpenImageIO\Release\imagespec_test.exe;#1" /manifest imagespec_test.dir\Release\imagespec_test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "imagespec_test.dir\Release\imagespec_test.unsuccessfulbuild".
+         Touching "imagespec_test.dir\Release\imagespec_test.lastbuildstate".
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\libOpenImageIO\imagespec_test.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.78

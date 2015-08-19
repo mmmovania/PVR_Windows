@@ -1,0 +1,62 @@
+﻿Build started 5/2/2013 8:58:55 PM.
+     1>Project "D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\python\PyOpenImageIO.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "PyOpenImageIO.dir\Release\PyOpenImageIO.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "PyOpenImageIO.dir\Release\PyOpenImageIO.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule D:/Libraries/PVR/3rdParty/OpenImageIO/src/python/CMakeLists.txt
+         CMake does not need to re-run because D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\python\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include" /I"D:/Libraries/PVR/3rdParty/ilmbase-1.0.3/include/OpenEXR" /I"D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib" /I"D:/Libraries/PVR/3rdParty/openexr-1.7.1/vc/vc2010/OpenEXR/Win32/Debug/IlmImf.lib/OpenEXR" /ID:/Libraries/PVR/3rdParty/boost_1_51 /ID:/Libraries/PVR/3rdParty/OpenImageIO/src/include /ID:/Libraries/PVR/3rdParty/OpenImageIO/src/build/include /IC:/Python27/include /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D USE_TBB=0 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D JAS_WIN_MSVC_BUILD /D BOOST_ALL_DYN_LINK /D OPENEXR_DLL /D OIIO_PYMODULE_NAME=OpenImageIO /D "CMAKE_INTDIR=\"Release\"" /D PyOpenImageIO_EXPORTS /D _WINDLL /D _MBCS /UUSE_FIELD3D /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"PyOpenImageIO.dir\Release\\" /Fd"D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/python/Release/OpenImageIO.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\python\py_imageinput.cpp ..\..\python\py_imageoutput.cpp ..\..\python\py_imagecache.cpp ..\..\python\py_imagespec.cpp ..\..\python\py_imagebuf.cpp ..\..\python\py_typedesc.cpp ..\..\python\py_paramvalue.cpp ..\..\python\py_oiio.cpp  /Zm1000 
+         py_imageinput.cpp
+     1>d:\libraries\pvr\3rdparty\openimageio\src\include\fmath.h(844): warning C4005: 'copysign' : macro redefinition
+                 C:/Python27/include\pyconfig.h(219) : see previous definition of 'copysign'
+     1>..\..\python\py_imageinput.cpp(192): warning C4244: 'argument' : conversion from 'OpenImageIO::v1_2::imagesize_t' to 'Py_ssize_t', possible loss of data
+     1>..\..\python\py_imageinput.cpp(223): warning C4244: 'argument' : conversion from 'OpenImageIO::v1_2::imagesize_t' to 'Py_ssize_t', possible loss of data
+     1>..\..\python\py_imageinput.cpp(231): warning C4244: 'argument' : conversion from 'OpenImageIO::v1_2::imagesize_t' to 'Py_ssize_t', possible loss of data
+     1>..\..\python\py_imageinput.cpp(238): warning C4244: 'argument' : conversion from 'OpenImageIO::v1_2::imagesize_t' to 'Py_ssize_t', possible loss of data
+     1>..\..\python\py_imageinput.cpp(245): warning C4244: 'argument' : conversion from 'OpenImageIO::v1_2::imagesize_t' to 'Py_ssize_t', possible loss of data
+         py_imageoutput.cpp
+     1>d:\libraries\pvr\3rdparty\openimageio\src\include\fmath.h(844): warning C4005: 'copysign' : macro redefinition
+                 c:\python27\include\pyconfig.h(219) : see previous definition of 'copysign'
+         py_imagecache.cpp
+     1>d:\libraries\pvr\3rdparty\openimageio\src\include\fmath.h(844): warning C4005: 'copysign' : macro redefinition
+                 C:/Python27/include\pyconfig.h(219) : see previous definition of 'copysign'
+         py_imagespec.cpp
+     1>d:\libraries\pvr\3rdparty\openimageio\src\include\fmath.h(844): warning C4005: 'copysign' : macro redefinition
+                 C:/Python27/include\pyconfig.h(219) : see previous definition of 'copysign'
+         py_imagebuf.cpp
+     1>d:\libraries\pvr\3rdparty\openimageio\src\include\fmath.h(844): warning C4005: 'copysign' : macro redefinition
+                 C:/Python27/include\pyconfig.h(219) : see previous definition of 'copysign'
+         py_typedesc.cpp
+     1>d:\libraries\pvr\3rdparty\openimageio\src\include\fmath.h(844): warning C4005: 'copysign' : macro redefinition
+                 C:/Python27/include\pyconfig.h(219) : see previous definition of 'copysign'
+         py_paramvalue.cpp
+     1>d:\libraries\pvr\3rdparty\openimageio\src\include\fmath.h(844): warning C4005: 'copysign' : macro redefinition
+                 C:/Python27/include\pyconfig.h(219) : see previous definition of 'copysign'
+         py_oiio.cpp
+     1>d:\libraries\pvr\3rdparty\openimageio\src\include\fmath.h(844): warning C4005: 'copysign' : macro redefinition
+                 C:/Python27/include\pyconfig.h(219) : see previous definition of 'copysign'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\python\Release\OpenImageIO.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Libraries\PVR\3rdParty/boost_1_51/lib ..\libOpenImageIO\Release\OpenImageIO.lib C:\Python27\libs\python27.lib psapi.lib "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Half.lib" "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Iex.lib" "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\Imath.lib" "D:\Libraries\PVR\3rdParty\ilmbase-1.0.3\lib\Release\IlmThread.lib" "D:\Libraries\PVR\3rdParty\external\libpng-1.2.3\lib\libpng.lib" "D:\Libraries\PVR\3rdParty\external\zlib-1.2.3\lib\zdll.lib" "D:\Libraries\PVR\3rdParty\external\tiff-3.8.2\lib\libtiff.lib" "D:\Libraries\PVR\3rdParty\external\jpeg-6b\lib\jpeg.lib" "D:\Libraries\PVR\3rdParty\external\openjpeg-1.3\lib\OpenJPEG.lib" "D:\Libraries\PVR\3rdParty\openexr-1.7.1\vc\vc2010\OpenEXR\Win32\Debug\IlmImf.lib" /MANIFEST /ManifestFile:"PyOpenImageIO.dir\Release\OpenImageIO.pyd.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/python/Release/OpenImageIO.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/python/Release/OpenImageIO.lib" /MACHINE:X86 /DLL PyOpenImageIO.dir\Release\py_imageinput.obj
+         PyOpenImageIO.dir\Release\py_imageoutput.obj
+         PyOpenImageIO.dir\Release\py_imagecache.obj
+         PyOpenImageIO.dir\Release\py_imagespec.obj
+         PyOpenImageIO.dir\Release\py_imagebuf.obj
+         PyOpenImageIO.dir\Release\py_typedesc.obj
+         PyOpenImageIO.dir\Release\py_paramvalue.obj
+         PyOpenImageIO.dir\Release\py_oiio.obj  /machine:X86 
+            Creating library D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/python/Release/OpenImageIO.lib and object D:/Libraries/PVR/3rdParty/OpenImageIO/src/build/python/Release/OpenImageIO.exp
+         PyOpenImageIO.vcxproj -> D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\python\Release\OpenImageIO.pyd
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\python\Release\OpenImageIO.pyd;#2" /manifest PyOpenImageIO.dir\Release\OpenImageIO.pyd.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "PyOpenImageIO.dir\Release\PyOpenImageIO.unsuccessfulbuild".
+         Touching "PyOpenImageIO.dir\Release\PyOpenImageIO.lastbuildstate".
+     1>Done Building Project "D:\Libraries\PVR\3rdParty\OpenImageIO\src\build\python\PyOpenImageIO.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:54.85
