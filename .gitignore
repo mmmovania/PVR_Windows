@@ -1,2 +1,5 @@
-
-libpvr/examples/noise_range/noise_range
+*.sdf
+*.obj
+*.pdb
+*.ilk
+*.exp
