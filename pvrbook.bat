@@ -1,1 +1,0 @@
-vs2010\pvrbook.sln

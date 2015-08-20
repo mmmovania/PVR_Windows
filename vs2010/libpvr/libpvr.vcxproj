@@ -50,7 +50,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBPVR_EXPORTS;BOOST_DYN_LIB;BOOST_ALL_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;LIBPVR_EXPORTS;BOOST_ALL_DYN_LINK;BOOST_DYN_LIB;BOOST_ALL_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)\..\libpvr;..\..\3rdParty\GPD-pvr\include;..\..\3rdParty\boost_1_51;..\..\3rdParty\ilmbase-1.0.3\include;..\..\3rdParty\Field3D\include;..\..\3rdParty\hdf5-1.8.10\include;..\..\3rdParty\OpenImageIO\src\include;..\..\3rdParty\OpenImageIO\src\build\include</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4251</DisableSpecificWarnings>
     </ClCompile>
@@ -58,7 +58,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\..\3rdParty\boost_1_51\lib;..\..\3rdParty\ilmbase-1.0.3\lib\Debug;..\..\3rdParty\hdf5-1.8.10\lib;..\..\3rdParty\field3d\lib\$(Configuration);..\..\3rdParty\OpenImageIO\src\build\libOpenImageIO\$(Configuration);$(SolutionDir)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>hdf5dll.lib;IlmThread.lib;Imath.lib;half.lib;Iex.lib;field3D.lib;OpenImageIO.lib;gpd.lib;boost_system-vc100-mt-gd-1_51.lib;boost_date_time-vc100-mt-gd-1_51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>hdf5dll.lib;IlmThread.lib;Imath.lib;half.lib;Iex.lib;field3D.lib;OpenImageIO.lib;gpd.lib;boost_date_time-vc100-mt-gd-1_51.lib;boost_system-vc100-mt-gd-1_51.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ImportLibrary>
       </ImportLibrary>
     </Link>
