@@ -61,7 +61,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(PYTHONHOME)\libs;..\..\3rdParty\boost_1_51\lib;..\..\3rdParty\Field3D\lib\$(Configuration);..\..\3rdParty\hdf5-1.8.10\lib;..\..\3rdParty\ilmbase-1.0.3\lib\$(Configuration);..\$(Configuration);..\,,\3rdParty\OpenImageIO\src\build\libOpenImageIO\$(Configuration)\OpenImageIO.lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libpvr.lib;field3d.lib;hdf5dll.lib;Iex.lib;boost_python-vc100-mt-1_51.lib;boost_system-vc100-mt-1_51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libpvr.lib;field3d.lib;hdf5dll.lib;Iex.lib;boost_python-vc100-mt-gyd-1_51.lib;boost_system-vc100-mt-gd-1_51.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -81,7 +81,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>$(PYTHONHOME)\libs;..\..\3rdParty\boost_1_51\lib;..\..\3rdParty\Field3D\lib\$(Configuration);..\..\3rdParty\hdf5-1.8.10\lib;..\..\3rdParty\ilmbase-1.0.3\lib\$(Configuration);..\$(Configuration);..\..\3rdParty\OpenImageIO\src\build\libOpenImageIO\$(Configuration)\OpenImageIO.lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libpvr.lib;field3d.lib;hdf5dll.lib;Iex.lib;boost_python-vc100-mt-gyd-1_51.lib;boost_system-vc100-mt-gd-1_51.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libpvr.lib;field3d.lib;hdf5dll.lib;Iex.lib;boost_python-vc100-mt-1_51.lib;boost_system-vc100-mt-1_51.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
   </ItemDefinitionGroup>
