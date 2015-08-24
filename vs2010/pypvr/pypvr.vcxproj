@@ -40,7 +40,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>_pvr</TargetName>
+    <TargetName>_pvr_d</TargetName>
     <TargetExt>.pyd</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -54,7 +54,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BOOST_ALL_DYN_LINK;PYPVR_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BOOST_ALL_DYN_LINK;PYPVR_EXPORTS;BOOST_DEBUG_PYTHON;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)\..\libpvr;$(PYTHONHOME)\include;..\..\3rdParty\boost_1_51;..\..\3rdParty\ilmbase-1.0.3\include;..\..\3rdParty\ilmbase-1.0.3\include\OpenEXR;..\..\3rdParty\Field3D\include;..\..\3rdParty\hdf5-1.8.10\include;..\..\3rdParty\OpenImageIO\src\include;..\..\3rdParty\OpenImageIO\src\build\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
