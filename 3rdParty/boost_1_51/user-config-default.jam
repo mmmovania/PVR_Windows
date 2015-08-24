@@ -1,0 +1,4 @@
+using python : 2.7 : C:\\Python27\\python_d.exe
+  : C:\\Python27\\include C:\\Python27\\
+  : C:\\Python27\\libs
+  : <python-debugging>on ;
