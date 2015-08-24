@@ -1,0 +1,1 @@
+bjam.exe toolset=msvc-10.0 --user-config=user-config.jam --with-python python-debugging=on threading=multi variant=debug link=shared stage
