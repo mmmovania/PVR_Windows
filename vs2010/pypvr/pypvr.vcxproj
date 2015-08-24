@@ -54,14 +54,14 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BOOST_ALL_DYN_LINK;PYPVR_EXPORTS;BOOST_DEBUG_PYTHON;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BOOST_ALL_DYN_LINK;BOOST_DYN_LIB;BOOST_ALL_NO_LIB;PYPVR_EXPORTS;BOOST_DEBUG_PYTHON;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)\..\libpvr;$(PYTHONHOME)\include;..\..\3rdParty\boost_1_51;..\..\3rdParty\ilmbase-1.0.3\include;..\..\3rdParty\ilmbase-1.0.3\include\OpenEXR;..\..\3rdParty\Field3D\include;..\..\3rdParty\hdf5-1.8.10\include;..\..\3rdParty\OpenImageIO\src\include;..\..\3rdParty\OpenImageIO\src\build\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(PYTHONHOME)\libs;..\..\3rdParty\boost_1_51\lib;..\..\3rdParty\Field3D\lib\$(Configuration);..\..\3rdParty\hdf5-1.8.10\lib;..\..\3rdParty\ilmbase-1.0.3\lib\$(Configuration);..\$(Configuration);..\,,\3rdParty\OpenImageIO\src\build\libOpenImageIO\$(Configuration)\OpenImageIO.lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libpvr.lib;field3d.lib;hdf5dll.lib;Iex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libpvr.lib;field3d.lib;hdf5dll.lib;Iex.lib;boost_python-vc100-mt-1_51.lib;boost_system-vc100-mt-1_51.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -72,7 +72,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;BOOST_ALL_DYN_LINK;PYPVR_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;BOOST_ALL_DYN_LINK;BOOST_DYN_LIB;BOOST_ALL_NO_LIB;PYPVR_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)\..\libpvr;$(PYTHONHOME)\include;..\..\3rdParty\boost_1_51;..\..\3rdParty\ilmbase-1.0.3\include;..\..\3rdParty\ilmbase-1.0.3\include\OpenEXR;..\..\3rdParty\Field3D\include;..\..\3rdParty\hdf5-1.8.10\include;..\..\3rdParty\OpenImageIO\src\include;..\..\3rdParty\OpenImageIO\src\build\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -81,7 +81,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>$(PYTHONHOME)\libs;..\..\3rdParty\boost_1_51\lib;..\..\3rdParty\Field3D\lib\$(Configuration);..\..\3rdParty\hdf5-1.8.10\lib;..\..\3rdParty\ilmbase-1.0.3\lib\$(Configuration);..\$(Configuration);..\..\3rdParty\OpenImageIO\src\build\libOpenImageIO\$(Configuration)\OpenImageIO.lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libpvr.lib;field3d.lib;hdf5dll.lib;Iex.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libpvr.lib;field3d.lib;hdf5dll.lib;Iex.lib;boost_python-vc100-mt-gyd-1_51.lib;boost_system-vc100-mt-gd-1_51.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
   </ItemDefinitionGroup>
