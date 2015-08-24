@@ -14,6 +14,11 @@ All of the libraries including the third party libraries are built using VisualS
 ################
 Prebuilt boost 1.5.1 binaries using VS2010 are already provided in the lib sub-folder of the boost root folder in the 3rdParty main folder. If you want to rebuilt the dlls on your machine, we have included two .bat files (build_boost_for_pvr.bat and build_boost_python_debug.bat). First, open visual studio 2010 command prompt and then run bootstrap.bat. Next, run build_boost_for_pvr.bat to build the boost libraries required for PVR. For projects using release version of python, please install python v 2.7 from https://www.python.org/downloads/release/python-2710/ and set the environment variable PYTHONHOME to point to the root folder of python. Additoinally, for debug builds of projects using python, you will need the debug libs of python 27. Pre-built python27 debug builds are available from here: http://www.p-nand-q.com/python/building-python-27-with-visual_studio.html. Next, run build_boost_python_debug.bat file in the boost distribution which should build debug boost python dlls. The .bat file will use the default Python installation location (C:\Python27). If you have installed Python to another location, kindly updated user-config.jam file. The libs and dlls will be stored in the stage/lib sub-folder. Move the lib folder out from the stage folder to the boost root folder. Finally, go to the vs2010 directory and open the pvrbook.sln project. 
 
+############################
+# How to Run Example Scene #
+############################
+Simply copy the required python scene file (for e.g. scenes/book/chapter_1/fig_1_1.py) in the vs2010/Debug or vs2010/Release sub-folder. Ensure that the correct dlls are copied to the correct location (debug dlls in debug while release dlls in release) otherwise the python interpretor may not recognize the loaded dll. Also invoke the correct version of python interpretor (python_d for debug and python for release).   
+
 ##############
 # Developers #
 ##############
