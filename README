@@ -1,5 +1,5 @@
 #########################################
-Production Volume Rendering for Windows #
+Production Volume Rendering for Windows.read  #
 #########################################
 
 This is the Windows port of the rendering library for the book Production Volume Rendering. The original PVR repository does not include the third party libraries hence it is a nightmare to build the PVR library on Windows. This repository is self contained as it contains all required third party libraries. So you do not need to download anything additional. 
